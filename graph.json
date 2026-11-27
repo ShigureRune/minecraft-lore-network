@@ -1,6 +1,6 @@
 {
-  "version": "1.67",
-  "loreVersion": "3.92",
+  "version": "1.68",
+  "loreVersion": "3.93",
   "nodes": [
     {
       "id": "soul",
@@ -9274,6 +9274,24 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/ko-kr/article/meet-evoker",
       "researchSection": "v3.92 §15.124／別冊v3.18 §12.26"
+    },
+    {
+      "id": "edge_r393_1",
+      "source": "knowledge",
+      "target": "fake_end_portal_mansion",
+      "label": "H61 伝承・文献による形状再現と機能知識の分離（経路未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+      "researchSection": "v3.93 §15.125／H61・§15.11・15.16・15.124"
+    },
+    {
+      "id": "edge_r393_2",
+      "source": "library_runes_d2",
+      "target": "knowledge",
+      "label": "H61 古い記録を分散資料で解読し機能を再発見する事例との比較（作者・継承経路未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_dea1_s12_a",
+      "researchSection": "v3.93 §15.125／H61・§15.11・15.16・15.124"
     }
   ]
 }
