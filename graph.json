@@ -1,6 +1,6 @@
 {
-  "version": "1.81",
-  "loreVersion": "4.10",
+  "version": "1.82",
+  "loreVersion": "4.11",
   "nodes": [
     {
       "id": "soul",
@@ -3783,7 +3783,7 @@
       ],
       "dimensions": [],
       "origin": "",
-      "originNote": "非公式ゲームDB本文：殻をくり抜いた楽器。魂を40消費し防護効果を発動。CarapaceOcarinaという資産識別子。殻の生物種、実音、物理的作用は未確認。"
+      "originNote": "非公式ゲームDB本文：殻をくり抜いた楽器。魂を40消費し防護効果を発動。CarapaceOcarinaという資産識別子。殻の生物種、実音、物理的作用は未確認。 非公式DBではDeflection・効果8秒、HusklandとFrozen Highlandsに入手記録。専用演奏アニメーションと音声イベント参照あり。殻の由来は未同定。"
     },
     {
       "id": "ichor_core_d2",
@@ -4797,7 +4797,7 @@
       ],
       "dimensions": [],
       "origin": "",
-      "originNote": "非公式ゲームDB転載：ハンブラーの殻で作られた楽器、音楽による防護効果、魂消費。実音・原資産・機構・製作者は未確認。"
+      "originNote": "非公式ゲームDB転載：ハンブラーの殻で作られた楽器、音楽による防護効果、魂消費。実音・原資産・機構・製作者は未確認。 非公式DBではInvulnerable・効果5秒（実機未確認）。別個の音声イベント名は検索抜粋で確認、原音未取得。"
     }
   ],
   "edges": [
@@ -10891,6 +10891,15 @@
       "hypothesis": true,
       "sourceUrl": "https://www.dungeons.tools/2/artifacts/warding-chimes",
       "researchSection": "v4.10 §15.142"
+    },
+    {
+      "id": "edge_r411_1",
+      "source": "humbler_huskland",
+      "target": "echo_ocarina_d2",
+      "label": "入手地域の記録（素材産地・制作地は未証明）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/gear_artifacts/artifact_carapace_ocarina",
+      "researchSection": "v4.11 §15.143"
     }
   ]
 }
