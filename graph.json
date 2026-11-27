@@ -1,6 +1,6 @@
 {
-  "version": "1.53",
-  "loreVersion": "3.70",
+  "version": "1.54",
+  "loreVersion": "3.72",
   "nodes": [
     {
       "id": "soul",
@@ -1071,7 +1071,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " Java1.20公式：振動分類フィルタ、検出距離16ブロック、動作10tick＋休止10tick。元音の音高識別ではない。"
     },
     {
       "id": "allay",
@@ -3888,7 +3888,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "公式23w12a/1.20の振動再放出・イベント分類、Wiki検索収録のピッチ式と照合。1〜15の半音番号は0,2,4,6,7,9,10,12,14,15,18,19,21,22,24。音符ブロック演奏は分類10。原音4種・現行版実機・ARG原音未取得。単一基準音を仮定した移調比較では報告8音中最大6音一致。"
+      "originNote": "公式23w12a/1.20の振動再放出・イベント分類、Wiki検索収録のピッチ式と照合。1〜15の半音番号は0,2,4,6,7,9,10,12,14,15,18,19,21,22,24。音符ブロック演奏は分類10。原音4種・現行版実機・ARG原音未取得。単一基準音を仮定した移調比較では報告8音中最大6音一致。 v3.71の全495集合では最大6音一致は最小値。v3.72：Java1.20の通常型は30+10tick、調律型は10+10tickの受信間隔制約。8音が全て分類10なら分類列単独で音順を識別不可。D2の実装にこの制約があるかは未確認。"
     }
   ],
   "edges": [
@@ -8798,6 +8798,15 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Sculk_Sensor/Sounds",
       "researchSection": "v3.70 §15.102"
+    },
+    {
+      "id": "edge_r372_1",
+      "source": "amethyst_resonance_pitch",
+      "target": "note_machine_d2",
+      "label": "分類値だけでは旋律順を区別できない／単一センサー同一機構説の反証候補（IIの実装未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v3.72 §15.104"
     }
   ]
 }
