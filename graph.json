@@ -1,5 +1,5 @@
 {
-  "version": "1.04",
+  "version": "1.05",
   "loreVersion": "3.21",
   "nodes": [
     {
@@ -1599,6 +1599,915 @@
       ],
       "origin": "",
       "originNote": ""
+    },
+    {
+      "id": "seal_gate",
+      "label": "古代都市ゲートの封鎖機能（仮）",
+      "color": "#475569",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "wool",
+      "label": "羊毛",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "warden",
+      "label": "ウォーデン",
+      "color": "#287449",
+      "media": [
+        "M",
+        "D2",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "shrieker",
+      "label": "スカルクシュリーカー",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "humblers",
+      "label": "The Humblers Awaken（発売前情報）",
+      "color": "#475569",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "deep_sift",
+      "label": "シフト地下深部の未知の存在（仮）",
+      "color": "#475569",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "refugees",
+      "label": "古代の避難民（仮）",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "outpost",
+      "label": "ピリジャー前哨基地",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "ocean_civil",
+      "label": "海洋文明（仮）",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "sea_heart",
+      "label": "海洋の心",
+      "color": "#007c83",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "nautilus_shell",
+      "label": "オウムガイの殻",
+      "color": "#007c83",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "conduit_power",
+      "label": "コンジットパワー",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "explorer_map",
+      "label": "探検家の地図",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "trial_chamber",
+      "label": "試練の間",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "desert_pyramid",
+      "label": "砂漠のピラミッド",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "jungle_pyramid",
+      "label": "ジャングルのピラミッド",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "mineshaft",
+      "label": "廃坑",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "rift_red",
+      "label": "終盤の赤いRift接続先（未確認）",
+      "color": "#475569",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "eaten",
+      "label": "EATEN（非公式解読）",
+      "color": "#7945a5",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "shale_code",
+      "label": "SHALE（非公式解読）",
+      "color": "#7945a5",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "disc_teaser",
+      "label": "投擲ディスク紹介映像",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "piglin_invasion",
+      "label": "ピグリン侵攻（Legendsの伝承）",
+      "color": "#b44436",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "wither_painting",
+      "label": "ウィザーの絵画",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "enchanted_apple",
+      "label": "エンチャントされた金のリンゴ",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "lost_recipe",
+      "label": "失われた製法（仮）",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "glowing_fruit",
+      "label": "光る果実（古代生態系考察）",
+      "color": "#287449",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "ancient_ecology",
+      "label": "古代生態系の性質（仮）",
+      "color": "#287449",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "redstone_mines",
+      "label": "Redstone Mines",
+      "color": "#475569",
+      "media": [
+        "D",
+        "F"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "woodland_mansion_d",
+      "label": "Woodland Mansion（Dungeons）",
+      "color": "#475569",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "movie_landscape",
+      "label": "映画とDungeonsの景観比較",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "orb_healthy",
+      "label": "健全型オーブ（仮）",
+      "color": "#b44436",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "orb_dark",
+      "label": "闇落ち型オーブ（仮）",
+      "color": "#b44436",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "redstone_golem",
+      "label": "レッドストーンゴーレム",
+      "color": "#287449",
+      "media": [
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "material_processing",
+      "label": "異次元エネルギー物質加工（仮）",
+      "color": "#1859a0",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "arch_illager",
+      "label": "アーチー／Arch-Illager",
+      "color": "#87551c",
+      "media": [
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "highblock",
+      "label": "Highblock Keep",
+      "color": "#475569",
+      "media": [
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "obsidian_pinnacle",
+      "label": "Obsidian Pinnacle",
+      "color": "#475569",
+      "media": [
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "nether_wart",
+      "label": "ネザーウォート",
+      "color": "#287449",
+      "media": [
+        "M",
+        "L",
+        "N"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "strider",
+      "label": "ストライダー",
+      "color": "#287449",
+      "media": [
+        "M",
+        "N"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "zombified_piglin",
+      "label": "ゾンビピグリン",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N",
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "return_piglins",
+      "label": "Return of the Piglins（小説）",
+      "color": "#87551c",
+      "media": [
+        "N"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "lost_adaptation",
+      "label": "失われた環境適応技術（仮）",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "dragon_song",
+      "label": "ドラゴンの発声・歌への反応（小説）",
+      "color": "#7945a5",
+      "media": [
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "ender_voice",
+      "label": "エンダー系音声通信（仮）",
+      "color": "#7945a5",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "dragon_head",
+      "label": "ドラゴンの頭",
+      "color": "#007c83",
+      "media": [
+        "M",
+        "N"
+      ],
+      "dimensions": [
+        "E",
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "journey_city",
+      "label": "Journey to the Ancient City（小説）",
+      "color": "#87551c",
+      "media": [
+        "N"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "relic_relocation",
+      "label": "遺物の移動・再配置（仮）",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "lost_journals",
+      "label": "The Lost Journals（小説）",
+      "color": "#87551c",
+      "media": [
+        "N"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "enchanter_journal",
+      "label": "エンチャンターの日誌（小説）",
+      "color": "#7945a5",
+      "media": [
+        "N"
+      ],
+      "dimensions": [
+        "O",
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "enderman",
+      "label": "エンダーマン",
+      "color": "#287449",
+      "media": [
+        "M",
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "enderlings",
+      "label": "エンダーリング",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "watchling",
+      "label": "ウォッチリング",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "blastling",
+      "label": "ブラストリング",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "snareling",
+      "label": "スネアリング",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "endersent",
+      "label": "エンダーセント",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O",
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "end_wilds",
+      "label": "End Wilds",
+      "color": "#475569",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "broken_citadel",
+      "label": "Broken Citadel",
+      "color": "#475569",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "chorus",
+      "label": "コーラスの森",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "void_liquid",
+      "label": "虚無の液体・ブロック",
+      "color": "#007c83",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "voided",
+      "label": "Voided効果",
+      "color": "#b44436",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "ender_eye",
+      "label": "エンダーアイ",
+      "color": "#1859a0",
+      "media": [
+        "M",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "disc11",
+      "label": "レコード11",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "disc13",
+      "label": "レコード13",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "illageralt",
+      "label": "Illageralt",
+      "color": "#7945a5",
+      "media": [
+        "M",
+        "D",
+        "D2"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "launcher_arg",
+      "label": "ランチャー音符ブロックARG",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "infected",
+      "label": "1NF3C7ED（INFECTED）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "sculk_chiseled",
+      "label": "模様入りソウルシェール",
+      "color": "#007c83",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "soul_sync",
+      "label": "魂による意識・記憶伝達（仮）",
+      "color": "#1859a0",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "hosts",
+      "label": "Hosts（Legends）",
+      "color": "#87551c",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "knowledge_host",
+      "label": "Knowledge（Legends）",
+      "color": "#87551c",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "first_song",
+      "label": "Firstsを目覚めさせる歌",
+      "color": "#7945a5",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "grindstone",
+      "label": "砥石",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "mending",
+      "label": "修繕",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "frozen_zombie",
+      "label": "Frozen Zombie（Dungeons）",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "frostbite",
+      "label": "Frostbite（本編）",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
     }
   ],
   "edges": [
@@ -2867,6 +3776,902 @@
       "source": "soul_sand",
       "target": "soul",
       "label": "H36 名前・性質の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ancient_main_seal_gate",
+      "source": "ancient_main",
+      "target": "seal_gate",
+      "label": "H04 境界管理・封鎖？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_seal_gate_rift",
+      "source": "seal_gate",
+      "target": "rift",
+      "label": "H04 移動以外の用途？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_seal_gate_wool",
+      "source": "seal_gate",
+      "target": "wool",
+      "label": "H04 配置の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_warden_seal_gate",
+      "source": "warden",
+      "target": "seal_gate",
+      "label": "H04 警備設備？（未確認）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_shrieker_warden",
+      "source": "shrieker",
+      "target": "warden",
+      "label": "§9.12 警報と出現",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_sculk_shrieker",
+      "source": "sculk",
+      "target": "shrieker",
+      "label": "§9.12 振動・警報の関連",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_sift_humblers",
+      "source": "sift",
+      "target": "humblers",
+      "label": "H05 地下を扱う発売前情報",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_humblers_deep_sift",
+      "source": "humblers",
+      "target": "deep_sift",
+      "label": "H05 未知の脅威・封印？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_deep_sift_seal_gate",
+      "source": "deep_sift",
+      "target": "seal_gate",
+      "label": "H05 古代の隔離との比較？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_disaster_refugees",
+      "source": "disaster",
+      "target": "refugees",
+      "label": "H07 避難・持ち出し？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_refugees_bottle",
+      "source": "refugees",
+      "target": "bottle",
+      "label": "H07 携行資源？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_bottle_ancient_main",
+      "source": "bottle",
+      "target": "ancient_main",
+      "label": "H07 戦利品",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_bottle_outpost",
+      "source": "bottle",
+      "target": "outpost",
+      "label": "H07 戦利品",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_bottle_shipwreck",
+      "source": "bottle",
+      "target": "shipwreck",
+      "label": "H07 戦利品",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_outpost_illagers",
+      "source": "outpost",
+      "target": "illagers",
+      "label": "H07 前哨基地",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_refugees_settlers",
+      "source": "refugees",
+      "target": "settlers",
+      "label": "H07 技術分散？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_refugees_mages",
+      "source": "refugees",
+      "target": "mages",
+      "label": "H07 技術分散？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_refugees_explorers",
+      "source": "refugees",
+      "target": "explorers",
+      "label": "H07 技術分散？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ancient_main_ocean_civil",
+      "source": "ancient_main",
+      "target": "ocean_civil",
+      "label": "H10 交流・同一文明？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ocean_civil_monument",
+      "source": "ocean_civil",
+      "target": "monument",
+      "label": "H10 古い神殿の建設者？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ocean_civil_shipwreck",
+      "source": "ocean_civil",
+      "target": "shipwreck",
+      "label": "H10 航海・交流？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ocean_civil_conduit",
+      "source": "ocean_civil",
+      "target": "conduit",
+      "label": "H12 居住・防衛設備？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_sea_heart_conduit",
+      "source": "sea_heart",
+      "target": "conduit",
+      "label": "H12 クラフト材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_nautilus_shell_conduit",
+      "source": "nautilus_shell",
+      "target": "conduit",
+      "label": "H12 クラフト材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_conduit_conduit_power",
+      "source": "conduit",
+      "target": "conduit_power",
+      "label": "H12 水中効果",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_camp_explorer_map",
+      "source": "camp",
+      "target": "explorer_map",
+      "label": "H11 地図の出土",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_explorer_map_ancient_main",
+      "source": "explorer_map",
+      "target": "ancient_main",
+      "label": "H11 行き先候補",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_explorer_map_trial_chamber",
+      "source": "explorer_map",
+      "target": "trial_chamber",
+      "label": "H11 行き先候補",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_explorer_map_mineshaft",
+      "source": "explorer_map",
+      "target": "mineshaft",
+      "label": "H11 行き先候補",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_explorer_map_desert_pyramid",
+      "source": "explorer_map",
+      "target": "desert_pyramid",
+      "label": "H11 行き先候補",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_explorer_map_jungle_pyramid",
+      "source": "explorer_map",
+      "target": "jungle_pyramid",
+      "label": "H11 行き先候補",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_explorer_map_searuins",
+      "source": "explorer_map",
+      "target": "searuins",
+      "label": "H11 暖かい海底遺跡",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_explorer_map_mansion",
+      "source": "explorer_map",
+      "target": "mansion",
+      "label": "H11 行き先候補",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_explorers_explorer_map",
+      "source": "explorers",
+      "target": "explorer_map",
+      "label": "H11 遺跡再調査？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_trial_chamber_trial",
+      "source": "trial_chamber",
+      "target": "trial",
+      "label": "§15.45 不吉な試練",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_grand_illusioner_rift_red",
+      "source": "grand_illusioner",
+      "target": "rift_red",
+      "label": "H17 ユーザー映像観察・要再確認",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_rift_red_nether",
+      "source": "rift_red",
+      "target": "nether",
+      "label": "H17 接続先候補（未確認）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_rift_red_sift",
+      "source": "rift_red",
+      "target": "sift",
+      "label": "H17 接続先候補（未確認）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_eaten_disaster",
+      "source": "eaten",
+      "target": "disaster",
+      "label": "H18 文明が飲み込まれた？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_eaten_sculk",
+      "source": "eaten",
+      "target": "sculk",
+      "label": "H18 感染・災害の解釈？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_shale_code_shale",
+      "source": "shale_code",
+      "target": "shale",
+      "label": "H18 材質の手掛かり？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_shale_code_sift",
+      "source": "shale_code",
+      "target": "sift",
+      "label": "H18 場所の手掛かり？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_disc_teaser_eaten",
+      "source": "disc_teaser",
+      "target": "eaten",
+      "label": "H18 非公式解読",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_disc_teaser_shale_code",
+      "source": "disc_teaser",
+      "target": "shale_code",
+      "label": "H18 非公式解読",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_disc_teaser_sea_heart",
+      "source": "disc_teaser",
+      "target": "sea_heart",
+      "label": "§8 額縁の報告・要照合",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_disc_teaser_amethyst",
+      "source": "disc_teaser",
+      "target": "amethyst",
+      "label": "§8 額縁の報告・要照合",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_piglin_piglin_invasion",
+      "source": "piglin",
+      "target": "piglin_invasion",
+      "label": "§1.3 伝承上の侵攻",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_ruined_piglin_invasion",
+      "source": "ruined",
+      "target": "piglin_invasion",
+      "label": "H19 侵攻の痕跡？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_wither_painting_wither",
+      "source": "wither_painting",
+      "target": "wither",
+      "label": "H20 ゲーム内ヒント",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_wither_painting_builders",
+      "source": "wither_painting",
+      "target": "builders",
+      "label": "H20 古代の召喚知識？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_enchanted_apple_lost_recipe",
+      "source": "enchanted_apple",
+      "target": "lost_recipe",
+      "label": "H21 レシピ消失を技術喪失と解釈？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_lost_recipe_knowledge",
+      "source": "lost_recipe",
+      "target": "knowledge",
+      "label": "H21 継承・喪失の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_glowing_fruit_ancient_ecology",
+      "source": "glowing_fruit",
+      "target": "ancient_ecology",
+      "label": "H22 発光の理由？（保留）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ancient_ecology_soul",
+      "source": "ancient_ecology",
+      "target": "soul",
+      "label": "H22 エネルギー関係？（未調査）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_redstone_mines_redstone",
+      "source": "redstone_mines",
+      "target": "redstone",
+      "label": "H27 鉱山・輸送技術",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_woodland_mansion_d_hunt",
+      "source": "woodland_mansion_d",
+      "target": "hunt",
+      "label": "H27 古代狩りのサブミッション",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_woodland_mansion_d_mansion",
+      "source": "woodland_mansion_d",
+      "target": "mansion",
+      "label": "H27 作品間の建築比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_redstone_mines_movie_landscape",
+      "source": "redstone_mines",
+      "target": "movie_landscape",
+      "label": "H27 同一地点？（未確認）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_woodland_mansion_d_movie_landscape",
+      "source": "woodland_mansion_d",
+      "target": "movie_landscape",
+      "label": "H27 景観の共通性",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_movie_landscape_architecture",
+      "source": "movie_landscape",
+      "target": "architecture",
+      "label": "H27 建築表現の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_orb_orb_healthy",
+      "source": "orb",
+      "target": "orb_healthy",
+      "label": "H53 健全型・個体差？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_orb_orb_dark",
+      "source": "orb",
+      "target": "orb_dark",
+      "label": "H53 闇落ち型・状態差？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_orb_healthy_orb_dark",
+      "source": "orb_healthy",
+      "target": "orb_dark",
+      "label": "H53 状態変化？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_earth_crystal_orb_healthy",
+      "source": "earth_crystal",
+      "target": "orb_healthy",
+      "label": "H53 映画の機能を比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_orb_dark_void",
+      "source": "orb_dark",
+      "target": "void",
+      "label": "H53 虚無の影響？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_orb_arch_illager",
+      "source": "orb",
+      "target": "arch_illager",
+      "label": "§1.1 影響を受ける",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_orb_redstone_golem",
+      "source": "orb",
+      "target": "redstone_golem",
+      "label": "§9.8 小説で再稼働",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_redstone_golem_highblock",
+      "source": "redstone_golem",
+      "target": "highblock",
+      "label": "§9.8 建築の協力",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_arch_illager_obsidian_pinnacle",
+      "source": "arch_illager",
+      "target": "obsidian_pinnacle",
+      "label": "§9.8 遠隔視の描写",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_orb_material_processing",
+      "source": "orb",
+      "target": "material_processing",
+      "label": "H56 物質加工の機構？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_soulblock_material_processing",
+      "source": "soulblock",
+      "target": "material_processing",
+      "label": "H56 共通動力？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_flames_material_processing",
+      "source": "flames",
+      "target": "material_processing",
+      "label": "H56 共通基盤？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_firsts_material_processing",
+      "source": "firsts",
+      "target": "material_processing",
+      "label": "H56 再稼働の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_redstone_golem_material_processing",
+      "source": "redstone_golem",
+      "target": "material_processing",
+      "label": "H56 ゴーレム活性化の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_piglin_zombified_piglin",
+      "source": "piglin",
+      "target": "zombified_piglin",
+      "label": "H57 現世での変質",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_return_piglins_nether_wart",
+      "source": "return_piglins",
+      "target": "nether_wart",
+      "label": "§9.9 小説要約の適応材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_return_piglins_strider",
+      "source": "return_piglins",
+      "target": "strider",
+      "label": "§9.9 寒さ・環境依存の描写",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_nether_wart_lost_adaptation",
+      "source": "nether_wart",
+      "target": "lost_adaptation",
+      "label": "H57 環境適応技術？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_lost_adaptation_piglin",
+      "source": "lost_adaptation",
+      "target": "piglin",
+      "label": "H57 失われた技術？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_lost_adaptation_dried_ghast",
+      "source": "lost_adaptation",
+      "target": "dried_ghast",
+      "label": "H57 環境依存の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_lost_adaptation_endermite",
+      "source": "lost_adaptation",
+      "target": "endermite",
+      "label": "H57 次元依存の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_dragon_dragon_song",
+      "source": "dragon",
+      "target": "dragon_song",
+      "label": "H59 小説の歌への反応",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_dragon_song_ender_voice",
+      "source": "dragon_song",
+      "target": "ender_voice",
+      "label": "H59 音声情報共有？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ender_voice_singer",
+      "source": "ender_voice",
+      "target": "singer",
+      "label": "H59 音の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ender_voice_allay",
+      "source": "ender_voice",
+      "target": "allay",
+      "label": "H59 音の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ender_voice_enderman",
+      "source": "ender_voice",
+      "target": "enderman",
+      "label": "H59 共通言語？（未確認）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_journey_city_warden",
+      "source": "journey_city",
+      "target": "warden",
+      "label": "§9.12 警報・出現の描写",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_journey_city_dragon_head",
+      "source": "journey_city",
+      "target": "dragon_head",
+      "label": "§9.12 村へ持ち帰った描写",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_dragon_head_relic_relocation",
+      "source": "dragon_head",
+      "target": "relic_relocation",
+      "label": "H60 持ち帰りとの比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_adventurers_relic_relocation",
+      "source": "adventurers",
+      "target": "relic_relocation",
+      "label": "H60 遺物を移動？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_relic_relocation_shale",
+      "source": "relic_relocation",
+      "target": "shale",
+      "label": "H60 後世に持ち込み？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_relic_relocation_echo_shard_m",
+      "source": "relic_relocation",
+      "target": "echo_shard_m",
+      "label": "H60 戦利品の別解",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_lost_journals_enchanter_journal",
+      "source": "lost_journals",
+      "target": "enchanter_journal",
+      "label": "§9.13 知識の記録",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_enchanter_journal_knowledge",
+      "source": "enchanter_journal",
+      "target": "knowledge",
+      "label": "H61 伝承・再発見の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_enchanter_journal_rift",
+      "source": "enchanter_journal",
+      "target": "rift",
+      "label": "H61 次元移動知識の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_end_end_wilds",
+      "source": "end",
+      "target": "end_wilds",
+      "label": "§9.1 エンドの地域",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_end_broken_citadel",
+      "source": "end",
+      "target": "broken_citadel",
+      "label": "§9.1 エンドの地域",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_end_wilds_chorus",
+      "source": "end_wilds",
+      "target": "chorus",
+      "label": "§9.1 植生",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_end_wilds_enderlings",
+      "source": "end_wilds",
+      "target": "enderlings",
+      "label": "§9.2 出現",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_enderlings_enderman",
+      "source": "enderlings",
+      "target": "enderman",
+      "label": "§9.1 近縁の紹介",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_enderlings_watchling",
+      "source": "enderlings",
+      "target": "watchling",
+      "label": "§9.2 分類",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_enderlings_blastling",
+      "source": "enderlings",
+      "target": "blastling",
+      "label": "§9.2 分類",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_enderlings_snareling",
+      "source": "enderlings",
+      "target": "snareling",
+      "label": "§9.2 分類",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_end_endersent",
+      "source": "end",
+      "target": "endersent",
+      "label": "§9.2 エンド関連モブ",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_void_void_liquid",
+      "source": "void",
+      "target": "void_liquid",
+      "label": "§9.1 特殊物質",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_void_liquid_voided",
+      "source": "void_liquid",
+      "target": "voided",
+      "label": "§9.1 効果付与",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_voided_corruption",
+      "source": "voided",
+      "target": "corruption",
+      "label": "H36 汚染の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ender_eye_stronghold",
+      "source": "ender_eye",
+      "target": "stronghold",
+      "label": "H34 ポータル利用",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_ender_eye_end_crystal",
+      "source": "ender_eye",
+      "target": "end_crystal",
+      "label": "H29 材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_disc11_disc5",
+      "source": "disc11",
+      "target": "disc5",
+      "label": "H14 歴史記録の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_disc13_disc5",
+      "source": "disc13",
+      "target": "disc5",
+      "label": "H14 歴史記録の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_illageralt_runes",
+      "source": "illageralt",
+      "target": "runes",
+      "label": "H28 使用字形",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_launcher_arg_illageralt",
+      "source": "launcher_arg",
+      "target": "illageralt",
+      "label": "H28 Glitch Runeの記録",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_launcher_arg_infected",
+      "source": "launcher_arg",
+      "target": "infected",
+      "label": "H28 並べ替えた暗号の記録",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_infected_eaten",
+      "source": "infected",
+      "target": "eaten",
+      "label": "H28・H18 暗号の比較（関係未確認）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ancient_main_sculk_chiseled",
+      "source": "ancient_main",
+      "target": "sculk_chiseled",
+      "label": "§3.3 戦利品データ",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_sculk_chiseled_singer",
+      "source": "sculk_chiseled",
+      "target": "singer",
+      "label": "§3.3 顔の類似（同定未確認）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_sculk_chiseled_shale",
+      "source": "sculk_chiseled",
+      "target": "shale",
+      "label": "§3.3 装飾ブロック",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_soulblock_soul_sync",
+      "source": "soulblock",
+      "target": "soul_sync",
+      "label": "H55 思考同期の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_soul_sync_singer",
+      "source": "soul_sync",
+      "target": "singer",
+      "label": "H55 記憶・音の媒介？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_hosts_knowledge_host",
+      "source": "hosts",
+      "target": "knowledge_host",
+      "label": "§15.49 登場するHost",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_knowledge_host_first_song",
+      "source": "knowledge_host",
+      "target": "first_song",
+      "label": "§15.49 歌を教える",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_first_song_firsts",
+      "source": "first_song",
+      "target": "firsts",
+      "label": "§15.49 目覚め",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_grindstone_enchant",
+      "source": "grindstone",
+      "target": "enchant",
+      "label": "§15.44 通常付呪の除去",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_grindstone_xp",
+      "source": "grindstone",
+      "target": "xp",
+      "label": "§15.44 経験値を放出",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_xp_mending",
+      "source": "xp",
+      "target": "mending",
+      "label": "§15.44 耐久回復",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_frozen_zombie_frostbite",
+      "source": "frozen_zombie",
+      "target": "frostbite",
+      "label": "§3.3 寒冷変化の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_frostbite_corruption",
+      "source": "frostbite",
+      "target": "corruption",
+      "label": "H36 環境変化との比較（別機構）",
       "hypothesis": true
     }
   ]
