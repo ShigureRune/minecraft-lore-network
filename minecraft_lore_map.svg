@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.00 0.00 3667.51 3539.64" id="map" aria-label="Minecraft 考察関係図">
+<g id="lore_map" class="graph" transform="scale(1 1) rotate(0) translate(36 3503.64)">
+<g id="edge_soul_xp" class="edge">
+<title>soul-&gt;xp</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1340.68,-1544.22C1352.01,-1595.71 1374.13,-1719.85 1350.79,-1820.24 1331.88,-1901.56 1280.23,-1987.19 1253.41,-2027.94" />
+<text text-anchor="middle" x="1295.78" y="-1823.64" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H06 同一／共通源？</text>
+</g>
+
+<g id="edge_soul_soulblock" class="edge">
+<title>soul-&gt;soulblock</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1243.53,-1496.02C1139.86,-1468.72 971.76,-1424.44 867.83,-1397.07" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="868.25,-1394.94 861.7,-1395.46 867.14,-1399.13 868.25,-1394.94" />
+<text text-anchor="middle" x="986.09" y="-1436.13" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H06・H55 動力／情報？</text>
+</g>
+
+<g id="edge_soul_flames" class="edge">
+<title>soul-&gt;flames</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1313.91,-1544.2C1283.21,-1578.57 1223.24,-1642.43 1163.89,-1687.11 1115.78,-1723.34 966.28,-1804.35 888.42,-1845.79" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="887.39,-1843.87 882.94,-1848.7 889.43,-1847.7 887.39,-1843.87" />
+<text text-anchor="middle" x="1052.04" y="-1723.83" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H15 共通の生命技術？</text>
+</g>
+
+<g id="edge_soul_prismarine" class="edge">
+<title>soul-&gt;prismarine</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1350.1,-1496.02C1398.33,-1419.6 1547.87,-1182.61 1599.56,-1100.7" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1601.64,-1101.47 1603.11,-1095.07 1597.96,-1099.16 1601.64,-1101.47" />
+<text text-anchor="middle" x="1439.75" y="-1298.72" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H37 結晶化？</text>
+</g>
+
+<g id="edge_soul_corruption" class="edge">
+<title>soul-&gt;corruption</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1331.81,-1495.74C1320.4,-1406.18 1280.8,-1095.3 1268.5,-998.72" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1270.63,-998.28 1267.69,-992.41 1266.32,-998.83 1270.63,-998.28" />
+<text text-anchor="middle" x="1250.74" y="-1247.34" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H36 汚染モデル？</text>
+</g>
+
+<g id="edge_xp_enchant" class="edge">
+<title>xp-&gt;enchant</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M1243.41,-2076.28C1276.71,-2195.84 1424.4,-2726.22 1460.57,-2856.08" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="1458.55,-2856.92 1462.3,-2862.31 1462.73,-2855.75 1458.55,-2856.92" />
+<text text-anchor="middle" x="1307.92" y="-2459.92" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">消費 §15.43–44</text>
+</g>
+
+<g id="edge_bottle_xp" class="edge">
+<title>bottle-&gt;xp</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M690.27,-2223.83C805.74,-2187.57 1032.03,-2116.53 1154.04,-2078.22" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="1154.87,-2080.24 1160.13,-2076.31 1153.57,-2076.09 1154.87,-2080.24" />
+<text text-anchor="middle" x="890.26" y="-2153.45" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">放出 §15.44</text>
+</g>
+
+<g id="edge_bottle_ominous" class="edge">
+<title>bottle-&gt;ominous</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M582.29,-2268.92C540.92,-2296.67 474.31,-2347.76 438.64,-2409.07 393.89,-2485.98 383.23,-2593.69 380.71,-2644.52" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="378.54,-2644.44 380.43,-2650.73 382.88,-2644.63 378.54,-2644.44" />
+<text text-anchor="middle" x="394.59" y="-2437.73" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H08 変質？</text>
+</g>
+
+<g id="edge_ominous_trial" class="edge">
+<title>ominous-&gt;trial</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M468.19,-2682.41C595.12,-2695.59 830.96,-2720.08 985.76,-2736.16" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="985.76,-2738.34 992.15,-2736.82 986.2,-2734.02 985.76,-2738.34" />
+<text text-anchor="middle" x="640.84" y="-2713.03" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">効果を介して不吉化 §15.45・50</text>
+</g>
+
+<g id="edge_obsidian_enchant" class="edge">
+<title>obsidian-&gt;enchant</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M935.32,-3191.4C1038.21,-3132.25 1314.76,-2973.28 1423.64,-2910.68" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="1425.03,-2912.39 1429.32,-2907.41 1422.87,-2908.62 1425.03,-2912.39" />
+<text text-anchor="middle" x="1117.28" y="-3039.84" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">材料・消費資源 §15.40</text>
+</g>
+
+<g id="edge_points_enchant" class="edge">
+<title>points-&gt;enchant</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M1723.53,-3317.5C1678.93,-3241.81 1534.73,-2997.11 1485.35,-2913.31" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="1486.98,-2911.8 1481.96,-2907.56 1483.24,-2914 1486.98,-2911.8" />
+<text text-anchor="middle" x="1567.59" y="-3115.67" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">強化 §15.40</text>
+</g>
+
+<g id="edge_points_hunt" class="edge">
+<title>points-&gt;hunt</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M1881.03,-3325.84C1964.26,-3317.62 2069.01,-3307.28 2154.31,-3298.86" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2154.72,-3301 2160.67,-3298.23 2154.29,-3296.68 2154.72,-3301" />
+<text text-anchor="middle" x="1985.77" y="-3315.44" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">奉納 §15.46</text>
+</g>
+
+<g id="edge_ancient_note" class="edge">
+<title>ancient-&gt;note</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M1973.16,-2079.04C2040.05,-2058.72 2138.04,-2028.95 2206.68,-2008.1" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2207.51,-2010.12 2212.81,-2006.24 2206.25,-2005.97 2207.51,-2010.12" />
+<text text-anchor="middle" x="2057.66" y="-2046.14" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">起動設備 §3</text>
+</g>
+
+<g id="edge_note_rift" class="edge">
+<title>note-&gt;rift</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2282.47,-1960.88C2272.67,-1909.68 2249.26,-1781.76 2238.47,-1673.56 2229.71,-1585.58 2231.72,-1563.21 2229.79,-1474.81 2228.74,-1426.83 2230.34,-1371.02 2231.58,-1337.98" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2233.76,-1337.96 2231.83,-1331.68 2229.42,-1337.79 2233.76,-1337.96" />
+<text text-anchor="middle" x="2201.08" y="-1651.6" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">音で起動 §3</text>
+</g>
+
+<g id="edge_note_firsts" class="edge">
+<title>note-&gt;firsts</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2322.18,-1961.09C2417.81,-1899.68 2681.76,-1730.16 2783.45,-1664.86" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2784.71,-1666.63 2788.75,-1661.45 2782.36,-1662.98 2784.71,-1666.63" />
+<text text-anchor="middle" x="2500.33" y="-1814.76" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H28 音響技術の比較</text>
+</g>
+
+<g id="edge_rift_sift" class="edge">
+<title>rift-&gt;sift</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2264.42,-1286.66C2322.87,-1245.03 2447.67,-1156.15 2511.32,-1110.81" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2512.75,-1112.46 2516.54,-1107.1 2510.23,-1108.93 2512.75,-1112.46" />
+<text text-anchor="middle" x="2367.55" y="-1200.23" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">接続 §3</text>
+</g>
+
+<g id="edge_sift_sculk" class="edge">
+<title>sift-&gt;sculk</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2561.28,-1058.95C2599.16,-975.2 2725.31,-696.35 2766.09,-606.19" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2768.07,-607.08 2768.65,-600.53 2764.12,-605.29 2768.07,-607.08" />
+<text text-anchor="middle" x="2612.02" y="-833.01" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">起源のWiki記述 §3</text>
+</g>
+
+<g id="edge_sift_shale" class="edge">
+<title>sift-&gt;shale</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2510.03,-1058.78C2442.15,-1018.11 2305.77,-936.4 2235.84,-894.5" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2236.53,-892.39 2230.1,-891.07 2234.3,-896.11 2236.53,-892.39" />
+<text text-anchor="middle" x="2313.09" y="-978.34" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">§15.22–23 産地仮説</text>
+</g>
+
+<g id="edge_singer_soulblock" class="edge">
+<title>singer-&gt;soulblock</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M281.32,-1235.22C390.9,-1265.72 585.34,-1319.83 694.91,-1350.32" />
+<text text-anchor="middle" x="432.12" y="-1296.17" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">関連描写 §3・15.41</text>
+</g>
+
+<g id="edge_runes_hunt" class="edge">
+<title>runes-&gt;hunt</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2487.04,-2673.38C2461.24,-2702.38 2418.24,-2755.33 2395.86,-2808.68 2329.2,-2967.53 2315,-3177.73 2312,-3254.08" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2309.82,-3254.34 2311.76,-3260.62 2314.15,-3254.51 2309.82,-3254.34" />
+<text text-anchor="middle" x="2414.97" y="-2959.25" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">供物で対象選択 §15.46</text>
+</g>
+
+<g id="edge_runes_note" class="edge">
+<title>runes-&gt;note</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2500.66,-2628.19C2466.81,-2526.12 2328.27,-2108.35 2294.42,-2006.29" />
+<text text-anchor="middle" x="2348.54" y="-2320.64" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H28 認証・伝達？</text>
+</g>
+
+<g id="edge_flames_spawner" class="edge">
+<title>flames-&gt;spawner</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M696.66,-1877.1C578.97,-1881.89 412.9,-1888.65 293.48,-1893.51" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="293.22,-1891.35 287.12,-1893.77 293.4,-1895.69 293.22,-1891.35" />
+<text text-anchor="middle" x="416.97" y="-1888.83" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">召喚設備の解禁 §15.47–48</text>
+</g>
+
+<g id="edge_well_moss" class="edge">
+<title>well-&gt;moss</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2896.71,-933.9C2959.53,-866.57 3135.64,-677.84 3201.96,-606.75" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="3203.9,-607.86 3206.54,-601.84 3200.73,-604.9 3203.9,-607.86" />
+<text text-anchor="middle" x="3010.55" y="-771.36" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">回復水 §15.48</text>
+</g>
+
+<g id="edge_well_firsts" class="edge">
+<title>well-&gt;firsts</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2872.29,-982.35C2867.27,-1051.17 2852.46,-1254.04 2840.08,-1422.52 2835.16,-1489.51 2829.35,-1568.17 2826.28,-1609.67" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2824.1,-1609.67 2825.81,-1616.01 2828.43,-1609.99 2824.1,-1609.67" />
+<text text-anchor="middle" x="2796.14" y="-1302.42" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">目覚めの歌 §15.49</text>
+</g>
+
+<g id="edge_well_monument" class="edge">
+<title>well-&gt;monument</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2779.97,-972.07C2662.92,-989.34 2464.21,-1018.67 2346.94,-1035.98" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2346.54,-1033.84 2340.72,-1036.89 2347.17,-1038.13 2346.54,-1033.84" />
+<text text-anchor="middle" x="2511.3" y="-1007.89" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H35 水没／継承？</text>
+</g>
+
+<g id="edge_gold_firsts" class="edge">
+<title>gold-&gt;firsts</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M3360.53,-1802.69C3252.68,-1769.73 3025.11,-1700.17 2903.96,-1663.13" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2904.48,-1661.02 2897.91,-1661.29 2903.21,-1665.17 2904.48,-1661.02" />
+<text text-anchor="middle" x="3088.21" y="-1735.39" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">再組立 §15.49</text>
+</g>
+
+<g id="edge_prismarine_conduit" class="edge">
+<title>prismarine-&gt;conduit</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M1616.11,-1049.81C1610.8,-952.79 1590,-572.88 1584.04,-464.15" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="1586.2,-463.76 1583.69,-457.68 1581.86,-463.99 1586.2,-463.76" />
+<text text-anchor="middle" x="1546.89" y="-756.99" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">有効な枠材 §15.21</text>
+</g>
+
+<g id="edge_prismarine_monument" class="edge">
+<title>prismarine-&gt;monument</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M1724,-1068.71C1845.35,-1064.4 2041.7,-1057.42 2157.79,-1053.29" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2158.17,-1055.45 2164.28,-1053.06 2158.01,-1051.11 2158.17,-1055.45" />
+<text text-anchor="middle" x="1909.25" y="-1064.28" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">建材 §15.21</text>
+</g>
+
+<g id="edge_monument_guardian" class="edge">
+<title>monument-&gt;guardian</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2210.14,-1027.26C2167.33,-1002.07 2102.41,-957.41 2066.3,-900.92 2013.03,-817.61 1999.69,-697.24 1996.34,-642.41" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="1998.5,-642.12 1995.98,-636.05 1994.17,-642.36 1998.5,-642.12" />
+<text text-anchor="middle" x="2008.41" y="-861.32" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">出現 §15.21</text>
+</g>
+
+<g id="edge_ancient_main_shale" class="edge">
+<title>ancient_main-&gt;shale</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2031.78,-1505.94C2049.67,-1434.25 2106.67,-1206.16 2154.37,-1017.43 2164.93,-975.63 2177.26,-927.26 2184.93,-897.25" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2187.06,-897.68 2186.49,-891.13 2182.85,-896.6 2187.06,-897.68" />
+<text text-anchor="middle" x="2062.83" y="-1201.62" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">戦利品記録 §3.3</text>
+</g>
+
+<g id="edge_corruption_guardian" class="edge">
+<title>corruption-&gt;guardian</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1311.07,-947.28C1440.54,-884.07 1806.07,-705.58 1942.77,-638.83" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1944.1,-640.6 1948.71,-635.93 1942.19,-636.7 1944.1,-640.6" />
+<text text-anchor="middle" x="1586.68" y="-795.11" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H38 変異の類推</text>
+</g>
+
+<g id="edge_trial_storm" class="edge">
+<title>trial-&gt;storm</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1134.13,-2774.4C1125.11,-2868.71 1090.55,-3230.16 1081.53,-3324.51" />
+<text text-anchor="middle" x="1036.83" y="-3052.84" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">§15.50 生成・強化の比較</text>
+</g>
+
+<g id="edge_orb_corruption" class="edge">
+<title>orb-&gt;corruption</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1062.98,-495.03C1097.46,-576.14 1214.66,-851.85 1252.75,-941.47" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1250.83,-942.49 1255.25,-947.35 1254.82,-940.79 1250.83,-942.49" />
+<text text-anchor="middle" x="1115.98" y="-724.28" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H52 複合災害？</text>
+</g>
+
+<g id="edge_orb_void" class="edge">
+<title>orb-&gt;void</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1042.36,-449.74C1005.88,-374.66 888.83,-133.77 848.55,-50.85" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="850.44,-49.79 845.78,-45.16 846.54,-51.69 850.44,-49.79" />
+<text text-anchor="middle" x="871.42" y="-250.54" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H49・H52 災害への関与？</text>
+</g>
+
+<g id="edge_builders_soul" class="edge">
+<title>builders-&gt;soul</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1617.83,-1879.06C1562.47,-1808.82 1414.9,-1621.58 1357.86,-1549.21" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1359.46,-1547.72 1353.92,-1544.2 1356.05,-1550.41 1359.46,-1547.72" />
+<text text-anchor="middle" x="1454.79" y="-1714.92" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H01 研究？</text>
+</g>
+
+<g id="edge_builders_xp" class="edge">
+<title>builders-&gt;xp</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1564.47,-1933.34C1491.49,-1959.82 1381.21,-1999.83 1309.07,-2026.01" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1308.17,-2024.03 1303.08,-2028.18 1309.65,-2028.11 1308.17,-2024.03" />
+<text text-anchor="middle" x="1402.78" y="-1984.16" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H01 利用？</text>
+</g>
+
+<g id="edge_builders_ancient" class="edge">
+<title>builders-&gt;ancient</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1675.32,-1933.38C1725.05,-1970.82 1814.07,-2037.85 1863.41,-2075" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1862.39,-2076.94 1868.64,-2078.94 1865,-2073.48 1862.39,-2076.94" />
+<text text-anchor="middle" x="1734.94" y="-2009.53" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H01 建設者？</text>
+</g>
+
+<g id="edge_builders_note" class="edge">
+<title>builders-&gt;note</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1838.41,-1930.05C1937.99,-1941.96 2056.13,-1956.1 2146.16,-1966.88" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2145.91,-1969.03 2152.32,-1967.61 2146.42,-1964.72 2145.91,-1969.03" />
+<text text-anchor="middle" x="1953.02" y="-1952.31" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H01 音響技術？</text>
+</g>
+
+<g id="edge_builders_ancient_main" class="edge">
+<title>builders-&gt;ancient_main</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1667.05,-1879.05C1738.43,-1809.39 1927.4,-1624.96 1998.52,-1555.55" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2000.11,-1557.03 2003.03,-1551.15 1997.08,-1553.92 2000.11,-1557.03" />
+<text text-anchor="middle" x="1798.17" y="-1718.38" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H01 建設者？</text>
+</g>
+
+<g id="edge_builders_settlers" class="edge">
+<title>builders-&gt;settlers</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1603.52,-1933.37C1553.64,-1970.59 1459.5,-2038.31 1373.23,-2086.26 1304.31,-2124.56 1221.04,-2160.28 1164.75,-2182.98" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1163.64,-2181.09 1158.7,-2185.41 1165.26,-2185.12 1163.64,-2181.09" />
+<text text-anchor="middle" x="1342.22" y="-2089.67" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 分裂？</text>
+</g>
+
+<g id="edge_builders_mages" class="edge">
+<title>builders-&gt;mages</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1592.9,-1878.96C1536.84,-1846.71 1438.98,-1792.65 1350.79,-1755.24 1279.05,-1724.8 1194.72,-1697.48 1133.2,-1679.01" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1133.51,-1676.84 1126.95,-1677.14 1132.27,-1681 1133.51,-1676.84" />
+<text text-anchor="middle" x="1319.77" y="-1745.63" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 分裂？</text>
+</g>
+
+<g id="edge_builders_explorers" class="edge">
+<title>builders-&gt;explorers</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1646.03,-1933.29C1658.09,-1977.92 1686.24,-2068.5 1730.78,-2134.13 1827.52,-2276.67 1990.71,-2405.54 2063.44,-2459.17" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2062.24,-2460.97 2068.52,-2462.9 2064.81,-2457.48 2062.24,-2460.97" />
+<text text-anchor="middle" x="1782.7" y="-2241.3" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 分裂？</text>
+</g>
+
+<g id="edge_builders_architecture" class="edge">
+<title>builders-&gt;architecture</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1647.91,-1933.42C1662.32,-1977.09 1693.35,-2064.93 1730.78,-2134.13 1770.31,-2207.2 1812.88,-2208.13 1837.82,-2287.38 1852.46,-2333.93 1839.17,-2390.95 1828.37,-2424.49" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1826.28,-2423.9 1826.39,-2430.47 1830.4,-2425.27 1826.28,-2423.9" />
+<text text-anchor="middle" x="1722.67" y="-2172.62" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H01 発展？</text>
+</g>
+
+<g id="edge_builders_redstone" class="edge">
+<title>builders-&gt;redstone</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1644.03,-1933.35C1657.18,-2007.83 1693.77,-2214.91 1707.25,-2291.19" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1705.11,-2291.58 1708.33,-2297.3 1709.39,-2290.82 1705.11,-2291.58" />
+<text text-anchor="middle" x="1645.17" y="-2118.72" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H01 技術？</text>
+</g>
+
+<g id="edge_builders_spawner_main" class="edge">
+<title>builders-&gt;spawner_main</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1623.25,-1933.37C1591.94,-1986.58 1522.8,-2104.1 1490.88,-2158.35" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1488.82,-2157.58 1487.54,-2164.02 1492.56,-2159.78 1488.82,-2157.58" />
+<text text-anchor="middle" x="1524.23" y="-2052.38" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H15 遺物？</text>
+</g>
+
+<g id="edge_builders_knowledge" class="edge">
+<title>builders-&gt;knowledge</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1540.45,-1879.18C1466.56,-1858.96 1366.39,-1831.55 1295.04,-1812.02" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1295.21,-1809.82 1288.66,-1810.28 1294.06,-1814.01 1295.21,-1809.82" />
+<text text-anchor="middle" x="1359.26" y="-1848.05" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H61 継承・再発見？</text>
+</g>
+
+<g id="edge_builders_pigs" class="edge">
+<title>builders-&gt;pigs</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1787.36,-1933.26C1877.39,-1956.25 1989.49,-1997.4 2066.78,-2069.13 2108.7,-2108.03 2130.69,-2173.36 2140.41,-2210.86" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2138.36,-2211.6 2141.98,-2217.08 2142.57,-2210.54 2138.36,-2211.6" />
+<text text-anchor="middle" x="1956.42" y="-2021.94" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H44 家畜輸送？</text>
+</g>
+
+<g id="edge_builders_network" class="edge">
+<title>builders-&gt;network</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1716.01,-1879.17C1862.13,-1827.72 2178.45,-1716.33 2322.42,-1665.64" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2323.18,-1667.67 2328.31,-1663.56 2321.74,-1663.58 2323.18,-1667.67" />
+<text text-anchor="middle" x="1985.05" y="-1774.81" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H34 交流圏？</text>
+</g>
+
+<g id="edge_builders_disaster" class="edge">
+<title>builders-&gt;disaster</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1643.86,-1878.93C1658.95,-1790 1706.66,-1508.85 1722.48,-1415.6" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1724.62,-1415.95 1723.52,-1409.48 1720.34,-1415.23 1724.62,-1415.95" />
+<text text-anchor="middle" x="1640.73" y="-1647.38" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H01 衰退原因？</text>
+</g>
+
+<g id="edge_settlers_xp" class="edge">
+<title>settlers-&gt;xp</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1120.14,-2185.33C1144.27,-2157.79 1185.04,-2111.25 1211.41,-2081.15" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1213.06,-2082.56 1215.52,-2076.47 1209.8,-2079.7 1213.06,-2082.56" />
+<text text-anchor="middle" x="1136.64" y="-2134.51" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 利用？</text>
+</g>
+
+<g id="edge_settlers_villagers" class="edge">
+<title>settlers-&gt;villagers</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1052.6,-2185.36C942.48,-2133.15 671.11,-2004.51 555.52,-1949.71" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="556.34,-1947.69 549.8,-1947 554.48,-1951.62 556.34,-1947.69" />
+<text text-anchor="middle" x="770.05" y="-2069.51" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 継承？</text>
+</g>
+
+<g id="edge_settlers_farming" class="edge">
+<title>settlers-&gt;farming</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1084.53,-2230.66C1034.25,-2302.98 877.82,-2528.02 822.62,-2607.43" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="820.58,-2606.56 818.82,-2612.89 824.14,-2609.04 820.58,-2606.56" />
+<text text-anchor="middle" x="920.44" y="-2425.52" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 技術？</text>
+</g>
+
+<g id="edge_settlers_golem_main" class="edge">
+<title>settlers-&gt;golem_main</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1049.37,-2230.59C950.66,-2274.41 733.94,-2370.63 630.82,-2416.41" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="629.88,-2414.45 625.1,-2418.95 631.64,-2418.41 629.88,-2414.45" />
+<text text-anchor="middle" x="806.09" y="-2328.23" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 技術？</text>
+</g>
+
+<g id="edge_mages_soul" class="edge">
+<title>mages-&gt;soul</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1095.52,-1632.1C1145.65,-1608.64 1224.17,-1571.9 1277.5,-1546.95" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1278.53,-1548.86 1283.23,-1544.27 1276.69,-1544.93 1278.53,-1548.86" />
+<text text-anchor="middle" x="1158.13" y="-1591.7" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 研究？</text>
+</g>
+
+<g id="edge_mages_illagers" class="edge">
+<title>mages-&gt;illagers</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1037.36,-1632.02C1006.07,-1561.57 910.33,-1346.04 875.76,-1268.21" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="877.68,-1267.19 873.18,-1262.41 873.72,-1268.96 877.68,-1267.19" />
+<text text-anchor="middle" x="924.34" y="-1450.77" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 継承？</text>
+</g>
+
+<g id="edge_mages_magic" class="edge">
+<title>mages-&gt;magic</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M940.72,-1651.5C859.78,-1649.14 749.14,-1645.92 668.96,-1643.58" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="669.02,-1641.41 662.76,-1643.4 668.9,-1645.75 669.02,-1641.41" />
+<text text-anchor="middle" x="770.75" y="-1650.85" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 技術？</text>
+</g>
+
+<g id="edge_explorers_adventurers" class="edge">
+<title>explorers-&gt;adventurers</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2124.66,-2508.04C2192.26,-2570.65 2382.25,-2746.61 2455.26,-2814.24" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2453.88,-2815.91 2459.9,-2818.53 2456.83,-2812.73 2453.88,-2815.91" />
+<text text-anchor="middle" x="2267.13" y="-2666.54" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 比較</text>
+</g>
+
+<g id="edge_explorers_architecture" class="edge">
+<title>explorers-&gt;architecture</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1993.54,-2473.22C1966.78,-2470.14 1938.26,-2466.86 1912.16,-2463.85" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1912.33,-2461.69 1905.93,-2463.13 1911.84,-2466 1912.33,-2461.69" />
+<text text-anchor="middle" x="1949.38" y="-2458.54" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 技術？</text>
+</g>
+
+<g id="edge_explorers_navigation" class="edge">
+<title>explorers-&gt;navigation</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2106.16,-2508.16C2126.02,-2585.59 2191.24,-2839.83 2213.33,-2925.96" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2211.26,-2926.64 2214.91,-2932.11 2215.47,-2925.56 2211.26,-2926.64" />
+<text text-anchor="middle" x="2129.55" y="-2723.6" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 技術？</text>
+</g>
+
+<g id="edge_explorers_shipwreck" class="edge">
+<title>explorers-&gt;shipwreck</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2126.75,-2463.02C2202.3,-2398.61 2419.15,-2213.73 2501.02,-2143.94" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2502.9,-2145.19 2506.21,-2139.52 2500.08,-2141.89 2502.9,-2145.19" />
+<text text-anchor="middle" x="2291.28" y="-2304.84" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 比較</text>
+</g>
+
+<g id="edge_explorers_camp" class="edge">
+<title>explorers-&gt;camp</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2091.53,-2508.34C2059.29,-2591.76 1947.83,-2880.16 1912.2,-2972.38" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1910.07,-2971.85 1909.86,-2978.42 1914.12,-2973.42 1910.07,-2971.85" />
+<text text-anchor="middle" x="1975.8" y="-2746.52" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H02 比較</text>
+</g>
+
+<g id="edge_villagers_bottle" class="edge">
+<title>villagers-&gt;bottle</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M510.18,-1946.98C530.85,-2004.14 585.12,-2154.24 608.02,-2217.55" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="606.11,-2218.66 610.26,-2223.76 610.19,-2217.19 606.11,-2218.66" />
+<text text-anchor="middle" x="501.27" y="-2088.91" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">§15.44 聖職者の交易</text>
+</g>
+
+<g id="edge_villagers_village" class="edge">
+<title>villagers-&gt;village</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M519.14,-1901.63C605.56,-1787.25 992.75,-1274.8 1087.06,-1149.99" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="1088.8,-1151.28 1090.81,-1145.03 1085.34,-1148.66 1088.8,-1151.28" />
+<text text-anchor="middle" x="768.04" y="-1526.64" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H02 村の住民</text>
+</g>
+
+<g id="edge_illagers_magic" class="edge">
+<title>illagers-&gt;magic</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M789.82,-1262.47C749.18,-1278.41 700.6,-1303.55 668.82,-1340.34 598.54,-1421.68 575.32,-1553.28 568.24,-1611.38" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="566.05,-1611.36 567.49,-1617.77 570.36,-1611.86 566.05,-1611.36" />
+<text text-anchor="middle" x="591.48" y="-1416.29" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H33 魔術職</text>
+</g>
+
+<g id="edge_illagers_mansion" class="edge">
+<title>illagers-&gt;mansion</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M823.75,-1217.17C730.06,-1163.37 494.4,-1028.04 395.31,-971.15" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="396.3,-969.21 389.84,-968 394.14,-972.97 396.3,-969.21" />
+<text text-anchor="middle" x="554.69" y="-1095.93" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H33・§15.11 描写</text>
+</g>
+
+<g id="edge_magic_flames" class="edge">
+<title>magic-&gt;flames</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M592.23,-1663.1C643.23,-1705.91 753.86,-1798.8 808.43,-1844.61" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="807.07,-1846.3 813.21,-1848.63 809.86,-1842.98 807.07,-1846.3" />
+<text text-anchor="middle" x="659.58" y="-1759.14" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H33 召喚の比較</text>
+</g>
+
+<g id="edge_village_searuins" class="edge">
+<title>village-&gt;searuins</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1167.61,-1109.28C1244.54,-1092.41 1382.39,-1062.71 1500.85,-1040 1604.89,-1020.06 1724.68,-999.61 1805.69,-986.15" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1806.18,-988.27 1811.94,-985.11 1805.47,-983.99 1806.18,-988.27" />
+<text text-anchor="middle" x="1469.87" y="-1043.4" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H35 水没？</text>
+</g>
+
+<g id="edge_spawner_main_flames" class="edge">
+<title>spawner_main-&gt;flames</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1348.42,-2166.95C1273.44,-2151.77 1178.02,-2126.44 1100.23,-2086.26 1002.61,-2035.84 908.44,-1943.89 865.06,-1898.33" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="866.61,-1896.82 860.77,-1893.81 863.46,-1899.8 866.61,-1896.82" />
+<text text-anchor="middle" x="1036.13" y="-2078.11" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H15 共通起源？</text>
+</g>
+
+<g id="edge_spawner_main_trial" class="edge">
+<title>spawner_main-&gt;trial</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1460.47,-2209.66C1406.97,-2299.13 1211.79,-2625.54 1153.1,-2723.69" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1151.07,-2722.84 1149.75,-2729.28 1154.8,-2725.07 1151.07,-2722.84" />
+<text text-anchor="middle" x="1268.05" y="-2472.97" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H15 技術比較</text>
+</g>
+
+<g id="edge_knowledge_illagers" class="edge">
+<title>knowledge-&gt;illagers</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1203.51,-1765C1198.83,-1732.09 1187.48,-1669.89 1163.89,-1622.11 1089.93,-1472.29 950.66,-1325.69 891.2,-1266.82" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="892.65,-1265.21 886.71,-1262.4 889.6,-1268.3 892.65,-1265.21" />
+<text text-anchor="middle" x="1028.62" y="-1491.04" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">§15.11 古代知識？</text>
+</g>
+
+<g id="edge_pigs_piglin" class="edge">
+<title>pigs-&gt;piglin</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2215.87,-2244.68C2323.67,-2252.52 2534.15,-2267.82 2674.88,-2278.05" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2674.77,-2280.22 2681.11,-2278.51 2675.08,-2275.89 2674.77,-2280.22" />
+<text text-anchor="middle" x="2387.27" y="-2264.98" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H44 起源？（低確度）</text>
+</g>
+
+<g id="edge_network_sift" class="edge">
+<title>network-&gt;sift</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2416.65,-1615.42C2441,-1584.82 2481.14,-1529.45 2500.79,-1474.81 2546.98,-1346.36 2551.34,-1180.73 2550.99,-1113.42" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2553.16,-1113.4 2550.95,-1107.22 2548.82,-1113.44 2553.16,-1113.4" />
+<text text-anchor="middle" x="2479.89" y="-1373.36" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H34 接触・研究？</text>
+</g>
+
+<g id="edge_network_monument" class="edge">
+<title>network-&gt;monument</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2420.43,-1615.53C2458.27,-1574.56 2525.16,-1488.02 2500.79,-1409.81 2456.63,-1268.11 2335.03,-1132.95 2280.03,-1076.99" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2281.45,-1075.34 2275.55,-1072.45 2278.37,-1078.39 2281.45,-1075.34" />
+<text text-anchor="middle" x="2401.53" y="-1290.25" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H34 海洋拠点？</text>
+</g>
+
+<g id="edge_network_overworld" class="edge">
+<title>network-&gt;overworld</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2392.65,-1615.37C2386.9,-1579 2376.04,-1510.34 2369.88,-1471.33" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2371.97,-1470.65 2368.86,-1464.87 2367.68,-1471.33 2371.97,-1470.65" />
+<text text-anchor="middle" x="2349.73" y="-1543.38" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H34 中核？</text>
+</g>
+
+<g id="edge_network_nether" class="edge">
+<title>network-&gt;nether</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2481.9,-1663.61C2567.1,-1687.6 2697.2,-1724.24 2782.1,-1748.14" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2781.58,-1750.25 2788.14,-1749.84 2782.76,-1746.07 2781.58,-1750.25" />
+<text text-anchor="middle" x="2592.26" y="-1710.2" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H34 資源往来？</text>
+</g>
+
+<g id="edge_network_end" class="edge">
+<title>network-&gt;end</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2419.64,-1663.76C2479.15,-1725.93 2637.08,-1890.9 2699.78,-1956.39" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2698.27,-1957.96 2704.12,-1960.94 2701.4,-1954.96 2698.27,-1957.96" />
+<text text-anchor="middle" x="2604.72" y="-1815.58" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H34 遠隔探検？</text>
+</g>
+
+<g id="edge_network_trail" class="edge">
+<title>network-&gt;trail</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M2426.3,-1615.41C2484.17,-1568.53 2611.31,-1465.56 2671.61,-1416.72" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2673.08,-1418.32 2676.53,-1412.74 2670.35,-1414.95 2673.08,-1418.32" />
+<text text-anchor="middle" x="2514.32" y="-1517.55" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H34 拠点網？</text>
+</g>
+
+<g id="edge_overworld_monument" class="edge">
+<title>overworld-&gt;monument</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2366.5,-1419.69C2367.66,-1387.42 2367.69,-1326.59 2355.31,-1276.68 2336.58,-1201.18 2293.33,-1119.8 2269.27,-1078.1" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2271.14,-1077 2266.15,-1072.73 2267.39,-1079.18 2271.14,-1077" />
+<text text-anchor="middle" x="2318.55" y="-1240.41" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 遺構</text>
+</g>
+
+<g id="edge_overworld_ancient_main" class="edge">
+<title>overworld-&gt;ancient_main</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2276.62,-1464.87C2228.71,-1477.06 2169.56,-1492.12 2120.77,-1504.53" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2120.04,-1502.48 2114.56,-1506.11 2121.11,-1506.68 2120.04,-1502.48" />
+<text text-anchor="middle" x="2170.88" y="-1488.82" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 遺構</text>
+</g>
+
+<g id="edge_overworld_stronghold" class="edge">
+<title>overworld-&gt;stronghold</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2346.94,-1464.93C2285.3,-1540.92 2085.74,-1786.94 2018.02,-1870.43" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2015.97,-1869.51 2013.75,-1875.69 2019.34,-1872.24 2015.97,-1869.51" />
+<text text-anchor="middle" x="2155.5" y="-1673.52" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 遺構</text>
+</g>
+
+<g id="edge_overworld_shipwreck" class="edge">
+<title>overworld-&gt;shipwreck</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2408.71,-1464.86C2454.69,-1491.48 2524.67,-1540.48 2554.47,-1605.56 2631.71,-1774.23 2568.54,-2007.9 2542.63,-2088.31" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2540.54,-2087.71 2540.68,-2094.28 2544.66,-2089.06 2540.54,-2087.71" />
+<text text-anchor="middle" x="2566.13" y="-1778.37" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 遺構</text>
+</g>
+
+<g id="edge_overworld_trail" class="edge">
+<title>overworld-&gt;trail</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2491.15,-1422.91C2517.68,-1418.82 2545.76,-1414.5 2572.52,-1410.37" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2573.13,-1412.47 2578.93,-1409.39 2572.47,-1408.19 2573.13,-1412.47" />
+<text text-anchor="middle" x="2509.95" y="-1406.56" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 遺構</text>
+</g>
+
+<g id="edge_overworld_searuins" class="edge">
+<title>overworld-&gt;searuins</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2264.86,-1419.77C2214.09,-1404.41 2154.13,-1379.77 2110.31,-1341.68 1996.97,-1243.16 1931.27,-1067.82 1908.88,-999.29" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="1910.94,-998.62 1906.97,-993.39 1906.81,-999.95 1910.94,-998.62" />
+<text text-anchor="middle" x="2002.42" y="-1250.04" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 遺構</text>
+</g>
+
+<g id="edge_nether_piglin" class="edge">
+<title>nether-&gt;piglin</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2864.48,-1794.48C2856.29,-1877.5 2827.77,-2166.46 2818.61,-2259.32" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2816.43,-2259.28 2817.98,-2265.66 2820.75,-2259.7 2816.43,-2259.28" />
+<text text-anchor="middle" x="2798.2" y="-2033.79" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H44 生息・文明</text>
+</g>
+
+<g id="edge_nether_nether_ruins" class="edge">
+<title>nether-&gt;nether_ruins</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2945.27,-1757.5C3041.97,-1739.7 3207.53,-1709.23 3322.88,-1688" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="3323.32,-1690.12 3329.02,-1686.87 3322.53,-1685.86 3323.32,-1690.12" />
+<text text-anchor="middle" x="3112.44" y="-1712.53" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 遺構</text>
+</g>
+
+<g id="edge_end_endcity" class="edge">
+<title>end-&gt;endcity</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2757.32,-2006.28C2839.04,-2064.97 3058.22,-2222.42 3145.54,-2285.14" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="3144.3,-2286.92 3150.6,-2288.78 3146.83,-2283.4 3144.3,-2286.92" />
+<text text-anchor="middle" x="2928.78" y="-2150.8" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 遺構</text>
+</g>
+
+<g id="edge_stronghold_spawner_main" class="edge">
+<title>stronghold-&gt;spawner_main</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M1954.4,-1921.07C1858.78,-1973.98 1621.11,-2105.49 1520.4,-2161.21" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="1519.21,-2159.39 1514.84,-2164.29 1521.31,-2163.19 1519.21,-2159.39" />
+<text text-anchor="middle" x="1709.88" y="-2045.94" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H15 設置</text>
+</g>
+
+<g id="edge_stronghold_end" class="edge">
+<title>stronghold-&gt;end</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2064.36,-1906.51C2198.7,-1922.19 2494.79,-1956.76 2640.94,-1973.83" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2640.95,-1976.01 2647.36,-1974.58 2641.46,-1971.7 2640.95,-1976.01" />
+<text text-anchor="middle" x="2306.9" y="-1943.95" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 ポータル接続</text>
+</g>
+
+<g id="edge_ruined_overworld" class="edge">
+<title>ruined-&gt;overworld</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M2918.09,-1320.12C2821.44,-1321.76 2685.2,-1329.69 2569.08,-1357.52 2513.85,-1370.75 2454.26,-1397.08 2413.88,-1416.91" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2412.66,-1415.09 2408.06,-1419.79 2414.58,-1418.99 2412.66,-1415.09" />
+<text text-anchor="middle" x="2615.29" y="-1343.68" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 接続の痕跡</text>
+</g>
+
+<g id="edge_ruined_nether" class="edge">
+<title>ruined-&gt;nether</title>
+<path fill="none" stroke="#8995a5" stroke-width="1.1" d="M3042.64,-1344.09C3039.16,-1402.09 3024.37,-1558.86 2963.63,-1671.23 2947.97,-1700.21 2921.66,-1726.78 2900.41,-1745.34" />
+<polygon fill="#8995a5" stroke="#8995a5" stroke-width="1.1" points="2898.96,-1743.73 2895.68,-1749.42 2901.79,-1747.02 2898.96,-1743.73" />
+<text text-anchor="middle" x="2964.96" y="-1561.38" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#475569">H34 接続の痕跡</text>
+</g>
+
+<g id="edge_disaster_rift" class="edge">
+<title>disaster-&gt;rift</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1886.78,-1361.26C1960.19,-1350.21 2045.85,-1337.32 2113.58,-1327.13" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="2114.27,-1329.22 2120.07,-1326.15 2113.62,-1324.92 2114.27,-1329.22" />
+<text text-anchor="middle" x="1960.22" y="-1347.14" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H01 類似事故？</text>
+</g>
+
+<g id="edge_disaster_corruption" class="edge">
+<title>disaster-&gt;corruption</title>
+<path fill="none" stroke="#a16b21" stroke-width="1.1" stroke-dasharray="5,2" d="M1700.75,-1361.09C1619.9,-1288.53 1379.35,-1072.65 1294.7,-996.68" />
+<polygon fill="#a16b21" stroke="#a16b21" stroke-width="1.1" points="1296.13,-995.04 1290.07,-992.52 1293.23,-998.27 1296.13,-995.04" />
+<text text-anchor="middle" x="1452.6" y="-1180.38" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="12.00" fill="#805419">H01 類似災害？</text>
+</g>
+
+<g id="node_soul" class="node" data-media="D,D2" data-dimensions="O,S">
+<title>魂（Dungeons系） | 媒体: Dungeons / Dungeons II | 存在次元: オーバーワールド / シフト</title>
+<text text-anchor="middle" x="1334.91" y="-1514.49" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="22.00" fill="#1859a0">魂（Dungeons系）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1213.91" y="-1526.47" width="9.0" height="9.0" /><circle fill="#169caa" class="dimension-marker" data-dimension="S" cx="1230.41" cy="-1521.97" r="4.5" /><line x1="1240.91" x2="1333.41" y1="-1510.53" y2="-1510.53" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="1336.41" x2="1428.91" y1="-1510.53" y2="-1510.53" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /></g>
+
+<g id="node_xp" class="node" data-media="M" data-dimensions="O,N,E">
+<title>経験値（本編） | 媒体: 本編 | 存在次元: オーバーワールド / ネザー / エンド</title>
+<text text-anchor="middle" x="1236.73" y="-2046.66" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="22.00" fill="#1859a0">経験値（本編）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1122.73" y="-2058.64" width="9.0" height="9.0" /><polygon fill="#dc493a" class="dimension-marker" data-dimension="N" points="1139.23,-2058.64 1143.73,-2049.64 1134.73,-2049.64" /><polygon fill="#a384cf" class="dimension-marker" data-dimension="E" points="1151.23,-2058.64 1155.73,-2054.14 1151.23,-2049.64 1146.73,-2054.14" /><line x1="1160.23" x2="1313.23" y1="-2042.70" y2="-2042.70" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_enchant" class="node" data-media="M,D,D2,N" data-dimensions="O">
+<title>エンチャント | 媒体: 本編 / Dungeons / Dungeons II / 公式小説 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1468.58" y="-2880.15" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#1859a0">エンチャント</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1398.58" y="-2891.11" width="9.0" height="9.0" /><line x1="1413.21" x2="1439.20" y1="-2876.73" y2="-2876.73" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="1441.46" x2="1467.45" y1="-2876.73" y2="-2876.73" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="1469.71" x2="1495.70" y1="-2876.73" y2="-2876.73" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /><line x1="1497.96" x2="1523.95" y1="-2876.73" y2="-2876.73" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_bottle" class="node" data-media="M" data-dimensions="O">
+<title>経験値の瓶 | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="618.44" y="-2241.68" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#1859a0">経験値の瓶</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="557.94" y="-2252.64" width="9.0" height="9.0" /><line x1="571.44" x2="665.44" y1="-2238.26" y2="-2238.26" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_ominous" class="node" data-media="M" data-dimensions="O">
+<title>不吉な瓶 | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="379.95" y="-2668.54" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#1859a0">不吉な瓶</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="328.45" y="-2679.5" width="9.0" height="9.0" /><line x1="341.95" x2="417.95" y1="-2665.12" y2="-2665.12" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_obsidian" class="node" data-media="M,L,N" data-dimensions="O,N,E">
+<title>黒曜石・ラピス | 媒体: 本編 / Legends / 公式小説 | 存在次元: オーバーワールド / ネザー / エンド</title>
+<text text-anchor="middle" x="895.96" y="-3209.33" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#1859a0">黒曜石・ラピス</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="792.46" y="-3220.29" width="9.0" height="9.0" /><polygon fill="#dc493a" class="dimension-marker" data-dimension="N" points="808.96,-3220.29 813.46,-3211.29 804.46,-3211.29" /><polygon fill="#a384cf" class="dimension-marker" data-dimension="E" points="820.96,-3220.29 825.46,-3215.79 820.96,-3211.29 816.46,-3215.79" /><line x1="831.46" x2="872.46" y1="-3205.91" y2="-3205.91" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="875.46" x2="916.46" y1="-3205.91" y2="-3205.91" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /><line x1="919.46" x2="960.46" y1="-3205.91" y2="-3205.91" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_hunt" class="node" data-media="D" data-dimensions="O">
+<title>古代狩り（Dungeons） | 媒体: Dungeons | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2311.2" y="-3278.67" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#1859a0">古代狩り（Dungeons）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2197.2" y="-3289.63" width="9.0" height="9.0" /><line x1="2210.70" x2="2411.70" y1="-3275.25" y2="-3275.25" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /></g>
+
+<g id="node_points" class="node" data-media="D">
+<title>エンチャントポイント | 媒体: Dungeons</title>
+<text text-anchor="middle" x="1736.83" y="-3335.38" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#1859a0">エンチャントポイント</text>
+<line x1="1642.83" x2="1830.83" y1="-3331.96" y2="-3331.96" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /></g>
+
+<g id="node_ancient" class="node" data-media="D2" data-dimensions="O">
+<title>古代都市（Dungeons II） | 媒体: Dungeons II | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1898.78" y="-2096.93" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#7945a5">古代都市（Dungeons II）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1777.28" y="-2107.89" width="9.0" height="9.0" /><line x1="1790.78" x2="2006.78" y1="-2093.51" y2="-2093.51" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /></g>
+
+<g id="node_note" class="node" data-media="M,D2,L" data-dimensions="O">
+<title>音符ブロック・旋律 | 媒体: 本編 / Dungeons II / Legends | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2286.94" y="-1979.02" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#7945a5">音符ブロック・旋律</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2188.94" y="-1989.98" width="9.0" height="9.0" /><line x1="2203.94" x2="2257.27" y1="-1975.60" y2="-1975.60" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="2260.27" x2="2313.61" y1="-1975.60" y2="-1975.60" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /><line x1="2316.61" x2="2369.94" y1="-1975.60" y2="-1975.60" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /></g>
+
+<g id="node_rift" class="node" data-media="D2" data-dimensions="O,S">
+<title>Rift／ポータル | 媒体: Dungeons II | 存在次元: オーバーワールド / シフト</title>
+<text text-anchor="middle" x="2232.81" y="-1304.48" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#7945a5">Rift／ポータル</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2144.81" y="-1315.44" width="9.0" height="9.0" /><circle fill="#169caa" class="dimension-marker" data-dimension="S" cx="2161.31" cy="-1310.94" r="4.5" /><line x1="2170.31" x2="2295.31" y1="-1301.06" y2="-1301.06" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /></g>
+
+<g id="node_sift" class="node" data-media="D2" data-dimensions="S">
+<title>シフト（Sift） | 媒体: Dungeons II | 存在次元: シフト</title>
+<text text-anchor="middle" x="2550.41" y="-1077.37" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="22.00" fill="#7945a5">シフト（Sift）</text>
+<circle fill="#169caa" class="dimension-marker" data-dimension="S" cx="2469.41" cy="-1084.85" r="4.5" /><line x1="2478.41" x2="2622.41" y1="-1073.41" y2="-1073.41" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /></g>
+
+<g id="node_sculk" class="node" data-media="M,D2" data-dimensions="O,S" data-origin-dimensions="S" data-origin-note="W: §3.2、H03（Dungeons IIのWiki記述。本編への適用未確定）">
+<title>スカルク | 媒体: 本編 / Dungeons II | 存在次元: オーバーワールド / シフト | 起源資料: W: §3.2、H03（Dungeons IIのWiki記述。本編への適用未確定）</title>
+<text text-anchor="middle" x="2778.93" y="-573.12" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#7945a5">スカルク</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2715.43" y="-584.08" width="9.0" height="9.0" /><circle fill="#169caa" class="dimension-marker" data-dimension="S" cx="2731.93" cy="-579.58" r="4.5" /><line x1="2742.43" x2="2777.43" y1="-569.70" y2="-569.70" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="2780.43" x2="2815.43" y1="-569.70" y2="-569.70" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /></g>
+
+<g id="node_singer" class="node" data-media="D2" data-dimensions="O,S">
+<title>Singer／Echo Golem | 媒体: Dungeons II | 存在次元: オーバーワールド / シフト</title>
+<text text-anchor="middle" x="200.4" y="-1208" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#7945a5">Singer／Echo Golem</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="84.4" y="-1218.96" width="9.0" height="9.0" /><circle fill="#169caa" class="dimension-marker" data-dimension="S" cx="100.9" cy="-1214.46" r="4.5" /><line x1="109.90" x2="290.90" y1="-1204.58" y2="-1204.58" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /></g>
+
+<g id="node_soulblock" class="node" data-media="D2" data-dimensions="O,S">
+<title>Soul Block | 媒体: Dungeons II | 存在次元: オーバーワールド / シフト</title>
+<text text-anchor="middle" x="775.82" y="-1368.14" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#7945a5">Soul Block</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="703.32" y="-1379.1000000000001" width="9.0" height="9.0" /><circle fill="#169caa" class="dimension-marker" data-dimension="S" cx="719.82" cy="-1374.6000000000001" r="4.5" /><line x1="728.82" x2="822.82" y1="-1364.72" y2="-1364.72" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /></g>
+
+<g id="node_runes" class="node" data-media="M,D,D2" data-dimensions="O">
+<title>ルーン・暗号 | 媒体: 本編 / Dungeons / Dungeons II | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2508.14" y="-2646.06" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#7945a5">ルーン・暗号</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2438.64" y="-2657.02" width="9.0" height="9.0" /><line x1="2453.63" x2="2487.98" y1="-2642.64" y2="-2642.64" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="2490.97" x2="2525.31" y1="-2642.64" y2="-2642.64" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="2528.30" x2="2562.65" y1="-2642.64" y2="-2642.64" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /></g>
+
+<g id="node_flames" class="node" data-media="L" data-dimensions="O">
+<title>創造の炎（Legends） | 媒体: Legends | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="840.17" y="-1866.56" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#287449">創造の炎（Legends）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="733.17" y="-1877.52" width="9.0" height="9.0" /><line x1="746.67" x2="933.67" y1="-1863.14" y2="-1863.14" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /></g>
+
+<g id="node_spawner" class="node" data-media="L" data-dimensions="O">
+<title>スポナー（Legends） | 媒体: Legends | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="143.5" y="-1894.91" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#287449">スポナー（Legends）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="36.5" y="-1905.8700000000001" width="9.0" height="9.0" /><line x1="50.00" x2="237.00" y1="-1891.49" y2="-1891.49" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /></g>
+
+<g id="node_well" class="node" data-media="L" data-dimensions="O">
+<title>運命の泉 | 媒体: Legends | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2874.05" y="-952.58" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="22.00" fill="#287449">運命の泉</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2816.55" y="-964.5600000000001" width="9.0" height="9.0" /><line x1="2830.05" x2="2918.05" y1="-948.62" y2="-948.62" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /></g>
+
+<g id="node_moss" class="node" data-media="L" data-dimensions="O">
+<title>苔ゴーレム／回復水 | 媒体: Legends | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="3227.66" y="-574.51" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#287449">苔ゴーレム／回復水</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="3129.66" y="-585.47" width="9.0" height="9.0" /><line x1="3143.16" x2="3312.16" y1="-571.09" y2="-571.09" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /></g>
+
+<g id="node_firsts" class="node" data-media="L" data-dimensions="O">
+<title>Firsts（Legends） | 媒体: Legends | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2824.13" y="-1634.03" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#287449">Firsts（Legends）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2731.13" y="-1644.99" width="9.0" height="9.0" /><line x1="2744.63" x2="2903.63" y1="-1630.61" y2="-1630.61" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /></g>
+
+<g id="node_gold" class="node" data-media="M,D,L" data-dimensions="O,N,E">
+<title>金 | 媒体: 本編 / Dungeons / Legends | 存在次元: オーバーワールド / ネザー / エンド</title>
+<text text-anchor="middle" x="3420.13" y="-1816.21" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#287449">金</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="3373.13" y="-1827.17" width="9.0" height="9.0" /><polygon fill="#dc493a" class="dimension-marker" data-dimension="N" points="3389.63,-1827.17 3394.13,-1818.17 3385.13,-1818.17" /><polygon fill="#a384cf" class="dimension-marker" data-dimension="E" points="3401.63,-1827.17 3406.13,-1822.67 3401.63,-1818.17 3397.13,-1822.67" /><line x1="3410.88" x2="3416.71" y1="-1812.79" y2="-1812.79" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="3417.22" x2="3423.04" y1="-1812.79" y2="-1812.79" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="3423.55" x2="3429.38" y1="-1812.79" y2="-1812.79" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /></g>
+
+<g id="node_prismarine" class="node" data-media="M,D,L" data-dimensions="O">
+<title>プリズマリン | 媒体: 本編 / Dungeons / Legends | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1617.35" y="-1067.8" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#007c83">プリズマリン</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1547.35" y="-1078.76" width="9.0" height="9.0" /><line x1="1562.35" x2="1597.02" y1="-1064.38" y2="-1064.38" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="1600.02" x2="1634.68" y1="-1064.38" y2="-1064.38" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="1637.68" x2="1672.35" y1="-1064.38" y2="-1064.38" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /></g>
+
+<g id="node_conduit" class="node" data-media="M,D" data-dimensions="O">
+<title>コンジット | 媒体: 本編 / Dungeons | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1582.45" y="-430.23" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#007c83">コンジット</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1521.95" y="-441.19" width="9.0" height="9.0" /><line x1="1536.95" x2="1580.95" y1="-426.81" y2="-426.81" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="1583.95" x2="1627.95" y1="-426.81" y2="-426.81" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /></g>
+
+<g id="node_monument" class="node" data-media="M,D" data-dimensions="O">
+<title>海底神殿 | 媒体: 本編 / Dungeons | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2252.37" y="-1045.23" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#007c83">海底神殿</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2200.87" y="-1056.19" width="9.0" height="9.0" /><line x1="2215.87" x2="2250.87" y1="-1041.81" y2="-1041.81" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="2253.87" x2="2288.87" y1="-1041.81" y2="-1041.81" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /></g>
+
+<g id="node_guardian" class="node" data-media="M,D" data-dimensions="O">
+<title>ガーディアン | 媒体: 本編 / Dungeons | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1995.23" y="-608.52" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#007c83">ガーディアン</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1925.73" y="-619.48" width="9.0" height="9.0" /><line x1="1940.73" x2="1993.73" y1="-605.10" y2="-605.10" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="1996.73" x2="2049.73" y1="-605.10" y2="-605.10" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /></g>
+
+<g id="node_shale" class="node" data-media="M" data-dimensions="O">
+<title>ソウルシェール | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2192.3" y="-863.72" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#007c83">ソウルシェール</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2112.8" y="-874.6800000000001" width="9.0" height="9.0" /><line x1="2126.30" x2="2258.30" y1="-860.30" y2="-860.30" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_ancient_main" class="node" data-media="M" data-dimensions="O">
+<title>古代都市（本編） | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2026.12" y="-1523.92" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#007c83">古代都市（本編）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1937.12" y="-1534.88" width="9.0" height="9.0" /><line x1="1950.62" x2="2101.62" y1="-1520.50" y2="-1520.50" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_corruption" class="node" data-media="D2" data-dimensions="O">
+<title>魂の汚染（Dungeons II） | 媒体: Dungeons II | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1264.82" y="-965.16" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#b44436">魂の汚染（Dungeons II）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1143.32" y="-976.12" width="9.0" height="9.0" /><line x1="1156.82" x2="1372.82" y1="-961.74" y2="-961.74" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /></g>
+
+<g id="node_trial" class="node" data-media="M" data-dimensions="O">
+<title>不吉な試練のスポナー | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1136.29" y="-2747.09" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#b44436">不吉な試練のスポナー</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1028.79" y="-2758.05" width="9.0" height="9.0" /><line x1="1042.29" x2="1230.29" y1="-2743.67" y2="-2743.67" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_storm" class="node" data-media="D2" data-dimensions="O">
+<title>Soul Storm／Storm Generator | 媒体: Dungeons II | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1079.36" y="-3342.44" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#b44436">Soul Storm／Storm Generator</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="934.8599999999999" y="-3353.4" width="9.0" height="9.0" /><line x1="948.36" x2="1210.36" y1="-3339.02" y2="-3339.02" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /></g>
+
+<g id="node_orb" class="node" data-media="D,F" data-dimensions="O,E">
+<title>支配のオーブ | 媒体: Dungeons / 映画 | 存在次元: オーバーワールド / エンド</title>
+<text text-anchor="middle" x="1053.34" y="-467.66" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#b44436">支配のオーブ</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="971.8399999999999" y="-478.62" width="9.0" height="9.0" /><polygon fill="#a384cf" class="dimension-marker" data-dimension="E" points="988.34,-478.62 992.84,-474.12 988.34,-469.62 983.84,-474.12" /><line x1="998.84" x2="1051.84" y1="-464.24" y2="-464.24" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="1054.84" x2="1107.84" y1="-464.24" y2="-464.24" stroke="#d43869" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="F" /></g>
+
+<g id="node_void" class="node" data-media="M,D,N" data-dimensions="E">
+<title>虚無・エンド | 媒体: 本編 / Dungeons / 公式小説 | 存在次元: エンド</title>
+<text text-anchor="middle" x="834.77" y="-17.8" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#b44436">虚無・エンド</text>
+<polygon fill="#a384cf" class="dimension-marker" data-dimension="E" points="769.27,-28.76 773.77,-24.26 769.27,-19.76 764.77,-24.26" /><line x1="779.77" x2="814.44" y1="-14.38" y2="-14.38" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="817.44" x2="852.10" y1="-14.38" y2="-14.38" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="855.10" x2="889.77" y1="-14.38" y2="-14.38" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_builders" class="node">
+<title>古代ビルダー文明（仮）</title>
+<text text-anchor="middle" x="1639.23" y="-1899.61" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="27.00" fill="#87551c">古代ビルダー文明（仮）</text>
+</g>
+
+<g id="node_settlers" class="node">
+<title>定住派（仮）</title>
+<text text-anchor="middle" x="1100.3" y="-2203.28" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">定住派（仮）</text>
+</g>
+
+<g id="node_mages" class="node">
+<title>魔術派（仮）</title>
+<text text-anchor="middle" x="1047.39" y="-1649.91" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">魔術派（仮）</text>
+</g>
+
+<g id="node_explorers" class="node">
+<title>探検派（仮）</title>
+<text text-anchor="middle" x="2100.35" y="-2480.83" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">探検派（仮）</text>
+</g>
+
+<g id="node_villagers" class="node" data-media="M,D,L,N" data-dimensions="O">
+<title>村人・聖職者 | 媒体: 本編 / Dungeons / Legends / 公式小説 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="501.99" y="-1919.63" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">村人・聖職者</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="431.99" y="-1930.5900000000001" width="9.0" height="9.0" /><line x1="446.62" x2="472.61" y1="-1916.21" y2="-1916.21" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="474.87" x2="500.86" y1="-1916.21" y2="-1916.21" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="503.12" x2="529.11" y1="-1916.21" y2="-1916.21" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /><line x1="531.37" x2="557.36" y1="-1916.21" y2="-1916.21" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_illagers" class="node" data-media="M,D,D2,L" data-dimensions="O">
+<title>イリジャー | 媒体: 本編 / Dungeons / Dungeons II / Legends | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="863.14" y="-1235.09" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">イリジャー</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="802.64" y="-1246.05" width="9.0" height="9.0" /><line x1="817.08" x2="838.70" y1="-1231.67" y2="-1231.67" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="840.58" x2="862.20" y1="-1231.67" y2="-1231.67" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="864.08" x2="885.70" y1="-1231.67" y2="-1231.67" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /><line x1="887.58" x2="909.20" y1="-1231.67" y2="-1231.67" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /></g>
+
+<g id="node_adventurers" class="node" data-media="N" data-dimensions="O">
+<title>冒険者 | 媒体: 公式小説 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2484.36" y="-2836.48" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">冒険者</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2442.36" y="-2847.44" width="9.0" height="9.0" /><line x1="2455.86" x2="2512.86" y1="-2833.06" y2="-2833.06" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_farming" class="node" data-media="M" data-dimensions="O">
+<title>農業・交易 | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="803.09" y="-2630.82" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">農業・交易</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="742.59" y="-2641.78" width="9.0" height="9.0" /><line x1="756.09" x2="850.09" y1="-2627.40" y2="-2627.40" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_architecture" class="node" data-media="M,D,D2,L,F,N" data-dimensions="O,N,E,S">
+<title>建築技術 | 媒体: 本編 / Dungeons / Dungeons II / Legends / 映画 / 公式小説 | 存在次元: オーバーワールド / ネザー / エンド / シフト</title>
+<text text-anchor="middle" x="1817.83" y="-2448.29" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">建築技術</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1730.33" y="-2459.25" width="9.0" height="9.0" /><polygon fill="#dc493a" class="dimension-marker" data-dimension="N" points="1746.83,-2459.25 1751.33,-2450.25 1742.33,-2450.25" /><polygon fill="#a384cf" class="dimension-marker" data-dimension="E" points="1758.83,-2459.25 1763.33,-2454.75 1758.83,-2450.25 1754.33,-2454.75" /><circle fill="#169caa" class="dimension-marker" data-dimension="S" cx="1770.83" cy="-2454.75" r="4.5" /><line x1="1780.34" x2="1791.99" y1="-2444.87" y2="-2444.87" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="1793.00" x2="1804.66" y1="-2444.87" y2="-2444.87" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="1805.67" x2="1817.32" y1="-2444.87" y2="-2444.87" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /><line x1="1818.34" x2="1829.99" y1="-2444.87" y2="-2444.87" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /><line x1="1831.00" x2="1842.66" y1="-2444.87" y2="-2444.87" stroke="#d43869" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="F" /><line x1="1843.67" x2="1855.32" y1="-2444.87" y2="-2444.87" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_redstone" class="node" data-media="M,D,N" data-dimensions="O">
+<title>レッドストーン | 媒体: 本編 / Dungeons / 公式小説 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1712.32" y="-2315.18" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">レッドストーン</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1633.32" y="-2326.14" width="9.0" height="9.0" /><line x1="1648.32" x2="1688.99" y1="-2311.76" y2="-2311.76" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="1691.99" x2="1732.65" y1="-2311.76" y2="-2311.76" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="1735.65" x2="1776.32" y1="-2311.76" y2="-2311.76" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_magic" class="node" data-media="M,D,D2,L,F,N" data-dimensions="O">
+<title>召喚・魔術 | 媒体: 本編 / Dungeons / Dungeons II / Legends / 映画 / 公式小説 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="565.39" y="-1635.86" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">召喚・魔術</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="504.89" y="-1646.82" width="9.0" height="9.0" /><line x1="519.02" x2="533.43" y1="-1632.44" y2="-1632.44" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="534.68" x2="549.10" y1="-1632.44" y2="-1632.44" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="550.35" x2="564.76" y1="-1632.44" y2="-1632.44" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /><line x1="566.02" x2="580.43" y1="-1632.44" y2="-1632.44" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /><line x1="581.68" x2="596.10" y1="-1632.44" y2="-1632.44" stroke="#d43869" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="F" /><line x1="597.35" x2="611.76" y1="-1632.44" y2="-1632.44" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_navigation" class="node" data-media="M,N" data-dimensions="O">
+<title>航海・地図 | 媒体: 本編 / 公式小説 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2220.72" y="-2950.09" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">航海・地図</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2160.22" y="-2961.05" width="9.0" height="9.0" /><line x1="2175.22" x2="2219.22" y1="-2946.67" y2="-2946.67" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="2222.22" x2="2266.22" y1="-2946.67" y2="-2946.67" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_mansion" class="node" data-media="M,F" data-dimensions="O">
+<title>森の洋館・前哨基地 | 媒体: 本編 / 映画 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="350.32" y="-940.61" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">森の洋館・前哨基地</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="252.32" y="-951.57" width="9.0" height="9.0" /><line x1="267.32" x2="348.82" y1="-937.19" y2="-937.19" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="351.82" x2="433.32" y1="-937.19" y2="-937.19" stroke="#d43869" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="F" /></g>
+
+<g id="node_village" class="node" data-media="M,D,L,N" data-dimensions="O">
+<title>村 | 媒体: 本編 / Dungeons / Legends / 公式小説 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1107.81" y="-1117.82" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">村</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1084.81" y="-1128.78" width="9.0" height="9.0" /><line x1="1098.50" x2="1102.87" y1="-1114.40" y2="-1114.40" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="1103.25" x2="1107.62" y1="-1114.40" y2="-1114.40" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="1108.00" x2="1112.37" y1="-1114.40" y2="-1114.40" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /><line x1="1112.75" x2="1117.12" y1="-1114.40" y2="-1114.40" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_spawner_main" class="node" data-media="M" data-dimensions="O,N">
+<title>スポナー（本編） | 媒体: 本編 | 存在次元: オーバーワールド / ネザー</title>
+<text text-anchor="middle" x="1474.13" y="-2182.12" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">スポナー（本編）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1373.13" y="-2193.08" width="9.0" height="9.0" /><polygon fill="#dc493a" class="dimension-marker" data-dimension="N" points="1389.63,-2193.08 1394.13,-2184.08 1385.13,-2184.08" /><line x1="1398.63" x2="1549.63" y1="-2178.70" y2="-2178.70" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_golem_main" class="node" data-media="M" data-dimensions="O">
+<title>ゴーレム（本編） | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="574.14" y="-2436.87" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">ゴーレム（本編）</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="485.14" y="-2447.83" width="9.0" height="9.0" /><line x1="498.64" x2="649.64" y1="-2433.45" y2="-2433.45" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_knowledge" class="node">
+<title>技術の伝承・再発見</title>
+<text text-anchor="middle" x="1206.29" y="-1783.04" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">技術の伝承・再発見</text>
+</g>
+
+<g id="node_pigs" class="node" data-media="M,L" data-dimensions="O">
+<title>ブタ | 媒体: 本編 / Legends | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2146.8" y="-2234.96" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">ブタ</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2114.3" y="-2245.92" width="9.0" height="9.0" /><line x1="2128.56" x2="2146.04" y1="-2231.54" y2="-2231.54" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="2147.56" x2="2165.04" y1="-2231.54" y2="-2231.54" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /></g>
+
+<g id="node_piglin" class="node" data-media="M,D,L,F" data-dimensions="N,O" data-origin-dimensions="N" data-origin-note="O/W: §2 H44（ホグリンの原産・ピグリンのネザー文明）">
+<title>ピグリン・ホグリン | 媒体: 本編 / Dungeons / Legends / 映画 | 存在次元: ネザー / オーバーワールド | 起源資料: O/W: §2 H44（ホグリンの原産・ピグリンのネザー文明）</title>
+<text text-anchor="middle" x="2815.75" y="-2283.6" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#87551c">ピグリン・ホグリン</text>
+<polygon fill="#dc493a" class="dimension-marker" data-dimension="N" points="2710.25,-2294.56 2714.75,-2285.56 2705.75,-2285.56" /><rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2717.75" y="-2294.56" width="9.0" height="9.0" /><line x1="2732.75" x2="2772.00" y1="-2280.18" y2="-2280.18" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="2775.00" x2="2814.25" y1="-2280.18" y2="-2280.18" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="2817.25" x2="2856.50" y1="-2280.18" y2="-2280.18" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /><line x1="2859.50" x2="2898.75" y1="-2280.18" y2="-2280.18" stroke="#d43869" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="F" /></g>
+
+<g id="node_network" class="node">
+<title>四次元交流圏（仮）</title>
+<text text-anchor="middle" x="2396.47" y="-1633.96" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="22.00" fill="#475569">四次元交流圏（仮）</text>
+</g>
+
+<g id="node_overworld" class="node" data-media="M,D,D2,L,F,N" data-dimensions="O">
+<title>オーバーワールド | 媒体: 本編 / Dungeons / Dungeons II / Legends / 映画 / 公式小説 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2365.29" y="-1437.61" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">オーバーワールド</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2276.29" y="-1448.57" width="9.0" height="9.0" /><line x1="2290.80" x2="2313.95" y1="-1434.19" y2="-1434.19" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="2315.96" x2="2339.12" y1="-1434.19" y2="-1434.19" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="2341.13" x2="2364.28" y1="-1434.19" y2="-1434.19" stroke="#a536dc" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D2" /><line x1="2366.30" x2="2389.45" y1="-1434.19" y2="-1434.19" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /><line x1="2391.46" x2="2414.62" y1="-1434.19" y2="-1434.19" stroke="#d43869" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="F" /><line x1="2416.63" x2="2439.78" y1="-1434.19" y2="-1434.19" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_nether" class="node" data-media="M,D,L,F,N" data-dimensions="N">
+<title>ネザー | 媒体: 本編 / Dungeons / Legends / 映画 / 公式小説 | 存在次元: ネザー</title>
+<text text-anchor="middle" x="2866.7" y="-1767.26" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">ネザー</text>
+<polygon fill="#dc493a" class="dimension-marker" data-dimension="N" points="2829.20,-1778.22 2833.70,-1769.22 2824.70,-1769.22" /><line x1="2838.66" x2="2849.14" y1="-1763.84" y2="-1763.84" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="2850.06" x2="2860.54" y1="-1763.84" y2="-1763.84" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="2861.46" x2="2871.94" y1="-1763.84" y2="-1763.84" stroke="#168dc5" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="L" /><line x1="2872.86" x2="2883.34" y1="-1763.84" y2="-1763.84" stroke="#d43869" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="F" /><line x1="2884.26" x2="2894.74" y1="-1763.84" y2="-1763.84" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_end" class="node" data-media="M,D,N" data-dimensions="E">
+<title>エンド | 媒体: 本編 / Dungeons / 公式小説 | 存在次元: エンド</title>
+<text text-anchor="middle" x="2725.97" y="-1979.05" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">エンド</text>
+<polygon fill="#a384cf" class="dimension-marker" data-dimension="E" points="2688.47,-1990.01 2692.97,-1985.51 2688.47,-1981.01 2683.97,-1985.51" /><line x1="2698.23" x2="2715.71" y1="-1975.63" y2="-1975.63" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="2717.23" x2="2734.71" y1="-1975.63" y2="-1975.63" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /><line x1="2736.23" x2="2753.71" y1="-1975.63" y2="-1975.63" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_stronghold" class="node" data-media="M,D" data-dimensions="O">
+<title>要塞 | 媒体: 本編 / Dungeons | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1995.29" y="-1893.75" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">要塞</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1962.79" y="-1904.71" width="9.0" height="9.0" /><line x1="1977.05" x2="1994.53" y1="-1890.33" y2="-1890.33" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="1996.05" x2="2013.53" y1="-1890.33" y2="-1890.33" stroke="#e07a19" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="D" /></g>
+
+<g id="node_endcity" class="node" data-media="M" data-dimensions="E">
+<title>エンドシティ・船 | 媒体: 本編 | 存在次元: エンド</title>
+<text text-anchor="middle" x="3182.17" y="-2306.76" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">エンドシティ・船</text>
+<polygon fill="#a384cf" class="dimension-marker" data-dimension="E" points="3098.17,-2317.72 3102.67,-2313.22 3098.17,-2308.72 3093.67,-2313.22" /><line x1="3107.17" x2="3257.17" y1="-2303.34" y2="-2303.34" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_ruined" class="node" data-media="M" data-dimensions="O,N">
+<title>荒廃したポータル | 媒体: 本編 | 存在次元: オーバーワールド / ネザー</title>
+<text text-anchor="middle" x="3043.67" y="-1316.64" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">荒廃したポータル</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2942.67" y="-1327.6000000000001" width="9.0" height="9.0" /><polygon fill="#dc493a" class="dimension-marker" data-dimension="N" points="2959.17,-1327.60 2963.67,-1318.60 2954.67,-1318.60" /><line x1="2968.17" x2="3119.17" y1="-1313.22" y2="-1313.22" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_nether_ruins" class="node" data-media="M,N" data-dimensions="N">
+<title>ネザー要塞・砦の遺跡 | 媒体: 本編 / 公式小説 | 存在次元: ネザー</title>
+<text text-anchor="middle" x="3451.51" y="-1659.62" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">ネザー要塞・砦の遺跡</text>
+<polygon fill="#dc493a" class="dimension-marker" data-dimension="N" points="3348.51,-1670.58 3353.01,-1661.58 3344.01,-1661.58" /><line x1="3359.01" x2="3450.01" y1="-1656.20" y2="-1656.20" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /><line x1="3453.01" x2="3544.01" y1="-1656.20" y2="-1656.20" stroke="#9b6a29" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="N" /></g>
+
+<g id="node_shipwreck" class="node" data-media="M" data-dimensions="O">
+<title>沈没船 | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2532.82" y="-2112.13" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">沈没船</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2490.82" y="-2123.09" width="9.0" height="9.0" /><line x1="2504.32" x2="2561.32" y1="-2108.71" y2="-2108.71" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_camp" class="node" data-media="M" data-dimensions="O">
+<title>放棄されたキャンプ | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1901.15" y="-2996.27" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">放棄されたキャンプ</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1803.15" y="-3007.23" width="9.0" height="9.0" /><line x1="1816.65" x2="1985.65" y1="-2992.85" y2="-2992.85" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_trail" class="node" data-media="M" data-dimensions="O">
+<title>旅路の遺跡・廃坑 | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="2704.58" y="-1385.32" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">旅路の遺跡・廃坑</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="2615.58" y="-1396.28" width="9.0" height="9.0" /><line x1="2629.08" x2="2780.08" y1="-1381.90" y2="-1381.90" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_searuins" class="node" data-media="M" data-dimensions="O">
+<title>海底遺跡 | 媒体: 本編 | 存在次元: オーバーワールド</title>
+<text text-anchor="middle" x="1900.12" y="-966.03" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="19.00" fill="#475569">海底遺跡</text>
+<rect fill="#43a047" class="dimension-marker" data-dimension="O" x="1848.62" y="-976.99" width="9.0" height="9.0" /><line x1="1862.12" x2="1938.12" y1="-962.61" y2="-962.61" stroke="#238636" stroke-width="2.8" stroke-linecap="round" class="media-underline" data-medium="M" /></g>
+
+<g id="node_disaster" class="node">
+<title>古代の時空災害（仮）</title>
+<text text-anchor="middle" x="1727.64" y="-1379.62" font-family="Noto Sans CJK JP, Hiragino Sans, Yu Gothic, sans-serif" font-size="22.00" fill="#475569">古代の時空災害（仮）</text>
+</g>
+</g>
+</svg>
