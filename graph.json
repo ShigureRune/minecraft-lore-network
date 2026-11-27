@@ -1,6 +1,6 @@
 {
-  "version": "1.64",
-  "loreVersion": "3.88",
+  "version": "1.65",
+  "loreVersion": "3.89",
   "nodes": [
     {
       "id": "soul",
@@ -4004,7 +4004,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "雪・鉄・銅ゴーレムのプレイヤー生成に使用。ジャック・オ・ランタンも可。スノーゴーレムは生成後に取り外しても活動し、鉄は村でも生成、銅は像から新しいカボチャなしで復帰。初回起動触媒・個体情報付与は仮説。"
+      "originNote": "雪・鉄・銅ゴーレムのプレイヤー生成に使用。ジャック・オ・ランタンも可。スノーゴーレムは生成後に取り外しても活動し、鉄は村でも生成、銅は像から新しいカボチャなしで復帰。初回起動触媒・個体情報付与は仮説。 洋館の輪状部屋・前哨基地のカカシに存在。村の山にも版別の顔付きブロック。用途・実験・知識の伝承は未証明。"
     }
   ],
   "edges": [
@@ -9067,6 +9067,51 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/en-us/article/the-hero-minecraft-legends",
       "researchSection": "v3.88 §15.120"
+    },
+    {
+      "id": "edge_r389_1",
+      "source": "mansion",
+      "target": "carved_pumpkin_main",
+      "label": "洋館1x1_a2に顔付きカボチャ1個・栽培室は別（Wiki構造一覧）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+      "researchSection": "v3.89 §15.121"
+    },
+    {
+      "id": "edge_r389_2",
+      "source": "outpost",
+      "target": "carved_pumpkin_main",
+      "label": "feature_targetsに顔付きカボチャ2個（Wiki構造一覧）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Pillager_Outpost",
+      "researchSection": "v3.89 §15.121"
+    },
+    {
+      "id": "edge_r389_3",
+      "source": "outpost",
+      "target": "golem_main",
+      "label": "feature_cage2に鉄ゴーレム（捕獲経緯・目的不明）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Pillager_Outpost",
+      "researchSection": "v3.89 §15.121"
+    },
+    {
+      "id": "edge_r389_4",
+      "source": "village",
+      "target": "carved_pumpkin_main",
+      "label": "村のカボチャの山：BE顔付き／JEランタン（Wiki、イリジャー固有説の対照）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Pile",
+      "researchSection": "v3.89 §15.121"
+    },
+    {
+      "id": "edge_r389_5",
+      "source": "illagers",
+      "target": "golem_main",
+      "label": "H33/H56 カボチャ文化・ゴーレム収容と生成知識の比較候補（知識・実験目的未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Pillager_Outpost",
+      "researchSection": "v3.89 §15.121"
     }
   ]
 }
