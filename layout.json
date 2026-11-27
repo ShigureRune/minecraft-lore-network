@@ -1,0 +1,8542 @@
+{
+  "version": "1.06",
+  "viewBox": [
+    0,
+    0,
+    5006,
+    4642
+  ],
+  "nodes": {
+    "builders": {
+      "x": 2137,
+      "y": 2031,
+      "width": 275,
+      "height": 53
+    },
+    "orb": {
+      "x": 1392.9,
+      "y": 3921.2,
+      "width": 190,
+      "height": 53
+    },
+    "ancient_main": {
+      "x": 2628.3,
+      "y": 2526.9,
+      "width": 221,
+      "height": 53
+    },
+    "soul": {
+      "x": 1750.5,
+      "y": 2539.4,
+      "width": 258.1,
+      "height": 53
+    },
+    "corruption": {
+      "x": 1661.5,
+      "y": 3264.5,
+      "width": 331.9,
+      "height": 53
+    },
+    "explorer_map": {
+      "x": 2635.8,
+      "y": 756.1,
+      "width": 175,
+      "height": 53
+    },
+    "explorers": {
+      "x": 2722.6,
+      "y": 1263.8,
+      "width": 160,
+      "height": 53
+    },
+    "overworld": {
+      "x": 3059.1,
+      "y": 2640.9,
+      "width": 221,
+      "height": 53
+    },
+    "xp": {
+      "x": 1625.8,
+      "y": 1836.9,
+      "width": 228,
+      "height": 53
+    },
+    "bottle": {
+      "x": 840.6,
+      "y": 1579.5,
+      "width": 152,
+      "height": 53
+    },
+    "disaster": {
+      "x": 2249.3,
+      "y": 2717.4,
+      "width": 252,
+      "height": 53
+    },
+    "end": {
+      "x": 3517.1,
+      "y": 1926.2,
+      "width": 106,
+      "height": 53
+    },
+    "illagers": {
+      "x": 1151.4,
+      "y": 2908.2,
+      "width": 152,
+      "height": 53
+    },
+    "network": {
+      "x": 3098.7,
+      "y": 2381.7,
+      "width": 229,
+      "height": 53
+    },
+    "note": {
+      "x": 2959.6,
+      "y": 1926.2,
+      "width": 244,
+      "height": 53
+    },
+    "rift": {
+      "x": 2890.8,
+      "y": 2816.6,
+      "width": 224,
+      "height": 53
+    },
+    "sift": {
+      "x": 3294.2,
+      "y": 3116.4,
+      "width": 209,
+      "height": 53
+    },
+    "monument": {
+      "x": 2915.7,
+      "y": 3158.8,
+      "width": 129,
+      "height": 53
+    },
+    "nether": {
+      "x": 3695.9,
+      "y": 2205.7,
+      "width": 106,
+      "height": 53
+    },
+    "sculk": {
+      "x": 3584.4,
+      "y": 3782,
+      "width": 144,
+      "height": 53
+    },
+    "settlers": {
+      "x": 1452.5,
+      "y": 1630.2,
+      "width": 160,
+      "height": 53
+    },
+    "soulblock": {
+      "x": 1040.5,
+      "y": 2732.6,
+      "width": 194.6,
+      "height": 53
+    },
+    "stronghold": {
+      "x": 2589.2,
+      "y": 2038.8,
+      "width": 87,
+      "height": 53
+    },
+    "void": {
+      "x": 1115.3,
+      "y": 4515,
+      "width": 175,
+      "height": 53
+    },
+    "allay": {
+      "x": 995.5,
+      "y": 2379.1,
+      "width": 106,
+      "height": 53
+    },
+    "conduit": {
+      "x": 2064.9,
+      "y": 3970.6,
+      "width": 152,
+      "height": 53
+    },
+    "dried_ghast": {
+      "x": 4110.7,
+      "y": 2321.2,
+      "width": 198,
+      "height": 53
+    },
+    "enchant": {
+      "x": 1920.3,
+      "y": 736.7,
+      "width": 175,
+      "height": 53
+    },
+    "enderlings": {
+      "x": 4254.4,
+      "y": 2776.5,
+      "width": 198,
+      "height": 53
+    },
+    "firsts": {
+      "x": 3641.8,
+      "y": 2381.6,
+      "width": 268.4,
+      "height": 53
+    },
+    "flames": {
+      "x": 1122.2,
+      "y": 2074.7,
+      "width": 274.8,
+      "height": 53
+    },
+    "knowledge": {
+      "x": 1587.2,
+      "y": 2184.9,
+      "width": 229,
+      "height": 53
+    },
+    "mages": {
+      "x": 1385.4,
+      "y": 2360.6,
+      "width": 160,
+      "height": 53
+    },
+    "material_processing": {
+      "x": 2100.4,
+      "y": 1014.4,
+      "width": 367,
+      "height": 53
+    },
+    "piglin": {
+      "x": 3631.2,
+      "y": 1524.2,
+      "width": 259,
+      "height": 53
+    },
+    "refugees": {
+      "x": 2188.5,
+      "y": 2953.3,
+      "width": 229,
+      "height": 53
+    },
+    "seal_gate": {
+      "x": 3091.9,
+      "y": 2527,
+      "width": 367,
+      "height": 53
+    },
+    "shale": {
+      "x": 2839.4,
+      "y": 3398.4,
+      "width": 198,
+      "height": 53
+    },
+    "wither": {
+      "x": 2441.7,
+      "y": 2832.9,
+      "width": 114,
+      "height": 53
+    },
+    "amethyst": {
+      "x": 3152.1,
+      "y": 2041.7,
+      "width": 152,
+      "height": 53
+    },
+    "council": {
+      "x": 958.9,
+      "y": 3023.7,
+      "width": 322.2,
+      "height": 53
+    },
+    "disc_teaser": {
+      "x": 3209,
+      "y": 3693.2,
+      "width": 252,
+      "height": 53
+    },
+    "disc5": {
+      "x": 2435.9,
+      "y": 2411.5,
+      "width": 143.3,
+      "height": 53
+    },
+    "eaten": {
+      "x": 2045.8,
+      "y": 2839.5,
+      "width": 254.3,
+      "height": 53
+    },
+    "echo_shard_m": {
+      "x": 2739.4,
+      "y": 2727,
+      "width": 244,
+      "height": 53
+    },
+    "end_crystal": {
+      "x": 3709.6,
+      "y": 2041.7,
+      "width": 221,
+      "height": 53
+    },
+    "end_ring": {
+      "x": 3853.7,
+      "y": 1926.2,
+      "width": 336,
+      "height": 53
+    },
+    "ender_voice": {
+      "x": 3485.9,
+      "y": 688.9,
+      "width": 298,
+      "height": 53
+    },
+    "endermite": {
+      "x": 3517.2,
+      "y": 1695.1,
+      "width": 213,
+      "height": 53
+    },
+    "evoker": {
+      "x": 1208.8,
+      "y": 3131.3,
+      "width": 175,
+      "height": 53
+    },
+    "lost_adaptation": {
+      "x": 4024,
+      "y": 992.1,
+      "width": 321,
+      "height": 53
+    },
+    "ocean_civil": {
+      "x": 2976.5,
+      "y": 2923,
+      "width": 183,
+      "height": 53
+    },
+    "relic_relocation": {
+      "x": 3210.4,
+      "y": 550.1,
+      "width": 298,
+      "height": 53
+    },
+    "ruined": {
+      "x": 3920.6,
+      "y": 2800.6,
+      "width": 236,
+      "height": 53
+    },
+    "seer": {
+      "x": 3438.7,
+      "y": 1408.7,
+      "width": 106,
+      "height": 53
+    },
+    "shipwreck": {
+      "x": 3271.8,
+      "y": 1750.5,
+      "width": 106,
+      "height": 53
+    },
+    "shulker": {
+      "x": 4289,
+      "y": 1609,
+      "width": 152,
+      "height": 53
+    },
+    "singer": {
+      "x": 309.7,
+      "y": 2944,
+      "width": 303.2,
+      "height": 53
+    },
+    "spawner_main": {
+      "x": 1927.3,
+      "y": 1658.1,
+      "width": 236,
+      "height": 53
+    },
+    "trial": {
+      "x": 1498.3,
+      "y": 912.4,
+      "width": 267,
+      "height": 53
+    },
+    "well": {
+      "x": 3705.2,
+      "y": 3281.1,
+      "width": 129,
+      "height": 53
+    },
+    "wither_corrupt": {
+      "x": 2634.2,
+      "y": 2948.4,
+      "width": 252,
+      "height": 53
+    },
+    "anchor": {
+      "x": 4305.6,
+      "y": 3031.6,
+      "width": 244,
+      "height": 53
+    },
+    "architecture": {
+      "x": 2363.8,
+      "y": 1306.8,
+      "width": 174,
+      "height": 53
+    },
+    "beacon": {
+      "x": 2721.5,
+      "y": 3056,
+      "width": 114,
+      "height": 53
+    },
+    "castle_redstone": {
+      "x": 2422.3,
+      "y": 1598,
+      "width": 342.9,
+      "height": 53
+    },
+    "crying_obsidian": {
+      "x": 4113.1,
+      "y": 2916.1,
+      "width": 167,
+      "height": 53
+    },
+    "earth_crystal": {
+      "x": 1450.4,
+      "y": 4144.4,
+      "width": 328,
+      "height": 53
+    },
+    "earth_portal": {
+      "x": 1642.9,
+      "y": 4259.9,
+      "width": 315.1,
+      "height": 53
+    },
+    "echo_shard_d": {
+      "x": 1719,
+      "y": 3487.7,
+      "width": 354.9,
+      "height": 53
+    },
+    "enchanter_journal": {
+      "x": 968.2,
+      "y": 1793.6,
+      "width": 374,
+      "height": 53
+    },
+    "end_wilds": {
+      "x": 3282.2,
+      "y": 1926.2,
+      "width": 165.3,
+      "height": 53
+    },
+    "ghast_tear": {
+      "x": 3918.1,
+      "y": 2205.7,
+      "width": 152,
+      "height": 53
+    },
+    "grand_illusioner": {
+      "x": 667.4,
+      "y": 3198.6,
+      "width": 265.2,
+      "height": 53
+    },
+    "hunt": {
+      "x": 2990.4,
+      "y": 210.7,
+      "width": 289.1,
+      "height": 53
+    },
+    "magic": {
+      "x": 773.2,
+      "y": 2379.2,
+      "width": 152,
+      "height": 53
+    },
+    "mansion": {
+      "x": 500.1,
+      "y": 3296.9,
+      "width": 244,
+      "height": 53
+    },
+    "movie_landscape": {
+      "x": 1860.2,
+      "y": 1533,
+      "width": 320.1,
+      "height": 53
+    },
+    "nameless_one": {
+      "x": 2172.3,
+      "y": 2309.8,
+      "width": 152,
+      "height": 53
+    },
+    "orb_dark": {
+      "x": 1332.1,
+      "y": 3685.3,
+      "width": 252,
+      "height": 53
+    },
+    "orb_healthy": {
+      "x": 1189.4,
+      "y": 3799.1,
+      "width": 229,
+      "height": 53
+    },
+    "prismarine": {
+      "x": 2109.2,
+      "y": 3129,
+      "width": 175,
+      "height": 53
+    },
+    "redstone": {
+      "x": 2229.8,
+      "y": 1482.5,
+      "width": 198,
+      "height": 53
+    },
+    "redstone_golem": {
+      "x": 1982.9,
+      "y": 1225.8,
+      "width": 290,
+      "height": 53
+    },
+    "rift_red": {
+      "x": 667.4,
+      "y": 3442.8,
+      "width": 378,
+      "height": 53
+    },
+    "runes": {
+      "x": 3240.5,
+      "y": 1045.7,
+      "width": 175,
+      "height": 53
+    },
+    "sculk_chiseled": {
+      "x": 2635.9,
+      "y": 3520.5,
+      "width": 290,
+      "height": 53
+    },
+    "searuins": {
+      "x": 2468.3,
+      "y": 3263.4,
+      "width": 129,
+      "height": 53
+    },
+    "shale_code": {
+      "x": 3042.8,
+      "y": 3520.5,
+      "width": 254.3,
+      "height": 53
+    },
+    "soul_sand": {
+      "x": 3864.1,
+      "y": 2508.6,
+      "width": 175,
+      "height": 53
+    },
+    "trail": {
+      "x": 3490,
+      "y": 2709.9,
+      "width": 221,
+      "height": 53
+    },
+    "villagers": {
+      "x": 692.7,
+      "y": 2004.6,
+      "width": 175,
+      "height": 53
+    },
+    "warden": {
+      "x": 3819.3,
+      "y": 3782,
+      "width": 152,
+      "height": 53
+    },
+    "woodland_mansion_d": {
+      "x": 382.6,
+      "y": 3085.5,
+      "width": 425.2,
+      "height": 53
+    },
+    "adventurers": {
+      "x": 3210.3,
+      "y": 794.4,
+      "width": 106,
+      "height": 53
+    },
+    "ancient": {
+      "x": 2466.6,
+      "y": 1770.6,
+      "width": 331.9,
+      "height": 53
+    },
+    "ancient_ecology": {
+      "x": 865.7,
+      "y": 1896.7,
+      "width": 275,
+      "height": 53
+    },
+    "arch_illager": {
+      "x": 1596.4,
+      "y": 3799.1,
+      "width": 323.1,
+      "height": 53
+    },
+    "calibrated_sensor": {
+      "x": 3776.9,
+      "y": 3897.5,
+      "width": 336,
+      "height": 53
+    },
+    "camp": {
+      "x": 2469.6,
+      "y": 583.4,
+      "width": 244,
+      "height": 53
+    },
+    "copper_monstrosity": {
+      "x": 1127.6,
+      "y": 3446.9,
+      "width": 293.7,
+      "height": 53
+    },
+    "corrupt_beacon": {
+      "x": 1907.7,
+      "y": 2702.8,
+      "width": 221,
+      "height": 53
+    },
+    "creeper": {
+      "x": 2119.8,
+      "y": 1773.6,
+      "width": 152,
+      "height": 53
+    },
+    "deep_sift": {
+      "x": 3497.6,
+      "y": 3482.7,
+      "width": 390,
+      "height": 53
+    },
+    "dragon": {
+      "x": 3652.1,
+      "y": 1818.5,
+      "width": 221,
+      "height": 53
+    },
+    "dragon_head": {
+      "x": 4001.3,
+      "y": 1818.5,
+      "width": 190,
+      "height": 53
+    },
+    "dragon_song": {
+      "x": 3652.1,
+      "y": 861.5,
+      "width": 428,
+      "height": 53
+    },
+    "endcity": {
+      "x": 4096.5,
+      "y": 1493.6,
+      "width": 221,
+      "height": 53
+    },
+    "ender_eye": {
+      "x": 2824.1,
+      "y": 2038.7,
+      "width": 175,
+      "height": 53
+    },
+    "enderman": {
+      "x": 4075.4,
+      "y": 2081.6,
+      "width": 205,
+      "height": 53
+    },
+    "first_song": {
+      "x": 4752,
+      "y": 2072.4,
+      "width": 306.6,
+      "height": 53
+    },
+    "frostbite": {
+      "x": 1774.6,
+      "y": 3036,
+      "width": 257.3,
+      "height": 53
+    },
+    "glowstone": {
+      "x": 4498,
+      "y": 3147.1,
+      "width": 198,
+      "height": 53
+    },
+    "golem_main": {
+      "x": 784.3,
+      "y": 1321.9,
+      "width": 221,
+      "height": 53
+    },
+    "great_darkening": {
+      "x": 3381.2,
+      "y": 1185.6,
+      "width": 342.9,
+      "height": 53
+    },
+    "grindstone": {
+      "x": 2155.2,
+      "y": 736.7,
+      "width": 87,
+      "height": 53
+    },
+    "guardian": {
+      "x": 2589.1,
+      "y": 3735.3,
+      "width": 175,
+      "height": 53
+    },
+    "heart_ender": {
+      "x": 1585.4,
+      "y": 4036.7,
+      "width": 236.6,
+      "height": 53
+    },
+    "humblers": {
+      "x": 3294.2,
+      "y": 3360.6,
+      "width": 468.9,
+      "height": 53
+    },
+    "illageralt": {
+      "x": 3240.5,
+      "y": 1289.9,
+      "width": 164.6,
+      "height": 53
+    },
+    "infected": {
+      "x": 2032.4,
+      "y": 1926.2,
+      "width": 296.2,
+      "height": 53
+    },
+    "journey_city": {
+      "x": 3909.7,
+      "y": 4132.6,
+      "width": 499,
+      "height": 53
+    },
+    "knowledge_host": {
+      "x": 4246,
+      "y": 3497.2,
+      "width": 311.2,
+      "height": 53
+    },
+    "launcher_arg": {
+      "x": 2496,
+      "y": 1926.2,
+      "width": 317.8,
+      "height": 53
+    },
+    "lost_recipe": {
+      "x": 1790.6,
+      "y": 2307.1,
+      "width": 229,
+      "height": 53
+    },
+    "malgosha": {
+      "x": 3573.7,
+      "y": 1301.1,
+      "width": 259,
+      "height": 53
+    },
+    "nameless_kingdom": {
+      "x": 2329.5,
+      "y": 2146.5,
+      "width": 175,
+      "height": 53
+    },
+    "nether_ruins": {
+      "x": 4438.6,
+      "y": 2347.8,
+      "width": 267,
+      "height": 53
+    },
+    "nether_star": {
+      "x": 2499.3,
+      "y": 3056,
+      "width": 160,
+      "height": 53
+    },
+    "nether_wart": {
+      "x": 3933.6,
+      "y": 1342.7,
+      "width": 198,
+      "height": 53
+    },
+    "night_beacon": {
+      "x": 3281.6,
+      "y": 1572,
+      "width": 198,
+      "height": 53
+    },
+    "obsidian": {
+      "x": 1193,
+      "y": 302.2,
+      "width": 228,
+      "height": 53
+    },
+    "ominous": {
+      "x": 537.7,
+      "y": 1016,
+      "width": 129,
+      "height": 53
+    },
+    "otherside": {
+      "x": 2781.6,
+      "y": 2154.2,
+      "width": 303.3,
+      "height": 53
+    },
+    "outpost": {
+      "x": 1354.9,
+      "y": 2786.1,
+      "width": 244,
+      "height": 53
+    },
+    "piglin_invasion": {
+      "x": 2975.1,
+      "y": 1408.7,
+      "width": 389.8,
+      "height": 53
+    },
+    "pigs": {
+      "x": 2781.6,
+      "y": 1588.4,
+      "width": 87,
+      "height": 53
+    },
+    "points": {
+      "x": 2260.9,
+      "y": 135.8,
+      "width": 252,
+      "height": 53
+    },
+    "prime_enchanter": {
+      "x": 766.4,
+      "y": 2908.2,
+      "width": 250.9,
+      "height": 53
+    },
+    "redstone_mines": {
+      "x": 2026.3,
+      "y": 1360.4,
+      "width": 236.6,
+      "height": 53
+    },
+    "relic": {
+      "x": 3601.1,
+      "y": 2909.9,
+      "width": 246.3,
+      "height": 53
+    },
+    "return_piglins": {
+      "x": 4051.1,
+      "y": 1131.2,
+      "width": 413.5,
+      "height": 53
+    },
+    "sculk_catalyst": {
+      "x": 3641.9,
+      "y": 4005.1,
+      "width": 244,
+      "height": 53
+    },
+    "sea_heart": {
+      "x": 2299.9,
+      "y": 3970.7,
+      "width": 129,
+      "height": 53
+    },
+    "shrieker": {
+      "x": 3615.9,
+      "y": 3659.9,
+      "width": 267,
+      "height": 53
+    },
+    "silverfish": {
+      "x": 2646.7,
+      "y": 2261.9,
+      "width": 244,
+      "height": 53
+    },
+    "soul_sand_valley": {
+      "x": 4056.7,
+      "y": 2624.1,
+      "width": 221,
+      "height": 53
+    },
+    "soul_sync": {
+      "x": 576.9,
+      "y": 2732.6,
+      "width": 344,
+      "height": 53
+    },
+    "supreme_evoker": {
+      "x": 1070,
+      "y": 3223.8,
+      "width": 236.6,
+      "height": 53
+    },
+    "trial_chamber": {
+      "x": 1701.7,
+      "y": 1034.4,
+      "width": 129,
+      "height": 53
+    },
+    "twisted_w": {
+      "x": 1854,
+      "y": 3380,
+      "width": 313,
+      "height": 53
+    },
+    "vex": {
+      "x": 1187.9,
+      "y": 2494.6,
+      "width": 152,
+      "height": 53
+    },
+    "village": {
+      "x": 1462.1,
+      "y": 3063,
+      "width": 87,
+      "height": 53
+    },
+    "void_liquid": {
+      "x": 911.9,
+      "y": 4392.9,
+      "width": 267,
+      "height": 53
+    },
+    "voided": {
+      "x": 708.3,
+      "y": 4515,
+      "width": 168.6,
+      "height": 53
+    },
+    "wither_painting": {
+      "x": 2210,
+      "y": 3250.2,
+      "width": 198,
+      "height": 53
+    },
+    "wither_skeleton": {
+      "x": 4393.2,
+      "y": 2624.1,
+      "width": 244,
+      "height": 53
+    },
+    "blastling": {
+      "x": 4603.7,
+      "y": 2776.5,
+      "width": 198,
+      "height": 53
+    },
+    "broken_citadel": {
+      "x": 2979.7,
+      "y": 1744.6,
+      "width": 236.6,
+      "height": 53
+    },
+    "chorus": {
+      "x": 3191.8,
+      "y": 2276.8,
+      "width": 175,
+      "height": 53
+    },
+    "conduit_power": {
+      "x": 2182.4,
+      "y": 4182.1,
+      "width": 221,
+      "height": 53
+    },
+    "desert_pyramid": {
+      "x": 2839.3,
+      "y": 878.2,
+      "width": 221,
+      "height": 53
+    },
+    "disc11": {
+      "x": 2670.9,
+      "y": 2411.5,
+      "width": 157.5,
+      "height": 53
+    },
+    "disc13": {
+      "x": 2201,
+      "y": 2411.5,
+      "width": 157.5,
+      "height": 53
+    },
+    "enchanted_apple": {
+      "x": 4564.8,
+      "y": 1968.5,
+      "width": 359,
+      "height": 53
+    },
+    "endersent": {
+      "x": 3926.6,
+      "y": 3117.1,
+      "width": 213,
+      "height": 53
+    },
+    "farming": {
+      "x": 1075.1,
+      "y": 1065.8,
+      "width": 152,
+      "height": 53
+    },
+    "frozen_zombie": {
+      "x": 1571,
+      "y": 2913.9,
+      "width": 382.5,
+      "height": 53
+    },
+    "glowing_fruit": {
+      "x": 956.1,
+      "y": 2247.4,
+      "width": 321,
+      "height": 53
+    },
+    "gold": {
+      "x": 4398.7,
+      "y": 2141.1,
+      "width": 117,
+      "height": 53
+    },
+    "grumpo": {
+      "x": 4346.5,
+      "y": 1832.3,
+      "width": 221,
+      "height": 53
+    },
+    "happy_ghast": {
+      "x": 4303.1,
+      "y": 2436.7,
+      "width": 198,
+      "height": 53
+    },
+    "highblock": {
+      "x": 1762.6,
+      "y": 3626.4,
+      "width": 236.6,
+      "height": 53
+    },
+    "hosts": {
+      "x": 4042.6,
+      "y": 3375.1,
+      "width": 254.1,
+      "height": 53
+    },
+    "intermediate": {
+      "x": 3853.7,
+      "y": 1695.1,
+      "width": 267,
+      "height": 53
+    },
+    "jungle_pyramid": {
+      "x": 2696.5,
+      "y": 991.9,
+      "width": 290,
+      "height": 53
+    },
+    "lost_journals": {
+      "x": 1526.3,
+      "y": 1949.1,
+      "width": 356.4,
+      "height": 53
+    },
+    "mending": {
+      "x": 1686.6,
+      "y": 2072.8,
+      "width": 72,
+      "height": 53
+    },
+    "mineshaft": {
+      "x": 3323.9,
+      "y": 2882.6,
+      "width": 87,
+      "height": 53
+    },
+    "moss": {
+      "x": 4154.3,
+      "y": 3780.2,
+      "width": 244,
+      "height": 53
+    },
+    "nautilus_shell": {
+      "x": 2503.3,
+      "y": 4092.8,
+      "width": 198,
+      "height": 53
+    },
+    "navigation": {
+      "x": 2875.5,
+      "y": 644.4,
+      "width": 152,
+      "height": 53
+    },
+    "obsidian_pinnacle": {
+      "x": 2111.8,
+      "y": 3626.4,
+      "width": 279.4,
+      "height": 53
+    },
+    "recovery_compass": {
+      "x": 3076,
+      "y": 2727,
+      "width": 229,
+      "height": 53
+    },
+    "shulker_box": {
+      "x": 4481.5,
+      "y": 1724.5,
+      "width": 229,
+      "height": 53
+    },
+    "snareling": {
+      "x": 4254.4,
+      "y": 3258.3,
+      "width": 175,
+      "height": 53
+    },
+    "spawner": {
+      "x": 237.4,
+      "y": 2037.2,
+      "width": 274.8,
+      "height": 53
+    },
+    "storm": {
+      "x": 1426,
+      "y": 126.5,
+      "width": 416.5,
+      "height": 53
+    },
+    "strider": {
+      "x": 3460.9,
+      "y": 2205.7,
+      "width": 175,
+      "height": 53
+    },
+    "totem": {
+      "x": 1266.4,
+      "y": 3354.5,
+      "width": 198,
+      "height": 53
+    },
+    "watchling": {
+      "x": 4457.9,
+      "y": 2898.6,
+      "width": 198,
+      "height": 53
+    },
+    "wisp": {
+      "x": 1053,
+      "y": 2602.3,
+      "width": 289.1,
+      "height": 53
+    },
+    "wool": {
+      "x": 2279.1,
+      "y": 2527,
+      "width": 87,
+      "height": 53
+    },
+    "zombified_piglin": {
+      "x": 3631.2,
+      "y": 1042.4,
+      "width": 213,
+      "height": 53
+    }
+  },
+  "edges": {
+    "edge_soul_xp": {
+      "points": [
+        [
+          1737.1,
+          2507.9
+        ],
+        [
+          1664,
+          2336
+        ],
+        [
+          1664,
+          2240
+        ],
+        [
+          1728,
+          2208
+        ],
+        [
+          1728,
+          1888
+        ],
+        [
+          1688.8,
+          1868.4
+        ]
+      ],
+      "label": [
+        1676,
+        2249.9
+      ],
+      "labelClear": true
+    },
+    "edge_soul_soulblock": {
+      "points": [
+        [
+          1634.7,
+          2570.9
+        ],
+        [
+          1143.8,
+          2704.5
+        ]
+      ],
+      "label": [
+        1386.1,
+        2626.1
+      ],
+      "labelClear": true
+    },
+    "edge_soul_flames": {
+      "points": [
+        [
+          1709.5,
+          2507.9
+        ],
+        [
+          1152,
+          2080
+        ],
+        [
+          1147.5,
+          2079.2
+        ]
+      ],
+      "label": [
+        1436.2,
+        2283
+      ],
+      "labelClear": true
+    },
+    "edge_soul_prismarine": {
+      "points": [
+        [
+          1755.8,
+          2570.9
+        ],
+        [
+          1792,
+          2784
+        ],
+        [
+          2080.2,
+          3097.5
+        ]
+      ],
+      "label": [
+        1854.1,
+        2869.3
+      ],
+      "labelClear": true
+    },
+    "edge_soul_corruption": {
+      "points": [
+        [
+          1753.5,
+          2570.9
+        ],
+        [
+          1792,
+          2976
+        ],
+        [
+          1632,
+          2976
+        ],
+        [
+          1632,
+          3200
+        ],
+        [
+          1647.1,
+          3233
+        ]
+      ],
+      "label": [
+        1785.3,
+        2964
+      ],
+      "labelClear": true
+    },
+    "edge_xp_enchant": {
+      "points": [
+        [
+          1632,
+          1805.4
+        ],
+        [
+          1792,
+          992
+        ],
+        [
+          1904.4,
+          768.2
+        ]
+      ],
+      "label": [
+        1747.9,
+        1278.2
+      ],
+      "labelClear": true
+    },
+    "edge_bottle_xp": {
+      "points": [
+        [
+          922.6,
+          1606.4
+        ],
+        [
+          1529.7,
+          1805.4
+        ]
+      ],
+      "label": [
+        1222.4,
+        1717.3
+      ],
+      "labelClear": true
+    },
+    "edge_bottle_ominous": {
+      "points": [
+        [
+          813.8,
+          1548
+        ],
+        [
+          640,
+          1344
+        ],
+        [
+          547.5,
+          1047.5
+        ]
+      ],
+      "label": [
+        622.2,
+        1327.3
+      ],
+      "labelClear": true
+    },
+    "edge_ominous_trial": {
+      "points": [
+        [
+          608.2,
+          1008.4
+        ],
+        [
+          1358.8,
+          927.4
+        ]
+      ],
+      "label": [
+        984.8,
+        979.9
+      ],
+      "labelClear": true
+    },
+    "edge_obsidian_enchant": {
+      "points": [
+        [
+          1245.8,
+          333.7
+        ],
+        [
+          1867.5,
+          705.2
+        ]
+      ],
+      "label": [
+        1550.5,
+        529.8
+      ],
+      "labelClear": true
+    },
+    "edge_points_enchant": {
+      "points": [
+        [
+          2243.1,
+          167.3
+        ],
+        [
+          1938.1,
+          705.2
+        ]
+      ],
+      "label": [
+        2080.2,
+        430.4
+      ],
+      "labelClear": true
+    },
+    "edge_points_hunt": {
+      "points": [
+        [
+          2392.9,
+          149.4
+        ],
+        [
+          2839.8,
+          195.2
+        ]
+      ],
+      "label": [
+        2615.2,
+        184.2
+      ],
+      "labelClear": true
+    },
+    "edge_ancient_note": {
+      "points": [
+        [
+          2566.4,
+          1802.1
+        ],
+        [
+          2859.8,
+          1894.7
+        ]
+      ],
+      "label": [
+        2709.5,
+        1859.8
+      ],
+      "labelClear": true
+    },
+    "edge_note_rift": {
+      "points": [
+        [
+          2958.5,
+          1957.7
+        ],
+        [
+          2944,
+          2368
+        ],
+        [
+          2880,
+          2560
+        ],
+        [
+          2889.5,
+          2785.1
+        ]
+      ],
+      "label": [
+        2929.9,
+        2372.3
+      ],
+      "labelClear": true
+    },
+    "edge_note_firsts": {
+      "points": [
+        [
+          2978.6,
+          1957.7
+        ],
+        [
+          3072,
+          2112
+        ],
+        [
+          3575.2,
+          2350.1
+        ]
+      ],
+      "label": [
+        3237,
+        2203.3
+      ],
+      "labelClear": true
+    },
+    "edge_rift_sift": {
+      "points": [
+        [
+          2971.8,
+          2848.1
+        ],
+        [
+          3136,
+          2912
+        ],
+        [
+          3269.8,
+          3084.9
+        ]
+      ],
+      "label": [
+        3139.5,
+        2936.1
+      ],
+      "labelClear": true
+    },
+    "edge_sift_sculk": {
+      "points": [
+        [
+          3332.9,
+          3147.9
+        ],
+        [
+          3712,
+          3456
+        ],
+        [
+          3776,
+          3712
+        ],
+        [
+          3662.4,
+          3753.5
+        ]
+      ],
+      "label": [
+        3664.2,
+        3432.6
+      ],
+      "labelClear": true
+    },
+    "edge_sift_shale": {
+      "points": [
+        [
+          3243.4,
+          3147.9
+        ],
+        [
+          2890.2,
+          3366.9
+        ]
+      ],
+      "label": [
+        3060.5,
+        3247.2
+      ],
+      "labelClear": true
+    },
+    "edge_singer_soulblock": {
+      "points": [
+        [
+          418.6,
+          2912.5
+        ],
+        [
+          937.2,
+          2762.5
+        ]
+      ],
+      "label": [
+        681.2,
+        2849
+      ],
+      "labelClear": true
+    },
+    "edge_runes_hunt": {
+      "points": [
+        [
+          3227.6,
+          1014.2
+        ],
+        [
+          3008,
+          480
+        ],
+        [
+          2992.4,
+          242.2
+        ]
+      ],
+      "label": [
+        3083.6,
+        632.3
+      ],
+      "labelClear": true
+    },
+    "edge_runes_note": {
+      "points": [
+        [
+          3226.5,
+          1077.2
+        ],
+        [
+          3136,
+          1280
+        ],
+        [
+          3136,
+          1344
+        ],
+        [
+          3200,
+          1376
+        ],
+        [
+          3104,
+          1824
+        ],
+        [
+          3004.1,
+          1894.7
+        ]
+      ],
+      "label": [
+        3164.9,
+        1482.5
+      ],
+      "labelClear": true
+    },
+    "edge_flames_spawner": {
+      "points": [
+        [
+          978.8,
+          2068.6
+        ],
+        [
+          380.8,
+          2043.3
+        ]
+      ],
+      "label": [
+        679.3,
+        2067.9
+      ],
+      "labelClear": true
+    },
+    "edge_well_moss": {
+      "points": [
+        [
+          3733.6,
+          3312.6
+        ],
+        [
+          4125.9,
+          3748.7
+        ]
+      ],
+      "label": [
+        3920.8,
+        3538.7
+      ],
+      "labelClear": true
+    },
+    "edge_well_firsts": {
+      "points": [
+        [
+          3707.8,
+          3249.6
+        ],
+        [
+          3744,
+          2816
+        ],
+        [
+          3649.2,
+          2413.1
+        ]
+      ],
+      "label": [
+        3719.2,
+        2824.6
+      ],
+      "labelClear": true
+    },
+    "edge_well_monument": {
+      "points": [
+        [
+          3634.7,
+          3270.2
+        ],
+        [
+          2986.2,
+          3169.7
+        ]
+      ],
+      "label": [
+        3312.3,
+        3208.1
+      ],
+      "labelClear": true
+    },
+    "edge_gold_firsts": {
+      "points": [
+        [
+          4334.2,
+          2161.6
+        ],
+        [
+          3741,
+          2350.1
+        ]
+      ],
+      "label": [
+        4041.2,
+        2267.3
+      ],
+      "labelClear": true
+    },
+    "edge_prismarine_conduit": {
+      "points": [
+        [
+          2099,
+          3160.5
+        ],
+        [
+          1952,
+          3616
+        ],
+        [
+          2054.8,
+          3939.1
+        ]
+      ],
+      "label": [
+        1962,
+        3545.9
+      ],
+      "labelClear": true
+    },
+    "edge_prismarine_monument": {
+      "points": [
+        [
+          2202.7,
+          3132.5
+        ],
+        [
+          2845.2,
+          3156.2
+        ]
+      ],
+      "label": [
+        2523.5,
+        3156.3
+      ],
+      "labelClear": true
+    },
+    "edge_monument_guardian": {
+      "points": [
+        [
+          2922.1,
+          3190.3
+        ],
+        [
+          2976,
+          3456
+        ],
+        [
+          2816,
+          3520
+        ],
+        [
+          2624,
+          3744
+        ],
+        [
+          2618.8,
+          3742.7
+        ]
+      ],
+      "label": [
+        2873.5,
+        3471.2
+      ],
+      "labelClear": true
+    },
+    "edge_ancient_main_shale": {
+      "points": [
+        [
+          2623.9,
+          2558.4
+        ],
+        [
+          2592,
+          2784
+        ],
+        [
+          2784,
+          2912
+        ],
+        [
+          2835.8,
+          3366.9
+        ]
+      ],
+      "label": [
+        2790.4,
+        2901.8
+      ],
+      "labelClear": true
+    },
+    "edge_corruption_guardian": {
+      "points": [
+        [
+          1799.5,
+          3296
+        ],
+        [
+          2080,
+          3360
+        ],
+        [
+          2546.4,
+          3703.8
+        ]
+      ],
+      "label": [
+        2190.3,
+        3456.2
+      ],
+      "labelClear": true
+    },
+    "edge_trial_storm": {
+      "points": [
+        [
+          1495.4,
+          880.9
+        ],
+        [
+          1428.9,
+          158
+        ]
+      ],
+      "label": [
+        1482,
+        605.1
+      ],
+      "labelClear": true
+    },
+    "edge_orb_corruption": {
+      "points": [
+        [
+          1395.6,
+          3889.7
+        ],
+        [
+          1408,
+          3744
+        ],
+        [
+          1472,
+          3744
+        ],
+        [
+          1536,
+          3392
+        ],
+        [
+          1630.5,
+          3296
+        ]
+      ],
+      "label": [
+        1509,
+        3607.3
+      ],
+      "labelClear": true
+    },
+    "edge_orb_void": {
+      "points": [
+        [
+          1373.9,
+          3952.7
+        ],
+        [
+          1152,
+          4320
+        ],
+        [
+          1121.2,
+          4483.5
+        ]
+      ],
+      "label": [
+        1209.6,
+        4201.4
+      ],
+      "labelClear": true
+    },
+    "edge_builders_soul": {
+      "points": [
+        [
+          2114.2,
+          2062.5
+        ],
+        [
+          1824,
+          2464
+        ],
+        [
+          1781.2,
+          2507.9
+        ]
+      ],
+      "label": [
+        1960.9,
+        2295.1
+      ],
+      "labelClear": true
+    },
+    "edge_builders_xp": {
+      "points": [
+        [
+          2012.2,
+          1999.5
+        ],
+        [
+          1824,
+          1952
+        ],
+        [
+          1680.1,
+          1868.4
+        ]
+      ],
+      "label": [
+        1834.5,
+        1967
+      ],
+      "labelClear": true
+    },
+    "edge_builders_ancient": {
+      "points": [
+        [
+          2176.9,
+          1999.5
+        ],
+        [
+          2426.8,
+          1802.1
+        ]
+      ],
+      "label": [
+        2286.9,
+        1882
+      ],
+      "labelClear": true
+    },
+    "edge_builders_note": {
+      "points": [
+        [
+          2280.5,
+          2012.7
+        ],
+        [
+          2831.6,
+          1942.5
+        ]
+      ],
+      "label": [
+        2557.5,
+        1989.5
+      ],
+      "labelClear": true
+    },
+    "edge_builders_ancient_main": {
+      "points": [
+        [
+          2157.5,
+          2062.5
+        ],
+        [
+          2336,
+          2336
+        ],
+        [
+          2528,
+          2368
+        ],
+        [
+          2608.5,
+          2495.4
+        ]
+      ],
+      "label": [
+        2343.3,
+        2349.4
+      ],
+      "labelClear": true
+    },
+    "edge_builders_settlers": {
+      "points": [
+        [
+          2012.2,
+          1999.5
+        ],
+        [
+          1824,
+          1952
+        ],
+        [
+          1728,
+          1760
+        ],
+        [
+          1519.4,
+          1661.7
+        ]
+      ],
+      "label": [
+        1789.3,
+        1829
+      ],
+      "labelClear": true
+    },
+    "edge_builders_mages": {
+      "points": [
+        [
+          2065.2,
+          2062.5
+        ],
+        [
+          1457.2,
+          2329.1
+        ]
+      ],
+      "label": [
+        1756.3,
+        2184.8
+      ],
+      "labelClear": true
+    },
+    "edge_builders_explorers": {
+      "points": [
+        [
+          2159.7,
+          1999.5
+        ],
+        [
+          2240,
+          1888
+        ],
+        [
+          2240,
+          1536
+        ],
+        [
+          2400,
+          1504
+        ],
+        [
+          2680.3,
+          1295.3
+        ]
+      ],
+      "label": [
+        2253.7,
+        1545.5
+      ],
+      "labelClear": true
+    },
+    "edge_builders_architecture": {
+      "points": [
+        [
+          2165.3,
+          1999.5
+        ],
+        [
+          2208,
+          1952
+        ],
+        [
+          2240,
+          1536
+        ],
+        [
+          2368,
+          1536
+        ],
+        [
+          2364.4,
+          1338.3
+        ]
+      ],
+      "label": [
+        2194.2,
+        1610.4
+      ],
+      "labelClear": true
+    },
+    "edge_builders_redstone": {
+      "points": [
+        [
+          2165.3,
+          1999.5
+        ],
+        [
+          2208,
+          1952
+        ],
+        [
+          2228.3,
+          1514
+        ]
+      ],
+      "label": [
+        2225.9,
+        1825.7
+      ],
+      "labelClear": true
+    },
+    "edge_builders_spawner_main": {
+      "points": [
+        [
+          2165.3,
+          1999.5
+        ],
+        [
+          2208,
+          1952
+        ],
+        [
+          2176,
+          1856
+        ],
+        [
+          1984,
+          1792
+        ],
+        [
+          1940.6,
+          1689.6
+        ]
+      ],
+      "label": [
+        2109.4,
+        1821.1
+      ],
+      "labelClear": true
+    },
+    "edge_builders_knowledge": {
+      "points": [
+        [
+          2024.4,
+          2062.5
+        ],
+        [
+          1699.7,
+          2153.4
+        ]
+      ],
+      "label": [
+        1858.8,
+        2096.4
+      ],
+      "labelClear": true
+    },
+    "edge_builders_pigs": {
+      "points": [
+        [
+          2181.9,
+          1999.5
+        ],
+        [
+          2432,
+          1824
+        ],
+        [
+          2656,
+          1824
+        ],
+        [
+          2764.8,
+          1619.9
+        ]
+      ],
+      "label": [
+        2506.9,
+        1836
+      ],
+      "labelClear": true
+    },
+    "edge_builders_network": {
+      "points": [
+        [
+          2246,
+          2062.5
+        ],
+        [
+          2528,
+          2144
+        ],
+        [
+          2656,
+          2208
+        ],
+        [
+          2848,
+          2240
+        ],
+        [
+          3043,
+          2350.2
+        ]
+      ],
+      "label": [
+        2642.6,
+        2214.7
+      ],
+      "labelClear": true
+    },
+    "edge_builders_disaster": {
+      "points": [
+        [
+          2131.1,
+          2062.5
+        ],
+        [
+          2080,
+          2336
+        ],
+        [
+          2144,
+          2528
+        ],
+        [
+          2231.8,
+          2685.9
+        ]
+      ],
+      "label": [
+        2058.6,
+        2398.4
+      ],
+      "labelClear": true
+    },
+    "edge_settlers_xp": {
+      "points": [
+        [
+          1478.9,
+          1661.7
+        ],
+        [
+          1599.4,
+          1805.4
+        ]
+      ],
+      "label": [
+        1530,
+        1741.3
+      ],
+      "labelClear": true
+    },
+    "edge_settlers_villagers": {
+      "points": [
+        [
+          1407.5,
+          1661.7
+        ],
+        [
+          992,
+          1952
+        ],
+        [
+          786.2,
+          1988.2
+        ]
+      ],
+      "label": [
+        1107.2,
+        1856.9
+      ],
+      "labelClear": true
+    },
+    "edge_settlers_farming": {
+      "points": [
+        [
+          1431.5,
+          1598.7
+        ],
+        [
+          1096.2,
+          1097.3
+        ]
+      ],
+      "label": [
+        1273.8,
+        1341.3
+      ],
+      "labelClear": true
+    },
+    "edge_settlers_golem_main": {
+      "points": [
+        [
+          1384.3,
+          1598.7
+        ],
+        [
+          852.6,
+          1353.4
+        ]
+      ],
+      "label": [
+        1123.5,
+        1465.1
+      ],
+      "labelClear": true
+    },
+    "edge_mages_soul": {
+      "points": [
+        [
+          1449.7,
+          2392.1
+        ],
+        [
+          1686.2,
+          2507.9
+        ]
+      ],
+      "label": [
+        1562.6,
+        2460.8
+      ],
+      "labelClear": true
+    },
+    "edge_mages_illagers": {
+      "points": [
+        [
+          1371.9,
+          2392.1
+        ],
+        [
+          1164.8,
+          2876.7
+        ]
+      ],
+      "label": [
+        1257.3,
+        2629.7
+      ],
+      "labelClear": true
+    },
+    "edge_mages_magic": {
+      "points": [
+        [
+          1299.4,
+          2356.3
+        ],
+        [
+          896,
+          2336
+        ],
+        [
+          855.2,
+          2350.3
+        ]
+      ],
+      "label": [
+        1076.7,
+        2333.1
+      ],
+      "labelClear": true
+    },
+    "edge_explorers_adventurers": {
+      "points": [
+        [
+          2755.3,
+          1232.3
+        ],
+        [
+          3177.6,
+          825.9
+        ]
+      ],
+      "label": [
+        2974.8,
+        1037.7
+      ],
+      "labelClear": true
+    },
+    "edge_explorers_architecture": {
+      "points": [
+        [
+          2636.6,
+          1274.1
+        ],
+        [
+          2456.8,
+          1295.6
+        ]
+      ],
+      "label": [
+        2545.3,
+        1273
+      ],
+      "labelClear": true
+    },
+    "edge_explorers_navigation": {
+      "points": [
+        [
+          2744.3,
+          1232.3
+        ],
+        [
+          2976,
+          896
+        ],
+        [
+          2888.1,
+          675.9
+        ]
+      ],
+      "label": [
+        2937.3,
+        973.4
+      ],
+      "labelClear": true
+    },
+    "edge_explorers_shipwreck": {
+      "points": [
+        [
+          2730.7,
+          1295.3
+        ],
+        [
+          2784,
+          1504
+        ],
+        [
+          3212.8,
+          1720.7
+        ]
+      ],
+      "label": [
+        2896.9,
+        1574.5
+      ],
+      "labelClear": true
+    },
+    "edge_explorers_camp": {
+      "points": [
+        [
+          2697,
+          1232.3
+        ],
+        [
+          2528,
+          1024
+        ],
+        [
+          2473.8,
+          614.9
+        ]
+      ],
+      "label": [
+        2506.6,
+        954
+      ],
+      "labelClear": true
+    },
+    "edge_villagers_bottle": {
+      "points": [
+        [
+          698.3,
+          1973.1
+        ],
+        [
+          736,
+          1760
+        ],
+        [
+          822.3,
+          1611
+        ]
+      ],
+      "label": [
+        692.8,
+        1774.8
+      ],
+      "labelClear": true
+    },
+    "edge_villagers_village": {
+      "points": [
+        [
+          702.9,
+          2036.1
+        ],
+        [
+          800,
+          2336
+        ],
+        [
+          864,
+          2336
+        ],
+        [
+          1056,
+          2560
+        ],
+        [
+          1216,
+          2560
+        ],
+        [
+          1216,
+          2848
+        ],
+        [
+          1426,
+          3031.5
+        ]
+      ],
+      "label": [
+        1082.3,
+        2548
+      ],
+      "labelClear": true
+    },
+    "edge_illagers_magic": {
+      "points": [
+        [
+          1094.7,
+          2876.7
+        ],
+        [
+          928,
+          2784
+        ],
+        [
+          785.3,
+          2410.7
+        ]
+      ],
+      "label": [
+        901.9,
+        2682.1
+      ],
+      "labelClear": true
+    },
+    "edge_illagers_mansion": {
+      "points": [
+        [
+          1151.5,
+          2939.7
+        ],
+        [
+          1152,
+          3072
+        ],
+        [
+          736,
+          3264
+        ],
+        [
+          628.1,
+          3279.1
+        ]
+      ],
+      "label": [
+        949.6,
+        3152.2
+      ],
+      "labelClear": true
+    },
+    "edge_magic_flames": {
+      "points": [
+        [
+          772.3,
+          2347.7
+        ],
+        [
+          768,
+          2208
+        ],
+        [
+          1038.5,
+          2106.2
+        ]
+      ],
+      "label": [
+        842.1,
+        2192.9
+      ],
+      "labelClear": true
+    },
+    "edge_village_searuins": {
+      "points": [
+        [
+          1511.6,
+          3071.9
+        ],
+        [
+          2400,
+          3232
+        ],
+        [
+          2410.2,
+          3236.7
+        ]
+      ],
+      "label": [
+        1959.2,
+        3164.8
+      ],
+      "labelClear": true
+    },
+    "edge_spawner_main_flames": {
+      "points": [
+        [
+          1834.8,
+          1689.6
+        ],
+        [
+          1440,
+          1824
+        ],
+        [
+          1162.1,
+          2043.2
+        ]
+      ],
+      "label": [
+        1462.1,
+        1791.1
+      ],
+      "labelClear": true
+    },
+    "edge_spawner_main_trial": {
+      "points": [
+        [
+          1842.9,
+          1626.6
+        ],
+        [
+          1600,
+          1536
+        ],
+        [
+          1503.4,
+          943.9
+        ]
+      ],
+      "label": [
+        1584.4,
+        1365.9
+      ],
+      "labelClear": true
+    },
+    "edge_knowledge_illagers": {
+      "points": [
+        [
+          1570.5,
+          2216.4
+        ],
+        [
+          1440,
+          2464
+        ],
+        [
+          1216,
+          2752
+        ],
+        [
+          1164.4,
+          2876.7
+        ]
+      ],
+      "label": [
+        1363,
+        2543.4
+      ],
+      "labelClear": true
+    },
+    "edge_pigs_piglin": {
+      "points": [
+        [
+          2831.1,
+          1582.2
+        ],
+        [
+          3200,
+          1536
+        ],
+        [
+          3495.7,
+          1527.9
+        ]
+      ],
+      "label": [
+        3160.8,
+        1528.8
+      ],
+      "labelClear": true
+    },
+    "edge_network_sift": {
+      "points": [
+        [
+          3153.1,
+          2413.2
+        ],
+        [
+          3296,
+          2496
+        ],
+        [
+          3264,
+          3040
+        ],
+        [
+          3281.7,
+          3084.9
+        ]
+      ],
+      "label": [
+        3271.5,
+        2708.9
+      ],
+      "labelClear": true
+    },
+    "edge_network_monument": {
+      "points": [
+        [
+          3153.1,
+          2413.2
+        ],
+        [
+          3296,
+          2496
+        ],
+        [
+          3264,
+          2624
+        ],
+        [
+          3072,
+          3008
+        ],
+        [
+          2948.3,
+          3127.3
+        ]
+      ],
+      "label": [
+        3217.5,
+        2770.7
+      ],
+      "labelClear": true
+    },
+    "edge_network_overworld": {
+      "points": [
+        [
+          3038.4,
+          2413.2
+        ],
+        [
+          2880,
+          2496
+        ],
+        [
+          2912,
+          2592
+        ],
+        [
+          2964.3,
+          2609.4
+        ]
+      ],
+      "label": [
+        2884.4,
+        2480.2
+      ],
+      "labelClear": true
+    },
+    "edge_network_nether": {
+      "points": [
+        [
+          3205.6,
+          2350.2
+        ],
+        [
+          3636.9,
+          2223.1
+        ]
+      ],
+      "label": [
+        3424.6,
+        2298.2
+      ],
+      "labelClear": true
+    },
+    "edge_network_end": {
+      "points": [
+        [
+          3191.7,
+          2350.2
+        ],
+        [
+          3328,
+          2304
+        ],
+        [
+          3360,
+          2144
+        ],
+        [
+          3494.4,
+          1957.7
+        ]
+      ],
+      "label": [
+        3363.3,
+        2249.8
+      ],
+      "labelClear": true
+    },
+    "edge_network_trail": {
+      "points": [
+        [
+          3150.5,
+          2413.2
+        ],
+        [
+          3392,
+          2560
+        ],
+        [
+          3469.4,
+          2678.4
+        ]
+      ],
+      "label": [
+        3337.9,
+        2513.1
+      ],
+      "labelClear": true
+    },
+    "edge_overworld_monument": {
+      "points": [
+        [
+          3153.3,
+          2672.4
+        ],
+        [
+          3200,
+          2688
+        ],
+        [
+          3200,
+          2784
+        ],
+        [
+          2944,
+          3136
+        ],
+        [
+          2939.8,
+          3139.4
+        ]
+      ],
+      "label": [
+        3122.8,
+        2910.5
+      ],
+      "labelClear": true
+    },
+    "edge_overworld_ancient_main": {
+      "points": [
+        [
+          2942.6,
+          2610.1
+        ],
+        [
+          2744.8,
+          2557.8
+        ]
+      ],
+      "label": [
+        2846.8,
+        2572.3
+      ],
+      "labelClear": true
+    },
+    "edge_overworld_stronghold": {
+      "points": [
+        [
+          2999.3,
+          2609.4
+        ],
+        [
+          2784,
+          2496
+        ],
+        [
+          2784,
+          2208
+        ],
+        [
+          2592,
+          2208
+        ],
+        [
+          2589.7,
+          2070.3
+        ]
+      ],
+      "label": [
+        2796,
+        2308.8
+      ],
+      "labelClear": true
+    },
+    "edge_overworld_shipwreck": {
+      "points": [
+        [
+          3151.4,
+          2609.4
+        ],
+        [
+          3296,
+          2560
+        ],
+        [
+          3392,
+          1888
+        ],
+        [
+          3299.4,
+          1782
+        ]
+      ],
+      "label": [
+        3319.4,
+        2226.6
+      ],
+      "labelClear": true
+    },
+    "edge_overworld_trail": {
+      "points": [
+        [
+          3175.6,
+          2659.5
+        ],
+        [
+          3373.5,
+          2691.2
+        ]
+      ],
+      "label": [
+        3276.4,
+        2663.5
+      ],
+      "labelClear": true
+    },
+    "edge_overworld_searuins": {
+      "points": [
+        [
+          2942.6,
+          2652.6
+        ],
+        [
+          2592,
+          2688
+        ],
+        [
+          2464,
+          2944
+        ],
+        [
+          2400,
+          3040
+        ],
+        [
+          2464,
+          3264
+        ],
+        [
+          2464.6,
+          3263.9
+        ]
+      ],
+      "label": [
+        2550.2,
+        2825.2
+      ],
+      "labelClear": true
+    },
+    "edge_nether_piglin": {
+      "points": [
+        [
+          3667.8,
+          2174.2
+        ],
+        [
+          3584,
+          2080
+        ],
+        [
+          3584,
+          1888
+        ],
+        [
+          3520,
+          1856
+        ],
+        [
+          3520,
+          1760
+        ],
+        [
+          3648,
+          1728
+        ],
+        [
+          3633.8,
+          1555.7
+        ]
+      ],
+      "label": [
+        3480,
+        1850.4
+      ],
+      "labelClear": true
+    },
+    "edge_nether_nether_ruins": {
+      "points": [
+        [
+          3754.9,
+          2220.1
+        ],
+        [
+          3968,
+          2272
+        ],
+        [
+          4320,
+          2272
+        ],
+        [
+          4389.3,
+          2316.3
+        ]
+      ],
+      "label": [
+        4075.5,
+        2232
+      ],
+      "labelClear": true
+    },
+    "edge_end_endcity": {
+      "points": [
+        [
+          3576.1,
+          1910.2
+        ],
+        [
+          3776,
+          1856
+        ],
+        [
+          4000,
+          1728
+        ],
+        [
+          4083.6,
+          1525.1
+        ]
+      ],
+      "label": [
+        3881.5,
+        1768.1
+      ],
+      "labelClear": true
+    },
+    "edge_stronghold_spawner_main": {
+      "points": [
+        [
+          2539.7,
+          2025.2
+        ],
+        [
+          2272,
+          1952
+        ],
+        [
+          2080,
+          1824
+        ],
+        [
+          1984,
+          1792
+        ],
+        [
+          1940.6,
+          1689.6
+        ]
+      ],
+      "label": [
+        2278.7,
+        1941.4
+      ],
+      "labelClear": true
+    },
+    "edge_stronghold_end": {
+      "points": [
+        [
+          2638.7,
+          2026.8
+        ],
+        [
+          2816,
+          1984
+        ],
+        [
+          3392,
+          1984
+        ],
+        [
+          3458.1,
+          1953.4
+        ]
+      ],
+      "label": [
+        3049.2,
+        1996
+      ],
+      "labelClear": true
+    },
+    "edge_ruined_overworld": {
+      "points": [
+        [
+          3840.3,
+          2769.1
+        ],
+        [
+          3552,
+          2656
+        ],
+        [
+          3175.6,
+          2644.5
+        ]
+      ],
+      "label": [
+        3518.9,
+        2643
+      ],
+      "labelClear": true
+    },
+    "edge_ruined_nether": {
+      "points": [
+        [
+          3922.6,
+          2769.1
+        ],
+        [
+          3936,
+          2560
+        ],
+        [
+          3968,
+          2560
+        ],
+        [
+          3968,
+          2464
+        ],
+        [
+          3729.1,
+          2237.2
+        ]
+      ],
+      "label": [
+        3921.1,
+        2403
+      ],
+      "labelClear": true
+    },
+    "edge_disaster_rift": {
+      "points": [
+        [
+          2381.3,
+          2737.8
+        ],
+        [
+          2772.8,
+          2798.4
+        ]
+      ],
+      "label": [
+        2575.2,
+        2780
+      ],
+      "labelClear": true
+    },
+    "edge_disaster_corruption": {
+      "points": [
+        [
+          2237.4,
+          2748.9
+        ],
+        [
+          2176,
+          2912
+        ],
+        [
+          2048,
+          2912
+        ],
+        [
+          1792,
+          3200
+        ],
+        [
+          1725.2,
+          3233
+        ]
+      ],
+      "label": [
+        1986.7,
+        2962.9
+      ],
+      "labelClear": true
+    },
+    "edge_wither_disaster": {
+      "points": [
+        [
+          2389.3,
+          2801.4
+        ],
+        [
+          2301.8,
+          2748.9
+        ]
+      ],
+      "label": [
+        2351.7,
+        2764.9
+      ],
+      "labelClear": true
+    },
+    "edge_wither_nether_star": {
+      "points": [
+        [
+          2449.9,
+          2864.4
+        ],
+        [
+          2491.2,
+          3024.5
+        ]
+      ],
+      "label": [
+        2447.3,
+        2950.5
+      ],
+      "labelClear": true
+    },
+    "edge_nether_star_beacon": {
+      "points": [
+        [
+          2585.3,
+          3056
+        ],
+        [
+          2658.5,
+          3056
+        ]
+      ],
+      "label": [
+        2621.9,
+        3068
+      ],
+      "labelClear": true
+    },
+    "edge_obsidian_beacon": {
+      "points": [
+        [
+          1200.3,
+          333.7
+        ],
+        [
+          1344,
+          960
+        ],
+        [
+          1920,
+          2048
+        ],
+        [
+          2304,
+          2304
+        ],
+        [
+          2368,
+          2496
+        ],
+        [
+          2752,
+          2912
+        ],
+        [
+          2784,
+          2912
+        ],
+        [
+          2752,
+          3040
+        ],
+        [
+          2747.4,
+          3042.4
+        ]
+      ],
+      "label": [
+        1614.6,
+        1496.8
+      ],
+      "labelClear": true
+    },
+    "edge_wither_wither_corrupt": {
+      "points": [
+        [
+          2494.2,
+          2864.4
+        ],
+        [
+          2581.7,
+          2916.9
+        ]
+      ],
+      "label": [
+        2531.8,
+        2901
+      ],
+      "labelClear": true
+    },
+    "edge_corruption_wither_corrupt": {
+      "points": [
+        [
+          1724.7,
+          3233
+        ],
+        [
+          2112,
+          3040
+        ],
+        [
+          2502.2,
+          2971.6
+        ]
+      ],
+      "label": [
+        2101,
+        3058.9
+      ],
+      "labelClear": true
+    },
+    "edge_twisted_w_wither_corrupt": {
+      "points": [
+        [
+          1901.8,
+          3348.5
+        ],
+        [
+          2176,
+          3168
+        ],
+        [
+          2208,
+          3168
+        ],
+        [
+          2432,
+          3008
+        ],
+        [
+          2527.2,
+          2979.9
+        ]
+      ],
+      "label": [
+        2220.8,
+        3173.6
+      ],
+      "labelClear": true
+    },
+    "edge_wither_corrupt_end_ring": {
+      "points": [
+        [
+          2629.1,
+          2916.9
+        ],
+        [
+          2592,
+          2688
+        ],
+        [
+          2944,
+          2400
+        ],
+        [
+          3008,
+          2304
+        ],
+        [
+          3104,
+          2240
+        ],
+        [
+          3648,
+          1984
+        ],
+        [
+          3741.5,
+          1957.7
+        ]
+      ],
+      "label": [
+        3019.5,
+        2310.8
+      ],
+      "labelClear": true
+    },
+    "edge_corruption_twisted_w": {
+      "points": [
+        [
+          1714,
+          3296
+        ],
+        [
+          1801.5,
+          3348.5
+        ]
+      ],
+      "label": [
+        1751.6,
+        3332.5
+      ],
+      "labelClear": true
+    },
+    "edge_soul_corrupt_beacon": {
+      "points": [
+        [
+          1780.8,
+          2570.9
+        ],
+        [
+          1877.4,
+          2671.3
+        ]
+      ],
+      "label": [
+        1820.5,
+        2629.4
+      ],
+      "labelClear": true
+    },
+    "edge_orb_corrupt_beacon": {
+      "points": [
+        [
+          1395.6,
+          3889.7
+        ],
+        [
+          1408,
+          3744
+        ],
+        [
+          1472,
+          3744
+        ],
+        [
+          1472,
+          3200
+        ],
+        [
+          1664,
+          2976
+        ],
+        [
+          1792,
+          2944
+        ],
+        [
+          1892.6,
+          2734.3
+        ]
+      ],
+      "label": [
+        1432,
+        3247.3
+      ],
+      "labelClear": true
+    },
+    "edge_ghast_tear_end_crystal": {
+      "points": [
+        [
+          3878.1,
+          2174.2
+        ],
+        [
+          3749.7,
+          2073.2
+        ]
+      ],
+      "label": [
+        3821.3,
+        2114.3
+      ],
+      "labelClear": true
+    },
+    "edge_end_crystal_dragon": {
+      "points": [
+        [
+          3697,
+          2010.2
+        ],
+        [
+          3648,
+          1888
+        ],
+        [
+          3650.2,
+          1850
+        ]
+      ],
+      "label": [
+        3670.1,
+        1975.3
+      ],
+      "labelClear": true
+    },
+    "edge_crying_obsidian_anchor": {
+      "points": [
+        [
+          4165.6,
+          2947.6
+        ],
+        [
+          4253.1,
+          3000.1
+        ]
+      ],
+      "label": [
+        4203.2,
+        2984.1
+      ],
+      "labelClear": true
+    },
+    "edge_glowstone_anchor": {
+      "points": [
+        [
+          4445.5,
+          3115.6
+        ],
+        [
+          4358.1,
+          3063.1
+        ]
+      ],
+      "label": [
+        4408,
+        3079.1
+      ],
+      "labelClear": true
+    },
+    "edge_ruined_crying_obsidian": {
+      "points": [
+        [
+          3973.1,
+          2832.1
+        ],
+        [
+          4060.6,
+          2884.6
+        ]
+      ],
+      "label": [
+        4010.7,
+        2868.6
+      ],
+      "labelClear": true
+    },
+    "edge_crying_obsidian_ghast_tear": {
+      "points": [
+        [
+          4119.5,
+          2884.6
+        ],
+        [
+          4160,
+          2688
+        ],
+        [
+          4192,
+          2624
+        ],
+        [
+          4096,
+          2464
+        ],
+        [
+          3904,
+          2240
+        ],
+        [
+          3906.1,
+          2234.9
+        ]
+      ],
+      "label": [
+        4147,
+        2525.7
+      ],
+      "labelClear": true
+    },
+    "edge_anchor_end_crystal": {
+      "points": [
+        [
+          4284.3,
+          3000.1
+        ],
+        [
+          4160,
+          2816
+        ],
+        [
+          3936,
+          2656
+        ],
+        [
+          3936,
+          2560
+        ],
+        [
+          3968,
+          2560
+        ],
+        [
+          3968,
+          2464
+        ],
+        [
+          3728.9,
+          2073.2
+        ]
+      ],
+      "label": [
+        3948,
+        2563.7
+      ],
+      "labelClear": true
+    },
+    "edge_glowstone_amethyst": {
+      "points": [
+        [
+          4485.3,
+          3115.6
+        ],
+        [
+          4416,
+          2944
+        ],
+        [
+          4320,
+          2944
+        ],
+        [
+          3424,
+          2368
+        ],
+        [
+          3178.3,
+          2073.2
+        ]
+      ],
+      "label": [
+        3835.3,
+        2618.2
+      ],
+      "labelClear": true
+    },
+    "edge_amethyst_calibrated_sensor": {
+      "points": [
+        [
+          3174.9,
+          2073.2
+        ],
+        [
+          3296,
+          2240
+        ],
+        [
+          3424,
+          3136
+        ],
+        [
+          3712,
+          3456
+        ],
+        [
+          3776,
+          3712
+        ],
+        [
+          3712,
+          3776
+        ],
+        [
+          3760.1,
+          3866
+        ]
+      ],
+      "label": [
+        3396.3,
+        3026.7
+      ],
+      "labelClear": true
+    },
+    "edge_sculk_calibrated_sensor": {
+      "points": [
+        [
+          3636.9,
+          3813.5
+        ],
+        [
+          3724.4,
+          3866
+        ]
+      ],
+      "label": [
+        3674.5,
+        3850.1
+      ],
+      "labelClear": true
+    },
+    "edge_amethyst_allay": {
+      "points": [
+        [
+          3106.6,
+          2073.2
+        ],
+        [
+          2912,
+          2208
+        ],
+        [
+          1120,
+          2304
+        ],
+        [
+          1047.7,
+          2347.6
+        ]
+      ],
+      "label": [
+        2091.4,
+        2239.9
+      ],
+      "labelClear": true
+    },
+    "edge_note_allay": {
+      "points": [
+        [
+          2831.6,
+          1940.2
+        ],
+        [
+          2432,
+          1984
+        ],
+        [
+          1952,
+          1984
+        ],
+        [
+          1728,
+          2112
+        ],
+        [
+          1440,
+          2144
+        ],
+        [
+          1054.5,
+          2347.9
+        ]
+      ],
+      "label": [
+        1901.8,
+        1998.9
+      ],
+      "labelClear": true
+    },
+    "edge_allay_vex": {
+      "points": [
+        [
+          1047.9,
+          2410.6
+        ],
+        [
+          1135.4,
+          2463.1
+        ]
+      ],
+      "label": [
+        1085.5,
+        2447.2
+      ],
+      "labelClear": true
+    },
+    "edge_allay_wisp": {
+      "points": [
+        [
+          1003.6,
+          2410.6
+        ],
+        [
+          1044.9,
+          2570.8
+        ]
+      ],
+      "label": [
+        1012.6,
+        2493.7
+      ],
+      "labelClear": true
+    },
+    "edge_evoker_vex": {
+      "points": [
+        [
+          1213.2,
+          3099.8
+        ],
+        [
+          1248,
+          2848
+        ],
+        [
+          1216,
+          2816
+        ],
+        [
+          1216,
+          2560
+        ],
+        [
+          1201.4,
+          2526.1
+        ]
+      ],
+      "label": [
+        1201.3,
+        2835.3
+      ],
+      "labelClear": true
+    },
+    "edge_evoker_totem": {
+      "points": [
+        [
+          1217,
+          3162.8
+        ],
+        [
+          1258.2,
+          3323
+        ]
+      ],
+      "label": [
+        1249.2,
+        3239.9
+      ],
+      "labelClear": true
+    },
+    "edge_illagers_evoker": {
+      "points": [
+        [
+          1159.5,
+          2939.7
+        ],
+        [
+          1200.7,
+          3099.8
+        ]
+      ],
+      "label": [
+        1168.5,
+        3022.7
+      ],
+      "labelClear": true
+    },
+    "edge_illagers_council": {
+      "points": [
+        [
+          1098.9,
+          2939.7
+        ],
+        [
+          1011.4,
+          2992.2
+        ]
+      ],
+      "label": [
+        1049,
+        2955.7
+      ],
+      "labelClear": true
+    },
+    "edge_council_supreme_evoker": {
+      "points": [
+        [
+          976.4,
+          3055.2
+        ],
+        [
+          1052.5,
+          3192.3
+        ]
+      ],
+      "label": [
+        1025,
+        3117.9
+      ],
+      "labelClear": true
+    },
+    "edge_council_prime_enchanter": {
+      "points": [
+        [
+          906.4,
+          2992.2
+        ],
+        [
+          818.9,
+          2939.7
+        ]
+      ],
+      "label": [
+        868.8,
+        2955.6
+      ],
+      "labelClear": true
+    },
+    "edge_council_grand_illusioner": {
+      "points": [
+        [
+          906.4,
+          3055.2
+        ],
+        [
+          719.9,
+          3167.1
+        ]
+      ],
+      "label": [
+        807,
+        3100.8
+      ],
+      "labelClear": true
+    },
+    "edge_supreme_evoker_copper_monstrosity": {
+      "points": [
+        [
+          1078.1,
+          3255.3
+        ],
+        [
+          1119.4,
+          3415.4
+        ]
+      ],
+      "label": [
+        1087.2,
+        3338.3
+      ],
+      "labelClear": true
+    },
+    "edge_soulblock_copper_monstrosity": {
+      "points": [
+        [
+          1084.8,
+          2764.1
+        ],
+        [
+          1248,
+          2880
+        ],
+        [
+          1312,
+          3136
+        ],
+        [
+          1312,
+          3168
+        ],
+        [
+          1152,
+          3328
+        ],
+        [
+          1134,
+          3415.4
+        ]
+      ],
+      "label": [
+        1286.2,
+        3082.4
+      ],
+      "labelClear": true
+    },
+    "edge_soulblock_prime_enchanter": {
+      "points": [
+        [
+          991.3,
+          2764.1
+        ],
+        [
+          815.5,
+          2876.7
+        ]
+      ],
+      "label": [
+        896.9,
+        2810.3
+      ],
+      "labelClear": true
+    },
+    "edge_grand_illusioner_seer": {
+      "points": [
+        [
+          683.8,
+          3167.1
+        ],
+        [
+          800,
+          2944
+        ],
+        [
+          928,
+          2944
+        ],
+        [
+          1312,
+          2624
+        ],
+        [
+          1696,
+          2240
+        ],
+        [
+          1984,
+          1984
+        ],
+        [
+          2240,
+          1952
+        ],
+        [
+          2336,
+          1888
+        ],
+        [
+          2688,
+          1792
+        ],
+        [
+          3424,
+          1408
+        ],
+        [
+          3426.2,
+          1408.1
+        ]
+      ],
+      "label": [
+        1903.3,
+        2071.8
+      ],
+      "labelClear": true
+    },
+    "edge_ancient_main_echo_shard_m": {
+      "points": [
+        [
+          2645.8,
+          2558.4
+        ],
+        [
+          2721.9,
+          2695.5
+        ]
+      ],
+      "label": [
+        2673.4,
+        2632.8
+      ],
+      "labelClear": true
+    },
+    "edge_echo_shard_m_recovery_compass": {
+      "points": [
+        [
+          2867.4,
+          2727
+        ],
+        [
+          2955.5,
+          2727
+        ]
+      ],
+      "label": [
+        2911.5,
+        2739
+      ],
+      "labelClear": true
+    },
+    "edge_corruption_echo_shard_d": {
+      "points": [
+        [
+          1667.2,
+          3296
+        ],
+        [
+          1696,
+          3456
+        ],
+        [
+          1699.4,
+          3460.8
+        ]
+      ],
+      "label": [
+        1642.7,
+        3386
+      ],
+      "labelClear": true
+    },
+    "edge_echo_shard_d_enchant": {
+      "points": [
+        [
+          1678.9,
+          3456.2
+        ],
+        [
+          1312,
+          3168
+        ],
+        [
+          1280,
+          2880
+        ],
+        [
+          1216,
+          2816
+        ],
+        [
+          1248,
+          2592
+        ],
+        [
+          1280,
+          2496
+        ],
+        [
+          1344,
+          1568
+        ],
+        [
+          1792,
+          1056
+        ],
+        [
+          1907.6,
+          768.2
+        ]
+      ],
+      "label": [
+        1317.6,
+        2124.5
+      ],
+      "labelClear": true
+    },
+    "edge_echo_shard_m_echo_shard_d": {
+      "points": [
+        [
+          2699.5,
+          2758.5
+        ],
+        [
+          2464,
+          2944
+        ],
+        [
+          2176,
+          3200
+        ],
+        [
+          2080,
+          3200
+        ],
+        [
+          2016,
+          3424
+        ],
+        [
+          1865.9,
+          3456.2
+        ]
+      ],
+      "label": [
+        2340.5,
+        3021.7
+      ],
+      "labelClear": true
+    },
+    "edge_xp_sculk_catalyst": {
+      "points": [
+        [
+          1671.6,
+          1868.4
+        ],
+        [
+          2304,
+          2304
+        ],
+        [
+          2368,
+          2496
+        ],
+        [
+          2752,
+          2912
+        ],
+        [
+          2784,
+          2912
+        ],
+        [
+          2848,
+          3232
+        ],
+        [
+          3424,
+          3680
+        ],
+        [
+          3552,
+          3904
+        ],
+        [
+          3613.9,
+          3973.6
+        ]
+      ],
+      "label": [
+        2727.8,
+        2868.1
+      ],
+      "labelClear": true
+    },
+    "edge_sculk_catalyst_sculk": {
+      "points": [
+        [
+          3623.9,
+          3973.6
+        ],
+        [
+          3584,
+          3904
+        ],
+        [
+          3584.3,
+          3813.5
+        ]
+      ],
+      "label": [
+        3560,
+        3898.8
+      ],
+      "labelClear": true
+    },
+    "edge_stronghold_otherside": {
+      "points": [
+        [
+          2638.7,
+          2068.5
+        ],
+        [
+          2729.1,
+          2122.7
+        ]
+      ],
+      "label": [
+        2677.7,
+        2105.9
+      ],
+      "labelClear": true
+    },
+    "edge_ancient_main_otherside": {
+      "points": [
+        [
+          2680,
+          2495.4
+        ],
+        [
+          2784,
+          2432
+        ],
+        [
+          2781.9,
+          2185.7
+        ]
+      ],
+      "label": [
+        2807.5,
+        2369.6
+      ],
+      "labelClear": true
+    },
+    "edge_ancient_main_disc5": {
+      "points": [
+        [
+          2575.8,
+          2495.4
+        ],
+        [
+          2488.4,
+          2443
+        ]
+      ],
+      "label": [
+        2538.3,
+        2458.9
+      ],
+      "labelClear": true
+    },
+    "edge_disc5_rift": {
+      "points": [
+        [
+          2451.8,
+          2443
+        ],
+        [
+          2624,
+          2784
+        ],
+        [
+          2772.8,
+          2802.2
+        ]
+      ],
+      "label": [
+        2582.4,
+        2675
+      ],
+      "labelClear": true
+    },
+    "edge_trail_relic": {
+      "points": [
+        [
+          3507.5,
+          2741.4
+        ],
+        [
+          3583.6,
+          2878.4
+        ]
+      ],
+      "label": [
+        3535.1,
+        2815.7
+      ],
+      "labelClear": true
+    },
+    "edge_relic_well": {
+      "points": [
+        [
+          3610,
+          2941.4
+        ],
+        [
+          3696.4,
+          3249.6
+        ]
+      ],
+      "label": [
+        3641.6,
+        3098.7
+      ],
+      "labelClear": true
+    },
+    "edge_creeper_golem_main": {
+      "points": [
+        [
+          2037.8,
+          1753.9
+        ],
+        [
+          1664,
+          1664
+        ],
+        [
+          1504,
+          1568
+        ],
+        [
+          876.4,
+          1353.4
+        ]
+      ],
+      "label": [
+        1464.3,
+        1541.7
+      ],
+      "labelClear": true
+    },
+    "edge_creeper_note": {
+      "points": [
+        [
+          2201.8,
+          1788.5
+        ],
+        [
+          2831.6,
+          1903
+        ]
+      ],
+      "label": [
+        2512.4,
+        1869.4
+      ],
+      "labelClear": true
+    },
+    "edge_endermite_intermediate": {
+      "points": [
+        [
+          3629.7,
+          1695.1
+        ],
+        [
+          3714.2,
+          1695.1
+        ]
+      ],
+      "label": [
+        3672,
+        1683.1
+      ],
+      "labelClear": false
+    },
+    "edge_endermite_silverfish": {
+      "points": [
+        [
+          3463.8,
+          1726.6
+        ],
+        [
+          3136,
+          1920
+        ],
+        [
+          2944,
+          2176
+        ],
+        [
+          2944,
+          2208
+        ],
+        [
+          2774.7,
+          2238.7
+        ]
+      ],
+      "label": [
+        3083.4,
+        1970.2
+      ],
+      "labelClear": true
+    },
+    "edge_silverfish_stronghold": {
+      "points": [
+        [
+          2637.3,
+          2230.4
+        ],
+        [
+          2592,
+          2080
+        ],
+        [
+          2591.3,
+          2070.3
+        ]
+      ],
+      "label": [
+        2602.3,
+        2197.4
+      ],
+      "labelClear": false
+    },
+    "edge_end_ring_end": {
+      "points": [
+        [
+          3679.7,
+          1926.2
+        ],
+        [
+          3576.1,
+          1926.2
+        ]
+      ],
+      "label": [
+        3627.9,
+        1914.2
+      ],
+      "labelClear": false
+    },
+    "edge_end_ring_disaster": {
+      "points": [
+        [
+          3747.8,
+          1957.7
+        ],
+        [
+          3552,
+          2016
+        ],
+        [
+          3040,
+          2272
+        ],
+        [
+          2720,
+          2464
+        ],
+        [
+          2464,
+          2496
+        ],
+        [
+          2279.8,
+          2685.9
+        ]
+      ],
+      "label": [
+        2976.6,
+        2282
+      ],
+      "labelClear": true
+    },
+    "edge_orb_end_ring": {
+      "points": [
+        [
+          1493.9,
+          3900.7
+        ],
+        [
+          1792,
+          3840
+        ],
+        [
+          2016,
+          3520
+        ],
+        [
+          2368,
+          3264
+        ],
+        [
+          2400,
+          3008
+        ],
+        [
+          2592,
+          2752
+        ],
+        [
+          2624,
+          2656
+        ],
+        [
+          2944,
+          2400
+        ],
+        [
+          3008,
+          2304
+        ],
+        [
+          3104,
+          2240
+        ],
+        [
+          3648,
+          1984
+        ],
+        [
+          3741.5,
+          1957.7
+        ]
+      ],
+      "label": [
+        2388.1,
+        3199.8
+      ],
+      "labelClear": true
+    },
+    "edge_heart_ender_void": {
+      "points": [
+        [
+          1601.5,
+          4068.2
+        ],
+        [
+          1632,
+          4128
+        ],
+        [
+          1632,
+          4192
+        ],
+        [
+          1472,
+          4224
+        ],
+        [
+          1153.9,
+          4483.5
+        ]
+      ],
+      "label": [
+        1401.7,
+        4229.7
+      ],
+      "labelClear": true
+    },
+    "edge_orb_heart_ender": {
+      "points": [
+        [
+          1445.4,
+          3952.7
+        ],
+        [
+          1532.9,
+          4005.2
+        ]
+      ],
+      "label": [
+        1483,
+        3989.2
+      ],
+      "labelClear": true
+    },
+    "edge_void_endermite": {
+      "points": [
+        [
+          1153.2,
+          4483.5
+        ],
+        [
+          1504,
+          4192
+        ],
+        [
+          1632,
+          4192
+        ],
+        [
+          1952,
+          3680
+        ],
+        [
+          1952,
+          3584
+        ],
+        [
+          2368,
+          3264
+        ],
+        [
+          2400,
+          3008
+        ],
+        [
+          2592,
+          2752
+        ],
+        [
+          2624,
+          2656
+        ],
+        [
+          2944,
+          2400
+        ],
+        [
+          3072,
+          2208
+        ],
+        [
+          3424,
+          1920
+        ],
+        [
+          3504.1,
+          1726.6
+        ]
+      ],
+      "label": [
+        2084,
+        3497.6
+      ],
+      "labelClear": true
+    },
+    "edge_void_shulker": {
+      "points": [
+        [
+          1153.2,
+          4483.5
+        ],
+        [
+          1504,
+          4192
+        ],
+        [
+          1632,
+          4192
+        ],
+        [
+          2464,
+          3488
+        ],
+        [
+          2976,
+          2976
+        ],
+        [
+          3136,
+          2944
+        ],
+        [
+          3648,
+          2112
+        ],
+        [
+          3840,
+          2080
+        ],
+        [
+          4096,
+          1920
+        ],
+        [
+          4269.4,
+          1640.5
+        ]
+      ],
+      "label": [
+        2806.1,
+        3112
+      ],
+      "labelClear": true
+    },
+    "edge_endcity_shulker": {
+      "points": [
+        [
+          4149,
+          1525.1
+        ],
+        [
+          4236.5,
+          1577.5
+        ]
+      ],
+      "label": [
+        4186.6,
+        1561.6
+      ],
+      "labelClear": true
+    },
+    "edge_shulker_shulker_box": {
+      "points": [
+        [
+          4341.5,
+          1640.5
+        ],
+        [
+          4429,
+          1693
+        ]
+      ],
+      "label": [
+        4379.1,
+        1677.1
+      ],
+      "labelClear": true
+    },
+    "edge_shulker_grumpo": {
+      "points": [
+        [
+          4297.1,
+          1640.5
+        ],
+        [
+          4338.4,
+          1800.8
+        ]
+      ],
+      "label": [
+        4294.5,
+        1726.6
+      ],
+      "labelClear": true
+    },
+    "edge_builders_nameless_kingdom": {
+      "points": [
+        [
+          2189.5,
+          2062.5
+        ],
+        [
+          2277,
+          2115
+        ]
+      ],
+      "label": [
+        2227.1,
+        2099.1
+      ],
+      "labelClear": true
+    },
+    "edge_nameless_kingdom_nameless_one": {
+      "points": [
+        [
+          2299.1,
+          2178
+        ],
+        [
+          2202.6,
+          2278.3
+        ]
+      ],
+      "label": [
+        2242.2,
+        2219.9
+      ],
+      "labelClear": true
+    },
+    "edge_nameless_one_evoker": {
+      "points": [
+        [
+          2137.7,
+          2341.3
+        ],
+        [
+          1792,
+          2656
+        ],
+        [
+          1312,
+          2912
+        ],
+        [
+          1223.7,
+          3099.8
+        ]
+      ],
+      "label": [
+        1661,
+        2712.3
+      ],
+      "labelClear": true
+    },
+    "edge_nameless_one_orb": {
+      "points": [
+        [
+          2139.6,
+          2341.3
+        ],
+        [
+          2112,
+          2368
+        ],
+        [
+          2016,
+          2784
+        ],
+        [
+          1888,
+          2784
+        ],
+        [
+          1760,
+          2976
+        ],
+        [
+          1632,
+          2976
+        ],
+        [
+          1472,
+          3264
+        ],
+        [
+          1472,
+          3744
+        ],
+        [
+          1408,
+          3776
+        ],
+        [
+          1396.2,
+          3889.7
+        ]
+      ],
+      "label": [
+        1611,
+        2989.1
+      ],
+      "labelClear": true
+    },
+    "edge_seer_night_beacon": {
+      "points": [
+        [
+          3408.4,
+          1440.2
+        ],
+        [
+          3311.9,
+          1540.5
+        ]
+      ],
+      "label": [
+        3351.5,
+        1482
+      ],
+      "labelClear": true
+    },
+    "edge_seer_orb": {
+      "points": [
+        [
+          3434.5,
+          1440.2
+        ],
+        [
+          3392,
+          1760
+        ],
+        [
+          3392,
+          1984
+        ],
+        [
+          2752,
+          2528
+        ],
+        [
+          2752,
+          2592
+        ],
+        [
+          2528,
+          2752
+        ],
+        [
+          2496,
+          2912
+        ],
+        [
+          2336,
+          3104
+        ],
+        [
+          2336,
+          3296
+        ],
+        [
+          1920,
+          3616
+        ],
+        [
+          1760,
+          3840
+        ],
+        [
+          1493.9,
+          3898.9
+        ]
+      ],
+      "label": [
+        2540.6,
+        2728.2
+      ],
+      "labelClear": true
+    },
+    "edge_seer_malgosha": {
+      "points": [
+        [
+          3478.2,
+          1377.2
+        ],
+        [
+          3534.2,
+          1332.6
+        ]
+      ],
+      "label": [
+        3513.7,
+        1364.3
+      ],
+      "labelClear": true
+    },
+    "edge_malgosha_great_darkening": {
+      "points": [
+        [
+          3521.2,
+          1269.6
+        ],
+        [
+          3433.7,
+          1217.1
+        ]
+      ],
+      "label": [
+        3483.6,
+        1233
+      ],
+      "labelClear": true
+    },
+    "edge_night_beacon_great_darkening": {
+      "points": [
+        [
+          3289.7,
+          1540.5
+        ],
+        [
+          3373.1,
+          1217.1
+        ]
+      ],
+      "label": [
+        3308.1,
+        1372.8
+      ],
+      "labelClear": true
+    },
+    "edge_orb_earth_portal": {
+      "points": [
+        [
+          1407.2,
+          3952.7
+        ],
+        [
+          1472,
+          4096
+        ],
+        [
+          1632,
+          4096
+        ],
+        [
+          1640.8,
+          4228.4
+        ]
+      ],
+      "label": [
+        1539.7,
+        4084
+      ],
+      "labelClear": true
+    },
+    "edge_earth_crystal_earth_portal": {
+      "points": [
+        [
+          1502.9,
+          4175.9
+        ],
+        [
+          1590.4,
+          4228.4
+        ]
+      ],
+      "label": [
+        1552.8,
+        4191.8
+      ],
+      "labelClear": true
+    },
+    "edge_earth_crystal_beacon": {
+      "points": [
+        [
+          1571.7,
+          4112.9
+        ],
+        [
+          1760,
+          4064
+        ],
+        [
+          2432,
+          3520
+        ],
+        [
+          2701.9,
+          3087.5
+        ]
+      ],
+      "label": [
+        2226.1,
+        3702.1
+      ],
+      "labelClear": true
+    },
+    "edge_earth_portal_rift": {
+      "points": [
+        [
+          1675,
+          4228.4
+        ],
+        [
+          2528,
+          3392
+        ],
+        [
+          2816,
+          3072
+        ],
+        [
+          2881.6,
+          2848.1
+        ]
+      ],
+      "label": [
+        2346.9,
+        3586.4
+      ],
+      "labelClear": true
+    },
+    "edge_castle_redstone_redstone": {
+      "points": [
+        [
+          2369.8,
+          1566.5
+        ],
+        [
+          2282.3,
+          1514
+        ]
+      ],
+      "label": [
+        2369,
+        1538
+      ],
+      "labelClear": true
+    },
+    "edge_castle_redstone_wither": {
+      "points": [
+        [
+          2393.1,
+          1629.5
+        ],
+        [
+          2272,
+          1760
+        ],
+        [
+          2336,
+          2016
+        ],
+        [
+          2432,
+          2112
+        ],
+        [
+          2432,
+          2272
+        ],
+        [
+          2336,
+          2400
+        ],
+        [
+          2434.1,
+          2801.4
+        ]
+      ],
+      "label": [
+        2420,
+        2189.8
+      ],
+      "labelClear": true
+    },
+    "edge_castle_redstone_knowledge": {
+      "points": [
+        [
+          2337.1,
+          1629.5
+        ],
+        [
+          1984,
+          1760
+        ],
+        [
+          1760,
+          2048
+        ],
+        [
+          1728,
+          2112
+        ],
+        [
+          1648,
+          2153.4
+        ]
+      ],
+      "label": [
+        1928.5,
+        1811.8
+      ],
+      "labelClear": true
+    },
+    "edge_ghast_tear_dried_ghast": {
+      "points": [
+        [
+          3970.6,
+          2237.2
+        ],
+        [
+          4058.1,
+          2289.7
+        ]
+      ],
+      "label": [
+        4008.2,
+        2273.7
+      ],
+      "labelClear": false
+    },
+    "edge_soul_sand_dried_ghast": {
+      "points": [
+        [
+          3905.6,
+          2477.1
+        ],
+        [
+          4069.2,
+          2352.7
+        ]
+      ],
+      "label": [
+        4001.9,
+        2434
+      ],
+      "labelClear": true
+    },
+    "edge_dried_ghast_happy_ghast": {
+      "points": [
+        [
+          4163.1,
+          2352.7
+        ],
+        [
+          4250.6,
+          2405.2
+        ]
+      ],
+      "label": [
+        4200.7,
+        2389.2
+      ],
+      "labelClear": true
+    },
+    "edge_dried_ghast_nether": {
+      "points": [
+        [
+          4005.7,
+          2292
+        ],
+        [
+          3754.9,
+          2222.2
+        ]
+      ],
+      "label": [
+        3877,
+        2268.6
+      ],
+      "labelClear": true
+    },
+    "edge_soul_sand_soul_sand_valley": {
+      "points": [
+        [
+          3916.7,
+          2540.1
+        ],
+        [
+          4004.2,
+          2592.6
+        ]
+      ],
+      "label": [
+        3954.2,
+        2576.7
+      ],
+      "labelClear": false
+    },
+    "edge_soul_sand_valley_ancient_main": {
+      "points": [
+        [
+          3940.2,
+          2618.7
+        ],
+        [
+          2688,
+          2560
+        ],
+        [
+          2679.1,
+          2555
+        ]
+      ],
+      "label": [
+        3309.5,
+        2577.1
+      ],
+      "labelClear": true
+    },
+    "edge_wither_skeleton_sculk": {
+      "points": [
+        [
+          4387.4,
+          2655.6
+        ],
+        [
+          4352,
+          2848
+        ],
+        [
+          4064,
+          3072
+        ],
+        [
+          4032,
+          3200
+        ],
+        [
+          3776,
+          3488
+        ],
+        [
+          3776,
+          3712
+        ],
+        [
+          3662.4,
+          3753.5
+        ]
+      ],
+      "label": [
+        4010.5,
+        3206.2
+      ],
+      "labelClear": true
+    },
+    "edge_wither_skeleton_nether_ruins": {
+      "points": [
+        [
+          4398.4,
+          2592.6
+        ],
+        [
+          4433.4,
+          2379.3
+        ]
+      ],
+      "label": [
+        4427.7,
+        2487.9
+      ],
+      "labelClear": true
+    },
+    "edge_soul_sand_soul": {
+      "points": [
+        [
+          3770.6,
+          2506.5
+        ],
+        [
+          1888,
+          2464
+        ],
+        [
+          1807.9,
+          2507.9
+        ]
+      ],
+      "label": [
+        3020.8,
+        2477.6
+      ],
+      "labelClear": true
+    },
+    "edge_ancient_main_seal_gate": {
+      "points": [
+        [
+          2744.8,
+          2527
+        ],
+        [
+          2902.4,
+          2527
+        ]
+      ],
+      "label": [
+        2823.6,
+        2539
+      ],
+      "labelClear": true
+    },
+    "edge_seal_gate_rift": {
+      "points": [
+        [
+          3033.5,
+          2558.5
+        ],
+        [
+          2912,
+          2624
+        ],
+        [
+          2894.3,
+          2785.1
+        ]
+      ],
+      "label": [
+        2867,
+        2667.4
+      ],
+      "labelClear": true
+    },
+    "edge_seal_gate_wool": {
+      "points": [
+        [
+          2902.4,
+          2509.7
+        ],
+        [
+          2400,
+          2464
+        ],
+        [
+          2328.6,
+          2501.2
+        ]
+      ],
+      "label": [
+        2682.1,
+        2477.6
+      ],
+      "labelClear": true
+    },
+    "edge_warden_seal_gate": {
+      "points": [
+        [
+          3808.1,
+          3750.5
+        ],
+        [
+          3680,
+          3392
+        ],
+        [
+          3392,
+          2880
+        ],
+        [
+          3200,
+          2592
+        ],
+        [
+          3144.2,
+          2558.5
+        ]
+      ],
+      "label": [
+        3518.1,
+        3128.6
+      ],
+      "labelClear": true
+    },
+    "edge_shrieker_warden": {
+      "points": [
+        [
+          3668.4,
+          3691.4
+        ],
+        [
+          3766.8,
+          3750.5
+        ]
+      ],
+      "label": [
+        3711.4,
+        3731.3
+      ],
+      "labelClear": true
+    },
+    "edge_sculk_shrieker": {
+      "points": [
+        [
+          3592.5,
+          3750.5
+        ],
+        [
+          3607.7,
+          3691.4
+        ]
+      ],
+      "label": [
+        3578.7,
+        3707.9
+      ],
+      "labelClear": true
+    },
+    "edge_sift_humblers": {
+      "points": [
+        [
+          3294.2,
+          3147.9
+        ],
+        [
+          3294.2,
+          3329.1
+        ]
+      ],
+      "label": [
+        3282.2,
+        3238.5
+      ],
+      "labelClear": true
+    },
+    "edge_humblers_deep_sift": {
+      "points": [
+        [
+          3346.7,
+          3392.1
+        ],
+        [
+          3445.1,
+          3451.2
+        ]
+      ],
+      "label": [
+        3389.7,
+        3431.9
+      ],
+      "labelClear": true
+    },
+    "edge_deep_sift_seal_gate": {
+      "points": [
+        [
+          3511.6,
+          3451.2
+        ],
+        [
+          3552,
+          3360
+        ],
+        [
+          3360,
+          2784
+        ],
+        [
+          3124.7,
+          2558.5
+        ]
+      ],
+      "label": [
+        3431.6,
+        2960.9
+      ],
+      "labelClear": true
+    },
+    "edge_disaster_refugees": {
+      "points": [
+        [
+          2241.2,
+          2748.9
+        ],
+        [
+          2196.6,
+          2921.8
+        ]
+      ],
+      "label": [
+        2257.6,
+        2845.4
+      ],
+      "labelClear": true
+    },
+    "edge_refugees_bottle": {
+      "points": [
+        [
+          2068,
+          2923.9
+        ],
+        [
+          1888,
+          2880
+        ],
+        [
+          1504,
+          2464
+        ],
+        [
+          1472,
+          2272
+        ],
+        [
+          1120,
+          1696
+        ],
+        [
+          916.1,
+          1611
+        ]
+      ],
+      "label": [
+        1547.7,
+        2493.7
+      ],
+      "labelClear": true
+    },
+    "edge_bottle_ancient_main": {
+      "points": [
+        [
+          911.6,
+          1611
+        ],
+        [
+          1536,
+          1888
+        ],
+        [
+          1760,
+          1920
+        ],
+        [
+          2496,
+          2368
+        ],
+        [
+          2560,
+          2400
+        ],
+        [
+          2611.4,
+          2495.4
+        ]
+      ],
+      "label": [
+        1828.9,
+        1933.9
+      ],
+      "labelClear": true
+    },
+    "edge_bottle_outpost": {
+      "points": [
+        [
+          901,
+          1611
+        ],
+        [
+          1248,
+          1792
+        ],
+        [
+          1312,
+          2720
+        ],
+        [
+          1334.4,
+          2754.6
+        ]
+      ],
+      "label": [
+        1307.9,
+        2078.6
+      ],
+      "labelClear": true
+    },
+    "edge_bottle_shipwreck": {
+      "points": [
+        [
+          922.6,
+          1580.8
+        ],
+        [
+          2176,
+          1600
+        ],
+        [
+          2304,
+          1664
+        ],
+        [
+          3136,
+          1696
+        ],
+        [
+          3212.8,
+          1726.8
+        ]
+      ],
+      "label": [
+        2078.3,
+        1610.5
+      ],
+      "labelClear": true
+    },
+    "edge_outpost_illagers": {
+      "points": [
+        [
+          1302.4,
+          2817.6
+        ],
+        [
+          1203.9,
+          2876.7
+        ]
+      ],
+      "label": [
+        1277.3,
+        2860.6
+      ],
+      "labelClear": true
+    },
+    "edge_refugees_settlers": {
+      "points": [
+        [
+          2192.1,
+          2921.8
+        ],
+        [
+          2208,
+          2784
+        ],
+        [
+          2080,
+          2752
+        ],
+        [
+          1760,
+          1792
+        ],
+        [
+          1512.4,
+          1661.7
+        ]
+      ],
+      "label": [
+        1929.9,
+        2263.9
+      ],
+      "labelClear": true
+    },
+    "edge_refugees_mages": {
+      "points": [
+        [
+          2068,
+          2923.9
+        ],
+        [
+          1888,
+          2880
+        ],
+        [
+          1415.8,
+          2392.1
+        ]
+      ],
+      "label": [
+        1733.6,
+        2686
+      ],
+      "labelClear": true
+    },
+    "edge_refugees_explorers": {
+      "points": [
+        [
+          2221.6,
+          2921.8
+        ],
+        [
+          2400,
+          2752
+        ],
+        [
+          2528,
+          2432
+        ],
+        [
+          2496,
+          2208
+        ],
+        [
+          2656,
+          2080
+        ],
+        [
+          2720,
+          1295.3
+        ]
+      ],
+      "label": [
+        2556.8,
+        2144
+      ],
+      "labelClear": true
+    },
+    "edge_ancient_main_ocean_civil": {
+      "points": [
+        [
+          2623.9,
+          2558.4
+        ],
+        [
+          2592,
+          2784
+        ],
+        [
+          2889.4,
+          2891.5
+        ]
+      ],
+      "label": [
+        2690.9,
+        2832.5
+      ],
+      "labelClear": true
+    },
+    "edge_ocean_civil_monument": {
+      "points": [
+        [
+          2968.4,
+          2954.5
+        ],
+        [
+          2923.8,
+          3127.3
+        ]
+      ],
+      "label": [
+        2934.5,
+        3037.9
+      ],
+      "labelClear": true
+    },
+    "edge_ocean_civil_shipwreck": {
+      "points": [
+        [
+          3027.2,
+          2891.5
+        ],
+        [
+          3200,
+          2784
+        ],
+        [
+          3296,
+          2528
+        ],
+        [
+          3392,
+          1888
+        ],
+        [
+          3299.4,
+          1782
+        ]
+      ],
+      "label": [
+        3330.9,
+        2376
+      ],
+      "labelClear": true
+    },
+    "edge_ocean_civil_conduit": {
+      "points": [
+        [
+          2949.1,
+          2954.5
+        ],
+        [
+          2092.3,
+          3939.1
+        ]
+      ],
+      "label": [
+        2511.7,
+        3438.9
+      ],
+      "labelClear": true
+    },
+    "edge_sea_heart_conduit": {
+      "points": [
+        [
+          2229.4,
+          3970.6
+        ],
+        [
+          2146.9,
+          3970.6
+        ]
+      ],
+      "label": [
+        2188.1,
+        3958.6
+      ],
+      "labelClear": false
+    },
+    "edge_nautilus_shell_conduit": {
+      "points": [
+        [
+          2398.3,
+          4063.5
+        ],
+        [
+          2146.9,
+          3993.5
+        ]
+      ],
+      "label": [
+        2275.8,
+        4016.9
+      ],
+      "labelClear": true
+    },
+    "edge_conduit_conduit_power": {
+      "points": [
+        [
+          2082.4,
+          4002.1
+        ],
+        [
+          2164.9,
+          4150.6
+        ]
+      ],
+      "label": [
+        2113.2,
+        4082.2
+      ],
+      "labelClear": true
+    },
+    "edge_camp_explorer_map": {
+      "points": [
+        [
+          2500,
+          614.9
+        ],
+        [
+          2605.5,
+          724.6
+        ]
+      ],
+      "label": [
+        2544.1,
+        678.1
+      ],
+      "labelClear": true
+    },
+    "edge_explorer_map_ancient_main": {
+      "points": [
+        [
+          2621.4,
+          787.6
+        ],
+        [
+          2528,
+          992
+        ],
+        [
+          2688,
+          2048
+        ],
+        [
+          2496,
+          2240
+        ],
+        [
+          2592,
+          2496
+        ],
+        [
+          2597.5,
+          2500.6
+        ]
+      ],
+      "label": [
+        2620.7,
+        1683.6
+      ],
+      "labelClear": true
+    },
+    "edge_explorer_map_trial_chamber": {
+      "points": [
+        [
+          2542.3,
+          783.9
+        ],
+        [
+          1772.2,
+          1013.4
+        ]
+      ],
+      "label": [
+        2153.8,
+        887.2
+      ],
+      "labelClear": true
+    },
+    "edge_explorer_map_mineshaft": {
+      "points": [
+        [
+          2651.2,
+          787.6
+        ],
+        [
+          2720,
+          928
+        ],
+        [
+          2880,
+          960
+        ],
+        [
+          3168,
+          1344
+        ],
+        [
+          3392,
+          1536
+        ],
+        [
+          3325.5,
+          2851.1
+        ]
+      ],
+      "label": [
+        3374.4,
+        1646.3
+      ],
+      "labelClear": true
+    },
+    "edge_explorer_map_desert_pyramid": {
+      "points": [
+        [
+          2688.3,
+          787.6
+        ],
+        [
+          2786.8,
+          846.7
+        ]
+      ],
+      "label": [
+        2731.4,
+        827.4
+      ],
+      "labelClear": true
+    },
+    "edge_explorer_map_jungle_pyramid": {
+      "points": [
+        [
+          2643.9,
+          787.6
+        ],
+        [
+          2688.4,
+          960.4
+        ]
+      ],
+      "label": [
+        2654.5,
+        877
+      ],
+      "labelClear": true
+    },
+    "edge_explorer_map_searuins": {
+      "points": [
+        [
+          2621.4,
+          787.6
+        ],
+        [
+          2528,
+          992
+        ],
+        [
+          2688,
+          2048
+        ],
+        [
+          2496,
+          2240
+        ],
+        [
+          2528,
+          2464
+        ],
+        [
+          2496,
+          2528
+        ],
+        [
+          2528,
+          2880
+        ],
+        [
+          2400,
+          3040
+        ],
+        [
+          2464,
+          3264
+        ],
+        [
+          2464.6,
+          3263.9
+        ]
+      ],
+      "label": [
+        2495.6,
+        2322.1
+      ],
+      "labelClear": true
+    },
+    "edge_explorer_map_mansion": {
+      "points": [
+        [
+          2613.2,
+          787.6
+        ],
+        [
+          2144,
+          1440
+        ],
+        [
+          2112,
+          1440
+        ],
+        [
+          2048,
+          1728
+        ],
+        [
+          1760,
+          1984
+        ],
+        [
+          1728,
+          2240
+        ],
+        [
+          1568,
+          2336
+        ],
+        [
+          1088,
+          2848
+        ],
+        [
+          832,
+          2976
+        ],
+        [
+          736,
+          3008
+        ],
+        [
+          608,
+          3136
+        ],
+        [
+          512,
+          3168
+        ],
+        [
+          503,
+          3265.4
+        ]
+      ],
+      "label": [
+        1926.9,
+        1851.7
+      ],
+      "labelClear": true
+    },
+    "edge_explorers_explorer_map": {
+      "points": [
+        [
+          2697,
+          1232.3
+        ],
+        [
+          2528,
+          1024
+        ],
+        [
+          2560,
+          896
+        ],
+        [
+          2618.7,
+          787.6
+        ]
+      ],
+      "label": [
+        2522.8,
+        1036.6
+      ],
+      "labelClear": true
+    },
+    "edge_trial_chamber_trial": {
+      "points": [
+        [
+          1649.2,
+          1002.9
+        ],
+        [
+          1550.8,
+          943.9
+        ]
+      ],
+      "label": [
+        1606.2,
+        963.1
+      ],
+      "labelClear": true
+    },
+    "edge_grand_illusioner_rift_red": {
+      "points": [
+        [
+          667.4,
+          3230.1
+        ],
+        [
+          667.4,
+          3411.3
+        ]
+      ],
+      "label": [
+        655.4,
+        3342.4
+      ],
+      "labelClear": true
+    },
+    "edge_rift_red_nether": {
+      "points": [
+        [
+          701,
+          3411.3
+        ],
+        [
+          960,
+          3168
+        ],
+        [
+          1152,
+          3072
+        ],
+        [
+          2304,
+          2848
+        ],
+        [
+          2912,
+          2464
+        ],
+        [
+          3232,
+          2432
+        ],
+        [
+          3636.9,
+          2234.5
+        ]
+      ],
+      "label": [
+        2182.4,
+        2883.9
+      ],
+      "labelClear": true
+    },
+    "edge_rift_red_sift": {
+      "points": [
+        [
+          862.5,
+          3424.7
+        ],
+        [
+          1216,
+          3392
+        ],
+        [
+          1600,
+          3392
+        ],
+        [
+          1728,
+          3328
+        ],
+        [
+          2880,
+          3296
+        ],
+        [
+          3221.5,
+          3147.9
+        ]
+      ],
+      "label": [
+        2049.5,
+        3331.1
+      ],
+      "labelClear": true
+    },
+    "edge_eaten_disaster": {
+      "points": [
+        [
+          2098.3,
+          2808
+        ],
+        [
+          2196.8,
+          2748.9
+        ]
+      ],
+      "label": [
+        2153.7,
+        2788.8
+      ],
+      "labelClear": true
+    },
+    "edge_eaten_sculk": {
+      "points": [
+        [
+          2147.9,
+          2871
+        ],
+        [
+          2592,
+          3008
+        ],
+        [
+          2880,
+          3360
+        ],
+        [
+          2976,
+          3360
+        ],
+        [
+          3328,
+          3584
+        ],
+        [
+          3543.6,
+          3750.5
+        ]
+      ],
+      "label": [
+        2828.3,
+        3315.8
+      ],
+      "labelClear": true
+    },
+    "edge_shale_code_shale": {
+      "points": [
+        [
+          2990.4,
+          3489
+        ],
+        [
+          2891.9,
+          3429.9
+        ]
+      ],
+      "label": [
+        2965.3,
+        3446
+      ],
+      "labelClear": true
+    },
+    "edge_shale_code_sift": {
+      "points": [
+        [
+          3042.4,
+          3489
+        ],
+        [
+          3040,
+          3296
+        ],
+        [
+          3249.6,
+          3147.9
+        ]
+      ],
+      "label": [
+        3072.9,
+        3287.4
+      ],
+      "labelClear": true
+    },
+    "edge_disc_teaser_eaten": {
+      "points": [
+        [
+          3137.5,
+          3661.7
+        ],
+        [
+          2816,
+          3520
+        ],
+        [
+          2336,
+          3008
+        ],
+        [
+          2336,
+          2912
+        ],
+        [
+          2172,
+          2871
+        ]
+      ],
+      "label": [
+        2614.2,
+        3287.3
+      ],
+      "labelClear": true
+    },
+    "edge_disc_teaser_shale_code": {
+      "points": [
+        [
+          3178.6,
+          3661.7
+        ],
+        [
+          3073.1,
+          3552
+        ]
+      ],
+      "label": [
+        3134.5,
+        3598.5
+      ],
+      "labelClear": true
+    },
+    "edge_disc_teaser_sea_heart": {
+      "points": [
+        [
+          3105.8,
+          3724.7
+        ],
+        [
+          2370.4,
+          3949.1
+        ]
+      ],
+      "label": [
+        2734.6,
+        3825.4
+      ],
+      "labelClear": true
+    },
+    "edge_disc_teaser_amethyst": {
+      "points": [
+        [
+          3204.2,
+          3661.7
+        ],
+        [
+          3168,
+          3424
+        ],
+        [
+          3040,
+          3392
+        ],
+        [
+          3168,
+          2816
+        ],
+        [
+          3296,
+          2560
+        ],
+        [
+          3296,
+          2240
+        ],
+        [
+          3174.9,
+          2073.2
+        ]
+      ],
+      "label": [
+        3093.8,
+        3094.6
+      ],
+      "labelClear": true
+    },
+    "edge_piglin_piglin_invasion": {
+      "points": [
+        [
+          3495.7,
+          1500.3
+        ],
+        [
+          3154.1,
+          1440.2
+        ]
+      ],
+      "label": [
+        3326.9,
+        1458.4
+      ],
+      "labelClear": true
+    },
+    "edge_ruined_piglin_invasion": {
+      "points": [
+        [
+          3884.8,
+          2769.1
+        ],
+        [
+          3392,
+          2336
+        ],
+        [
+          3232,
+          1984
+        ],
+        [
+          3168,
+          1952
+        ],
+        [
+          3104,
+          1664
+        ],
+        [
+          2991,
+          1440.2
+        ]
+      ],
+      "label": [
+        3356.4,
+        2161.1
+      ],
+      "labelClear": true
+    },
+    "edge_wither_painting_wither": {
+      "points": [
+        [
+          2227.5,
+          3218.7
+        ],
+        [
+          2424.3,
+          2864.4
+        ]
+      ],
+      "label": [
+        2336.4,
+        3047.4
+      ],
+      "labelClear": true
+    },
+    "edge_wither_painting_builders": {
+      "points": [
+        [
+          2221.7,
+          3218.7
+        ],
+        [
+          2336,
+          2912
+        ],
+        [
+          2400,
+          2688
+        ],
+        [
+          2208,
+          2144
+        ],
+        [
+          2156.8,
+          2062.5
+        ]
+      ],
+      "label": [
+        2392.5,
+        2630.8
+      ],
+      "labelClear": true
+    },
+    "edge_enchanted_apple_lost_recipe": {
+      "points": [
+        [
+          4486.4,
+          2000
+        ],
+        [
+          4128,
+          2144
+        ],
+        [
+          2304,
+          2208
+        ],
+        [
+          1911.1,
+          2283.8
+        ]
+      ],
+      "label": [
+        3207.7,
+        2136.3
+      ],
+      "labelClear": true
+    },
+    "edge_lost_recipe_knowledge": {
+      "points": [
+        [
+          1738.2,
+          2275.6
+        ],
+        [
+          1639.6,
+          2216.4
+        ]
+      ],
+      "label": [
+        1695.1,
+        2235.7
+      ],
+      "labelClear": false
+    },
+    "edge_glowing_fruit_ancient_ecology": {
+      "points": [
+        [
+          948,
+          2215.9
+        ],
+        [
+          873.8,
+          1928.2
+        ]
+      ],
+      "label": [
+        887.7,
+        2078
+      ],
+      "labelClear": true
+    },
+    "edge_ancient_ecology_soul": {
+      "points": [
+        [
+          958.6,
+          1928.2
+        ],
+        [
+          1312,
+          2048
+        ],
+        [
+          1722.4,
+          2507.9
+        ]
+      ],
+      "label": [
+        1343.7,
+        2023.5
+      ],
+      "labelClear": true
+    },
+    "edge_redstone_mines_redstone": {
+      "points": [
+        [
+          2078.8,
+          1391.9
+        ],
+        [
+          2177.3,
+          1451
+        ]
+      ],
+      "label": [
+        2121.9,
+        1431.7
+      ],
+      "labelClear": true
+    },
+    "edge_woodland_mansion_d_hunt": {
+      "points": [
+        [
+          420.2,
+          3054
+        ],
+        [
+          896,
+          2656
+        ],
+        [
+          896,
+          2560
+        ],
+        [
+          1632,
+          2016
+        ],
+        [
+          1792,
+          1952
+        ],
+        [
+          2112,
+          1632
+        ],
+        [
+          2112,
+          1440
+        ],
+        [
+          2528,
+          928
+        ],
+        [
+          2528,
+          704
+        ],
+        [
+          2960.9,
+          242.2
+        ]
+      ],
+      "label": [
+        1538.8,
+        2099.8
+      ],
+      "labelClear": true
+    },
+    "edge_woodland_mansion_d_mansion": {
+      "points": [
+        [
+          400.1,
+          3117
+        ],
+        [
+          482.6,
+          3265.4
+        ]
+      ],
+      "label": [
+        430.8,
+        3197
+      ],
+      "labelClear": true
+    },
+    "edge_redstone_mines_movie_landscape": {
+      "points": [
+        [
+          1996,
+          1391.9
+        ],
+        [
+          1890.5,
+          1501.5
+        ]
+      ],
+      "label": [
+        1934.6,
+        1438.4
+      ],
+      "labelClear": true
+    },
+    "edge_woodland_mansion_d_movie_landscape": {
+      "points": [
+        [
+          420.2,
+          3054
+        ],
+        [
+          896,
+          2656
+        ],
+        [
+          896,
+          2560
+        ],
+        [
+          1312,
+          2176
+        ],
+        [
+          1344,
+          1856
+        ],
+        [
+          1809.9,
+          1564.5
+        ]
+      ],
+      "label": [
+        1152.8,
+        2306.7
+      ],
+      "labelClear": true
+    },
+    "edge_movie_landscape_architecture": {
+      "points": [
+        [
+          1930.3,
+          1501.5
+        ],
+        [
+          2293.7,
+          1338.3
+        ]
+      ],
+      "label": [
+        2052,
+        1403
+      ],
+      "labelClear": true
+    },
+    "edge_orb_orb_healthy": {
+      "points": [
+        [
+          1340.4,
+          3889.7
+        ],
+        [
+          1241.9,
+          3830.6
+        ]
+      ],
+      "label": [
+        1297.3,
+        3849.8
+      ],
+      "labelClear": true
+    },
+    "edge_orb_orb_dark": {
+      "points": [
+        [
+          1384.8,
+          3889.7
+        ],
+        [
+          1340.3,
+          3716.8
+        ]
+      ],
+      "label": [
+        1374.6,
+        3754
+      ],
+      "labelClear": true
+    },
+    "edge_orb_healthy_orb_dark": {
+      "points": [
+        [
+          1228.9,
+          3767.6
+        ],
+        [
+          1292.6,
+          3716.8
+        ]
+      ],
+      "label": [
+        1238.2,
+        3729.5
+      ],
+      "labelClear": true
+    },
+    "edge_earth_crystal_orb_healthy": {
+      "points": [
+        [
+          1422.8,
+          4112.9
+        ],
+        [
+          1184,
+          3840
+        ],
+        [
+          1185.2,
+          3830.6
+        ]
+      ],
+      "label": [
+        1309.3,
+        3964.9
+      ],
+      "labelClear": true
+    },
+    "edge_orb_dark_void": {
+      "points": [
+        [
+          1328.8,
+          3716.8
+        ],
+        [
+          1312,
+          3872
+        ],
+        [
+          1280,
+          3872
+        ],
+        [
+          1123.4,
+          4483.5
+        ]
+      ],
+      "label": [
+        1213.4,
+        4083.7
+      ],
+      "labelClear": true
+    },
+    "edge_orb_arch_illager": {
+      "points": [
+        [
+          1445.4,
+          3889.7
+        ],
+        [
+          1544,
+          3830.6
+        ]
+      ],
+      "label": [
+        1500.8,
+        3870.4
+      ],
+      "labelClear": true
+    },
+    "edge_orb_redstone_golem": {
+      "points": [
+        [
+          1395.6,
+          3889.7
+        ],
+        [
+          1408,
+          3744
+        ],
+        [
+          1472,
+          3744
+        ],
+        [
+          1408,
+          3040
+        ],
+        [
+          1216,
+          2816
+        ],
+        [
+          1216,
+          2720
+        ],
+        [
+          1280,
+          2496
+        ],
+        [
+          1344,
+          1856
+        ],
+        [
+          1664,
+          1536
+        ],
+        [
+          1952,
+          1216
+        ],
+        [
+          1956.6,
+          1217.5
+        ]
+      ],
+      "label": [
+        1433.4,
+        3187.4
+      ],
+      "labelClear": true
+    },
+    "edge_redstone_golem_highblock": {
+      "points": [
+        [
+          1946.8,
+          1257.3
+        ],
+        [
+          1664,
+          1504
+        ],
+        [
+          1760,
+          1856
+        ],
+        [
+          1728,
+          2240
+        ],
+        [
+          1664,
+          2272
+        ],
+        [
+          1600,
+          2560
+        ],
+        [
+          1920,
+          3008
+        ],
+        [
+          2048,
+          3424
+        ],
+        [
+          1807,
+          3594.9
+        ]
+      ],
+      "label": [
+        1722.4,
+        2752
+      ],
+      "labelClear": true
+    },
+    "edge_arch_illager_obsidian_pinnacle": {
+      "points": [
+        [
+          1690.5,
+          3767.6
+        ],
+        [
+          2017.8,
+          3657.9
+        ]
+      ],
+      "label": [
+        1857.9,
+        3724.1
+      ],
+      "labelClear": true
+    },
+    "edge_orb_material_processing": {
+      "points": [
+        [
+          1395.6,
+          3889.7
+        ],
+        [
+          1408,
+          3744
+        ],
+        [
+          1472,
+          3744
+        ],
+        [
+          1472,
+          3168
+        ],
+        [
+          1664,
+          2976
+        ],
+        [
+          1792,
+          2944
+        ],
+        [
+          1792,
+          2624
+        ],
+        [
+          1920,
+          2560
+        ],
+        [
+          1920,
+          2048
+        ],
+        [
+          1856,
+          1920
+        ],
+        [
+          2080,
+          1664
+        ],
+        [
+          2112,
+          1440
+        ],
+        [
+          2176,
+          1376
+        ],
+        [
+          2107,
+          1045.9
+        ]
+      ],
+      "label": [
+        1929.2,
+        2582.2
+      ],
+      "labelClear": true
+    },
+    "edge_soulblock_material_processing": {
+      "points": [
+        [
+          1094.1,
+          2701.1
+        ],
+        [
+          1280,
+          2592
+        ],
+        [
+          1312,
+          1888
+        ],
+        [
+          1664,
+          1536
+        ],
+        [
+          1824,
+          1184
+        ],
+        [
+          2049,
+          1045.9
+        ]
+      ],
+      "label": [
+        1401.2,
+        1815.8
+      ],
+      "labelClear": true
+    },
+    "edge_flames_material_processing": {
+      "points": [
+        [
+          1153.9,
+          2043.2
+        ],
+        [
+          1664,
+          1536
+        ],
+        [
+          1824,
+          1184
+        ],
+        [
+          2049,
+          1045.9
+        ]
+      ],
+      "label": [
+        1631.2,
+        1551.7
+      ],
+      "labelClear": true
+    },
+    "edge_firsts_material_processing": {
+      "points": [
+        [
+          3629.1,
+          2350.1
+        ],
+        [
+          3520,
+          2080
+        ],
+        [
+          3296,
+          1792
+        ],
+        [
+          3200,
+          1792
+        ],
+        [
+          2464,
+          1184
+        ],
+        [
+          2167.9,
+          1045.9
+        ]
+      ],
+      "label": [
+        3003.6,
+        1614.2
+      ],
+      "labelClear": true
+    },
+    "edge_redstone_golem_material_processing": {
+      "points": [
+        [
+          2000.4,
+          1194.3
+        ],
+        [
+          2082.9,
+          1045.9
+        ]
+      ],
+      "label": [
+        2052.1,
+        1125.9
+      ],
+      "labelClear": true
+    },
+    "edge_piglin_zombified_piglin": {
+      "points": [
+        [
+          3644,
+          1492.7
+        ],
+        [
+          3744,
+          1248
+        ],
+        [
+          3648.5,
+          1073.9
+        ]
+      ],
+      "label": [
+        3747.6,
+        1345
+      ],
+      "labelClear": true
+    },
+    "edge_return_piglins_nether_wart": {
+      "points": [
+        [
+          4033.6,
+          1162.7
+        ],
+        [
+          3951.1,
+          1311.2
+        ]
+      ],
+      "label": [
+        3981.9,
+        1231.1
+      ],
+      "labelClear": true
+    },
+    "edge_return_piglins_strider": {
+      "points": [
+        [
+          4008.7,
+          1162.7
+        ],
+        [
+          3808,
+          1312
+        ],
+        [
+          3776,
+          1568
+        ],
+        [
+          3616,
+          1760
+        ],
+        [
+          3520,
+          1792
+        ],
+        [
+          3424,
+          1952
+        ],
+        [
+          3456.3,
+          2174.2
+        ]
+      ],
+      "label": [
+        3676.2,
+        1650.2
+      ],
+      "labelClear": true
+    },
+    "edge_nether_wart_lost_adaptation": {
+      "points": [
+        [
+          3915.8,
+          1311.2
+        ],
+        [
+          3808,
+          1120
+        ],
+        [
+          4000,
+          992
+        ],
+        [
+          4003.6,
+          992
+        ]
+      ],
+      "label": [
+        3796.3,
+        1180.6
+      ],
+      "labelClear": true
+    },
+    "edge_lost_adaptation_piglin": {
+      "points": [
+        [
+          3953.1,
+          1023.6
+        ],
+        [
+          3808,
+          1088
+        ],
+        [
+          3643.9,
+          1492.7
+        ]
+      ],
+      "label": [
+        3744.7,
+        1212.3
+      ],
+      "labelClear": true
+    },
+    "edge_lost_adaptation_dried_ghast": {
+      "points": [
+        [
+          4110.7,
+          1023.6
+        ],
+        [
+          4288,
+          1088
+        ],
+        [
+          4192,
+          1664
+        ],
+        [
+          4192,
+          2144
+        ],
+        [
+          4125.1,
+          2289.7
+        ]
+      ],
+      "label": [
+        4218.9,
+        1429.6
+      ],
+      "labelClear": true
+    },
+    "edge_lost_adaptation_endermite": {
+      "points": [
+        [
+          3963,
+          1023.6
+        ],
+        [
+          3776,
+          1120
+        ],
+        [
+          3776,
+          1568
+        ],
+        [
+          3581.3,
+          1663.6
+        ]
+      ],
+      "label": [
+        3764,
+        1242.2
+      ],
+      "labelClear": true
+    },
+    "edge_dragon_dragon_song": {
+      "points": [
+        [
+          3663.6,
+          1787
+        ],
+        [
+          3744,
+          1568
+        ],
+        [
+          3776,
+          1568
+        ],
+        [
+          3744,
+          960
+        ],
+        [
+          3681.5,
+          893
+        ]
+      ],
+      "label": [
+        3782.6,
+        1465.8
+      ],
+      "labelClear": true
+    },
+    "edge_dragon_song_ender_voice": {
+      "points": [
+        [
+          3621.8,
+          830
+        ],
+        [
+          3516.2,
+          720.4
+        ]
+      ],
+      "label": [
+        3577.6,
+        766.9
+      ],
+      "labelClear": true
+    },
+    "edge_ender_voice_singer": {
+      "points": [
+        [
+          3451.5,
+          720.4
+        ],
+        [
+          2560,
+          1536
+        ],
+        [
+          2208,
+          1568
+        ],
+        [
+          1696,
+          2016
+        ],
+        [
+          1440,
+          2144
+        ],
+        [
+          832,
+          2624
+        ],
+        [
+          768,
+          2784
+        ],
+        [
+          399.9,
+          2912.5
+        ]
+      ],
+      "label": [
+        1902.6,
+        1782.1
+      ],
+      "labelClear": true
+    },
+    "edge_ender_voice_allay": {
+      "points": [
+        [
+          3451.5,
+          720.4
+        ],
+        [
+          2560,
+          1536
+        ],
+        [
+          2208,
+          1568
+        ],
+        [
+          1696,
+          2016
+        ],
+        [
+          992,
+          2368
+        ],
+        [
+          992.5,
+          2369.7
+        ]
+      ],
+      "label": [
+        2593.6,
+        1489
+      ],
+      "labelClear": true
+    },
+    "edge_ender_voice_enderman": {
+      "points": [
+        [
+          3472.3,
+          720.4
+        ],
+        [
+          3424,
+          832
+        ],
+        [
+          3424,
+          928
+        ],
+        [
+          3520,
+          1120
+        ],
+        [
+          3744,
+          1280
+        ],
+        [
+          4128,
+          1824
+        ],
+        [
+          4081.8,
+          2050.1
+        ]
+      ],
+      "label": [
+        3889.9,
+        1528.4
+      ],
+      "labelClear": true
+    },
+    "edge_journey_city_warden": {
+      "points": [
+        [
+          3916,
+          4101.1
+        ],
+        [
+          3968,
+          3840
+        ],
+        [
+          3900.1,
+          3813.5
+        ]
+      ],
+      "label": [
+        3988.4,
+        3942.6
+      ],
+      "labelClear": true
+    },
+    "edge_journey_city_dragon_head": {
+      "points": [
+        [
+          3916,
+          4101.1
+        ],
+        [
+          3968,
+          3840
+        ],
+        [
+          3808,
+          3136
+        ],
+        [
+          3744,
+          2464
+        ],
+        [
+          3808,
+          2400
+        ],
+        [
+          3840,
+          2112
+        ],
+        [
+          4032,
+          1984
+        ],
+        [
+          4032,
+          1888
+        ],
+        [
+          4015.2,
+          1850
+        ]
+      ],
+      "label": [
+        3827.2,
+        2915.5
+      ],
+      "labelClear": true
+    },
+    "edge_dragon_head_relic_relocation": {
+      "points": [
+        [
+          4001.1,
+          1787
+        ],
+        [
+          4000,
+          1632
+        ],
+        [
+          3584,
+          1088
+        ],
+        [
+          3488,
+          1088
+        ],
+        [
+          3226.6,
+          581.6
+        ]
+      ],
+      "label": [
+        3646.4,
+        1149.8
+      ],
+      "labelClear": true
+    },
+    "edge_adventurers_relic_relocation": {
+      "points": [
+        [
+          3210.3,
+          762.9
+        ],
+        [
+          3210.3,
+          581.6
+        ]
+      ],
+      "label": [
+        3222.3,
+        672.3
+      ],
+      "labelClear": true
+    },
+    "edge_relic_relocation_shale": {
+      "points": [
+        [
+          3201,
+          581.6
+        ],
+        [
+          3136,
+          800
+        ],
+        [
+          3136,
+          1344
+        ],
+        [
+          3392,
+          1536
+        ],
+        [
+          3360,
+          2272
+        ],
+        [
+          3264,
+          2624
+        ],
+        [
+          2976,
+          3232
+        ],
+        [
+          2865.2,
+          3366.9
+        ]
+      ],
+      "label": [
+        3333.5,
+        2323.6
+      ],
+      "labelClear": true
+    },
+    "edge_relic_relocation_echo_shard_m": {
+      "points": [
+        [
+          3201,
+          581.6
+        ],
+        [
+          3136,
+          800
+        ],
+        [
+          3136,
+          1344
+        ],
+        [
+          3200,
+          1376
+        ],
+        [
+          3104,
+          1984
+        ],
+        [
+          3040,
+          2016
+        ],
+        [
+          2752.8,
+          2695.5
+        ]
+      ],
+      "label": [
+        3142.8,
+        1661.3
+      ],
+      "labelClear": true
+    },
+    "edge_lost_journals_enchanter_journal": {
+      "points": [
+        [
+          1413.3,
+          1917.6
+        ],
+        [
+          1081.2,
+          1825.1
+        ]
+      ],
+      "label": [
+        1250.5,
+        1859.8
+      ],
+      "labelClear": true
+    },
+    "edge_enchanter_journal_knowledge": {
+      "points": [
+        [
+          1018,
+          1825.1
+        ],
+        [
+          1537.3,
+          2153.4
+        ]
+      ],
+      "label": [
+        1271.2,
+        1999.4
+      ],
+      "labelClear": true
+    },
+    "edge_enchanter_journal_rift": {
+      "points": [
+        [
+          1030.7,
+          1825.1
+        ],
+        [
+          1664,
+          2144
+        ],
+        [
+          1728,
+          2144
+        ],
+        [
+          2048,
+          2368
+        ],
+        [
+          2240,
+          2592
+        ],
+        [
+          2656,
+          2784
+        ],
+        [
+          2772.8,
+          2800.2
+        ]
+      ],
+      "label": [
+        1735,
+        2134.3
+      ],
+      "labelClear": true
+    },
+    "edge_end_end_wilds": {
+      "points": [
+        [
+          3458.1,
+          1926.2
+        ],
+        [
+          3370.9,
+          1926.2
+        ]
+      ],
+      "label": [
+        3414.5,
+        1914.2
+      ],
+      "labelClear": false
+    },
+    "edge_end_broken_citadel": {
+      "points": [
+        [
+          3458.1,
+          1906.2
+        ],
+        [
+          3073,
+          1776.1
+        ]
+      ],
+      "label": [
+        3269.4,
+        1829.8
+      ],
+      "labelClear": true
+    },
+    "edge_end_wilds_chorus": {
+      "points": [
+        [
+          3274.1,
+          1957.7
+        ],
+        [
+          3199.9,
+          2245.3
+        ]
+      ],
+      "label": [
+        3225.4,
+        2098.5
+      ],
+      "labelClear": true
+    },
+    "edge_end_wilds_enderlings": {
+      "points": [
+        [
+          3317.7,
+          1957.7
+        ],
+        [
+          3744,
+          2336
+        ],
+        [
+          3840,
+          2368
+        ],
+        [
+          4192,
+          2592
+        ],
+        [
+          4243.8,
+          2745
+        ]
+      ],
+      "label": [
+        3803.8,
+        2330.6
+      ],
+      "labelClear": true
+    },
+    "edge_enderlings_enderman": {
+      "points": [
+        [
+          4248.7,
+          2745
+        ],
+        [
+          4192,
+          2432
+        ],
+        [
+          4192,
+          2400
+        ],
+        [
+          4224,
+          2336
+        ],
+        [
+          4224,
+          2272
+        ],
+        [
+          4099.9,
+          2113.1
+        ]
+      ],
+      "label": [
+        4214,
+        2485.9
+      ],
+      "labelClear": true
+    },
+    "edge_enderlings_watchling": {
+      "points": [
+        [
+          4306.9,
+          2808
+        ],
+        [
+          4405.4,
+          2867.1
+        ]
+      ],
+      "label": [
+        4350,
+        2847.8
+      ],
+      "labelClear": true
+    },
+    "edge_enderlings_blastling": {
+      "points": [
+        [
+          4359.4,
+          2776.5
+        ],
+        [
+          4498.7,
+          2776.5
+        ]
+      ],
+      "label": [
+        4429,
+        2788.5
+      ],
+      "labelClear": true
+    },
+    "edge_enderlings_snareling": {
+      "points": [
+        [
+          4249.6,
+          2808
+        ],
+        [
+          4224,
+          2976
+        ],
+        [
+          4160,
+          3008
+        ],
+        [
+          4224,
+          3200
+        ],
+        [
+          4238,
+          3226.8
+        ]
+      ],
+      "label": [
+        4204.2,
+        2959.1
+      ],
+      "labelClear": true
+    },
+    "edge_end_endersent": {
+      "points": [
+        [
+          3523.2,
+          1957.7
+        ],
+        [
+          3584,
+          2272
+        ],
+        [
+          3488,
+          2336
+        ],
+        [
+          3488,
+          2432
+        ],
+        [
+          3906.5,
+          3085.6
+        ]
+      ],
+      "label": [
+        3543.8,
+        2541.5
+      ],
+      "labelClear": true
+    },
+    "edge_void_void_liquid": {
+      "points": [
+        [
+          1062.8,
+          4483.5
+        ],
+        [
+          964.4,
+          4424.4
+        ]
+      ],
+      "label": [
+        1019.8,
+        4443.7
+      ],
+      "labelClear": true
+    },
+    "edge_void_liquid_voided": {
+      "points": [
+        [
+          859.4,
+          4424.4
+        ],
+        [
+          760.8,
+          4483.5
+        ]
+      ],
+      "label": [
+        803.9,
+        4443.7
+      ],
+      "labelClear": true
+    },
+    "edge_voided_corruption": {
+      "points": [
+        [
+          719.9,
+          4483.5
+        ],
+        [
+          768,
+          4352
+        ],
+        [
+          1088,
+          3712
+        ],
+        [
+          1621.1,
+          3296
+        ]
+      ],
+      "label": [
+        1012.1,
+        3774.3
+      ],
+      "labelClear": true
+    },
+    "edge_ender_eye_stronghold": {
+      "points": [
+        [
+          2730.6,
+          2038.7
+        ],
+        [
+          2638.7,
+          2038.8
+        ]
+      ],
+      "label": [
+        2684.7,
+        2026.7
+      ],
+      "labelClear": false
+    },
+    "edge_ender_eye_end_crystal": {
+      "points": [
+        [
+          2917.6,
+          2052.5
+        ],
+        [
+          3104,
+          2080
+        ],
+        [
+          3296,
+          2080
+        ],
+        [
+          3593.1,
+          2052.5
+        ]
+      ],
+      "label": [
+        3337.4,
+        2088.2
+      ],
+      "labelClear": true
+    },
+    "edge_disc11_disc5": {
+      "points": [
+        [
+          2586.1,
+          2411.5
+        ],
+        [
+          2513.5,
+          2411.5
+        ]
+      ],
+      "label": [
+        2549.8,
+        2399.5
+      ],
+      "labelClear": false
+    },
+    "edge_disc13_disc5": {
+      "points": [
+        [
+          2285.7,
+          2411.5
+        ],
+        [
+          2358.3,
+          2411.5
+        ]
+      ],
+      "label": [
+        2322,
+        2399.5
+      ],
+      "labelClear": false
+    },
+    "edge_illageralt_runes": {
+      "points": [
+        [
+          3223.2,
+          1258.4
+        ],
+        [
+          3200,
+          1216
+        ],
+        [
+          3200,
+          1120
+        ],
+        [
+          3223.3,
+          1077.2
+        ]
+      ],
+      "label": [
+        3164.9,
+        1235.3
+      ],
+      "labelClear": true
+    },
+    "edge_launcher_arg_illageralt": {
+      "points": [
+        [
+          2541.6,
+          1894.7
+        ],
+        [
+          3200,
+          1440
+        ],
+        [
+          3232,
+          1321.4
+        ]
+      ],
+      "label": [
+        2928.2,
+        1642.3
+      ],
+      "labelClear": true
+    },
+    "edge_launcher_arg_infected": {
+      "points": [
+        [
+          2331.1,
+          1926.2
+        ],
+        [
+          2186.5,
+          1926.2
+        ]
+      ],
+      "label": [
+        2258.8,
+        1914.2
+      ],
+      "labelClear": false
+    },
+    "edge_infected_eaten": {
+      "points": [
+        [
+          2015.4,
+          1957.7
+        ],
+        [
+          1984,
+          2016
+        ],
+        [
+          2043.4,
+          2808
+        ]
+      ],
+      "label": [
+        2007,
+        2482.9
+      ],
+      "labelClear": true
+    },
+    "edge_ancient_main_sculk_chiseled": {
+      "points": [
+        [
+          2617.5,
+          2558.4
+        ],
+        [
+          2496,
+          2912
+        ],
+        [
+          2496,
+          3008
+        ],
+        [
+          2592,
+          3008
+        ],
+        [
+          2633.2,
+          3489
+        ]
+      ],
+      "label": [
+        2550.5,
+        2996
+      ],
+      "labelClear": true
+    },
+    "edge_sculk_chiseled_singer": {
+      "points": [
+        [
+          2524,
+          3489
+        ],
+        [
+          1952,
+          3328
+        ],
+        [
+          1344,
+          3296
+        ],
+        [
+          1184,
+          3168
+        ],
+        [
+          736,
+          3136
+        ],
+        [
+          608,
+          3040
+        ],
+        [
+          407.5,
+          2975.5
+        ]
+      ],
+      "label": [
+        1212.4,
+        3175.4
+      ],
+      "labelClear": true
+    },
+    "edge_sculk_chiseled_shale": {
+      "points": [
+        [
+          2688.4,
+          3489
+        ],
+        [
+          2786.9,
+          3429.9
+        ]
+      ],
+      "label": [
+        2743.8,
+        3469.8
+      ],
+      "labelClear": true
+    },
+    "edge_soulblock_soul_sync": {
+      "points": [
+        [
+          937.2,
+          2732.6
+        ],
+        [
+          754.9,
+          2732.6
+        ]
+      ],
+      "label": [
+        846,
+        2720.6
+      ],
+      "labelClear": true
+    },
+    "edge_soul_sync_singer": {
+      "points": [
+        [
+          537.1,
+          2764.1
+        ],
+        [
+          349.5,
+          2912.5
+        ]
+      ],
+      "label": [
+        435.8,
+        2828.9
+      ],
+      "labelClear": true
+    },
+    "edge_hosts_knowledge_host": {
+      "points": [
+        [
+          4095.1,
+          3406.6
+        ],
+        [
+          4193.5,
+          3465.7
+        ]
+      ],
+      "label": [
+        4138.1,
+        3446.4
+      ],
+      "labelClear": true
+    },
+    "edge_knowledge_host_first_song": {
+      "points": [
+        [
+          4284.4,
+          3465.7
+        ],
+        [
+          4608,
+          3200
+        ],
+        [
+          4768,
+          2592
+        ],
+        [
+          4753,
+          2103.9
+        ]
+      ],
+      "label": [
+        4708.5,
+        2865.4
+      ],
+      "labelClear": true
+    },
+    "edge_first_song_firsts": {
+      "points": [
+        [
+          4663.6,
+          2103.9
+        ],
+        [
+          4192,
+          2272
+        ],
+        [
+          3776,
+          2304
+        ],
+        [
+          3696.3,
+          2350.1
+        ]
+      ],
+      "label": [
+        4186.8,
+        2260.4
+      ],
+      "labelClear": true
+    },
+    "edge_grindstone_enchant": {
+      "points": [
+        [
+          2105.7,
+          736.7
+        ],
+        [
+          2013.8,
+          736.7
+        ]
+      ],
+      "label": [
+        2059.7,
+        724.7
+      ],
+      "labelClear": false
+    },
+    "edge_grindstone_xp": {
+      "points": [
+        [
+          2122.3,
+          768.2
+        ],
+        [
+          1888,
+          992
+        ],
+        [
+          1632,
+          1664
+        ],
+        [
+          1626.9,
+          1805.4
+        ]
+      ],
+      "label": [
+        1755.1,
+        1228.5
+      ],
+      "labelClear": true
+    },
+    "edge_xp_mending": {
+      "points": [
+        [
+          1664.6,
+          1868.4
+        ],
+        [
+          1728,
+          1920
+        ],
+        [
+          1695.1,
+          2041.3
+        ]
+      ],
+      "label": [
+        1740.9,
+        1899.5
+      ],
+      "labelClear": true
+    },
+    "edge_frozen_zombie_frostbite": {
+      "points": [
+        [
+          1623.6,
+          2945.4
+        ],
+        [
+          1722.1,
+          3004.5
+        ]
+      ],
+      "label": [
+        1632.2,
+        2964.5
+      ],
+      "labelClear": true
+    },
+    "edge_frostbite_corruption": {
+      "points": [
+        [
+          1759,
+          3067.5
+        ],
+        [
+          1677.1,
+          3233
+        ]
+      ],
+      "label": [
+        1707.3,
+        3144.9
+      ],
+      "labelClear": true
+    }
+  }
+}
