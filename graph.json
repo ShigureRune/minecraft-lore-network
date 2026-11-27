@@ -1,6 +1,6 @@
 {
-  "version": "1.75",
-  "loreVersion": "4.03",
+  "version": "1.76",
+  "loreVersion": "4.05",
   "nodes": [
     {
       "id": "soul",
@@ -4137,6 +4137,19 @@
       ],
       "origin": "",
       "originNote": "Ravine Ruins（sub_ravine_ruins）のColossal Rampart解放アイテム。Wiki本文と小画像を確認。机上のWind巻物とは掲載画像の配置が異なる。原モデル・本文・同一デザインの可能性は未確認。"
+    },
+    {
+      "id": "archie_graffiti_d",
+      "label": "アーチー肖像画の落書き（D）",
+      "color": "#87551c",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Lone FortressのRoyal HallwayにWEAKとFOEと翻字される肖像画2点（Wiki画像説明・小画像確認）。筆者・時期・所属は不明。旧Wikiの倒れた玉座記録は別の観察で因果未確認。"
     }
   ],
   "edges": [
@@ -9582,6 +9595,33 @@
       "hypothesis": true,
       "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons:Ravine_Ruins",
       "researchSection": "v4.03 §15.135"
+    },
+    {
+      "id": "edge_r405_1",
+      "source": "archie_graffiti_d",
+      "target": "arch_illager",
+      "label": "アーチーの肖像画にWEAK・FOEの落書き（Wiki画像説明）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons:Lone_Fortress",
+      "researchSection": "v4.05 §15.137"
+    },
+    {
+      "id": "edge_r405_2",
+      "source": "archie_graffiti_d",
+      "target": "illageralt",
+      "label": "魔法命令以外の人物評価にも文字を使用（Wiki翻字）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons:Lone_Fortress",
+      "researchSection": "v4.05 §15.137"
+    },
+    {
+      "id": "edge_r405_3",
+      "source": "archie_graffiti_d",
+      "target": "illagers",
+      "label": "失脚後の反発・既存反対派などの候補（筆者の種族・年代は未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons:Lone_Fortress",
+      "researchSection": "v4.05 §15.137"
     }
   ]
 }
