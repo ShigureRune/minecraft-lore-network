@@ -1,6 +1,6 @@
 {
-  "version": "1.61",
-  "loreVersion": "3.84",
+  "version": "1.62",
+  "loreVersion": "3.86",
   "nodes": [
     {
       "id": "soul",
@@ -3965,7 +3965,20 @@
       ],
       "dimensions": [],
       "origin": "",
-      "originNote": "Peter Hont、Disc 1 #129、Disc 2 #74 Combat & Crisis版（Deezer両3:31）。SongData.ioの戦闘版推定はF major/165 BPM、本編レコード推定はG major/92 BPM。通常版調性・再生地点・旋律引用・命名意図未確認。"
+      "originNote": "Peter Hont、Disc 1 #129、Disc 2 #74 Combat & Crisis版（Deezer両3:31）。SongData.ioの戦闘版推定はF major/165 BPM、本編レコード推定はG major/92 BPM。通常版調性・再生地点・旋律引用・命名意図未確認。 v3.85 §15.117：本編の区間別分析（Hooktheory）はC major→A minor、攻略記事は1:46で転調と報告。自動推定G majorとの差に注意。続編1:46〜1:55は比較候補で実測ではない。原音未確認。"
+    },
+    {
+      "id": "monster_room_main",
+      "label": "モンスタールーム（本編）",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "本編othersideの戦利品入手先の一つ（Wiki・既存MD §15.116–117、版による変更に注意）。次元ポータルとの直接関連は未確認。H13の対照・反証候補。"
     }
   ],
   "edges": [
@@ -8965,6 +8978,15 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Original_Game_Soundtrack",
       "researchSection": "v3.84 §15.116"
+    },
+    {
+      "id": "edge_r386_1",
+      "source": "monster_room_main",
+      "target": "otherside",
+      "label": "H13 戦利品の入手先（Wiki記録、版差あり）／次元説の対照",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Otherside",
+      "researchSection": "v3.86 §15.118"
     }
   ]
 }
