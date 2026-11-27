@@ -1,6 +1,6 @@
 {
-  "version": "1.23",
-  "loreVersion": "3.38",
+  "version": "1.24",
+  "loreVersion": "3.40",
   "nodes": [
     {
       "id": "soul",
@@ -3253,6 +3253,45 @@
       ],
       "origin": "",
       "originNote": "冷たい海の海底遺跡から出土。Singerとの同定はファン説、未確認。"
+    },
+    {
+      "id": "emerald_pot_d",
+      "label": "エメラルド壺（初代）",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "旧Wiki：通常壺3模様、大型3色、破壊で15～30個と記載。"
+    },
+    {
+      "id": "emerald_pot_d2",
+      "label": "エメラルド壺（II）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "非公式DB：1～5個、小・大型actorの掲載モデル共通。緑の中央図柄、四角い口。"
+    },
+    {
+      "id": "allay_chest_l",
+      "label": "アレイの宝箱（Legends）",
+      "color": "#947453",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公式記事：歌で開け、ランダムな資源を受け取る。壺とは異なる。"
     }
   ],
   "edges": [
@@ -6893,6 +6932,51 @@
       "hypothesis": true,
       "sourceUrl": "https://www.reddit.com/r/Minecraft/comments/1x5vnfp/my_two_cents_on_opening_the_ancient_city_portal/",
       "researchSection": "v3.38 §15.70"
+    },
+    {
+      "id": "edge_r340_1",
+      "source": "emerald_pot_d",
+      "target": "emerald_pot_d2",
+      "label": "エメラルド報酬容器の共通仕様（個数差あり）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeoncollector.co.uk/dungeonsii/?content=loot_sources&page=search",
+      "researchSection": "v3.40 §15.72"
+    },
+    {
+      "id": "edge_r340_2",
+      "source": "emerald_pot_d2",
+      "target": "echo_shard_pot",
+      "label": "掲載モデルの類似・中央模様の相違",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeoncollector.co.uk/dungeonsii/?content=loot_sources&page=search",
+      "researchSection": "v3.40 §15.72"
+    },
+    {
+      "id": "edge_r340_3",
+      "source": "emerald_pot_d",
+      "target": "decorated_pot",
+      "label": "破壊で戦利品・共通文化の可能性",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Chest",
+      "researchSection": "v3.40 §15.72"
+    },
+    {
+      "id": "edge_r340_4",
+      "source": "emerald_pot_d2",
+      "target": "decorated_pot",
+      "label": "保管容器比較・起源は未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeoncollector.co.uk/dungeonsii/?content=loot_sources&page=search",
+      "researchSection": "v3.40 §15.72"
+    },
+    {
+      "id": "edge_r340_5",
+      "source": "allay_chest_l",
+      "target": "allay",
+      "label": "歌で資源を取り出す（公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/da-dk/article/the-overworld-minecraft-legends",
+      "researchSection": "v3.40 §15.72"
     }
   ]
 }
