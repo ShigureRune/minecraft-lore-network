@@ -1,6 +1,6 @@
 {
-  "version": "1.46",
-  "loreVersion": "3.62",
+  "version": "1.47",
+  "loreVersion": "3.63",
   "nodes": [
     {
       "id": "soul",
@@ -3796,7 +3796,7 @@
         "S"
       ],
       "origin": "",
-      "originNote": "Wrath of the SculkersのクエストDB・攻略本文：コアを設置するとLullaby Hillsへの門が起動。別段階のTunerによる音楽の門と区別。液体イコルとの生成・変換関係は未確認。"
+      "originNote": "Wrath of the SculkersのクエストDB・攻略本文：コアを設置するとLullaby Hillsへの門が起動。別段階のTunerによる音楽の門と区別。液体イコルとの生成・変換関係は未確認。 コアは設置により起動するが消費・充電・認証の別は未確認。現世とシフトの内部ID・規格一致も未確認。"
     },
     {
       "id": "rainy_plains_bridges_d2",
@@ -3822,7 +3822,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "CA07で発明家と会話。攻略本文では最初のイコルコアを渡す。独自製造・入手経路・技術の普及範囲は未確認。"
+      "originNote": "CA07で発明家と会話。攻略本文では最初のイコルコアを渡す。独自製造・入手経路・技術の普及範囲は未確認。 攻略記事によれば望遠鏡でイリジャーを観察し橋の起動法を解明。コアの独自製造は未確認。Recycling Your Monstrosityのジャーナル転載では回収銅を再利用する。"
     }
   ],
   "edges": [
@@ -8516,6 +8516,33 @@
       "hypothesis": true,
       "sourceUrl": "https://mcfun.cc/minecraft-dungeons-2/database/definitions/carapace-a1-core-quest-15cbd29ab2/data/",
       "researchSection": "v3.62 §15.94"
+    },
+    {
+      "id": "edge_r363_1",
+      "source": "puddle_pond_inventor_d2",
+      "target": "council",
+      "label": "イリジャーの設備を観察して橋の起動方法を解明（攻略要約、原台詞未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-5-wading-rainy-plains-walkthrough/",
+      "researchSection": "v3.63 §15.95"
+    },
+    {
+      "id": "edge_r363_2",
+      "source": "puddle_pond_inventor_d2",
+      "target": "copper_monstrosity",
+      "label": "回収銅を別用途へ再利用（クエスト完了ジャーナル転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://wikily.gg/minecraft-dungeons-2/quests/recycling-your-monstrosity",
+      "researchSection": "v3.63 §15.95"
+    },
+    {
+      "id": "edge_r363_3",
+      "source": "ichor_core_d2",
+      "target": "key_golem_d2",
+      "label": "設置による通行解放の機能比較（コアの認証機能は未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca09",
+      "researchSection": "v3.63 §15.95"
     }
   ]
 }
