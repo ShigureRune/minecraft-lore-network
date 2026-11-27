@@ -1,6 +1,6 @@
 {
-  "version": "1.39",
-  "loreVersion": "3.55",
+  "version": "1.40",
+  "loreVersion": "3.56",
   "nodes": [
     {
       "id": "soul",
@@ -3682,6 +3682,32 @@
       ],
       "origin": "",
       "originNote": "7月の解答・後続のVigenère鍵・9月15日の中央起点暗号解答として同じ語句が報告される。音階との掛詞の意図は未確認。"
+    },
+    {
+      "id": "arg_conclusion",
+      "label": "ARG最終章（The Conclusion）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2026-09-18 Discord共同イベントと映像で終了とのWiki検索収録記録。新しい最終合成暗号は確認されない。原動画 https://youtu.be/nB0yas5946w は取得不可。"
+    },
+    {
+      "id": "sifter_species_d2",
+      "label": "Sifter（シフトの在来生物）",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "WikiによればHarmonizerはSproutの大型ミニボス変種。Singerらの説明ではイリジャー侵入後に外来者へ敵対。ゲーム内台詞・実機は未確認。"
     }
   ],
   "edges": [
@@ -8015,6 +8041,60 @@
       "hypothesis": false,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Discord_staff_profiles",
       "researchSection": "v3.55 §15.87"
+    },
+    {
+      "id": "edge_r356_1",
+      "source": "arg_conclusion",
+      "target": "arg_harmonizer_tap",
+      "label": "9月15日の解読段階から18日の最終イベントへ",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Day_4",
+      "researchSection": "v3.56 §15.88"
+    },
+    {
+      "id": "edge_r356_2",
+      "source": "arg_conclusion",
+      "target": "arg_begone_slate",
+      "label": "9月16日の段階に続きARG終了（Wiki記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Day_4",
+      "researchSection": "v3.56 §15.88"
+    },
+    {
+      "id": "edge_r356_3",
+      "source": "sifter_species_d2",
+      "target": "sift",
+      "label": "シフトの在来種（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Sifter",
+      "researchSection": "v3.56 §15.88"
+    },
+    {
+      "id": "edge_r356_4",
+      "source": "sifter_species_d2",
+      "target": "illagers",
+      "label": "侵入後に外来者へ敵対したとの作中説明のWiki要約",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Sifter",
+      "researchSection": "v3.56 §15.88"
+    },
+    {
+      "id": "edge_r356_5",
+      "source": "sifter_species_d2",
+      "target": "arg_begone_slate",
+      "label": "第3段階の対象はSifter（ARG記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Day_3",
+      "researchSection": "v3.56 §15.88"
+    },
+    {
+      "id": "edge_r356_6",
+      "source": "sifter_species_d2",
+      "target": "arg_harmonizer_tap",
+      "label": "HarmonizerはSproutの大型変種（Wiki）。暗号能力とは別",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Sifter",
+      "researchSection": "v3.56 §15.88"
     }
   ]
 }
