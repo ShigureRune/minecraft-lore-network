@@ -1,6 +1,6 @@
 {
-  "version": "1.26",
-  "loreVersion": "3.42",
+  "version": "1.27",
+  "loreVersion": "3.43",
   "nodes": [
     {
       "id": "soul",
@@ -3343,7 +3343,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "Diamond Chestの別名。希少報酬容器。黒い胴体と水色装飾。材質の独立検証なし。"
+      "originNote": "Diamond Chestの別名。希少報酬容器。黒い胴体と水色装飾。材質の独立検証なし。 砂漠の寺院の公開ゲーム画像で中央と角に白～水色の明るい装飾。旧Wikiでは真紅の森・海底地域にも出現。模様の意味は未確認。"
     },
     {
       "id": "obsidian_chest_d2",
@@ -7145,6 +7145,15 @@
       "hypothesis": false,
       "sourceUrl": "https://www.xboxachievements.com/game/minecraft-dungeons-ii/guide/",
       "researchSection": "v3.42 §15.74"
+    },
+    {
+      "id": "edge_r343_1",
+      "source": "obsidian_chest_d",
+      "target": "fiery_forge",
+      "label": "隠し区画・ルーン柱付近に配置（旧Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Chest",
+      "researchSection": "v3.43 §15.75"
     }
   ]
 }
