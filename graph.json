@@ -10440,9 +10440,9 @@
     },
     {
       "id": "edge_r408_19",
-      "source": "soul_sand_valley",
+      "source": "basalt_deltas",
       "target": "basalt",
-      "label": "ネザーの玄武岩柱・自然分布（生成条件とは別）",
+      "label": "玄武岩の自然分布（人工生成条件と区別）",
       "hypothesis": false,
       "sourceUrl": "https://www.minecraft.net/sv-se/article/block-week--basalt",
       "researchSection": "v4.08 §15.140 / M M02-7"
@@ -10588,7 +10588,7 @@
       "target": "daylight_sensor",
       "label": "天空光を検知（人工照明と区別）",
       "hypothesis": false,
-      "sourceUrl": "https://www.minecraft.net/en-us/article/daylight-detector",
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-11",
       "researchSection": "v4.08 §15.140 / T T01-E1"
     },
     {
@@ -10660,8 +10660,62 @@
       "target": "comparator",
       "label": "検知対象と信号出力の区別（共通設計者未証明）",
       "hypothesis": true,
-      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "sourceUrl": "https://www.minecraft.net/en-us/article/daylight-detector",
       "researchSection": "v4.08 §15.140 / T X04"
+    },
+    {
+      "id": "edge_r408_44",
+      "source": "world_clock",
+      "target": "clock_main",
+      "label": "World Clockの時間参照と時計アイテムの表示を区別（直接対応は未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-1",
+      "researchSection": "v4.08 §15.140 / T01-E5/6/7"
+    },
+    {
+      "id": "edge_r408_45",
+      "source": "spyglass",
+      "target": "amethyst",
+      "label": "望遠鏡の材料（1.17、天体観測専用とは限らない）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/caves---cliffs--part-i-out-today-java",
+      "researchSection": "v4.08 §15.140 / T02-1"
+    },
+    {
+      "id": "edge_r408_46",
+      "source": "clock_main",
+      "target": "daylight_sensor",
+      "label": "太陽位置の表示と実効天空光の信号を区別",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/daylight-detector",
+      "researchSection": "v4.08 §15.140 / T02-4"
+    },
+    {
+      "id": "edge_r408_47",
+      "source": "tinted_glass",
+      "target": "amethyst",
+      "label": "遮光ガラスの材料（視認できるがゲーム上の光は通さない）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/caves---cliffs--part-i-out-today-java",
+      "researchSection": "v4.08 §15.140 / T02-5"
+    },
+    {
+      "id": "edge_r408_48",
+      "source": "wandering_trader",
+      "target": "terracotta",
+      "label": "遠隔地の物資調達と建材産地推定の比較（行商人の当該品取引は未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/meet-wandering-trader",
+      "researchSection": "v4.08 §15.140 / X05 A/M"
+    },
+    {
+      "id": "edge_r408_49",
+      "source": "village_supply_l",
+      "target": "allay",
+      "label": "村の備蓄とアレイによる搬送は別の資源供給方式（直接継承未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/the-overworld-minecraft-legends",
+      "researchSection": "v4.08 §15.140 / X06 A/N1"
     }
   ]
 }
