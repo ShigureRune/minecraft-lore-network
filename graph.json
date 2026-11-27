@@ -1,6 +1,6 @@
 {
-  "version": "1.52",
-  "loreVersion": "3.68",
+  "version": "1.53",
+  "loreVersion": "3.70",
   "nodes": [
     {
       "id": "soul",
@@ -3876,6 +3876,19 @@
       ],
       "origin": "",
       "originNote": "非公式抽出DB本文のArmored/Deconstructed分類とWiki検索収録記述を照合。分離時に巨大な魂立方体が露出する。分離時の原画像・原モデル未取得。終幕静止画の回収ブロックは青緑色半透明状。縮小・同一個体・記憶保持は未確認。"
+    },
+    {
+      "id": "amethyst_resonance_pitch",
+      "label": "アメジスト振動共鳴の15分類音高",
+      "color": "#007c83",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公式23w12a/1.20の振動再放出・イベント分類、Wiki検索収録のピッチ式と照合。1〜15の半音番号は0,2,4,6,7,9,10,12,14,15,18,19,21,22,24。音符ブロック演奏は分類10。原音4種・現行版実機・ARG原音未取得。単一基準音を仮定した移調比較では報告8音中最大6音一致。"
     }
   ],
   "edges": [
@@ -8749,6 +8762,42 @@
       "hypothesis": false,
       "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-10-the-final-souldown-walkthrough/",
       "researchSection": "v3.68 §15.100"
+    },
+    {
+      "id": "edge_r370_1",
+      "source": "amethyst_resonance_pitch",
+      "target": "amethyst",
+      "label": "隣接センサーの振動を同分類で再発信（公式1.20）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/14213887055885-Minecraft-Java-Edition-Snapshot-23w12a",
+      "researchSection": "v3.70 §15.102"
+    },
+    {
+      "id": "edge_r370_2",
+      "source": "amethyst_resonance_pitch",
+      "target": "calibrated_sensor",
+      "label": "受信分類によって共鳴ピッチを選ぶ（Wiki仕様）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Sculk_Sensor/Sounds",
+      "researchSection": "v3.70 §15.102"
+    },
+    {
+      "id": "edge_r370_3",
+      "source": "amethyst_resonance_pitch",
+      "target": "note",
+      "label": "音符ブロック演奏のイベント分類は10／演奏音高を保存しない",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/14213887055885-Minecraft-Java-Edition-Snapshot-23w12a",
+      "researchSection": "v3.70 §15.102"
+    },
+    {
+      "id": "edge_r370_4",
+      "source": "amethyst_resonance_pitch",
+      "target": "launcher_arg",
+      "label": "単一基準音で全12移調を比較すると報告8音中最大6音／共通音階は未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Sculk_Sensor/Sounds",
+      "researchSection": "v3.70 §15.102"
     }
   ]
 }
