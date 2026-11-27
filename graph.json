@@ -1,6 +1,6 @@
 {
-  "version": "1.32",
-  "loreVersion": "3.48",
+  "version": "1.33",
+  "loreVersion": "3.49",
   "nodes": [
     {
       "id": "soul",
@@ -3512,7 +3512,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "Sculkは抽出DB本文。Monstrosityと目覚めさせる意味は同DB検索抜粋のみ。原文字・第三の正確な訳語・順序未確認。"
+      "originNote": "Sculkは抽出DB本文。Monstrosityと目覚めさせる意味は同DB検索抜粋のみ。原文字・第三の正確な訳語・順序未確認。 v3.49: 遺跡の発光柱の公開ゲーム画像を確認。図書館の辞書・全字形・訳語対応は未確認。"
     },
     {
       "id": "archie_ruins_chant",
@@ -3525,7 +3525,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "クエスト終了文の複数の非公式転載による。三図書館で翻訳し読み上げると眠っていた怪物が覚醒。"
+      "originNote": "クエスト終了文の複数の非公式転載による。三図書館で翻訳し読み上げると眠っていた怪物が覚醒。 詳細クエストDBは翻訳前・翻訳後の二回の読み取りを区別。発音による認証か進行フラグか未確認。"
     },
     {
       "id": "sculk_monstrosity_d2",
@@ -3539,6 +3539,19 @@
       ],
       "origin": "",
       "originNote": "続編のモブ。Illager Intelligenceのクエスト終了文は長期間眠っていた怪物の覚醒を記録。"
+    },
+    {
+      "id": "archie_rune_pillars",
+      "label": "アーチーの遺跡のルーン柱",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "AppMedia 2026-10-01 のプレイ画像：柱の複数側面に水色の発光記号、少なくとも二種類。進捗1/3。三字全体・訳語との対応は未確認。"
     }
   ],
   "edges": [
@@ -7620,6 +7633,33 @@
       "hypothesis": false,
       "sourceUrl": "https://www.dungeons.tools/2/locations/enchanters-library",
       "researchSection": "v3.48 §15.80"
+    },
+    {
+      "id": "edge_r349_1",
+      "source": "archie_rune_pillars",
+      "target": "archie_ruins_chant",
+      "label": "遺跡に発光する記号を配置（公開プレイ画像）",
+      "hypothesis": false,
+      "sourceUrl": "https://appmedia.jp/minecraft-dungeons2/80450389",
+      "researchSection": "v3.49 §15.81"
+    },
+    {
+      "id": "edge_r349_2",
+      "source": "arch_illager",
+      "target": "archie_ruins_chant",
+      "label": "遺跡はアーチーの旧実験場所とのクエスト文（建設者未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/quests/illager-intelligence",
+      "researchSection": "v3.49 §15.81"
+    },
+    {
+      "id": "edge_r349_3",
+      "source": "archie_rune_pillars",
+      "target": "runes",
+      "label": "初代教会の複数記号による解放との比較（共通原理未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://appmedia.jp/minecraft-dungeons2/80450389",
+      "researchSection": "v3.49 §15.81"
     }
   ]
 }
