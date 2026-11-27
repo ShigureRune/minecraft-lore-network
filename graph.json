@@ -1,6 +1,6 @@
 {
-  "version": "1.82",
-  "loreVersion": "4.11",
+  "version": "1.83",
+  "loreVersion": "4.12",
   "nodes": [
     {
       "id": "soul",
@@ -874,7 +874,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " 旅路の遺跡に限る：Java 1.21.1の抽出データでは塔最上部用処理が通常出土品を割り当て、置換上限2。Bedrock公式開発資料の道路用処理例も通常枠・上限2。出土場所から製作地や交易を直接推定しない。廃坑にこの規則を適用しない。"
     },
     {
       "id": "searuins",
@@ -10900,6 +10900,15 @@
       "hypothesis": false,
       "sourceUrl": "https://minecraftdungeons2.th.gl/db/gear_artifacts/artifact_carapace_ocarina",
       "researchSection": "v4.11 §15.143"
+    },
+    {
+      "id": "edge_r412_1",
+      "source": "trail",
+      "target": "relic_relocation",
+      "label": "X01 旅路の遺跡：出土位置と製作・移送を区別（生成規則も別解）",
+      "hypothesis": true,
+      "sourceUrl": "https://mcasset.cloud/1.21.1/data/minecraft/worldgen/processor_list/trail_ruins_tower_top_archaeology.json",
+      "researchSection": "v4.12 §15.144"
     }
   ]
 }
