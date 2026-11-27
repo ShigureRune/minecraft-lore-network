@@ -1,6 +1,6 @@
 {
-  "version": "1.62",
-  "loreVersion": "3.86",
+  "version": "1.63",
+  "loreVersion": "3.87",
   "nodes": [
     {
       "id": "soul",
@@ -3979,6 +3979,19 @@
       ],
       "origin": "",
       "originNote": "本編othersideの戦利品入手先の一つ（Wiki・既存MD §15.116–117、版による変更に注意）。次元ポータルとの直接関連は未確認。H13の対照・反証候補。"
+    },
+    {
+      "id": "copper_golem_main",
+      "label": "銅ゴーレム（本編）",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "別冊v3.16 §12.40.2：完全酸化で像化（未ワックス）、名前を保持、酸化除去後の斧操作でモブ化。個体の記憶・魂の保持、外部動力、古代文明での使用は未証明。"
     }
   ],
   "edges": [
@@ -8987,6 +9000,24 @@
       "hypothesis": false,
       "sourceUrl": "https://minecraft.wiki/w/Otherside",
       "researchSection": "v3.86 §15.118"
+    },
+    {
+      "id": "edge_r387_1",
+      "source": "copper_golem_main",
+      "target": "soulblock",
+      "label": "H55/H56 停止後の個体情報の保持場所（身体側か可搬コアか）の比較仮説",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-9",
+      "researchSection": "v3.87 §15.119／別冊 §12.40.2"
+    },
+    {
+      "id": "edge_r387_2",
+      "source": "copper_golem_main",
+      "target": "firsts",
+      "label": "H56 素材状態の修復と再組立・歌による復帰の比較（個体同一性未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Legends:First",
+      "researchSection": "v3.87 §15.119／§15.49"
     }
   ]
 }
