@@ -1,6 +1,6 @@
 {
-  "version": "1.47",
-  "loreVersion": "3.63",
+  "version": "1.48",
+  "loreVersion": "3.64",
   "nodes": [
     {
       "id": "soul",
@@ -3823,6 +3823,20 @@
       ],
       "origin": "",
       "originNote": "CA07で発明家と会話。攻略本文では最初のイコルコアを渡す。独自製造・入手経路・技術の普及範囲は未確認。 攻略記事によれば望遠鏡でイリジャーを観察し橋の起動法を解明。コアの独自製造は未確認。Recycling Your Monstrosityのジャーナル転載では回収銅を再利用する。"
+    },
+    {
+      "id": "ichor_core_socket_d2",
+      "label": "イコルコア設置台座（現世・シフト）",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O",
+        "S"
+      ],
+      "origin": "",
+      "originNote": "公開ゲーム画像5枚を直接比較。平原とシフトに青い模様の台座、金属風の縁、青白い模様の発光立方体。シフトでは2個設置後も発光する立方体が残り柵が下がる。モデルID、消費、取り外し後の動作は未確認。"
     }
   ],
   "edges": [
@@ -8543,6 +8557,42 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca09",
       "researchSection": "v3.63 §15.95"
+    },
+    {
+      "id": "edge_r364_1",
+      "source": "ichor_core_socket_d2",
+      "target": "ichor_core_d2",
+      "label": "シフトの門で2個設置後も立方体が残る（ゲーム画像）",
+      "hypothesis": false,
+      "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-9-wrath-of-sculkers-walkthrough/",
+      "researchSection": "v3.64 §15.96"
+    },
+    {
+      "id": "edge_r364_2",
+      "source": "ichor_core_socket_d2",
+      "target": "rainy_plains_bridges_d2",
+      "label": "平原の橋と白の塔で類似台座を確認（ゲーム画像）",
+      "hypothesis": false,
+      "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-5-wading-rainy-plains-walkthrough/",
+      "researchSection": "v3.64 §15.96"
+    },
+    {
+      "id": "edge_r364_3",
+      "source": "ichor_core_d2",
+      "target": "villagers",
+      "label": "白の塔で回収時に3人の檻が開くとの攻略記録／直接因果未確認",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/locations/white-tower",
+      "researchSection": "v3.64 §15.96"
+    },
+    {
+      "id": "edge_r364_4",
+      "source": "ichor_core_socket_d2",
+      "target": "note_machine_d2",
+      "label": "交換式コアと音符装置の部品装着による起動の比較、共通原理未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-5-wading-rainy-plains-walkthrough/",
+      "researchSection": "v3.64 §15.96"
     }
   ]
 }
