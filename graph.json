@@ -1,6 +1,6 @@
 {
-  "version": "1.68",
-  "loreVersion": "3.93",
+  "version": "1.69",
+  "loreVersion": "3.94",
   "nodes": [
     {
       "id": "soul",
@@ -4059,6 +4059,19 @@
       ],
       "origin": "",
       "originNote": "本編の移動アイテム、エンダーアイの材料。洋館偽ポータル部屋に固定2個、16w39aからとのWiki履歴。入手経路・イリジャーによる使用は未確認。"
+    },
+    {
+      "id": "camp_former_users",
+      "label": "キャンプの旧利用者（正体不明）",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "放棄されたキャンプに残る地図・生活用品・探索物資から想定する利用者。建造者・地図作成者・所有者が同じか、村人・イリジャー・別の探索者か、年代・存続は未確認。既存の古代探検派（仮）とは別項目。H02/H11/H61の三知識継承系統モデル。"
     }
   ],
   "edges": [
@@ -9292,6 +9305,42 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_dea1_s12_a",
       "researchSection": "v3.93 §15.125／H61・§15.11・15.16・15.124"
+    },
+    {
+      "id": "edge_r394_1",
+      "source": "knowledge",
+      "target": "villagers",
+      "label": "H02/H61 伝承・交易・地図による知識保存の比較（古代技術の直接継承は未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-legends-return-piglins",
+      "researchSection": "v3.94 §15.126／H02・H11・H61・別冊v3.18 §12.26・12.44"
+    },
+    {
+      "id": "edge_r394_2",
+      "source": "villagers",
+      "target": "explorer_map",
+      "label": "製図家による洋館・海底神殿への地図取引（別冊§12.26）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/taking-inventory--explorer-map",
+      "researchSection": "v3.94 §15.126／H02・H11・H61・別冊v3.18 §12.26・12.44"
+    },
+    {
+      "id": "edge_r394_3",
+      "source": "camp_former_users",
+      "target": "camp",
+      "label": "H11 旧利用者の生活・探索拠点候補（建造者・所有者は不明）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-1",
+      "researchSection": "v3.94 §15.126／H02・H11・H61・別冊v3.18 §12.26・12.44"
+    },
+    {
+      "id": "edge_r394_4",
+      "source": "knowledge",
+      "target": "camp_former_users",
+      "label": "H11/H61 遺跡の位置情報の収集・利用という知識継承候補（地図作者・訪問・所属未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+      "researchSection": "v3.94 §15.126／H02・H11・H61・別冊v3.18 §12.26・12.44"
     }
   ]
 }
