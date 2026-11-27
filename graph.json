@@ -1,6 +1,6 @@
 {
-  "version": "1.57",
-  "loreVersion": "3.75",
+  "version": "1.58",
+  "loreVersion": "3.76",
   "nodes": [
     {
       "id": "soul",
@@ -3916,6 +3916,19 @@
       ],
       "origin": "",
       "originNote": "公式英語記事2026-10-05：Peter Hontは初代Raid Captainの滑稽さと続編ポータル旋律の雰囲気を取り入れる意図を説明。実際の引用箇所、調性、世界内の因果関係は未確認。配信41曲目。"
+    },
+    {
+      "id": "raid_captain_ost_d",
+      "label": "Raid Captain（初代OST）",
+      "color": "#7945a5",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Hidden Depths OST第28曲、1:16。Wiki検索収録ではゲーム内の開始・ループ・終了の3資産を区別。公式2026-10-05記事は続編Witchにコミカルな雰囲気を取り入れたと説明。旋律の直接引用・音高・テンポ・原音は未確認。"
     }
   ],
   "edges": [
@@ -8861,6 +8874,15 @@
       "hypothesis": false,
       "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-music",
       "researchSection": "v3.75 §15.107"
+    },
+    {
+      "id": "edge_r376_1",
+      "source": "raid_captain_ost_d",
+      "target": "witch_ost_d2",
+      "label": "公式作曲家：初代Raid Captainのコミカルな曲調を続編Witchへ継承（旋律引用未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-music",
+      "researchSection": "v3.76 §15.108"
     }
   ]
 }
