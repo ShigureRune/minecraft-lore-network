@@ -1,6 +1,6 @@
 {
-  "version": "1.66",
-  "loreVersion": "3.90",
+  "version": "1.67",
+  "loreVersion": "3.92",
   "nodes": [
     {
       "id": "soul",
@@ -4032,6 +4032,33 @@
       ],
       "origin": "",
       "originNote": "現行Wikiの2x2_a3、羊毛上半身像の頭部中央にラピスブロック1。頭部装飾・猫像・鶏像の一覧にはラピスなし。初期NBT未照合。魔術の象徴・隠し宝物・実験模型など競合説。稼働実績なし。"
+    },
+    {
+      "id": "fake_end_portal_mansion",
+      "label": "偽エンドポータル（洋館）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "現行Wiki構造1x2_s2。緑羊毛12・橙羊毛9、シルバーフィッシュ関連の構成、固定戦利品エンダーパール2。要塞の外枠12・中央3×3との造形対応。16w39aのパール履歴あり、旧NBT未照合。非稼働の模型で、研究・儀式・ゲーム上の仕掛け等の用途は未確定。"
+    },
+    {
+      "id": "ender_pearl_main",
+      "label": "エンダーパール（本編）",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "E"
+      ],
+      "origin": "",
+      "originNote": "本編の移動アイテム、エンダーアイの材料。洋館偽ポータル部屋に固定2個、16w39aからとのWiki履歴。入手経路・イリジャーによる使用は未確認。"
     }
   ],
   "edges": [
@@ -9202,6 +9229,51 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Woodland_Mansion",
       "researchSection": "v3.90 §15.122／別冊v3.16 §12.26, §12.40.2"
+    },
+    {
+      "id": "edge_r392_1",
+      "source": "mansion",
+      "target": "fake_end_portal_mansion",
+      "label": "洋館の構造1x2_s2（現行Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+      "researchSection": "v3.92 §15.124／別冊v3.18 §12.26"
+    },
+    {
+      "id": "edge_r392_2",
+      "source": "fake_end_portal_mansion",
+      "target": "stronghold",
+      "label": "外枠12・中央3×3相当・シルバーフィッシュ関連の造形比較",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+      "researchSection": "v3.92 §15.124／別冊v3.18 §12.26"
+    },
+    {
+      "id": "edge_r392_3",
+      "source": "fake_end_portal_mansion",
+      "target": "ender_pearl_main",
+      "label": "固定戦利品2個（16w39aからとのWiki履歴）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Ender_Pearl",
+      "researchSection": "v3.92 §15.124／別冊v3.18 §12.26"
+    },
+    {
+      "id": "edge_r392_4",
+      "source": "ender_pearl_main",
+      "target": "ender_eye",
+      "label": "エンダーアイの材料（現行仕様）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Eye_of_Ender",
+      "researchSection": "v3.92 §15.124／別冊v3.18 §12.26"
+    },
+    {
+      "id": "edge_r392_5",
+      "source": "illagers",
+      "target": "fake_end_portal_mansion",
+      "label": "H33 次元移動技術の観察・模倣模型説（研究目的・実際の移動未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ko-kr/article/meet-evoker",
+      "researchSection": "v3.92 §15.124／別冊v3.18 §12.26"
     }
   ]
 }
