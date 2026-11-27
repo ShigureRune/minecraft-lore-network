@@ -1,6 +1,6 @@
 {
-  "version": "1.21",
-  "loreVersion": "3.36",
+  "version": "1.22",
+  "loreVersion": "3.37",
   "nodes": [
     {
       "id": "soul",
@@ -6737,6 +6737,51 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca10",
       "researchSection": "v3.36 §15.68"
+    },
+    {
+      "id": "edge_r337_0",
+      "source": "rift",
+      "target": "echo_shard_d",
+      "label": "亀裂・ダンジョンの報酬（公式Xbox記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://news.xbox.com/en-us/2026/09/28/how-minecraft-dungeons-iis-interconnected-world-makes-every-journey-an-adventure/",
+      "researchSection": "v3.37 §15.69"
+    },
+    {
+      "id": "edge_r337_1",
+      "source": "sculk_catalyst",
+      "target": "echo_shard_m",
+      "label": "魂・死に関わる資源との比較？生成未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/6731464524941-Minecraft-Java-Edition-1-19",
+      "researchSection": "v3.37 §15.69"
+    },
+    {
+      "id": "edge_r337_2",
+      "source": "amethyst",
+      "target": "echo_shard_m",
+      "label": "スカルク変質説？（§15.35再照合）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.reddit.com/r/minecraftlore/comments/1bj28rv",
+      "researchSection": "v3.37 §15.69"
+    },
+    {
+      "id": "edge_r337_3",
+      "source": "prismarine",
+      "target": "echo_shard_d",
+      "label": "生物由来戦利品と特殊素材の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/fi-fi/article/meet-elder-guardian",
+      "researchSection": "v3.37 §15.69"
+    },
+    {
+      "id": "edge_r337_4",
+      "source": "soulblock",
+      "target": "echo_shard_d",
+      "label": "魂の固体化との比較？同一性未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Singer",
+      "researchSection": "v3.37 §15.69"
     }
   ]
 }
