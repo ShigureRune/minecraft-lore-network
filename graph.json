@@ -1,6 +1,6 @@
 {
-  "version": "1.74",
-  "loreVersion": "4.02",
+  "version": "1.75",
+  "loreVersion": "4.03",
   "nodes": [
     {
       "id": "soul",
@@ -4123,7 +4123,20 @@
         "O"
       ],
       "origin": "",
-      "originNote": "Wiki同一画像Arch_Wind.pngにWind／!Windの異なる翻字。小画像では記号を独立判読不能。ギャラリーはアーチーと毛の長い牛の顔の描画、旧WikiトークはWindswept Peaksの秘密部屋と報告。作者・用途未確認。"
+      "originNote": "Wiki同一画像Arch_Wind.pngにWind／!Windの異なる翻字。小画像では記号を独立判読不能。ギャラリーはアーチーと毛の長い牛の顔の描画、旧WikiトークはWindswept Peaksの秘密部屋と報告。作者・用途未確認。 v4.03: Ravine Ruins解放巻物の小画像と異なる配置。Mountain Cabin Basement等の候補あり、机の正確な部屋IDは未確認。"
+    },
+    {
+      "id": "ravine_unlock_scroll_d",
+      "label": "城壁解放の巻物（D）",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Ravine Ruins（sub_ravine_ruins）のColossal Rampart解放アイテム。Wiki本文と小画像を確認。机上のWind巻物とは掲載画像の配置が異なる。原モデル・本文・同一デザインの可能性は未確認。"
     }
   ],
   "edges": [
@@ -9560,6 +9573,15 @@
       "hypothesis": false,
       "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons:Arch-Illager/Gallery",
       "researchSection": "v4.02 §15.134"
+    },
+    {
+      "id": "edge_r403_1",
+      "source": "ravine_unlock_scroll_d",
+      "target": "wind_scroll_d",
+      "label": "同ミッション内の巻物比較：屋外の台座と室内の机（同一アイテム・机の部屋IDは未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons:Ravine_Ruins",
+      "researchSection": "v4.03 §15.135"
     }
   ]
 }
