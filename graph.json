@@ -1,6 +1,6 @@
 {
-  "version": "1.72",
-  "loreVersion": "3.98",
+  "version": "1.73",
+  "loreVersion": "4.01",
   "nodes": [
     {
       "id": "soul",
@@ -4098,6 +4098,19 @@
       ],
       "origin": "",
       "originNote": "クエスト進行と攻略資料で存在確認。紙の本文・作者・指示内容は未確認。"
+    },
+    {
+      "id": "wind_rune_pillar_d",
+      "label": "風のルーン柱（D）",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "旧Wiki本文では英雄の接近で起動し、発光・MOB出現・突風・門連動。Windの翻字は同Wikiギャラリー記述。碑文の魔法的因果・建設者・原画像未確認。Colossal Rampartの旧防衛施設は後世イリジャーが占拠したとゲーム内説明転載。柱の設置時期は不明。"
     }
   ],
   "edges": [
@@ -9480,6 +9493,42 @@
       "hypothesis": false,
       "sourceUrl": "https://appmedia.jp/minecraft-dungeons2/80450389",
       "researchSection": "v3.98 §15.130"
+    },
+    {
+      "id": "edge_r401_1",
+      "source": "wind_rune_pillar_d",
+      "target": "illageralt",
+      "label": "Windと翻字される碑文（旧Wikiギャラリー、原画像未照合）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Illageralt",
+      "researchSection": "v4.01 §15.133／H28・H61"
+    },
+    {
+      "id": "edge_r401_2",
+      "source": "wind_rune_pillar_d",
+      "target": "gale_sanctum",
+      "label": "同神殿にルーン柱、門とTempest Golemの腕との連動（旧Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Pillar",
+      "researchSection": "v4.01 §15.133／H28・H61"
+    },
+    {
+      "id": "edge_r401_3",
+      "source": "wind_rune_pillar_d",
+      "target": "archie_rune_pillars",
+      "label": "接近起動と翻訳・読み上げ型の比較（文字の因果・同一技術未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Pillar",
+      "researchSection": "v4.01 §15.133／H28・H61"
+    },
+    {
+      "id": "edge_r401_4",
+      "source": "wind_rune_pillar_d",
+      "target": "illagers",
+      "label": "放棄された城壁の占拠者と柱の建設者は区別（設置時期未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Story/Colossal_Rampart",
+      "researchSection": "v4.01 §15.133／H28・H61"
     }
   ]
 }
