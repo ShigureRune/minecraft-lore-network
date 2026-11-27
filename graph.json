@@ -1,6 +1,6 @@
 {
-  "version": "1.24",
-  "loreVersion": "3.40",
+  "version": "1.25",
+  "loreVersion": "3.41",
   "nodes": [
     {
       "id": "soul",
@@ -3292,6 +3292,45 @@
       ],
       "origin": "",
       "originNote": "公式記事：歌で開け、ランダムな資源を受け取る。壺とは異なる。"
+    },
+    {
+      "id": "trial_flow_motif",
+      "label": "Flow（陶片・旗・防具装飾）",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "24w11aで3媒体に同名の意匠追加。陶片は渦・風弾。図柄の同一性・製作者は未確認。"
+    },
+    {
+      "id": "trial_guster_motif",
+      "label": "Guster（陶片・旗）",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "24w11aで陶片と旗に同名の意匠追加。陶片はブリーズを描くとのWiki記述。"
+    },
+    {
+      "id": "trial_scrape_sherd",
+      "label": "Scrapeの陶片",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "24w11aで試練の間に追加。Wikiは斧の図柄と記述。用途・象徴は未確認。"
     }
   ],
   "edges": [
@@ -6977,6 +7016,51 @@
       "hypothesis": false,
       "sourceUrl": "https://www.minecraft.net/da-dk/article/the-overworld-minecraft-legends",
       "researchSection": "v3.40 §15.72"
+    },
+    {
+      "id": "edge_r341_1",
+      "source": "trial_flow_motif",
+      "target": "decorated_pot",
+      "label": "Flow陶片が壺を装飾",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/nb-no/article/minecraft-snapshot-24w11a",
+      "researchSection": "v3.41 §15.73"
+    },
+    {
+      "id": "edge_r341_2",
+      "source": "trial_guster_motif",
+      "target": "decorated_pot",
+      "label": "Guster陶片が壺を装飾",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/nb-no/article/minecraft-snapshot-24w11a",
+      "researchSection": "v3.41 §15.73"
+    },
+    {
+      "id": "edge_r341_3",
+      "source": "trial_scrape_sherd",
+      "target": "decorated_pot",
+      "label": "Scrape陶片が壺を装飾",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/nb-no/article/minecraft-snapshot-24w11a",
+      "researchSection": "v3.41 §15.73"
+    },
+    {
+      "id": "edge_r341_4",
+      "source": "trial_flow_motif",
+      "target": "trial_chamber",
+      "label": "施設の共通意匠／工芸文化？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/nb-no/article/minecraft-snapshot-24w11a",
+      "researchSection": "v3.41 §15.73"
+    },
+    {
+      "id": "edge_r341_5",
+      "source": "trial_guster_motif",
+      "target": "trial_chamber",
+      "label": "施設とモブの意匠・工芸文化？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/nb-no/article/minecraft-snapshot-24w11a",
+      "researchSection": "v3.41 §15.73"
     }
   ]
 }
