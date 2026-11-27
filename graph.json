@@ -1,6 +1,6 @@
 {
-  "version": "1.33",
-  "loreVersion": "3.49",
+  "version": "1.34",
+  "loreVersion": "3.50",
   "nodes": [
     {
       "id": "soul",
@@ -3552,6 +3552,45 @@
       ],
       "origin": "",
       "originNote": "AppMedia 2026-10-01 のプレイ画像：柱の複数側面に水色の発光記号、少なくとも二種類。進捗1/3。三字全体・訳語との対応は未確認。"
+    },
+    {
+      "id": "casting_totem_d",
+      "label": "詠唱のトーテム（初代）",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "旧WikiギャラリーはSoul/Cast/Ritualと翻字。低解像度作動GIFを確認。抽出DBは魂を必要とする分類。文字が発動原因かは未確認。"
+    },
+    {
+      "id": "regen_totem_d",
+      "label": "回復のトーテム（初代）",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "旧Wikiギャラリーの回復に関する翻字と低解像度作動GIF。独立翻字は未実施。"
+    },
+    {
+      "id": "illager_music_notebook_d2",
+      "label": "イリジャーの音符に似た手記（II）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Nintendo Lifeのゲーム画面で手記の記号が音符に似ている旨の台詞を確認。字形・文字体系・実際の譜面は不明。"
     }
   ],
   "edges": [
@@ -7660,6 +7699,60 @@
       "hypothesis": true,
       "sourceUrl": "https://appmedia.jp/minecraft-dungeons2/80450389",
       "researchSection": "v3.49 §15.81"
+    },
+    {
+      "id": "edge_r350_1",
+      "source": "casting_totem_d",
+      "target": "illageralt",
+      "label": "作動時の文字（旧Wiki翻字）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Illageralt",
+      "researchSection": "v3.50 §15.82"
+    },
+    {
+      "id": "edge_r350_2",
+      "source": "regen_totem_d",
+      "target": "illageralt",
+      "label": "作動時の文字（旧Wiki翻字）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Illageralt",
+      "researchSection": "v3.50 §15.82"
+    },
+    {
+      "id": "edge_r350_3",
+      "source": "casting_totem_d",
+      "target": "soul",
+      "label": "魂を必要とするアーティファクト（抽出DB）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/artifacts",
+      "researchSection": "v3.50 §15.82"
+    },
+    {
+      "id": "edge_r350_4",
+      "source": "illager_music_notebook_d2",
+      "target": "note",
+      "label": "記号が楽譜の音符に似るとのゲーム内説明",
+      "hypothesis": false,
+      "sourceUrl": "https://images.nintendolife.com/screenshots/166347/large.jpg",
+      "researchSection": "v3.50 §15.82"
+    },
+    {
+      "id": "edge_r350_5",
+      "source": "illager_music_notebook_d2",
+      "target": "illageralt",
+      "label": "文字体系または楽譜の比較候補",
+      "hypothesis": true,
+      "sourceUrl": "https://images.nintendolife.com/screenshots/166347/large.jpg",
+      "researchSection": "v3.50 §15.82"
+    },
+    {
+      "id": "edge_r350_6",
+      "source": "casting_totem_d",
+      "target": "archie_ruins_chant",
+      "label": "文字・詠唱の機能比較／共通原理未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Illageralt",
+      "researchSection": "v3.50 §15.82"
     }
   ]
 }
