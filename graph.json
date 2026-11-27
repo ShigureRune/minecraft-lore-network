@@ -1,5 +1,5 @@
 {
-  "version": "1.03",
+  "version": "1.04",
   "loreVersion": "3.21",
   "nodes": [
     {
@@ -895,6 +895,710 @@
       "dimensions": [],
       "origin": "",
       "originNote": ""
+    },
+    {
+      "id": "wither",
+      "label": "ウィザー",
+      "color": "#b44436",
+      "media": [
+        "M"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "twisted_w",
+      "label": "ツイステッド・ウォーデン",
+      "color": "#b44436",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "wither_corrupt",
+      "label": "魂汚染ウィザー（仮）",
+      "color": "#b44436",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "nether_star",
+      "label": "ネザースター",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "beacon",
+      "label": "ビーコン",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "corrupt_beacon",
+      "label": "堕落したビーコン",
+      "color": "#1859a0",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "ghast_tear",
+      "label": "ガストの涙",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "crying_obsidian",
+      "label": "泣く黒曜石",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "end_crystal",
+      "label": "エンドクリスタル",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "dragon",
+      "label": "エンダードラゴン",
+      "color": "#287449",
+      "media": [
+        "M",
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "anchor",
+      "label": "リスポーンアンカー",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "glowstone",
+      "label": "グロウストーン",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "amethyst",
+      "label": "アメジスト",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "calibrated_sensor",
+      "label": "調律されたスカルクセンサー",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "allay",
+      "label": "アレイ",
+      "color": "#287449",
+      "media": [
+        "M",
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "vex",
+      "label": "ヴェックス",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "wisp",
+      "label": "ウィスプ（Dungeons）",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "evoker",
+      "label": "エヴォーカー",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "totem",
+      "label": "不死のトーテム",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "council",
+      "label": "Illager High Council",
+      "color": "#87551c",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "supreme_evoker",
+      "label": "Supreme Evoker",
+      "color": "#87551c",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "copper_monstrosity",
+      "label": "Copper Monstrosity",
+      "color": "#287449",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "prime_enchanter",
+      "label": "Prime Enchanter",
+      "color": "#87551c",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "grand_illusioner",
+      "label": "Grand Illusioner",
+      "color": "#87551c",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "echo_shard_m",
+      "label": "残響の欠片（本編）",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "echo_shard_d",
+      "label": "残響の欠片（Dungeons II）",
+      "color": "#1859a0",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "recovery_compass",
+      "label": "リカバリーコンパス",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "sculk_catalyst",
+      "label": "スカルクカタリスト",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "otherside",
+      "label": "otherside（レコード）",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "disc5",
+      "label": "レコード5",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "relic",
+      "label": "Relic（レコード）",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "creeper",
+      "label": "クリーパー",
+      "color": "#287449",
+      "media": [
+        "M",
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "endermite",
+      "label": "エンダーマイト",
+      "color": "#287449",
+      "media": [
+        "M",
+        "D"
+      ],
+      "dimensions": [
+        "O",
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "intermediate",
+      "label": "中間次元（名称不明）",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "X"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "silverfish",
+      "label": "シルバーフィッシュ",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "end_ring",
+      "label": "エンド中央島・環状虚無地帯",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "heart_ender",
+      "label": "Heart of Ender",
+      "color": "#b44436",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "shulker",
+      "label": "シュルカー",
+      "color": "#287449",
+      "media": [
+        "M",
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "shulker_box",
+      "label": "シュルカーボックス",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "nameless_kingdom",
+      "label": "名もなき王国",
+      "color": "#87551c",
+      "media": [
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "nameless_one",
+      "label": "名もなき者",
+      "color": "#87551c",
+      "media": [
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "seer",
+      "label": "シーア",
+      "color": "#87551c",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "night_beacon",
+      "label": "ナイトビーコン",
+      "color": "#1859a0",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "malgosha",
+      "label": "マルゴシャ（映画）",
+      "color": "#87551c",
+      "media": [
+        "F"
+      ],
+      "dimensions": [
+        "N",
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "earth_crystal",
+      "label": "アースクリスタル（映画）",
+      "color": "#1859a0",
+      "media": [
+        "F"
+      ],
+      "dimensions": [
+        "X",
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "earth_portal",
+      "label": "Earth Portal（映画）",
+      "color": "#475569",
+      "media": [
+        "F"
+      ],
+      "dimensions": [
+        "X",
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "great_darkening",
+      "label": "Great Darkening（映画）",
+      "color": "#b44436",
+      "media": [
+        "F"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "castle_redstone",
+      "label": "Castle Redstone（小説）",
+      "color": "#87551c",
+      "media": [
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "grumpo",
+      "label": "グランポ（小説）",
+      "color": "#287449",
+      "media": [
+        "N"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "dried_ghast",
+      "label": "乾燥したガスト",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "happy_ghast",
+      "label": "ハッピーガスト",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "soul_sand",
+      "label": "ソウルサンド",
+      "color": "#007c83",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "soul_sand_valley",
+      "label": "ソウルサンドの谷",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "wither_skeleton",
+      "label": "ウィザースケルトン",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
     }
   ],
   "edges": [
@@ -1540,6 +2244,629 @@
       "source": "disaster",
       "target": "corruption",
       "label": "H01 類似災害？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_wither_disaster",
+      "source": "wither",
+      "target": "disaster",
+      "label": "H39 文明崩壊への関与？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_wither_nether_star",
+      "source": "wither",
+      "target": "nether_star",
+      "label": "H39 ドロップ",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_nether_star_beacon",
+      "source": "nether_star",
+      "target": "beacon",
+      "label": "H30 材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_obsidian_beacon",
+      "source": "obsidian",
+      "target": "beacon",
+      "label": "H30 基材",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_wither_wither_corrupt",
+      "source": "wither",
+      "target": "wither_corrupt",
+      "label": "H40 異常変化？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_corruption_wither_corrupt",
+      "source": "corruption",
+      "target": "wither_corrupt",
+      "label": "H40 汚染可能性？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_twisted_w_wither_corrupt",
+      "source": "twisted_w",
+      "target": "wither_corrupt",
+      "label": "H40 比較（低確度）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_wither_corrupt_end_ring",
+      "source": "wither_corrupt",
+      "target": "end_ring",
+      "label": "H48 隔離？（低確度）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_corruption_twisted_w",
+      "source": "corruption",
+      "target": "twisted_w",
+      "label": "H40 魂の吸引・Soulsickの比較",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_soul_corrupt_beacon",
+      "source": "soul",
+      "target": "corrupt_beacon",
+      "label": "H52 魂を消費",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_orb_corrupt_beacon",
+      "source": "orb",
+      "target": "corrupt_beacon",
+      "label": "H52 汚染原因？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ghast_tear_end_crystal",
+      "source": "ghast_tear",
+      "target": "end_crystal",
+      "label": "H29 材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_end_crystal_dragon",
+      "source": "end_crystal",
+      "target": "dragon",
+      "label": "H29 回復・再出現",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_crying_obsidian_anchor",
+      "source": "crying_obsidian",
+      "target": "anchor",
+      "label": "H29 材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_glowstone_anchor",
+      "source": "glowstone",
+      "target": "anchor",
+      "label": "H31 充填",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_ruined_crying_obsidian",
+      "source": "ruined",
+      "target": "crying_obsidian",
+      "label": "H29 生成",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_crying_obsidian_ghast_tear",
+      "source": "crying_obsidian",
+      "target": "ghast_tear",
+      "label": "H29 再生素材の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_anchor_end_crystal",
+      "source": "anchor",
+      "target": "end_crystal",
+      "label": "H29 復活技術の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_glowstone_amethyst",
+      "source": "glowstone",
+      "target": "amethyst",
+      "label": "H31 機能強化？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_amethyst_calibrated_sensor",
+      "source": "amethyst",
+      "target": "calibrated_sensor",
+      "label": "H31 調律・材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_sculk_calibrated_sensor",
+      "source": "sculk",
+      "target": "calibrated_sensor",
+      "label": "H31 検知技術",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_amethyst_allay",
+      "source": "amethyst",
+      "target": "allay",
+      "label": "H32 複製に使用",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_note_allay",
+      "source": "note",
+      "target": "allay",
+      "label": "H32 音による指示",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_allay_vex",
+      "source": "allay",
+      "target": "vex",
+      "label": "H32 外見・起源の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_allay_wisp",
+      "source": "allay",
+      "target": "wisp",
+      "label": "H32 デザイン・役割比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_evoker_vex",
+      "source": "evoker",
+      "target": "vex",
+      "label": "H33 召喚",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_evoker_totem",
+      "source": "evoker",
+      "target": "totem",
+      "label": "H33 ドロップ",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_illagers_evoker",
+      "source": "illagers",
+      "target": "evoker",
+      "label": "H33 魔術職",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_illagers_council",
+      "source": "illagers",
+      "target": "council",
+      "label": "§1.2 勢力",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_council_supreme_evoker",
+      "source": "council",
+      "target": "supreme_evoker",
+      "label": "§1.2 構成員",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_council_prime_enchanter",
+      "source": "council",
+      "target": "prime_enchanter",
+      "label": "§1.2 構成員",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_council_grand_illusioner",
+      "source": "council",
+      "target": "grand_illusioner",
+      "label": "§1.2 構成員",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_supreme_evoker_copper_monstrosity",
+      "source": "supreme_evoker",
+      "target": "copper_monstrosity",
+      "label": "H33 起動",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_soulblock_copper_monstrosity",
+      "source": "soulblock",
+      "target": "copper_monstrosity",
+      "label": "H33 動力として使用",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_soulblock_prime_enchanter",
+      "source": "soulblock",
+      "target": "prime_enchanter",
+      "label": "H33 強化",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_grand_illusioner_seer",
+      "source": "grand_illusioner",
+      "target": "seer",
+      "label": "H24 役割の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ancient_main_echo_shard_m",
+      "source": "ancient_main",
+      "target": "echo_shard_m",
+      "label": "H09 戦利品",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_echo_shard_m_recovery_compass",
+      "source": "echo_shard_m",
+      "target": "recovery_compass",
+      "label": "H09 材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_corruption_echo_shard_d",
+      "source": "corruption",
+      "target": "echo_shard_d",
+      "label": "H09 ドロップ",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_echo_shard_d_enchant",
+      "source": "echo_shard_d",
+      "target": "enchant",
+      "label": "H09 強化資源",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_echo_shard_m_echo_shard_d",
+      "source": "echo_shard_m",
+      "target": "echo_shard_d",
+      "label": "H09 同名資源の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_xp_sculk_catalyst",
+      "source": "xp",
+      "target": "sculk_catalyst",
+      "label": "H03 経験値に関連する拡大",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_sculk_catalyst_sculk",
+      "source": "sculk_catalyst",
+      "target": "sculk",
+      "label": "H03 拡大",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_stronghold_otherside",
+      "source": "stronghold",
+      "target": "otherside",
+      "label": "H13 戦利品",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_ancient_main_otherside",
+      "source": "ancient_main",
+      "target": "otherside",
+      "label": "H13 戦利品",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_ancient_main_disc5",
+      "source": "ancient_main",
+      "target": "disc5",
+      "label": "H14 破片の出土",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_disc5_rift",
+      "source": "disc5",
+      "target": "rift",
+      "label": "H14 音響研究の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_trail_relic",
+      "source": "trail",
+      "target": "relic",
+      "label": "H14 出土",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_relic_well",
+      "source": "relic",
+      "target": "well",
+      "label": "H14・§15.7 伝承音楽の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_creeper_golem_main",
+      "source": "creeper",
+      "target": "golem_main",
+      "label": "H16 人工生命説の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_creeper_note",
+      "source": "creeper",
+      "target": "note",
+      "label": "H16 レコードとの関連",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_endermite_intermediate",
+      "source": "endermite",
+      "target": "intermediate",
+      "label": "H45 中間次元の生物（公式記事）",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_endermite_silverfish",
+      "source": "endermite",
+      "target": "silverfish",
+      "label": "H46 骨状化・外見比較？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_silverfish_stronghold",
+      "source": "silverfish",
+      "target": "stronghold",
+      "label": "H46 ポータル室のスポナー",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_end_ring_end",
+      "source": "end_ring",
+      "target": "end",
+      "label": "H47 中央島と外縁島の間",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_end_ring_disaster",
+      "source": "end_ring",
+      "target": "disaster",
+      "label": "H47 地形崩壊？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_orb_end_ring",
+      "source": "orb",
+      "target": "end_ring",
+      "label": "H49 古代の災害？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_heart_ender_void",
+      "source": "heart_ender",
+      "target": "void",
+      "label": "H50 虚無の池での変化",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_orb_heart_ender",
+      "source": "orb",
+      "target": "heart_ender",
+      "label": "H49・H52 物語上の関連",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_void_endermite",
+      "source": "void",
+      "target": "endermite",
+      "label": "H46・H50 生命維持？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_void_shulker",
+      "source": "void",
+      "target": "shulker",
+      "label": "H54 能力の起源？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_endcity_shulker",
+      "source": "endcity",
+      "target": "shulker",
+      "label": "H54 生息・設備利用の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_shulker_shulker_box",
+      "source": "shulker",
+      "target": "shulker_box",
+      "label": "H54 殻を利用",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_shulker_grumpo",
+      "source": "shulker",
+      "target": "grumpo",
+      "label": "H54 小説内の個体",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_builders_nameless_kingdom",
+      "source": "builders",
+      "target": "nameless_kingdom",
+      "label": "H51 文明の比較（同一性不明）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_nameless_kingdom_nameless_one",
+      "source": "nameless_kingdom",
+      "target": "nameless_one",
+      "label": "H51 統治者の記録",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_nameless_one_evoker",
+      "source": "nameless_one",
+      "target": "evoker",
+      "label": "H51 魔術の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_nameless_one_orb",
+      "source": "nameless_one",
+      "target": "orb",
+      "label": "H51 過去のオーブとの関連",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_seer_night_beacon",
+      "source": "seer",
+      "target": "night_beacon",
+      "label": "§1.4 オーブ状物体を使用",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_seer_orb",
+      "source": "seer",
+      "target": "orb",
+      "label": "H23 同一物・誘導？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_seer_malgosha",
+      "source": "seer",
+      "target": "malgosha",
+      "label": "§1.5 役割・外見比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_malgosha_great_darkening",
+      "source": "malgosha",
+      "target": "great_darkening",
+      "label": "§1.5–6 太陽遮断",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_night_beacon_great_darkening",
+      "source": "night_beacon",
+      "target": "great_darkening",
+      "label": "§1.5 作品間比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_orb_earth_portal",
+      "source": "orb",
+      "target": "earth_portal",
+      "label": "§1.6 映画内で接続鍵",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_earth_crystal_earth_portal",
+      "source": "earth_crystal",
+      "target": "earth_portal",
+      "label": "§1.6 映画内で接続鍵",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_earth_crystal_beacon",
+      "source": "earth_crystal",
+      "target": "beacon",
+      "label": "H26 共通設計？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_earth_portal_rift",
+      "source": "earth_portal",
+      "target": "rift",
+      "label": "H25 次元接続の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_castle_redstone_redstone",
+      "source": "castle_redstone",
+      "target": "redstone",
+      "label": "H58 古代技術の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_castle_redstone_wither",
+      "source": "castle_redstone",
+      "target": "wither",
+      "label": "H58 小説内の隔離",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_castle_redstone_knowledge",
+      "source": "castle_redstone",
+      "target": "knowledge",
+      "label": "H61 技術喪失・継承比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ghast_tear_dried_ghast",
+      "source": "ghast_tear",
+      "target": "dried_ghast",
+      "label": "H29 材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_soul_sand_dried_ghast",
+      "source": "soul_sand",
+      "target": "dried_ghast",
+      "label": "H29 材料",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_dried_ghast_happy_ghast",
+      "source": "dried_ghast",
+      "target": "happy_ghast",
+      "label": "H43 水による成長",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_dried_ghast_nether",
+      "source": "dried_ghast",
+      "target": "nether",
+      "label": "H43 乾燥・環境適応？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_soul_sand_soul_sand_valley",
+      "source": "soul_sand",
+      "target": "soul_sand_valley",
+      "label": "H42 地形構成",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_soul_sand_valley_ancient_main",
+      "source": "soul_sand_valley",
+      "target": "ancient_main",
+      "label": "H42 古代環境の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_wither_skeleton_sculk",
+      "source": "wither_skeleton",
+      "target": "sculk",
+      "label": "H41 乾燥起源？（低確度）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_wither_skeleton_nether_ruins",
+      "source": "wither_skeleton",
+      "target": "nether_ruins",
+      "label": "H41 生息の比較",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_soul_sand_soul",
+      "source": "soul_sand",
+      "target": "soul",
+      "label": "H36 名前・性質の比較",
       "hypothesis": true
     }
   ]
