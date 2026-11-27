@@ -1,6 +1,6 @@
 {
-  "version": "1.13",
-  "loreVersion": "3.28",
+  "version": "1.14",
+  "loreVersion": "3.29",
   "nodes": [
     {
       "id": "soul",
@@ -3003,6 +3003,72 @@
       ],
       "origin": "",
       "originNote": "公式記事による絶滅していた古代生物。巨大化石との同定は未確認。"
+    },
+    {
+      "id": "basalt_deltas",
+      "label": "玄武岩デルタ",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": "公式Bedrock 1.16：火山噴火の名残。"
+    },
+    {
+      "id": "volcanic_change",
+      "label": "古代ネザー火山性環境変動（仮）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": "火山活動自体は公式、絶滅との因果は未確認。"
+    },
+    {
+      "id": "humbler_huskland",
+      "label": "ハンブラーのハスクランド",
+      "color": "#475569",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "H42補足のWiki・同梱画像による景観比較。化石の種は未確認。"
+    },
+    {
+      "id": "humbler_dormancy",
+      "label": "ハンブラーの長期休眠",
+      "color": "#287449",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "公式DLC告知：古代の脅威が覚醒。休眠機構は不明。"
+    },
+    {
+      "id": "nether_corruption_l",
+      "label": "ネザー環境の侵食（Legends）",
+      "color": "#b44436",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O",
+        "N"
+      ],
+      "origin": "",
+      "originNote": "公式発売記事：ポータルとネザーラックの拡大。"
     }
   ],
   "edges": [
@@ -6077,6 +6143,114 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/en-us/article/sniffer",
       "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r329_0",
+      "source": "nether",
+      "target": "basalt_deltas",
+      "label": "ネザーのバイオーム",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/360044928311-Minecraft-Nether-Update-1-16-0-Bedrock",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_1",
+      "source": "basalt_deltas",
+      "target": "soul_sand_valley",
+      "label": "玄武岩柱・灰の共通性",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/360044928311-Minecraft-Nether-Update-1-16-0-Bedrock",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_2",
+      "source": "basalt_deltas",
+      "target": "volcanic_change",
+      "label": "噴火の記録を根拠にした比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/360044928311-Minecraft-Nether-Update-1-16-0-Bedrock",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_3",
+      "source": "volcanic_change",
+      "target": "prehistoric_giants",
+      "label": "絶滅原因候補（年代不明）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/around-block--soul-sand-valley",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_4",
+      "source": "volcanic_change",
+      "target": "soul_sand_valley",
+      "label": "環境荒廃との関係？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/around-block--soul-sand-valley",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_5",
+      "source": "humbler_huskland",
+      "target": "sift",
+      "label": "H42 既存地域記録（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Humbler_Huskland",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_6",
+      "source": "humbler_huskland",
+      "target": "nether_fossil",
+      "label": "H42 巨大遺骸の形態比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Humbler_Huskland",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_7",
+      "source": "humbler_huskland",
+      "target": "soul_sand_valley",
+      "label": "H42 景観・生態系比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Humbler_Huskland",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_8",
+      "source": "humblers",
+      "target": "humbler_dormancy",
+      "label": "DLC公式告知：長い眠り",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/the-humblers-awaken-jp",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_9",
+      "source": "humbler_dormancy",
+      "target": "dried_ghast",
+      "label": "休眠・発育停止の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/happy-ghast",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_10",
+      "source": "piglin_invasion",
+      "target": "nether_corruption_l",
+      "label": "ポータルとネザーラックの拡大",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-legends-here",
+      "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r329_11",
+      "source": "nether_corruption_l",
+      "target": "sift",
+      "label": "H42 異次元流入の比較（直接接続未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-legends-here",
+      "researchSection": "v3.29 §15.61"
     }
   ]
 }
