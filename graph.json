@@ -1,6 +1,6 @@
 {
-  "version": "1.42",
-  "loreVersion": "3.58",
+  "version": "1.43",
+  "loreVersion": "3.59",
   "nodes": [
     {
       "id": "soul",
@@ -8273,6 +8273,42 @@
       "hypothesis": true,
       "sourceUrl": "https://wikily.gg/minecraft-dungeons-2/quests/lost-harmonies",
       "researchSection": "v3.58 §15.90"
+    },
+    {
+      "id": "edge_r359_1",
+      "source": "tuner_d2",
+      "target": "allay",
+      "label": "生物を仲介する音楽利用の作品間比較（同一種・起源未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/it-it/article/the-hero-minecraft-legends",
+      "researchSection": "v3.59 §15.91"
+    },
+    {
+      "id": "edge_r359_2",
+      "source": "tuner_d2",
+      "target": "note_machine_d2",
+      "label": "門を開く生物と旋律で起動する装置の比較（同一原理未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://gamer-guides.com/minecraft-dungeons-2/minecraft-dungeons-2-a-monstrosity-in-the-meadow/",
+      "researchSection": "v3.59 §15.91"
+    },
+    {
+      "id": "edge_r359_3",
+      "source": "first_song",
+      "target": "note_machine_d2",
+      "label": "旋律と再稼働／起動の機能比較（同じ旋律とは未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-dungeons-ii-music-jp",
+      "researchSection": "v3.59 §15.91"
+    },
+    {
+      "id": "edge_r359_4",
+      "source": "gift_of_song_d2",
+      "target": "first_song",
+      "label": "歌の授与と習得による新機能解放の比較（別機構の可能性）",
+      "hypothesis": true,
+      "sourceUrl": "https://mcfun.cc/minecraft-dungeons-2/quests/ca08/",
+      "researchSection": "v3.59 §15.91"
     }
   ]
 }
