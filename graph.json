@@ -1,6 +1,6 @@
 {
-  "version": "1.37",
-  "loreVersion": "3.53",
+  "version": "1.38",
+  "loreVersion": "3.54",
   "nodes": [
     {
       "id": "soul",
@@ -3643,6 +3643,19 @@
       ],
       "origin": "",
       "originNote": "Wiki本文：2026-09-10 Blueprint 4の11枚で指定区画に建築し、特定視点からDIAPASONを読む。画像11枚の所在確認、本体未取得。宣伝専用ワールドであり作中ポータルの設計図とは未確認。"
+    },
+    {
+      "id": "arg_harmonizer_tap",
+      "label": "ARG Harmonizer中央起点暗号",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2026-09-15のARGで中央から格子を移動して4語を解くとWiki検索収録本文に記録。原図4枚・Discord原投稿未取得。中央Nの再利用は仮説で、ゲーム内能力を示す証拠ではない。"
     }
   ],
   "edges": [
@@ -7913,6 +7926,24 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Diapason",
       "researchSection": "v3.53 §15.85"
+    },
+    {
+      "id": "edge_r354_1",
+      "source": "arg_harmonizer_tap",
+      "target": "arg_tap_music",
+      "label": "同一ARGでタップコードが再登場（Wiki記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Day_2",
+      "researchSection": "v3.54 §15.86"
+    },
+    {
+      "id": "edge_r354_2",
+      "source": "arg_harmonizer_tap",
+      "target": "arg_illager_music_page",
+      "label": "中央Nと移動の起点の対応候補（原図未照合）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Day_2",
+      "researchSection": "v3.54 §15.86"
     }
   ]
 }
