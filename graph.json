@@ -1,6 +1,6 @@
 {
-  "version": "1.07",
-  "loreVersion": "3.21",
+  "version": "1.08",
+  "loreVersion": "3.23",
   "nodes": [
     {
       "id": "soul",
@@ -584,7 +584,9 @@
       "media": [
         "M",
         "D",
-        "N"
+        "N",
+        "L",
+        "D2"
       ],
       "dimensions": [
         "O"
@@ -2508,6 +2510,49 @@
       ],
       "origin": "",
       "originNote": ""
+    },
+    {
+      "id": "redstone_potions",
+      "label": "ポーションの効果延長",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": "本編の醸造仕様。世界内の作用原理は未確認。"
+    },
+    {
+      "id": "fiery_forge",
+      "label": "Fiery Forge（燃える鍛冶場）",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "初代Dungeonsの工業施設。"
+    },
+    {
+      "id": "redstone_monstrosity",
+      "label": "レッドストーンの怪物",
+      "color": "#287449",
+      "media": [
+        "D",
+        "D2"
+      ],
+      "dimensions": [
+        "O",
+        "S"
+      ],
+      "origin": "",
+      "originNote": "初代・続編のボス。動力源の比較。"
     }
   ],
   "edges": [
@@ -4673,6 +4718,159 @@
       "target": "corruption",
       "label": "H36 環境変化との比較（別機構）",
       "hypothesis": true
+    },
+    {
+      "id": "edge_r323_redstone_redstone_potions",
+      "source": "redstone",
+      "target": "redstone_potions",
+      "label": "効果時間の延長",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/redstone-dust",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_glowstone_redstone_potions",
+      "source": "glowstone",
+      "target": "redstone_potions",
+      "label": "効果強度との対照",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Potion",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_ancient_main",
+      "source": "redstone",
+      "target": "ancient_main",
+      "label": "地下回路・照明",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Ancient_City",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_jungle_pyramid",
+      "source": "redstone",
+      "target": "jungle_pyramid",
+      "label": "自然生成の回路",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Redstone_dust",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_mansion",
+      "source": "redstone",
+      "target": "mansion",
+      "label": "牢獄の回路",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Redstone_dust",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_trial_chamber",
+      "source": "redstone",
+      "target": "trial_chamber",
+      "label": "一部の部屋の回路",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Redstone_dust",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_villagers",
+      "source": "redstone",
+      "target": "villagers",
+      "label": "聖職者の交易",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Redstone_dust",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_calibrated_sensor",
+      "source": "redstone",
+      "target": "calibrated_sensor",
+      "label": "調律信号の入力",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/sv-se/article/trails---tales-update-now-available-bedrock",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_sculk_redstone",
+      "source": "sculk",
+      "target": "redstone",
+      "label": "振動検知から信号出力",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Sculk_Sensor",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_spawner",
+      "source": "redstone",
+      "target": "spawner",
+      "label": "Legends ゾンビ召喚素材",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Legends%3ARedstone",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_mines_fiery_forge",
+      "source": "redstone_mines",
+      "target": "fiery_forge",
+      "label": "鉱山から鍛冶場へ",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3ARedstone_Mines",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_fiery_forge_redstone_golem",
+      "source": "fiery_forge",
+      "target": "redstone_golem",
+      "label": "ゴーレム製造施設",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3AFiery_Forge",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_fiery_forge_redstone_monstrosity",
+      "source": "fiery_forge",
+      "target": "redstone_monstrosity",
+      "label": "初代のボス",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3AFiery_Forge",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_soulblock_redstone_monstrosity",
+      "source": "soulblock",
+      "target": "redstone_monstrosity",
+      "label": "続編の動力（Wiki記述）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II%3ASoul_Block",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_redstone_monstrosity",
+      "source": "redstone",
+      "target": "redstone_monstrosity",
+      "label": "名称・構造の関連",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3ARedstone_Monstrosity",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_soulblock",
+      "source": "redstone",
+      "target": "soulblock",
+      "label": "エネルギー媒介と制御の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II%3ASoul_Block",
+      "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r323_redstone_redstone_golem",
+      "source": "redstone",
+      "target": "redstone_golem",
+      "label": "鉱物と人工構造体の比較",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3ARedstone_Golem",
+      "researchSection": "v3.23 §15.55"
     }
   ]
 }
