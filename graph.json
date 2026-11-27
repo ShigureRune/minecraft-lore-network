@@ -1,6 +1,6 @@
 {
-  "version": "1.76",
-  "loreVersion": "4.05",
+  "version": "1.77",
+  "loreVersion": "4.06",
   "nodes": [
     {
       "id": "soul",
@@ -4150,6 +4150,19 @@
       ],
       "origin": "",
       "originNote": "Lone FortressのRoyal HallwayにWEAKとFOEと翻字される肖像画2点（Wiki画像説明・小画像確認）。筆者・時期・所属は不明。旧Wikiの倒れた玉座記録は別の観察で因果未確認。"
+    },
+    {
+      "id": "lone_fortress_d",
+      "label": "Lone Fortress（孤立した城）",
+      "color": "#87551c",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "旧Wiki本文・ゲーム内説明転載：崩れた城を地元のイリジャーが使用、オーブ破片の影響を受けたレイスが冬の原因。青い倒れた玉座、アーチー肖像画、王室装飾。建設年代・最初の統治者・Highblockとの直接的系譜は未確認。"
     }
   ],
   "edges": [
@@ -9622,6 +9635,42 @@
       "hypothesis": true,
       "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons:Lone_Fortress",
       "researchSection": "v4.05 §15.137"
+    },
+    {
+      "id": "edge_r406_1",
+      "source": "lone_fortress_d",
+      "target": "archie_graffiti_d",
+      "label": "Royal Hallwayの肖像画と落書きの所在（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Lone_Fortress",
+      "researchSection": "v4.06 §15.138"
+    },
+    {
+      "id": "edge_r406_2",
+      "source": "lone_fortress_d",
+      "target": "highblock",
+      "label": "玉座・王室装飾の共通性、王権の系譜は未確認（比較）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Lone_Fortress",
+      "researchSection": "v4.06 §15.138"
+    },
+    {
+      "id": "edge_r406_3",
+      "source": "lone_fortress_d",
+      "target": "orb",
+      "label": "破片の影響を受けたレイスが冬の原因（ゲーム内導入説明転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Lone_Fortress",
+      "researchSection": "v4.06 §15.138"
+    },
+    {
+      "id": "edge_r406_4",
+      "source": "lone_fortress_d",
+      "target": "illagers",
+      "label": "地元イリジャーによる城の使用（旧Wiki本文）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Lone_Fortress",
+      "researchSection": "v4.06 §15.138"
     }
   ]
 }
