@@ -1,6 +1,6 @@
 {
-  "version": "1.49",
-  "loreVersion": "3.65",
+  "version": "1.50",
+  "loreVersion": "3.66",
   "nodes": [
     {
       "id": "soul",
@@ -197,7 +197,7 @@
         "S"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " Echo Golemの公開レンダーでは灰青緑の体と角ばった渦巻き模様、頭頂に凹形の受け部。Wiki検索収録記述では灰緑色の柔らかい物質。Singerとは区別して観察。"
     },
     {
       "id": "soulblock",
@@ -211,7 +211,7 @@
         "S"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " Wiki検索収録記述では記憶と旋律を保持。The Final Souldownでは外部の門に移して起動できる（攻略画像）。原テクスチャと記憶の物理的保存機構は未確認。"
     },
     {
       "id": "runes",
@@ -3837,6 +3837,19 @@
       ],
       "origin": "",
       "originNote": "公開ゲーム画像5枚を直接比較。平原とシフトに青い模様の台座、金属風の縁、青白い模様の発光立方体。シフトでは2個設置後も発光する立方体が残り柵が下がる。モデルID、消費、取り外し後の動作は未確認。"
+    },
+    {
+      "id": "soulblock_gate_d2",
+      "label": "Soul Block式の門（II）",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "The Final Souldownの攻略本文・設置前後の画像を確認。Scared GolemのSoul Blockを縦長の台座へ移すと装置が青白く発光し通路が開く。台座周囲に迷路状の幾何学模様。コアの互換性、文字の翻字、消費や動力機構は未確認。"
     }
   ],
   "edges": [
@@ -8602,6 +8615,33 @@
       "hypothesis": true,
       "sourceUrl": "https://mineuniverse.net/wiki/chiseled-soulshale",
       "researchSection": "v3.65 §15.97"
+    },
+    {
+      "id": "edge_r366_1",
+      "source": "soulblock_gate_d2",
+      "target": "soulblock",
+      "label": "ゴーレムから受け取ったSoul Blockで門を起動（攻略画像）",
+      "hypothesis": false,
+      "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-10-the-final-souldown-walkthrough/",
+      "researchSection": "v3.66 §15.98"
+    },
+    {
+      "id": "edge_r366_2",
+      "source": "soulblock_gate_d2",
+      "target": "ichor_core_socket_d2",
+      "label": "青白い発光を伴う設置型起動方式の比較（互換性未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-10-the-final-souldown-walkthrough/",
+      "researchSection": "v3.66 §15.98"
+    },
+    {
+      "id": "edge_r366_3",
+      "source": "soulblock_gate_d2",
+      "target": "illageralt",
+      "label": "台座周囲の迷路状模様と文字の比較候補（翻字未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-10-the-final-souldown-walkthrough/",
+      "researchSection": "v3.66 §15.98"
     }
   ]
 }
