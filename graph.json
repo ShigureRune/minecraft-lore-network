@@ -1,6 +1,6 @@
 {
-  "version": "1.40",
-  "loreVersion": "3.56",
+  "version": "1.41",
+  "loreVersion": "3.57",
   "nodes": [
     {
       "id": "soul",
@@ -3708,6 +3708,32 @@
       ],
       "origin": "",
       "originNote": "WikiによればHarmonizerはSproutの大型ミニボス変種。Singerらの説明ではイリジャー侵入後に外来者へ敵対。ゲーム内台詞・実機は未確認。"
+    },
+    {
+      "id": "sprout_d2",
+      "label": "Sprout（Sifter支援個体）",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "Wiki検索収録記述：他のSifterを強化する支援個体。Harmonizerも対象。ビームの音響性・魂・イコル消費は未確認。"
+    },
+    {
+      "id": "harmonizer_d2",
+      "label": "Harmonizer（Sifter大型変種）",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "Wiki検索収録本文：大型Sprout、咆哮と衝撃波・仲間の出現、強化ビームは別記述。魂汚染個体も存在するとの記録。ビームが音波か、魂・イコルが動力かは未確認。"
     }
   ],
   "edges": [
@@ -8095,6 +8121,69 @@
       "hypothesis": false,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Sifter",
       "researchSection": "v3.56 §15.88"
+    },
+    {
+      "id": "edge_r357_1",
+      "source": "sprout_d2",
+      "target": "sifter_species_d2",
+      "label": "周囲のSifterを支援・強化（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Sprout",
+      "researchSection": "v3.57 §15.89"
+    },
+    {
+      "id": "edge_r357_2",
+      "source": "harmonizer_d2",
+      "target": "sprout_d2",
+      "label": "大型変種・共通の支援能力（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Harmonizer",
+      "researchSection": "v3.57 §15.89"
+    },
+    {
+      "id": "edge_r357_3",
+      "source": "harmonizer_d2",
+      "target": "sifter_species_d2",
+      "label": "咆哮による仲間の出現と強化ビーム（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Harmonizer",
+      "researchSection": "v3.57 §15.89"
+    },
+    {
+      "id": "edge_r357_4",
+      "source": "harmonizer_d2",
+      "target": "arg_harmonizer_tap",
+      "label": "作中個体とARGの同名対象（能力・暗号は別）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG",
+      "researchSection": "v3.57 §15.89"
+    },
+    {
+      "id": "edge_r357_5",
+      "source": "harmonizer_d2",
+      "target": "singer",
+      "label": "発声と作用の比較候補／共通原理未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Harmonizer",
+      "researchSection": "v3.57 §15.89"
+    },
+    {
+      "id": "edge_r357_6",
+      "source": "harmonizer_d2",
+      "target": "ichor_liquid",
+      "label": "支援能力の資源依存性を検証する候補（直接根拠なし）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Harmonizer",
+      "researchSection": "v3.57 §15.89"
+    },
+    {
+      "id": "edge_r357_7",
+      "source": "sprout_d2",
+      "target": "prime_enchanter",
+      "label": "味方強化という機能の比較（媒介・原理は不明）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Sprout",
+      "researchSection": "v3.57 §15.89"
     }
   ]
 }
