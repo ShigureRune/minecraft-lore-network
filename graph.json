@@ -1,6 +1,6 @@
 {
-  "version": "1.12",
-  "loreVersion": "3.27",
+  "version": "1.13",
+  "loreVersion": "3.28",
   "nodes": [
     {
       "id": "soul",
@@ -2911,6 +2911,98 @@
       ],
       "origin": "",
       "originNote": "Hidden Depthsの海底遺構。公式紹介記事はオーブによる汚染を説明。"
+    },
+    {
+      "id": "overworld_fossil",
+      "label": "オーバーワールドの化石",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公式記事は絶滅した大型生物の痕跡と説明。頭蓋骨・背骨型。"
+    },
+    {
+      "id": "nether_fossil",
+      "label": "ネザーの化石",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": "ソウルサンドの谷に生成。公式記事はかつての巨大生物と豊かな生態系を推測。"
+    },
+    {
+      "id": "prehistoric_giants",
+      "label": "絶滅した巨大生物（種不明）",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N"
+      ],
+      "origin": "",
+      "originNote": "公式紹介記事の記述。両次元の生物の同種性・絶滅原因・年代は未確認。"
+    },
+    {
+      "id": "fossil_minerals",
+      "label": "化石中の石炭・ダイヤモンド鉱石",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Bedrock 1.18.10：Y=0未満の化石に深層ダイヤモンド鉱石。化学変化は未確認。"
+    },
+    {
+      "id": "legends_bones",
+      "label": "大型骨格（Legends）",
+      "color": "#475569",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Badlands・Skeleton Homesteadに大型骨格状地形。Wiki記録。"
+    },
+    {
+      "id": "fossil_canyon",
+      "label": "Fossil Canyon（Dungeons）",
+      "color": "#475569",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Dingy Jungle内のサブダンジョン、大型化石のWiki記述。"
+    },
+    {
+      "id": "sniffer",
+      "label": "スニッファー",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公式記事による絶滅していた古代生物。巨大化石との同定は未確認。"
     }
   ],
   "edges": [
@@ -5850,6 +5942,141 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/en-us/article/jungle-awakens-dlc-out-today",
       "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r328_0",
+      "source": "overworld",
+      "target": "overworld_fossil",
+      "label": "地下に生成",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/block-week-bone",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_1",
+      "source": "nether",
+      "target": "nether_fossil",
+      "label": "ネザーに生成",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/around-block--soul-sand-valley",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_2",
+      "source": "soul_sand_valley",
+      "target": "nether_fossil",
+      "label": "化石が点在",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/around-block--soul-sand-valley",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_3",
+      "source": "overworld_fossil",
+      "target": "prehistoric_giants",
+      "label": "巨大生物の痕跡（公式記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/block-week-bone",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_4",
+      "source": "nether_fossil",
+      "target": "prehistoric_giants",
+      "label": "巨大生物の痕跡（公式記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/around-block--soul-sand-valley",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_5",
+      "source": "overworld_fossil",
+      "target": "fossil_minerals",
+      "label": "深度別の鉱石（Bedrock公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-update-1-18-10",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_6",
+      "source": "fossil_minerals",
+      "target": "ancient_ecology",
+      "label": "石炭・古代森林の比較（公式記事の推測）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/trail-ruins",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_7",
+      "source": "nether_fossil",
+      "target": "ancient_ecology",
+      "label": "過去の豊かな生態系の推測（公式記事）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/around-block--soul-sand-valley",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_8",
+      "source": "nether_fossil",
+      "target": "soul_sand",
+      "label": "共存・絶滅と魂の関係？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/around-block--soul-sand-valley",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_9",
+      "source": "overworld_fossil",
+      "target": "nether_fossil",
+      "label": "同種・共通祖先か？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/around-block--soul-sand-valley",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_10",
+      "source": "legends_bones",
+      "target": "overworld_fossil",
+      "label": "作品間の大型骨格比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Legends%3ABiome",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_11",
+      "source": "legends_bones",
+      "target": "skeleton",
+      "label": "スケルトンの集落に骨格状構造（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Legends%3ASkeleton_Homestead",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_12",
+      "source": "fossil_canyon",
+      "target": "overworld_fossil",
+      "label": "作品間の化石比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons%3AFossil_Canyon",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_13",
+      "source": "sniffer",
+      "target": "ancient_ecology",
+      "label": "絶滅していた古代生物（公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/sniffer",
+      "researchSection": "v3.28 §15.60"
+    },
+    {
+      "id": "edge_r328_14",
+      "source": "sniffer",
+      "target": "prehistoric_giants",
+      "label": "同定候補・サイズの比較（未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/sniffer",
+      "researchSection": "v3.28 §15.60"
     }
   ]
 }
