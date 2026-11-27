@@ -1,6 +1,6 @@
 {
-  "version": "1.83",
-  "loreVersion": "4.12",
+  "version": "1.84",
+  "loreVersion": "4.13",
   "nodes": [
     {
       "id": "soul",
@@ -861,7 +861,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " 26.3第三者解析では通常チェストにキャンプ地図抽選、秘密銅チェストに遺跡地図抽選（探索失敗時は地図なし）。固定配置と戦利品の区別が必要。建造者・像の由来は未同定。"
     },
     {
       "id": "trail",
@@ -874,7 +874,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": " 旅路の遺跡に限る：Java 1.21.1の抽出データでは塔最上部用処理が通常出土品を割り当て、置換上限2。Bedrock公式開発資料の道路用処理例も通常枠・上限2。出土場所から製作地や交易を直接推定しない。廃坑にこの規則を適用しない。"
+      "originNote": " 旅路の遺跡に限る：Java 1.21.1の抽出データでは塔最上部用処理が通常出土品を割り当て、置換上限2。Bedrock公式開発資料の道路用処理例も通常枠・上限2。出土場所から製作地や交易を直接推定しない。廃坑にこの規則を適用しない。 Java 1.21.11-rc3の住宅用処理では通常上限6・希少上限3、集会所・大部屋・一部屋各5の15パーツが同じ処理を参照。"
     },
     {
       "id": "searuins",
@@ -10909,6 +10909,24 @@
       "hypothesis": true,
       "sourceUrl": "https://mcasset.cloud/1.21.1/data/minecraft/worldgen/processor_list/trail_ruins_tower_top_archaeology.json",
       "researchSection": "v4.12 §15.144"
+    },
+    {
+      "id": "edge_r413_1",
+      "source": "camp",
+      "target": "copper_chest",
+      "label": "一部キャンプの酸化した銅チェスト・専用戦利品枠（第三者解析）",
+      "hypothesis": false,
+      "sourceUrl": "https://craftdex.net/updates/wilderness-bound-loot-and-spawns",
+      "researchSection": "v4.13 §15.145"
+    },
+    {
+      "id": "edge_r413_2",
+      "source": "camp",
+      "target": "copper_statue",
+      "label": "一部キャンプの銅ゴーレム像（第三者構造解説）",
+      "hypothesis": false,
+      "sourceUrl": "https://structures.astroworldmc.com/structures/abandoned-camp",
+      "researchSection": "v4.13 §15.145"
     }
   ]
 }
