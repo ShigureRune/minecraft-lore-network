@@ -1,6 +1,6 @@
 {
-  "version": "1.84",
-  "loreVersion": "4.13",
+  "version": "1.85",
+  "loreVersion": "4.14",
   "nodes": [
     {
       "id": "soul",
@@ -4798,6 +4798,110 @@
       "dimensions": [],
       "origin": "",
       "originNote": "非公式ゲームDB転載：ハンブラーの殻で作られた楽器、音楽による防護効果、魂消費。実音・原資産・機構・製作者は未確認。 非公式DBではInvulnerable・効果5秒（実機未確認）。別個の音声イベント名は検索抜粋で確認、原音未取得。"
+    },
+    {
+      "id": "vibration_event",
+      "label": "振動イベント（本編）",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "物理音波・音高と同一ではない。Java 1.19公式記述。"
+    },
+    {
+      "id": "wool_carpet",
+      "label": "羊毛のカーペット",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java 1.19で敷設・破壊等と走行・ジャンプの振動抑制。羊毛ブロックの伝達遮断と区別。"
+    },
+    {
+      "id": "sculk_sensor_main",
+      "label": "スカルクセンサー（本編）",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2022-02-17実験版公式記事で検知とレッドストーン出力。調律型とは区別。"
+    },
+    {
+      "id": "lightning_event",
+      "label": "雷（本編）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "生物変化と避雷針信号は別のゲーム仕様。共通の世界内変換機構は未証明。"
+    },
+    {
+      "id": "witch_main",
+      "label": "ウィッチ（本編）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "一部は村人から雷で変化。全個体の由来・所属や記憶は不明。"
+    },
+    {
+      "id": "charged_creeper",
+      "label": "帯電クリーパー",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "雷で帯電する仕様。Wiki検索抜粋。"
+    },
+    {
+      "id": "copper_oxidation",
+      "label": "銅の酸化",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "電球の光量とゴーレムの稼働に異なる影響。銅設備全般の機能停止ではない。"
+    },
+    {
+      "id": "signal_state_memory",
+      "label": "信号による状態保持（比較概念）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "銅電球はパルス間で点灯状態を保持。世界内の設計意図・自我の保持とは別。"
     }
   ],
   "edges": [
@@ -10927,6 +11031,195 @@
       "hypothesis": false,
       "sourceUrl": "https://structures.astroworldmc.com/structures/abandoned-camp",
       "researchSection": "v4.13 §15.145"
+    },
+    {
+      "id": "edge_r414_1",
+      "source": "wool",
+      "target": "vibration_event",
+      "label": "羊毛による振動抑制（実験版公式、伝達遮断と発生抑制を区別）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/de-de/article/a-very-scary-snapshot",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_2",
+      "source": "wool_carpet",
+      "target": "vibration_event",
+      "label": "走行・ジャンプ等の振動抑制（Java 1.19）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/fi-fi/article/the-wild-update-out-today-java",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_3",
+      "source": "vibration_event",
+      "target": "sculk_sensor_main",
+      "label": "振動を検知（実験版公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/de-de/article/a-very-scary-snapshot",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_4",
+      "source": "sculk_sensor_main",
+      "target": "redstone",
+      "label": "検知した振動を信号に変換（実験版公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/de-de/article/a-very-scary-snapshot",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_5",
+      "source": "vibration_event",
+      "target": "warden",
+      "label": "振動を認識（Java 1.19）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/fi-fi/article/the-wild-update-out-today-java",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_6",
+      "source": "ancient_main",
+      "target": "vibration_event",
+      "label": "B1-VIB-01 羊毛・回路による振動選別技術？（建設意図未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/fi-fi/article/the-wild-update-out-today-java",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_7",
+      "source": "lightning_event",
+      "target": "witch_main",
+      "label": "村人からの変化を誘発",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/pl-pl/article/nether-update-java",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_8",
+      "source": "villagers",
+      "target": "witch_main",
+      "label": "一部の個体は雷によって村人から変化（全個体の起源は不明）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/pl-pl/article/nether-update-java",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_9",
+      "source": "lightning_event",
+      "target": "charged_creeper",
+      "label": "帯電状態への変化（Wiki検索抜粋）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Thunderstorm",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_10",
+      "source": "creeper",
+      "target": "charged_creeper",
+      "label": "雷による帯電（Wiki検索抜粋）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Thunderstorm",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_11",
+      "source": "lightning_event",
+      "target": "zombified_piglin",
+      "label": "ブタからの変化を誘発（Wiki検索抜粋）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Thunderstorm",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_12",
+      "source": "pigs",
+      "target": "zombified_piglin",
+      "label": "雷による変化（Wiki検索抜粋）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Thunderstorm",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_13",
+      "source": "lightning_event",
+      "target": "brown_mooshroom",
+      "label": "赤・茶の可逆変化を誘発（Wiki検索抜粋）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Thunderstorm",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_14",
+      "source": "lightning_event",
+      "target": "lightning_rod",
+      "label": "落雷を受ける入力（公式記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/taking-inventory--lightning-rod",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_15",
+      "source": "copper_oxidation",
+      "target": "copper_bulb",
+      "label": "酸化に伴い光量15・12・8・4（Bedrock 1.21）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27451789924237-Minecraft-Bedrock-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_16",
+      "source": "copper_bulb",
+      "target": "signal_state_memory",
+      "label": "パルスで状態を切替・入力消失後も保持（仕様）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27451789924237-Minecraft-Bedrock-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_17",
+      "source": "copper_bulb",
+      "target": "comparator",
+      "label": "点灯時は酸化段階を問わず出力15（Bedrock 1.21）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27451789924237-Minecraft-Bedrock-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_18",
+      "source": "copper_oxidation",
+      "target": "copper_golem_main",
+      "label": "完全酸化で像化（未ワックス）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/39966147272589-Minecraft-Java-Edition-1-21-9-The-Copper-Age",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_19",
+      "source": "trial_chamber",
+      "target": "copper_material",
+      "label": "銅・凝灰岩の建材使用（建造者の同定は別）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27451789924237-Minecraft-Bedrock-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_20",
+      "source": "sculk_sensor_main",
+      "target": "lightning_rod",
+      "label": "異なるイベント入力をレッドストーンに変換する比較（共通機構未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/taking-inventory--lightning-rod",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r414_21",
+      "source": "signal_state_memory",
+      "target": "copper_statue",
+      "label": "点灯状態保持と姿勢等の読み出しの比較（自我・共通機構未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/39966147272589-Minecraft-Java-Edition-1-21-9-The-Copper-Age",
+      "researchSection": "v4.14 §15.146 / 分割合同査読"
     }
   ]
 }
