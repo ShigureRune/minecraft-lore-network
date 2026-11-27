@@ -1,6 +1,6 @@
 {
-  "version": "1.45",
-  "loreVersion": "3.61",
+  "version": "1.46",
+  "loreVersion": "3.62",
   "nodes": [
     {
       "id": "soul",
@@ -3797,6 +3797,32 @@
       ],
       "origin": "",
       "originNote": "Wrath of the SculkersのクエストDB・攻略本文：コアを設置するとLullaby Hillsへの門が起動。別段階のTunerによる音楽の門と区別。液体イコルとの生成・変換関係は未確認。"
+    },
+    {
+      "id": "rainy_plains_bridges_d2",
+      "label": "雨降りの平原のコア式橋",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "CA07の非公式クエストDB本文にイコルコア設置4回。白・橙・赤の塔を経由しSupreme Evokerの塔へ。攻略本文では橋の動力。コアの供給元・回路・製造者は未確認。"
+    },
+    {
+      "id": "puddle_pond_inventor_d2",
+      "label": "Puddle PondのInventor",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "CA07で発明家と会話。攻略本文では最初のイコルコアを渡す。独自製造・入手経路・技術の普及範囲は未確認。"
     }
   ],
   "edges": [
@@ -8436,6 +8462,60 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca09",
       "researchSection": "v3.61 §15.93"
+    },
+    {
+      "id": "edge_r362_1",
+      "source": "ichor_core_d2",
+      "target": "rainy_plains_bridges_d2",
+      "label": "4か所の橋にコアを設置（CA07転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca07",
+      "researchSection": "v3.62 §15.94"
+    },
+    {
+      "id": "edge_r362_2",
+      "source": "puddle_pond_inventor_d2",
+      "target": "rainy_plains_bridges_d2",
+      "label": "最初のコアを渡す（攻略本文）",
+      "hypothesis": false,
+      "sourceUrl": "https://gamer-guides.com/minecraft-dungeons-2/wading-rainy-plains/",
+      "researchSection": "v3.62 §15.94"
+    },
+    {
+      "id": "edge_r362_3",
+      "source": "rainy_plains_bridges_d2",
+      "target": "council",
+      "label": "評議会所属のSupreme Evokerの塔へ続く橋（CA07転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca07",
+      "researchSection": "v3.62 §15.94"
+    },
+    {
+      "id": "edge_r362_4",
+      "source": "puddle_pond_inventor_d2",
+      "target": "ichor_core_d2",
+      "label": "村の発明家もコアを所持（攻略本文、製造者不明）",
+      "hypothesis": false,
+      "sourceUrl": "https://gamer-guides.com/minecraft-dungeons-2/wading-rainy-plains/",
+      "researchSection": "v3.62 §15.94"
+    },
+    {
+      "id": "edge_r362_5",
+      "source": "ichor_core_d2",
+      "target": "copper_monstrosity",
+      "label": "同一クエスト内の交通動力と銅・魂による生命創造の比較（同一動力未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://gamer-guides.com/minecraft-dungeons-2/wading-rainy-plains/",
+      "researchSection": "v3.62 §15.94"
+    },
+    {
+      "id": "edge_r362_6",
+      "source": "rainy_plains_bridges_d2",
+      "target": "ichor_liquid",
+      "label": "シフトからの汲み出しとコアの供給網の接続候補（経路未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://mcfun.cc/minecraft-dungeons-2/database/definitions/carapace-a1-core-quest-15cbd29ab2/data/",
+      "researchSection": "v3.62 §15.94"
     }
   ]
 }
