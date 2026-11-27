@@ -1,6 +1,6 @@
 {
-  "version": "1.50",
-  "loreVersion": "3.66",
+  "version": "1.51",
+  "loreVersion": "3.67",
   "nodes": [
     {
       "id": "soul",
@@ -3850,6 +3850,19 @@
       ],
       "origin": "",
       "originNote": "The Final Souldownの攻略本文・設置前後の画像を確認。Scared GolemのSoul Blockを縦長の台座へ移すと装置が青白く発光し通路が開く。台座周囲に迷路状の幾何学模様。コアの互換性、文字の翻字、消費や動力機構は未確認。"
+    },
+    {
+      "id": "monstrous_opus_d2",
+      "label": "Monstrous Opus（魂の構造体）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公開レンダーをEcho Golemと比較。肩・胴・脚に青緑色の角形渦巻き模様。Wiki検索収録は肩にEcho Golemの顔があると説明するが、今回の角度から顔の完全一致・素材転用は未確認。評議会がシフトのイコル由来の魂を利用したとのWiki記述とクエスト記録。"
     }
   ],
   "edges": [
@@ -8642,6 +8655,42 @@
       "hypothesis": true,
       "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-10-the-final-souldown-walkthrough/",
       "researchSection": "v3.66 §15.98"
+    },
+    {
+      "id": "edge_r367_1",
+      "source": "monstrous_opus_d2",
+      "target": "council",
+      "label": "評議会の製造物（Wiki・クエスト攻略）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Monstrous_Opus",
+      "researchSection": "v3.67 §15.99"
+    },
+    {
+      "id": "edge_r367_2",
+      "source": "monstrous_opus_d2",
+      "target": "ichor_liquid",
+      "label": "イコル由来の魂を利用（Wiki・クエスト文脈）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Monstrous_Opus",
+      "researchSection": "v3.67 §15.99"
+    },
+    {
+      "id": "edge_r367_3",
+      "source": "monstrous_opus_d2",
+      "target": "soulblock",
+      "label": "最終クエストでSoul Blockを回収（DB）、動力はWiki記述",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca10",
+      "researchSection": "v3.67 §15.99"
+    },
+    {
+      "id": "edge_r367_4",
+      "source": "monstrous_opus_d2",
+      "target": "singer",
+      "label": "Echo Golemの顔・角形渦巻きと本体素材転用候補（肩の同定未完）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Echo_Golem",
+      "researchSection": "v3.67 §15.99"
     }
   ]
 }
