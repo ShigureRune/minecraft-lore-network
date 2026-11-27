@@ -1,6 +1,6 @@
 {
-  "version": "1.36",
-  "loreVersion": "3.52",
+  "version": "1.37",
+  "loreVersion": "3.53",
   "nodes": [
     {
       "id": "soul",
@@ -3630,6 +3630,19 @@
       ],
       "origin": "",
       "originNote": "2026-09-09公開とWiki本文。格子の中央にN。本文はjukebox、検索抜粋はnote blockと食い違う。Mojang/Discord由来の935×1157 PNG所在確認、画像本体未取得。5×5タップ表のN=33=CCとの対応は仮説。"
+    },
+    {
+      "id": "arg_blueprint_diapason",
+      "label": "ARG建築暗号（DIAPASON）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Wiki本文：2026-09-10 Blueprint 4の11枚で指定区画に建築し、特定視点からDIAPASONを読む。画像11枚の所在確認、本体未取得。宣伝専用ワールドであり作中ポータルの設計図とは未確認。"
     }
   ],
   "edges": [
@@ -7873,6 +7886,33 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/File:MCD2_ARG_Illager_Document_Music.png",
       "researchSection": "v3.52 §15.84"
+    },
+    {
+      "id": "edge_r353_1",
+      "source": "arg_tap_music",
+      "target": "arg_blueprint_diapason",
+      "label": "ARCHITECTURE解読の翌日に設計図公開（Wiki時系列）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Diapason",
+      "researchSection": "v3.53 §15.85"
+    },
+    {
+      "id": "edge_r353_2",
+      "source": "arg_blueprint_diapason",
+      "target": "architecture",
+      "label": "建築形状に情報を埋め込む宣伝パズル（作中技術との比較）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Diapason",
+      "researchSection": "v3.53 §15.85"
+    },
+    {
+      "id": "edge_r353_3",
+      "source": "arg_blueprint_diapason",
+      "target": "note_machine_d2",
+      "label": "音楽用語と建築の結合／作中音響装置との比較候補",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Diapason",
+      "researchSection": "v3.53 §15.85"
     }
   ]
 }
