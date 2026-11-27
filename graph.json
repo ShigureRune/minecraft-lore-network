@@ -1,6 +1,6 @@
 {
-  "version": "1.19",
-  "loreVersion": "3.34",
+  "version": "1.20",
+  "loreVersion": "3.35",
   "nodes": [
     {
       "id": "soul",
@@ -3175,6 +3175,45 @@
       ],
       "origin": "",
       "originNote": "ユーザー観察：小島の配置がソウルサンドの顔に似る可能性。該当拡大画像・形状一致・意図は未確認。"
+    },
+    {
+      "id": "sift_tides",
+      "label": "シフトの潮汐（Sift Tides）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "ゲーム内チュートリアル転載でFlow・Endure・Thrive。周期順はWiki。各継続時間、水位との関係は未検証。"
+    },
+    {
+      "id": "ambient_soul_recovery",
+      "label": "魂の自然回復（Dungeons II）",
+      "color": "#1859a0",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "Flow基準、Thrive加速、Endure停止。環境から魂を吸収する機構は未確認。"
+    },
+    {
+      "id": "soul_cycle",
+      "label": "シフトの魂循環モデル（仮）",
+      "color": "#87551c",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "潮汐・生命維持物質・再充電を比較。閉じた循環や物質収支は未証明。"
     }
   ],
   "edges": [
@@ -6572,6 +6611,69 @@
       "hypothesis": true,
       "sourceUrl": "https://www.reddit.com/r/Minecraft/comments/1ww7vui/theory_sniffers_allays_vexs_are_from_the_sift/",
       "researchSection": "v3.34 §15.66"
+    },
+    {
+      "id": "edge_r335_0",
+      "source": "sift",
+      "target": "sift_tides",
+      "label": "周期的な環境変化（公式・チュートリアル）",
+      "hypothesis": false,
+      "sourceUrl": "https://news.xbox.com/en-us/2026/09/26/minecraft-new-dimension-sift-dungeons-2/",
+      "researchSection": "v3.35 §15.67"
+    },
+    {
+      "id": "edge_r335_1",
+      "source": "sift_tides",
+      "target": "ambient_soul_recovery",
+      "label": "Thrive加速・Endure停止（チュートリアル転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/map/sift",
+      "researchSection": "v3.35 §15.67"
+    },
+    {
+      "id": "edge_r335_2",
+      "source": "ambient_soul_recovery",
+      "target": "soul",
+      "label": "魂の自然回復というゲーム仕様",
+      "hypothesis": false,
+      "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/map/sift",
+      "researchSection": "v3.35 §15.67"
+    },
+    {
+      "id": "edge_r335_3",
+      "source": "sift_tides",
+      "target": "soul_cycle",
+      "label": "環境から魂の供給が変動する？",
+      "hypothesis": true,
+      "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/map/sift",
+      "researchSection": "v3.35 §15.67"
+    },
+    {
+      "id": "edge_r335_4",
+      "source": "ichor_liquid",
+      "target": "soul_cycle",
+      "label": "魂を含む生命維持物質との比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca10",
+      "researchSection": "v3.35 §15.67"
+    },
+    {
+      "id": "edge_r335_5",
+      "source": "soulblock",
+      "target": "soul_cycle",
+      "label": "固結層での再充電との比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_caa1_s02_a",
+      "researchSection": "v3.35 §15.67"
+    },
+    {
+      "id": "edge_r335_6",
+      "source": "sift_tides",
+      "target": "ichor_liquid",
+      "label": "水位・濃度の連動は未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/map/sift",
+      "researchSection": "v3.35 §15.67"
     }
   ]
 }
