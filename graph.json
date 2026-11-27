@@ -1,6 +1,6 @@
 {
-  "version": "1.10",
-  "loreVersion": "3.25",
+  "version": "1.11",
+  "loreVersion": "3.26",
   "nodes": [
     {
       "id": "soul",
@@ -2767,6 +2767,85 @@
       ],
       "origin": "",
       "originNote": "異なる基質上の生育・増殖を比較する仮説。スカルクとの同一性は未確認。"
+    },
+    {
+      "id": "cow",
+      "label": "ウシ",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "ムーシュルームを毛刈りすると変化。"
+    },
+    {
+      "id": "brown_mooshroom",
+      "label": "茶色のムーシュルーム",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "雷で赤色と相互変化。公式記事は消化器系の差の可能性に言及。"
+    },
+    {
+      "id": "skeleton",
+      "label": "スケルトン",
+      "color": "#287449",
+      "media": [
+        "M",
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "ボグドの比較対象。通常個体から自然にボグドへ変化する証拠なし。"
+    },
+    {
+      "id": "mossy_skeleton_d",
+      "label": "Mossy Skeleton（Dungeons）",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Jungle Awakensの苔に覆われた亜種。ボグドとの同一性は未確認。"
+    },
+    {
+      "id": "fungal_contamination",
+      "label": "胞子汚染（Dungeons）",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Nintendo Switch公式ニュースのWiki転載。原配信未確認。"
+    },
+    {
+      "id": "jungle_abomination",
+      "label": "ジャングルの怪物（Dungeons）",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Jungle Awakensの汚染源。菌類と同一の原理とは未確認。"
     }
   ],
   "edges": [
@@ -5463,6 +5542,132 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/pt-pt/article/block-week-soul-sand",
       "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r326_0",
+      "source": "mooshroom",
+      "target": "cow",
+      "label": "毛刈りで牛に変化（再生なし）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/mooshroom",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_1",
+      "source": "mooshroom",
+      "target": "brown_mooshroom",
+      "label": "雷による色変化・稀な子の変異",
+      "hypothesis": false,
+      "sourceUrl": "https://learn.microsoft.com/en-us/minecraft/creator/reference/source/vanillabehaviorpack_snippets/entities/mooshroom?view=minecraft-bedrock-stable",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_2",
+      "source": "brown_mooshroom",
+      "target": "fungal_network",
+      "label": "消化器系と菌類の関係？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/mooshroom",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_3",
+      "source": "mooshroom",
+      "target": "fungal_network",
+      "label": "親子間の形質維持・共生機構？",
+      "hypothesis": true,
+      "sourceUrl": "https://learn.microsoft.com/en-us/minecraft/creator/reference/source/vanillabehaviorpack_snippets/entities/mooshroom?view=minecraft-bedrock-stable",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_4",
+      "source": "skeleton",
+      "target": "bogged",
+      "label": "本編の亜種（直接変化未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-1-21-bedrock-changelog",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_5",
+      "source": "bogged",
+      "target": "fungal_network",
+      "label": "毛刈り後も亜種のまま：表面定着の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Bogged",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_6",
+      "source": "mossy_skeleton_d",
+      "target": "bogged",
+      "label": "苔・特殊能力の作品間比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3AMossy_Skeleton",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_7",
+      "source": "mossy_skeleton_d",
+      "target": "skeleton",
+      "label": "初代Dungeonsの亜種",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3AMossy_Skeleton",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_8",
+      "source": "redstone_monstrosity",
+      "target": "fungal_contamination",
+      "label": "残骸への胞子汚染（公式ニュースのWiki転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3ANintendo_Switch_News",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_9",
+      "source": "fungal_contamination",
+      "target": "mooshroom_monstrosity",
+      "label": "胞子に汚染された残骸（転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3ANintendo_Switch_News",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_10",
+      "source": "fungal_contamination",
+      "target": "fungal_network",
+      "label": "人工構造体への定着と活動の関係？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3ANintendo_Switch_News",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_11",
+      "source": "orb",
+      "target": "jungle_abomination",
+      "label": "オーブ破片による汚染（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3AJungle_Awakens",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_12",
+      "source": "jungle_abomination",
+      "target": "fungal_contamination",
+      "label": "別種の汚染・変化の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/store/minecraft-dungeons-jungle-awakens-dlc",
+      "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r326_13",
+      "source": "fungal_contamination",
+      "target": "sculk",
+      "label": "拡散・変質の比較（同一性未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3ANintendo_Switch_News",
+      "researchSection": "v3.26 §15.58"
     }
   ]
 }
