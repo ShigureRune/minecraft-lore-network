@@ -1,6 +1,6 @@
 {
-  "version": "1.89",
-  "loreVersion": "4.18",
+  "version": "1.90",
+  "loreVersion": "4.19",
   "nodes": [
     {
       "id": "soul",
@@ -4967,6 +4967,51 @@
       ],
       "origin": "",
       "originNote": "Java1.21公式の参加者別難易度・報酬、休止中のリセット。Wiki検索抜粋のregistered_players。原コード・NBT実測未確認。"
+    },
+    {
+      "id": "player_respawn_record",
+      "label": "個人別の復活地点記録",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": "Java 1.21.5公式：respawnに座標・向き・次元・強制設定フラグ。魂の保存を意味しない。"
+    },
+    {
+      "id": "tamed_owner_record",
+      "label": "手懐けたモブの所有者記録",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": "Java 20w12a公式：OwnerUUID→Owner、UUIDは整数4つ。Bedrock APIにtamedToPlayerId。実装の同一性は未確認。"
+    },
+    {
+      "id": "ender_inventory_record",
+      "label": "個人別エンダー収納情報",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": "公式2025-06-05：個人別・全次元で利用可能。Wiki検索抜粋：プレイヤーデータEnderItems、27枠。物理的保存先・魂との関係不明。"
     }
   ],
   "edges": [
@@ -11411,6 +11456,51 @@
       "hypothesis": true,
       "sourceUrl": "https://mc-packet-reference.netlify.app/26.x/source/net/minecraft/world/level/block/entity/vault/vaultserverdata/",
       "researchSection": "v4.18 §15.150"
+    },
+    {
+      "id": "edge_r419_1",
+      "source": "anchor",
+      "target": "player_respawn_record",
+      "label": "ネザーの復活地点を設定、充填状態は装置側",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/spawning-and-dying",
+      "researchSection": "v4.19 §15.151"
+    },
+    {
+      "id": "edge_r419_2",
+      "source": "ender_chest_m",
+      "target": "ender_inventory_record",
+      "label": "個人別・全次元で共有収納、プレイヤー側のEnderItems（公式・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/sv-se/article/ender-chest",
+      "researchSection": "v4.19 §15.151"
+    },
+    {
+      "id": "edge_r419_3",
+      "source": "vault_reward_history",
+      "target": "tamed_owner_record",
+      "label": "UUIDを参照する異なる記録用途の比較、世界内認証は未証明",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/360040792132-Minecraft-Java-Edition-Snapshot-20W12A",
+      "researchSection": "v4.19 §15.151"
+    },
+    {
+      "id": "edge_r419_4",
+      "source": "ender_inventory_record",
+      "target": "player_respawn_record",
+      "label": "プレイヤーデータ内の別々の保存項目（Wiki・公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Player.dat",
+      "researchSection": "v4.19 §15.151"
+    },
+    {
+      "id": "edge_r419_5",
+      "source": "player_respawn_record",
+      "target": "soul_sync",
+      "label": "位置記録と意識・魂保持を区別する比較、同一機構未証明",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-java-edition-1-21-5",
+      "researchSection": "v4.19 §15.151"
     }
   ]
 }
