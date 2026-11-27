@@ -1,6 +1,6 @@
 {
-  "version": "1.70",
-  "loreVersion": "3.95",
+  "version": "1.71",
+  "loreVersion": "3.97",
   "nodes": [
     {
       "id": "soul",
@@ -3512,7 +3512,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "Sculkは抽出DB本文。Monstrosityと目覚めさせる意味は同DB検索抜粋のみ。原文字・第三の正確な訳語・順序未確認。 v3.49: 遺跡の発光柱の公開ゲーム画像を確認。図書館の辞書・全字形・訳語対応は未確認。"
+      "originNote": "Sculkは抽出DB本文。Monstrosityと目覚めさせる意味は同DB検索抜粋のみ。原文字・第三の正確な訳語・順序未確認。 v3.49: 遺跡の発光柱の公開ゲーム画像を確認。図書館の辞書・全字形・訳語対応は未確認。 v3.97: 司書が占拠中の図書館塔でイリジャーの会話を聞く。三資料の著者・年代・取得経路未確認。"
     },
     {
       "id": "archie_ruins_chant",
@@ -9422,6 +9422,33 @@
       "hypothesis": false,
       "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-25w07a",
       "researchSection": "v3.95 §15.127／別冊v3.19（1.21.5・26.3）"
+    },
+    {
+      "id": "edge_r397_1",
+      "source": "illagers",
+      "target": "library_runes_d2",
+      "label": "イリジャーが占拠する図書館群の資料で翻訳（著者・取得経路は未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_dea1_s12_a",
+      "researchSection": "v3.97 §15.129"
+    },
+    {
+      "id": "edge_r397_2",
+      "source": "villagers",
+      "target": "library_runes_d2",
+      "label": "司書の調査依頼と英雄による解読：保管者以外にも知識へ接近する経路（司書自身の解読能力は未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_dea1_s12_a",
+      "researchSection": "v3.97 §15.129／H61"
+    },
+    {
+      "id": "edge_r397_3",
+      "source": "library_runes_d2",
+      "target": "explorer_map",
+      "label": "H61 三資料の解読と地域別地図の分散情報比較（共通起源・交換は未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_dea1_s12_a",
+      "researchSection": "v3.97 §15.129／§15.128"
     }
   ]
 }
