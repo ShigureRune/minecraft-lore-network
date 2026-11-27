@@ -1,6 +1,6 @@
 {
-  "version": "1.77",
-  "loreVersion": "4.06",
+  "version": "1.78",
+  "loreVersion": "4.07",
   "nodes": [
     {
       "id": "soul",
@@ -4163,6 +4163,19 @@
       ],
       "origin": "",
       "originNote": "旧Wiki本文・ゲーム内説明転載：崩れた城を地元のイリジャーが使用、オーブ破片の影響を受けたレイスが冬の原因。青い倒れた玉座、アーチー肖像画、王室装飾。建設年代・最初の統治者・Highblockとの直接的系譜は未確認。"
+    },
+    {
+      "id": "lone_chess_statues_d",
+      "label": "チェス駒の彫像（D）",
+      "color": "#87551c",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Wikiミッション解説・Dungeons Toolsは脇道の5像を記録。King=Nameless One、Queen=Enderman、Bishop=Mage、Knight=Chicken Jockey、Rook=Creeper。旧Wikiテクスチャ一覧はKingをnecromancerと表記。原資産、配置実測、作者・用途未確認。駒名は世界内政治関係の証明ではない。"
     }
   ],
   "edges": [
@@ -9671,6 +9684,51 @@
       "hypothesis": false,
       "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Lone_Fortress",
       "researchSection": "v4.06 §15.138"
+    },
+    {
+      "id": "edge_r407_1",
+      "source": "lone_chess_statues_d",
+      "target": "lone_fortress_d",
+      "label": "脇道の部屋に5種類の駒状彫像（Wiki・DB）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons:Lone_Fortress",
+      "researchSection": "v4.07 §15.139／H51"
+    },
+    {
+      "id": "edge_r407_2",
+      "source": "lone_chess_statues_d",
+      "target": "nameless_one",
+      "label": "King像の人物同定候補：Wikiは本人、テクスチャ一覧はnecromancer",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:List_of_prefab_textures",
+      "researchSection": "v4.07 §15.139／H51"
+    },
+    {
+      "id": "edge_r407_3",
+      "source": "lone_chess_statues_d",
+      "target": "enderman",
+      "label": "Queen像のモチーフ（Wiki・テクスチャ一覧）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:List_of_prefab_textures",
+      "researchSection": "v4.07 §15.139／H51"
+    },
+    {
+      "id": "edge_r407_4",
+      "source": "lone_chess_statues_d",
+      "target": "creeper",
+      "label": "Rook像のモチーフ（Wiki・テクスチャ一覧）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:List_of_prefab_textures",
+      "researchSection": "v4.07 §15.139／H51"
+    },
+    {
+      "id": "edge_r407_5",
+      "source": "lone_chess_statues_d",
+      "target": "nameless_kingdom",
+      "label": "王国の知識・象徴が城へ伝わった可能性（領有・同盟・年代未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons:Lone_Fortress",
+      "researchSection": "v4.07 §15.139／H51"
     }
   ]
 }
