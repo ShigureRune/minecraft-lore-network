@@ -1,6 +1,6 @@
 {
-  "version": "1.58",
-  "loreVersion": "3.76",
+  "version": "1.59",
+  "loreVersion": "3.77",
   "nodes": [
     {
       "id": "soul",
@@ -1178,7 +1178,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " MCD2-153（Windows 1.1.0.0、確認済みステータス）の報告では複数MonstrosityにCopper Monstrosity曲が誤割当。現行版・各例は未実機検証。音楽の一致から材質・系譜を推定しない。"
     },
     {
       "id": "prime_enchanter",
@@ -2552,7 +2552,7 @@
         "S"
       ],
       "origin": "",
-      "originNote": "初代・続編のボス。動力源の比較。"
+      "originNote": "初代・続編のボス。動力源の比較。 MCD2-153（Windows 1.1.0.0、確認済みステータス）の報告では複数MonstrosityにCopper Monstrosity曲が誤割当。現行版・各例は未実機検証。音楽の一致から材質・系譜を推定しない。"
     },
     {
       "id": "redstone_ore",
@@ -3538,7 +3538,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "続編のモブ。Illager Intelligenceのクエスト終了文は長期間眠っていた怪物の覚醒を記録。"
+      "originNote": "続編のモブ。Illager Intelligenceのクエスト終了文は長期間眠っていた怪物の覚醒を記録。 MCD2-153（Windows 1.1.0.0、確認済みステータス）の報告では複数MonstrosityにCopper Monstrosity曲が誤割当。現行版・各例は未実機検証。音楽の一致から材質・系譜を推定しない。"
     },
     {
       "id": "archie_rune_pillars",
@@ -3929,6 +3929,19 @@
       ],
       "origin": "",
       "originNote": "Hidden Depths OST第28曲、1:16。Wiki検索収録ではゲーム内の開始・ループ・終了の3資産を区別。公式2026-10-05記事は続編Witchにコミカルな雰囲気を取り入れたと説明。旋律の直接引用・音高・テンポ・原音は未確認。"
+    },
+    {
+      "id": "supreme_evoker_ost_d2",
+      "label": "Supreme Evoker（II OST）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "既存MDのWiki検索収録とReddit報告を再照合。初代The Arch-IllagerとEvokerのモチーフを複合したとの報告。直接採譜・公式個別発言・ポータル三全音は未確認。MCD2-153は別の通常Evoker戦等の曲割当不具合を報告し、ボスとOSTの対応を無条件に仮定できない。"
     }
   ],
   "edges": [
@@ -8883,6 +8896,33 @@
       "hypothesis": false,
       "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-music",
       "researchSection": "v3.76 §15.108"
+    },
+    {
+      "id": "edge_r377_1",
+      "source": "arch_illager",
+      "target": "supreme_evoker_ost_d2",
+      "label": "初代The Arch-Illager楽曲のモチーフ再利用とのWiki・ファン報告（採譜未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Original_Game_Soundtrack",
+      "researchSection": "v3.77 §15.109"
+    },
+    {
+      "id": "edge_r377_2",
+      "source": "evoker",
+      "target": "supreme_evoker_ost_d2",
+      "label": "初代Evoker楽曲のモチーフ再利用とのWiki・ファン報告（採譜未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Original_Game_Soundtrack",
+      "researchSection": "v3.77 §15.109"
+    },
+    {
+      "id": "edge_r377_3",
+      "source": "supreme_evoker_ost_d2",
+      "target": "supreme_evoker",
+      "label": "同名OST曲との対応候補（実機再生箇所未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Original_Game_Soundtrack",
+      "researchSection": "v3.77 §15.109"
     }
   ]
 }
