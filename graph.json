@@ -1,6 +1,6 @@
 {
-  "version": "1.08",
-  "loreVersion": "3.23",
+  "version": "1.09",
+  "loreVersion": "3.24",
   "nodes": [
     {
       "id": "soul",
@@ -2553,6 +2553,71 @@
       ],
       "origin": "",
       "originNote": "初代・続編のボス。動力源の比較。"
+    },
+    {
+      "id": "redstone_ore",
+      "label": "レッドストーン鉱石",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "統合版では地下深部に増加。地質学的生成過程は不明。"
+    },
+    {
+      "id": "diamond_mold",
+      "label": "ダイヤモンド製鋳型（小説）",
+      "color": "#87551c",
+      "media": [
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "前日譚第15章のWiki要約。原文未確認。"
+    },
+    {
+      "id": "lava_forge",
+      "label": "溶岩・火山の鍛造（小説）",
+      "color": "#87551c",
+      "media": [
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "前日譚第15章のWiki要約。"
+    },
+    {
+      "id": "ichor_crust",
+      "label": "Ichor crust",
+      "color": "#87551c",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "§15.54 非公式クエスト転載によるゴーレム再充電素材。"
+    },
+    {
+      "id": "nacre_material",
+      "label": "Nacre／真珠層の名称",
+      "color": "#87551c",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "§15.54 内部名の報告と公式装飾品名。石材の成分は未確認。"
     }
   ],
   "edges": [
@@ -4871,6 +4936,141 @@
       "hypothesis": false,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons%3ARedstone_Golem",
       "researchSection": "v3.23 §15.55"
+    },
+    {
+      "id": "edge_r324_0",
+      "source": "redstone_ore",
+      "target": "redstone",
+      "label": "採掘・精錬によるダスト",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Redstone_ore",
+      "researchSection": "v3.24 §15.56"
+    },
+    {
+      "id": "edge_r324_1",
+      "source": "redstone_ore",
+      "target": "xp",
+      "label": "採掘で経験値放出",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Experience_orbs",
+      "researchSection": "v3.24 §15.56"
+    },
+    {
+      "id": "edge_r324_2",
+      "source": "redstone_ore",
+      "target": "overworld",
+      "label": "地下深部に多い",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Redstone_ore",
+      "researchSection": "v3.24 §15.56"
+    },
+    {
+      "id": "edge_r324_3",
+      "source": "redstone_ore",
+      "target": "redstone",
+      "label": "発光する鉱石は信号を出さない",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Redstone_ore",
+      "researchSection": "v3.24 §15.56"
+    },
+    {
+      "id": "edge_r324_4",
+      "source": "diamond_mold",
+      "target": "redstone_golem",
+      "label": "小説要約：成形",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons%3AThe_Rise_of_the_Arch-Illager/3CHP",
+      "researchSection": "v3.24 §15.56"
+    },
+    {
+      "id": "edge_r324_5",
+      "source": "lava_forge",
+      "target": "redstone_golem",
+      "label": "小説要約：溶岩で成形",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons%3AThe_Rise_of_the_Arch-Illager/3CHP",
+      "researchSection": "v3.24 §15.56"
+    },
+    {
+      "id": "edge_r324_6",
+      "source": "redstone",
+      "target": "diamond_mold",
+      "label": "小説要約：材料加工",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons%3AThe_Rise_of_the_Arch-Illager/3CHP",
+      "researchSection": "v3.24 §15.56"
+    },
+    {
+      "id": "edge_r324_7",
+      "source": "orb",
+      "target": "diamond_mold",
+      "label": "小説要約：杖で形成",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons%3AThe_Rise_of_the_Arch-Illager/3CHP",
+      "researchSection": "v3.24 §15.56"
+    },
+    {
+      "id": "edge_r324_8",
+      "source": "lava_forge",
+      "target": "fiery_forge",
+      "label": "小説要約：火山の洞窟",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons%3AThe_Rise_of_the_Arch-Illager/4CHP",
+      "researchSection": "v3.24 §15.56"
+    },
+    {
+      "id": "edge_r324_9",
+      "source": "golem_main",
+      "target": "redstone_golem",
+      "label": "小説要約：アイアンゴーレムを模倣",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons%3AThe_Rise_of_the_Arch-Illager/4CHP",
+      "researchSection": "v3.24 §15.56"
+    },
+    {
+      "id": "edge_r324_10",
+      "source": "ichor_crust",
+      "target": "soulblock",
+      "label": "ゴーレム動力の比較（同一性未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://mcfun.cc/minecraft-dungeons-2/quests/caa1_s02_a/",
+      "researchSection": "v3.24 §15.54"
+    },
+    {
+      "id": "edge_r324_11",
+      "source": "ichor_crust",
+      "target": "singer",
+      "label": "Echo Golem再充電（クエスト転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcfun.cc/minecraft-dungeons-2/quests/caa1_s02_a/",
+      "researchSection": "v3.24 §15.54"
+    },
+    {
+      "id": "edge_r324_12",
+      "source": "nacre_material",
+      "target": "humblers",
+      "label": "公式装飾品名の語彙",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/the-humblers-awaken-jp",
+      "researchSection": "v3.24 §15.54"
+    },
+    {
+      "id": "edge_r324_13",
+      "source": "nacre_material",
+      "target": "shale",
+      "label": "地質・材質の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/the-humblers-awaken-jp",
+      "researchSection": "v3.24 §15.54"
+    },
+    {
+      "id": "edge_r324_14",
+      "source": "ichor_crust",
+      "target": "nacre_material",
+      "label": "固結層・生成の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://mcfun.cc/minecraft-dungeons-2/quests/caa1_s02_a/",
+      "researchSection": "v3.24 §15.54"
     }
   ]
 }
