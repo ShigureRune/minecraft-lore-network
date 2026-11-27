@@ -1,6 +1,6 @@
 {
-  "version": "1.34",
-  "loreVersion": "3.50",
+  "version": "1.35",
+  "loreVersion": "3.51",
   "nodes": [
     {
       "id": "soul",
@@ -2387,7 +2387,7 @@
       ],
       "dimensions": [],
       "origin": "",
-      "originNote": ""
+      "originNote": " 制作関係者の公開ポートフォリオ本文を確認。以前の映像の旋律で宣伝ポータルが起動する設計。製品版でINFECTEDを入力する仕様は未確認。"
     },
     {
       "id": "infected",
@@ -3591,6 +3591,32 @@
       ],
       "origin": "",
       "originNote": "Nintendo Lifeのゲーム画面で手記の記号が音符に似ている旨の台詞を確認。字形・文字体系・実際の譜面は不明。"
+    },
+    {
+      "id": "note_machine_d2",
+      "label": "音符ブロック装置（II）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "クエストDB本文：持ち去られた2個を戻し、古代ポータルを起動。既存§15.19の製品版配置はランチャーの解答順と一致。製品版の各音とGlitch Rune表示は未確認。"
+    },
+    {
+      "id": "arg_tap_music",
+      "label": "ARGの5音タップ暗号",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2026-09-09 Discord解読のWiki検索抜粋。5×5表を列→行で読むと報告のARCHITECTUREに一致。原音・原投稿は未取得。宣伝上の暗号と作中設定は区別。"
     }
   ],
   "edges": [
@@ -7753,6 +7779,51 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Illageralt",
       "researchSection": "v3.50 §15.82"
+    },
+    {
+      "id": "edge_r351_1",
+      "source": "note_machine_d2",
+      "target": "rift",
+      "label": "復元後に古代ポータルを起動（クエストDB）",
+      "hypothesis": false,
+      "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/quests/returning-the-note-blocks",
+      "researchSection": "v3.51 §15.83"
+    },
+    {
+      "id": "edge_r351_2",
+      "source": "council",
+      "target": "note_machine_d2",
+      "label": "二つの音符ブロックを持ち去る（クエストDB）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca04",
+      "researchSection": "v3.51 §15.83"
+    },
+    {
+      "id": "edge_r351_3",
+      "source": "launcher_arg",
+      "target": "note_machine_d2",
+      "label": "宣伝用装置の模倣・配置順の対応（Wiki・既存画像）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Note_Block_Machine",
+      "researchSection": "v3.51 §15.83"
+    },
+    {
+      "id": "edge_r351_4",
+      "source": "arg_tap_music",
+      "target": "launcher_arg",
+      "label": "音と文字の符号化方式の比較（同一原理ではない）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG",
+      "researchSection": "v3.51 §15.83"
+    },
+    {
+      "id": "edge_r351_5",
+      "source": "illager_music_notebook_d2",
+      "target": "arg_tap_music",
+      "label": "作中手記と宣伝暗号の機能比較候補",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG",
+      "researchSection": "v3.51 §15.83"
     }
   ]
 }
