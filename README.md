@@ -1,8 +1,8 @@
 # Minecraft Lore Network
 
-Minecraftの世界観・考察を探索する非公式知識グラフ。v0.1.0（関係図 v1.03 / 考察MD v3.21）：65項目・92関係線。独自仮説は公式設定と区別しています。
+Minecraftの世界観・考察を探索する非公式知識グラフ。v0.2.0（関係図 v1.04 / 考察MD v3.21）：119項目・181関係線。独自仮説は公式設定と区別しています。
 
-公開予定: https://shigurerune.github.io/minecraft-lore-network/
+公開URL: https://shigurerune.github.io/minecraft-lore-network/
 
 ## 公開設定
 Settings → Pages → Deploy from a branch → main / (root) → Save。
