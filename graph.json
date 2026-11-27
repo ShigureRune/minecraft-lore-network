@@ -1,6 +1,6 @@
 {
-  "version": "1.85",
-  "loreVersion": "4.14",
+  "version": "1.86",
+  "loreVersion": "4.15",
   "nodes": [
     {
       "id": "soul",
@@ -861,7 +861,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": " 26.3第三者解析では通常チェストにキャンプ地図抽選、秘密銅チェストに遺跡地図抽選（探索失敗時は地図なし）。固定配置と戦利品の区別が必要。建造者・像の由来は未同定。"
+      "originNote": " 26.3第三者解析では通常チェストにキャンプ地図抽選、秘密銅チェストに遺跡地図抽選（探索失敗時は地図なし）。固定配置と戦利品の区別が必要。建造者・像の由来は未同定。 v4.15：第三者テンプレート構成表（サイト版表示26.2、DataVersion 5017）ではdefault campsite special 2に酸化像1、special 1/4に酸化銅チェスト各1。異なるパーツの掲載であり正式版の共起・全体頻度・原NBT・配置姿勢は未確認。https://www.minecraftmaps.com/schematics/default-campsite-special-2"
     },
     {
       "id": "trail",
@@ -4565,7 +4565,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。 Java 1.21.9公式：立つ・座る・走る・星の4姿勢は操作で変更可能。自然配置の姿勢だけで停止直前の行動は判定不可。復活可能性と以前の活動歴を区別。https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-9"
     },
     {
       "id": "comparator",
