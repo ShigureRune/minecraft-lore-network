@@ -1,6 +1,6 @@
 {
-  "version": "1.18",
-  "loreVersion": "3.33",
+  "version": "1.19",
+  "loreVersion": "3.34",
   "nodes": [
     {
       "id": "soul",
@@ -3147,6 +3147,34 @@
       ],
       "origin": "",
       "originNote": "Wiki検索結果：イコルの池で水浴び。"
+    },
+    {
+      "id": "ichor_ponds",
+      "label": "イコル溜まり（Ichor Ponds）",
+      "color": "#475569",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "ハスクランドの小地域。小島の具体的な配置は未照合。"
+    },
+    {
+      "id": "soul_face_terrain",
+      "label": "イコル溜まりの巨大魂模様（仮）",
+      "color": "#87551c",
+      "media": [
+        "D2",
+        "M"
+      ],
+      "dimensions": [
+        "S",
+        "N"
+      ],
+      "origin": "",
+      "originNote": "ユーザー観察：小島の配置がソウルサンドの顔に似る可能性。該当拡大画像・形状一致・意図は未確認。"
     }
   ],
   "edges": [
@@ -6500,6 +6528,50 @@
       "hypothesis": true,
       "sourceUrl": "https://dungeons2.minecraft-yutakura.com/en/armor/stalwart-chest-unique/",
       "researchSection": "v3.33 §15.65"
+    },
+    {
+      "id": "edge_r334_0",
+      "source": "humbler_huskland",
+      "target": "ichor_ponds",
+      "label": "小地域（Wiki・地図DB）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Ichor_Ponds",
+      "researchSection": "v3.34 §15.66"
+    },
+    {
+      "id": "edge_r334_1",
+      "source": "ichor_ponds",
+      "target": "ichor_liquid",
+      "label": "イコルの池・魂減少（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Ichor_Ponds",
+      "researchSection": "v3.34 §15.66"
+    },
+    {
+      "id": "edge_r334_2",
+      "source": "ichor_ponds",
+      "target": "soul_face_terrain",
+      "label": "小島の配置が顔に見える？（ユーザー観察）",
+      "hypothesis": true,
+      "researchSection": "v3.34 §15.66"
+    },
+    {
+      "id": "edge_r334_3",
+      "source": "soul_face_terrain",
+      "target": "soul_sand",
+      "label": "巨大な顔模様とブロック模様の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/pt-pt/article/block-week-soul-sand",
+      "researchSection": "v3.34 §15.66"
+    },
+    {
+      "id": "edge_r334_4",
+      "source": "ichor_liquid",
+      "target": "soul_sand",
+      "label": "魂を含む液体と砂の比較・流入説（未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.reddit.com/r/Minecraft/comments/1ww7vui/theory_sniffers_allays_vexs_are_from_the_sift/",
+      "researchSection": "v3.34 §15.66"
     }
   ]
 }
