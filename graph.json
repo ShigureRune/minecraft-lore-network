@@ -1,0 +1,1546 @@
+{
+  "version": "1.03",
+  "loreVersion": "3.21",
+  "nodes": [
+    {
+      "id": "soul",
+      "label": "魂（Dungeons系）",
+      "color": "#1859a0",
+      "media": [
+        "D",
+        "D2"
+      ],
+      "dimensions": [
+        "O",
+        "S"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "xp",
+      "label": "経験値（本編）",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "enchant",
+      "label": "エンチャント",
+      "color": "#1859a0",
+      "media": [
+        "M",
+        "D",
+        "D2",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "bottle",
+      "label": "経験値の瓶",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "ominous",
+      "label": "不吉な瓶",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "obsidian",
+      "label": "黒曜石・ラピス",
+      "color": "#1859a0",
+      "media": [
+        "M",
+        "L",
+        "N"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "hunt",
+      "label": "古代狩り（Dungeons）",
+      "color": "#1859a0",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "points",
+      "label": "エンチャントポイント",
+      "color": "#1859a0",
+      "media": [
+        "D"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "ancient",
+      "label": "古代都市（Dungeons II）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "note",
+      "label": "音符ブロック・旋律",
+      "color": "#7945a5",
+      "media": [
+        "M",
+        "D2",
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "rift",
+      "label": "Rift／ポータル",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O",
+        "S"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "sift",
+      "label": "シフト（Sift）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "sculk",
+      "label": "スカルク",
+      "color": "#7945a5",
+      "media": [
+        "M",
+        "D2"
+      ],
+      "dimensions": [
+        "O",
+        "S"
+      ],
+      "origin": "S",
+      "originNote": "W: §3.2、H03（Dungeons IIのWiki記述。本編への適用未確定）"
+    },
+    {
+      "id": "singer",
+      "label": "Singer／Echo Golem",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O",
+        "S"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "soulblock",
+      "label": "Soul Block",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O",
+        "S"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "runes",
+      "label": "ルーン・暗号",
+      "color": "#7945a5",
+      "media": [
+        "M",
+        "D",
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "flames",
+      "label": "創造の炎（Legends）",
+      "color": "#287449",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "spawner",
+      "label": "スポナー（Legends）",
+      "color": "#287449",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "well",
+      "label": "運命の泉",
+      "color": "#287449",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "moss",
+      "label": "苔ゴーレム／回復水",
+      "color": "#287449",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "firsts",
+      "label": "Firsts（Legends）",
+      "color": "#287449",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "gold",
+      "label": "金",
+      "color": "#287449",
+      "media": [
+        "M",
+        "D",
+        "L"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "prismarine",
+      "label": "プリズマリン",
+      "color": "#007c83",
+      "media": [
+        "M",
+        "D",
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "conduit",
+      "label": "コンジット",
+      "color": "#007c83",
+      "media": [
+        "M",
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "monument",
+      "label": "海底神殿",
+      "color": "#007c83",
+      "media": [
+        "M",
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "guardian",
+      "label": "ガーディアン",
+      "color": "#007c83",
+      "media": [
+        "M",
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "shale",
+      "label": "ソウルシェール",
+      "color": "#007c83",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "ancient_main",
+      "label": "古代都市（本編）",
+      "color": "#007c83",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "corruption",
+      "label": "魂の汚染（Dungeons II）",
+      "color": "#b44436",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "trial",
+      "label": "不吉な試練のスポナー",
+      "color": "#b44436",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "storm",
+      "label": "Soul Storm／Storm Generator",
+      "color": "#b44436",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "orb",
+      "label": "支配のオーブ",
+      "color": "#b44436",
+      "media": [
+        "D",
+        "F"
+      ],
+      "dimensions": [
+        "O",
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "void",
+      "label": "虚無・エンド",
+      "color": "#b44436",
+      "media": [
+        "M",
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "builders",
+      "label": "古代ビルダー文明（仮）",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "settlers",
+      "label": "定住派（仮）",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "mages",
+      "label": "魔術派（仮）",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "explorers",
+      "label": "探検派（仮）",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "villagers",
+      "label": "村人・聖職者",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "D",
+        "L",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "illagers",
+      "label": "イリジャー",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "D",
+        "D2",
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "adventurers",
+      "label": "冒険者",
+      "color": "#87551c",
+      "media": [
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "farming",
+      "label": "農業・交易",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "architecture",
+      "label": "建築技術",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "D",
+        "D2",
+        "L",
+        "F",
+        "N"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E",
+        "S"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "redstone",
+      "label": "レッドストーン",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "magic",
+      "label": "召喚・魔術",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "D",
+        "D2",
+        "L",
+        "F",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "navigation",
+      "label": "航海・地図",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "mansion",
+      "label": "森の洋館・前哨基地",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "F"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "village",
+      "label": "村",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "D",
+        "L",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "spawner_main",
+      "label": "スポナー（本編）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "golem_main",
+      "label": "ゴーレム（本編）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "knowledge",
+      "label": "技術の伝承・再発見",
+      "color": "#87551c",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "pigs",
+      "label": "ブタ",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "piglin",
+      "label": "ピグリン・ホグリン",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "D",
+        "L",
+        "F"
+      ],
+      "dimensions": [
+        "N",
+        "O"
+      ],
+      "origin": "N",
+      "originNote": "O/W: §2 H44（ホグリンの原産・ピグリンのネザー文明）"
+    },
+    {
+      "id": "network",
+      "label": "四次元交流圏（仮）",
+      "color": "#475569",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "overworld",
+      "label": "オーバーワールド",
+      "color": "#475569",
+      "media": [
+        "M",
+        "D",
+        "D2",
+        "L",
+        "F",
+        "N"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "nether",
+      "label": "ネザー",
+      "color": "#475569",
+      "media": [
+        "M",
+        "D",
+        "L",
+        "F",
+        "N"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "end",
+      "label": "エンド",
+      "color": "#475569",
+      "media": [
+        "M",
+        "D",
+        "N"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "stronghold",
+      "label": "要塞",
+      "color": "#475569",
+      "media": [
+        "M",
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "endcity",
+      "label": "エンドシティ・船",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "ruined",
+      "label": "荒廃したポータル",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "nether_ruins",
+      "label": "ネザー要塞・砦の遺跡",
+      "color": "#475569",
+      "media": [
+        "M",
+        "N"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "shipwreck",
+      "label": "沈没船",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "camp",
+      "label": "放棄されたキャンプ",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "trail",
+      "label": "旅路の遺跡・廃坑",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "searuins",
+      "label": "海底遺跡",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": ""
+    },
+    {
+      "id": "disaster",
+      "label": "古代の時空災害（仮）",
+      "color": "#475569",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": ""
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_soul_xp",
+      "source": "soul",
+      "target": "xp",
+      "label": "H06 同一／共通源？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_soul_soulblock",
+      "source": "soul",
+      "target": "soulblock",
+      "label": "H06・H55 動力／情報？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_soul_flames",
+      "source": "soul",
+      "target": "flames",
+      "label": "H15 共通の生命技術？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_soul_prismarine",
+      "source": "soul",
+      "target": "prismarine",
+      "label": "H37 結晶化？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_soul_corruption",
+      "source": "soul",
+      "target": "corruption",
+      "label": "H36 汚染モデル？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_xp_enchant",
+      "source": "xp",
+      "target": "enchant",
+      "label": "消費 §15.43–44",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_bottle_xp",
+      "source": "bottle",
+      "target": "xp",
+      "label": "放出 §15.44",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_bottle_ominous",
+      "source": "bottle",
+      "target": "ominous",
+      "label": "H08 変質？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_ominous_trial",
+      "source": "ominous",
+      "target": "trial",
+      "label": "効果を介して不吉化 §15.45・50",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_obsidian_enchant",
+      "source": "obsidian",
+      "target": "enchant",
+      "label": "材料・消費資源 §15.40",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_points_enchant",
+      "source": "points",
+      "target": "enchant",
+      "label": "強化 §15.40",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_points_hunt",
+      "source": "points",
+      "target": "hunt",
+      "label": "奉納 §15.46",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_ancient_note",
+      "source": "ancient",
+      "target": "note",
+      "label": "起動設備 §3",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_note_rift",
+      "source": "note",
+      "target": "rift",
+      "label": "音で起動 §3",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_note_firsts",
+      "source": "note",
+      "target": "firsts",
+      "label": "H28 音響技術の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_rift_sift",
+      "source": "rift",
+      "target": "sift",
+      "label": "接続 §3",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_sift_sculk",
+      "source": "sift",
+      "target": "sculk",
+      "label": "起源のWiki記述 §3",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_sift_shale",
+      "source": "sift",
+      "target": "shale",
+      "label": "§15.22–23 産地仮説",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_singer_soulblock",
+      "source": "singer",
+      "target": "soulblock",
+      "label": "関連描写 §3・15.41",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_runes_hunt",
+      "source": "runes",
+      "target": "hunt",
+      "label": "供物で対象選択 §15.46",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_runes_note",
+      "source": "runes",
+      "target": "note",
+      "label": "H28 認証・伝達？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_flames_spawner",
+      "source": "flames",
+      "target": "spawner",
+      "label": "召喚設備の解禁 §15.47–48",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_well_moss",
+      "source": "well",
+      "target": "moss",
+      "label": "回復水 §15.48",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_well_firsts",
+      "source": "well",
+      "target": "firsts",
+      "label": "目覚めの歌 §15.49",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_well_monument",
+      "source": "well",
+      "target": "monument",
+      "label": "H35 水没／継承？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_gold_firsts",
+      "source": "gold",
+      "target": "firsts",
+      "label": "再組立 §15.49",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_prismarine_conduit",
+      "source": "prismarine",
+      "target": "conduit",
+      "label": "有効な枠材 §15.21",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_prismarine_monument",
+      "source": "prismarine",
+      "target": "monument",
+      "label": "建材 §15.21",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_monument_guardian",
+      "source": "monument",
+      "target": "guardian",
+      "label": "出現 §15.21",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_ancient_main_shale",
+      "source": "ancient_main",
+      "target": "shale",
+      "label": "戦利品記録 §3.3",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_corruption_guardian",
+      "source": "corruption",
+      "target": "guardian",
+      "label": "H38 変異の類推",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_trial_storm",
+      "source": "trial",
+      "target": "storm",
+      "label": "§15.50 生成・強化の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_orb_corruption",
+      "source": "orb",
+      "target": "corruption",
+      "label": "H52 複合災害？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_orb_void",
+      "source": "orb",
+      "target": "void",
+      "label": "H49・H52 災害への関与？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_soul",
+      "source": "builders",
+      "target": "soul",
+      "label": "H01 研究？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_xp",
+      "source": "builders",
+      "target": "xp",
+      "label": "H01 利用？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_ancient",
+      "source": "builders",
+      "target": "ancient",
+      "label": "H01 建設者？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_note",
+      "source": "builders",
+      "target": "note",
+      "label": "H01 音響技術？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_ancient_main",
+      "source": "builders",
+      "target": "ancient_main",
+      "label": "H01 建設者？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_settlers",
+      "source": "builders",
+      "target": "settlers",
+      "label": "H02 分裂？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_mages",
+      "source": "builders",
+      "target": "mages",
+      "label": "H02 分裂？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_explorers",
+      "source": "builders",
+      "target": "explorers",
+      "label": "H02 分裂？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_architecture",
+      "source": "builders",
+      "target": "architecture",
+      "label": "H01 発展？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_redstone",
+      "source": "builders",
+      "target": "redstone",
+      "label": "H01 技術？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_spawner_main",
+      "source": "builders",
+      "target": "spawner_main",
+      "label": "H15 遺物？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_knowledge",
+      "source": "builders",
+      "target": "knowledge",
+      "label": "H61 継承・再発見？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_pigs",
+      "source": "builders",
+      "target": "pigs",
+      "label": "H44 家畜輸送？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_network",
+      "source": "builders",
+      "target": "network",
+      "label": "H34 交流圏？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_builders_disaster",
+      "source": "builders",
+      "target": "disaster",
+      "label": "H01 衰退原因？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_settlers_xp",
+      "source": "settlers",
+      "target": "xp",
+      "label": "H02 利用？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_settlers_villagers",
+      "source": "settlers",
+      "target": "villagers",
+      "label": "H02 継承？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_settlers_farming",
+      "source": "settlers",
+      "target": "farming",
+      "label": "H02 技術？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_settlers_golem_main",
+      "source": "settlers",
+      "target": "golem_main",
+      "label": "H02 技術？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_mages_soul",
+      "source": "mages",
+      "target": "soul",
+      "label": "H02 研究？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_mages_illagers",
+      "source": "mages",
+      "target": "illagers",
+      "label": "H02 継承？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_mages_magic",
+      "source": "mages",
+      "target": "magic",
+      "label": "H02 技術？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_explorers_adventurers",
+      "source": "explorers",
+      "target": "adventurers",
+      "label": "H02 比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_explorers_architecture",
+      "source": "explorers",
+      "target": "architecture",
+      "label": "H02 技術？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_explorers_navigation",
+      "source": "explorers",
+      "target": "navigation",
+      "label": "H02 技術？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_explorers_shipwreck",
+      "source": "explorers",
+      "target": "shipwreck",
+      "label": "H02 比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_explorers_camp",
+      "source": "explorers",
+      "target": "camp",
+      "label": "H02 比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_villagers_bottle",
+      "source": "villagers",
+      "target": "bottle",
+      "label": "§15.44 聖職者の交易",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_villagers_village",
+      "source": "villagers",
+      "target": "village",
+      "label": "H02 村の住民",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_illagers_magic",
+      "source": "illagers",
+      "target": "magic",
+      "label": "H33 魔術職",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_illagers_mansion",
+      "source": "illagers",
+      "target": "mansion",
+      "label": "H33・§15.11 描写",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_magic_flames",
+      "source": "magic",
+      "target": "flames",
+      "label": "H33 召喚の比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_village_searuins",
+      "source": "village",
+      "target": "searuins",
+      "label": "H35 水没？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_spawner_main_flames",
+      "source": "spawner_main",
+      "target": "flames",
+      "label": "H15 共通起源？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_spawner_main_trial",
+      "source": "spawner_main",
+      "target": "trial",
+      "label": "H15 技術比較",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_knowledge_illagers",
+      "source": "knowledge",
+      "target": "illagers",
+      "label": "§15.11 古代知識？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_pigs_piglin",
+      "source": "pigs",
+      "target": "piglin",
+      "label": "H44 起源？（低確度）",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_network_sift",
+      "source": "network",
+      "target": "sift",
+      "label": "H34 接触・研究？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_network_monument",
+      "source": "network",
+      "target": "monument",
+      "label": "H34 海洋拠点？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_network_overworld",
+      "source": "network",
+      "target": "overworld",
+      "label": "H34 中核？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_network_nether",
+      "source": "network",
+      "target": "nether",
+      "label": "H34 資源往来？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_network_end",
+      "source": "network",
+      "target": "end",
+      "label": "H34 遠隔探検？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_network_trail",
+      "source": "network",
+      "target": "trail",
+      "label": "H34 拠点網？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_overworld_monument",
+      "source": "overworld",
+      "target": "monument",
+      "label": "H34 遺構",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_overworld_ancient_main",
+      "source": "overworld",
+      "target": "ancient_main",
+      "label": "H34 遺構",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_overworld_stronghold",
+      "source": "overworld",
+      "target": "stronghold",
+      "label": "H34 遺構",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_overworld_shipwreck",
+      "source": "overworld",
+      "target": "shipwreck",
+      "label": "H34 遺構",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_overworld_trail",
+      "source": "overworld",
+      "target": "trail",
+      "label": "H34 遺構",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_overworld_searuins",
+      "source": "overworld",
+      "target": "searuins",
+      "label": "H34 遺構",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_nether_piglin",
+      "source": "nether",
+      "target": "piglin",
+      "label": "H44 生息・文明",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_nether_nether_ruins",
+      "source": "nether",
+      "target": "nether_ruins",
+      "label": "H34 遺構",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_end_endcity",
+      "source": "end",
+      "target": "endcity",
+      "label": "H34 遺構",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_stronghold_spawner_main",
+      "source": "stronghold",
+      "target": "spawner_main",
+      "label": "H15 設置",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_stronghold_end",
+      "source": "stronghold",
+      "target": "end",
+      "label": "H34 ポータル接続",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_ruined_overworld",
+      "source": "ruined",
+      "target": "overworld",
+      "label": "H34 接続の痕跡",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_ruined_nether",
+      "source": "ruined",
+      "target": "nether",
+      "label": "H34 接続の痕跡",
+      "hypothesis": false
+    },
+    {
+      "id": "edge_disaster_rift",
+      "source": "disaster",
+      "target": "rift",
+      "label": "H01 類似事故？",
+      "hypothesis": true
+    },
+    {
+      "id": "edge_disaster_corruption",
+      "source": "disaster",
+      "target": "corruption",
+      "label": "H01 類似災害？",
+      "hypothesis": true
+    }
+  ]
+}
