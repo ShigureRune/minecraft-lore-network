@@ -1,6 +1,6 @@
 {
-  "version": "1.78",
-  "loreVersion": "4.07",
+  "version": "1.79",
+  "loreVersion": "4.08",
   "nodes": [
     {
       "id": "soul",
@@ -4176,6 +4176,552 @@
       ],
       "origin": "",
       "originNote": "Wikiミッション解説・Dungeons Toolsは脇道の5像を記録。King=Nameless One、Queen=Enderman、Bishop=Mage、Knight=Chicken Jockey、Rook=Creeper。旧Wikiテクスチャ一覧はKingをnecromancerと表記。原資産、配置実測、作者・用途未確認。駒名は世界内政治関係の証明ではない。"
+    },
+    {
+      "id": "wandering_trader",
+      "label": "行商人",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、A班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "emerald_main",
+      "label": "エメラルド（本編）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、A班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "camp_market_d",
+      "label": "キャンプ市場（D）",
+      "color": "#87551c",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、A班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "village_merchant_d",
+      "label": "村の商人（D）",
+      "color": "#87551c",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、A班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "village_supply_l",
+      "label": "村の共同備蓄（Legends）",
+      "color": "#87551c",
+      "media": [
+        "L"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、A班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "pitcher_plant",
+      "label": "ウツボカズラ・種",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "torchflower",
+      "label": "トーチフラワー・種",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "sniffer_egg",
+      "label": "スニッファーの卵",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "moss_block",
+      "label": "苔ブロック",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "ancient_pollinator",
+      "label": "古代送粉昆虫（仮）",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "bee",
+      "label": "ミツバチ",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "frog",
+      "label": "カエル・オタマジャクシ",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "axolotl",
+      "label": "ウーパールーパー",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "turtle",
+      "label": "ウミガメ",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "copper_material",
+      "label": "銅建材",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "lightning_rod",
+      "label": "避雷針",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "cauldron",
+      "label": "大釜",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "powder_snow",
+      "label": "粉雪",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "mud",
+      "label": "泥・固めた泥",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "clay",
+      "label": "粘土",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "dripstone",
+      "label": "鍾乳石",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "basalt",
+      "label": "玄武岩",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "terracotta",
+      "label": "テラコッタ",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "ore_veins",
+      "label": "大型鉱脈",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "granite_tuff",
+      "label": "花崗岩・凝灰岩",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "badlands",
+      "label": "荒野（Badlands）",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "aquifer",
+      "label": "帯水層",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "copper_chest",
+      "label": "銅チェスト",
+      "color": "#777e99",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "chest_main",
+      "label": "チェスト（本編）",
+      "color": "#777e99",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "copper_statue",
+      "label": "銅ゴーレム像",
+      "color": "#777e99",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "comparator",
+      "label": "コンパレーター",
+      "color": "#777e99",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "copper_bulb",
+      "label": "銅の電球",
+      "color": "#777e99",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "crafter",
+      "label": "クラフター",
+      "color": "#777e99",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "hopper",
+      "label": "ホッパー",
+      "color": "#777e99",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "daylight_sensor",
+      "label": "日照センサー",
+      "color": "#7973ac",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、T班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "sky_light",
+      "label": "実効天空光",
+      "color": "#7973ac",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、T班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "world_clock",
+      "label": "World Clock（開発仕様）",
+      "color": "#7973ac",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、T班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "spyglass",
+      "label": "望遠鏡",
+      "color": "#7973ac",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、T班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "clock_main",
+      "label": "時計（本編）",
+      "color": "#7973ac",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、T班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "lodestone",
+      "label": "ロードストーン",
+      "color": "#7973ac",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、T班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "compass_main",
+      "label": "コンパス",
+      "color": "#7973ac",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、T班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "tinted_glass",
+      "label": "遮光ガラス",
+      "color": "#7973ac",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "夜間合同査読 v4.08 §15.140、T班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
     }
   ],
   "edges": [
@@ -9729,6 +10275,393 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons:Lone_Fortress",
       "researchSection": "v4.07 §15.139／H51"
+    },
+    {
+      "id": "edge_r408_1",
+      "source": "wandering_trader",
+      "target": "emerald_main",
+      "label": "珍しい品とエメラルドの交換（2019公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/meet-wandering-trader",
+      "researchSection": "v4.08 §15.140 / A A01-E01"
+    },
+    {
+      "id": "edge_r408_2",
+      "source": "wandering_trader",
+      "target": "village",
+      "label": "村間を移動する開発構想（経路実測なし）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/meet-wandering-trader",
+      "researchSection": "v4.08 §15.140 / A A01-E02"
+    },
+    {
+      "id": "edge_r408_3",
+      "source": "camp_market_d",
+      "target": "village_merchant_d",
+      "label": "救出・進行で商人機能を解放（2020公式報告）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/dungeons-september-dev-blog",
+      "researchSection": "v4.08 §15.140 / A A01-E04"
+    },
+    {
+      "id": "edge_r408_4",
+      "source": "camp_market_d",
+      "target": "village",
+      "label": "小規模な村へ発展する設計（本編キャンプと別）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/dungeons-september-dev-blog",
+      "researchSection": "v4.08 §15.140 / A A01-E05"
+    },
+    {
+      "id": "edge_r408_5",
+      "source": "village_supply_l",
+      "target": "lapis_main_legends",
+      "label": "保護された村からラピス供給（Legends）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-legends-campaign-tips",
+      "researchSection": "v4.08 §15.140 / A A01-E06"
+    },
+    {
+      "id": "edge_r408_6",
+      "source": "wandering_trader",
+      "target": "explorer_map",
+      "label": "物資移動と地理情報の相補性（協力描写なし）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/meet-wandering-trader",
+      "researchSection": "v4.08 §15.140 / A A01-E08"
+    },
+    {
+      "id": "edge_r408_7",
+      "source": "sniffer",
+      "target": "pitcher_plant",
+      "label": "種の発掘（Java 1.20）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.08 §15.140 / G G01-E01"
+    },
+    {
+      "id": "edge_r408_8",
+      "source": "sniffer",
+      "target": "torchflower",
+      "label": "種の発掘・繁殖資源（Java 1.20）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.08 §15.140 / G G01-E02"
+    },
+    {
+      "id": "edge_r408_9",
+      "source": "moss_block",
+      "target": "sniffer_egg",
+      "label": "苔上で孵化時間短縮（Java 1.20）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.08 §15.140 / G G01-E03"
+    },
+    {
+      "id": "edge_r408_10",
+      "source": "pitcher_plant",
+      "target": "ancient_pollinator",
+      "label": "繁殖断絶の候補原因（公式記事の推測、実在未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/pitcher-pod",
+      "researchSection": "v4.08 §15.140 / G G01-E04"
+    },
+    {
+      "id": "edge_r408_11",
+      "source": "bee",
+      "target": "torchflower",
+      "label": "受粉行動（BE Preview 1.20.0.20、結実とは別）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-preview-1-20-0-20",
+      "researchSection": "v4.08 §15.140 / G G01-E05"
+    },
+    {
+      "id": "edge_r408_12",
+      "source": "axolotl",
+      "target": "frog",
+      "label": "幼体オタマジャクシを捕食（成体とは別）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/tadpole",
+      "researchSection": "v4.08 §15.140 / G G01-E07"
+    },
+    {
+      "id": "edge_r408_13",
+      "source": "turtle",
+      "target": "sniffer_egg",
+      "label": "孵化地点と出土地を分離する比較（同じ帰巣機構とはしない）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/java-devs-talk-update-aquatic",
+      "researchSection": "v4.08 §15.140 / G X03"
+    },
+    {
+      "id": "edge_r408_14",
+      "source": "lightning_rod",
+      "target": "copper_material",
+      "label": "落雷による酸化除去（避雷針近傍の銅、1.17）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/4402626897165-Minecraft-Caves-Cliffs-Part-1-1-17-Java",
+      "researchSection": "v4.08 §15.140 / M M01-4"
+    },
+    {
+      "id": "edge_r408_15",
+      "source": "copper_material",
+      "target": "architecture",
+      "label": "外観単独では建築年代を確定できない",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/4402626897165-Minecraft-Caves-Cliffs-Part-1-1-17-Java",
+      "researchSection": "v4.08 §15.140 / M M01-6"
+    },
+    {
+      "id": "edge_r408_16",
+      "source": "cauldron",
+      "target": "powder_snow",
+      "label": "降雪で蓄積（1.17）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/4402626897165-Minecraft-Caves-Cliffs-Part-1-1-17-Java",
+      "researchSection": "v4.08 §15.140 / M M01-7"
+    },
+    {
+      "id": "edge_r408_17",
+      "source": "mud",
+      "target": "clay",
+      "label": "尖った鍾乳石を用いた脱水（1.19）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/block-month--mud",
+      "researchSection": "v4.08 §15.140 / M M02-5"
+    },
+    {
+      "id": "edge_r408_18",
+      "source": "dripstone",
+      "target": "clay",
+      "label": "泥の脱水条件（単独では粘土を作らない）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/block-month--mud",
+      "researchSection": "v4.08 §15.140 / M M02-5b"
+    },
+    {
+      "id": "edge_r408_19",
+      "source": "soul_sand_valley",
+      "target": "basalt",
+      "label": "ネザーの玄武岩柱・自然分布（生成条件とは別）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/sv-se/article/block-week--basalt",
+      "researchSection": "v4.08 §15.140 / M M02-7"
+    },
+    {
+      "id": "edge_r408_20",
+      "source": "ore_veins",
+      "target": "granite_tuff",
+      "label": "大型銅鉱脈には花崗岩、鉄鉱脈には凝灰岩（1.18）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/4415128577293-Minecraft-Java-Edition-1-18",
+      "researchSection": "v4.08 §15.140 / M M03-1/2"
+    },
+    {
+      "id": "edge_r408_21",
+      "source": "badlands",
+      "target": "terracotta",
+      "label": "自然分布（焼成品とは由来を区別）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/nb-no/article/wooded-badlands",
+      "researchSection": "v4.08 §15.140 / M M03-3"
+    },
+    {
+      "id": "edge_r408_22",
+      "source": "clay",
+      "target": "terracotta",
+      "label": "焼成による加工経路",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/nb-no/article/build-with-it--terracotta-",
+      "researchSection": "v4.08 §15.140 / M M03-4"
+    },
+    {
+      "id": "edge_r408_23",
+      "source": "aquifer",
+      "target": "architecture",
+      "label": "地表の乾燥だけでは地下水利用を排除できない（個別設備未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/4415128577293-Minecraft-Java-Edition-1-18",
+      "researchSection": "v4.08 §15.140 / M X01"
+    },
+    {
+      "id": "edge_r408_24",
+      "source": "copper_golem_main",
+      "target": "copper_chest",
+      "label": "入力元（酸化・ワックス状態によらず探索）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-9",
+      "researchSection": "v4.08 §15.140 / N1 N1-01-1"
+    },
+    {
+      "id": "edge_r408_25",
+      "source": "copper_golem_main",
+      "target": "chest_main",
+      "label": "収納分類・配送先（通常・トラップ）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-9",
+      "researchSection": "v4.08 §15.140 / N1 N1-01-2"
+    },
+    {
+      "id": "edge_r408_26",
+      "source": "copper_statue",
+      "target": "comparator",
+      "label": "姿勢の読み出し（1.21.9）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-9",
+      "researchSection": "v4.08 §15.140 / N1 N1-01-3"
+    },
+    {
+      "id": "edge_r408_27",
+      "source": "copper_golem_main",
+      "target": "copper_statue",
+      "label": "完全酸化で像化、名前保持・携帯品排出",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-9",
+      "researchSection": "v4.08 §15.140 / N1 N1-01-3b"
+    },
+    {
+      "id": "edge_r408_28",
+      "source": "copper_golem_main",
+      "target": "allay",
+      "label": "物流・分類の機能比較（共通起源未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/mob-menagerie--allay",
+      "researchSection": "v4.08 §15.140 / N1 N1-01-4"
+    },
+    {
+      "id": "edge_r408_29",
+      "source": "copper_golem_main",
+      "target": "copper_bulb",
+      "label": "酸化による機能変化の比較（動力枯渇とは断定しない）",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.08 §15.140 / N1 N1-01-5"
+    },
+    {
+      "id": "edge_r408_30",
+      "source": "crafter",
+      "target": "comparator",
+      "label": "占有・無効枠の合計を観測、製作成功とは別",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.08 §15.140 / N1 N1-02-1"
+    },
+    {
+      "id": "edge_r408_31",
+      "source": "crafter",
+      "target": "hopper",
+      "label": "材料の搬入・搬出",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.08 §15.140 / N1 N1-02-2"
+    },
+    {
+      "id": "edge_r408_32",
+      "source": "crafter",
+      "target": "copper_statue",
+      "label": "内部状態を限定的な信号に変換する比較",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-9",
+      "researchSection": "v4.08 §15.140 / N1 N1-02-3"
+    },
+    {
+      "id": "edge_r408_33",
+      "source": "hopper",
+      "target": "redstone",
+      "label": "信号入力中に自発搬送を停止",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/pt-pt/article/hopper",
+      "researchSection": "v4.08 §15.140 / N1 N1-02-4"
+    },
+    {
+      "id": "edge_r408_34",
+      "source": "copper_material",
+      "target": "copper_statue",
+      "label": "素材変化と保存情報を区別（年代・人格の証明ではない）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-9",
+      "researchSection": "v4.08 §15.140 / N1 X02"
+    },
+    {
+      "id": "edge_r408_35",
+      "source": "sky_light",
+      "target": "daylight_sensor",
+      "label": "天空光を検知（人工照明と区別）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/daylight-detector",
+      "researchSection": "v4.08 §15.140 / T T01-E1"
+    },
+    {
+      "id": "edge_r408_36",
+      "source": "lightning_rod",
+      "target": "redstone",
+      "label": "落雷イベントを信号化（版条件あり）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/taking-inventory--lightning-rod",
+      "researchSection": "v4.08 §15.140 / T T01-E4"
+    },
+    {
+      "id": "edge_r408_37",
+      "source": "shipwreck",
+      "target": "compass_main",
+      "label": "地図箱の戦利品（設置設備とは別）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/shipwreck",
+      "researchSection": "v4.08 §15.140 / T T02-3"
+    },
+    {
+      "id": "edge_r408_38",
+      "source": "nether_ruins",
+      "target": "lodestone",
+      "label": "砦の遺跡の戦利品（2020公式説明）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/block-week--lodestone",
+      "researchSection": "v4.08 §15.140 / T T03-1"
+    },
+    {
+      "id": "edge_r408_39",
+      "source": "ruined",
+      "target": "lodestone",
+      "label": "戦利品追加（25w02a）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-25w02a",
+      "researchSection": "v4.08 §15.140 / T T03-2"
+    },
+    {
+      "id": "edge_r408_40",
+      "source": "lodestone",
+      "target": "compass_main",
+      "label": "コンパスの基準地点変更",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/block-week--lodestone",
+      "researchSection": "v4.08 §15.140 / T T03-3"
+    },
+    {
+      "id": "edge_r408_41",
+      "source": "compass_main",
+      "target": "navigation",
+      "label": "座標・次元参照の条件（20w14aの実装記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-20w14a-jp",
+      "researchSection": "v4.08 §15.140 / T T03-4"
+    },
+    {
+      "id": "edge_r408_42",
+      "source": "lodestone",
+      "target": "rift",
+      "label": "帰還基準点とポータル探索の用途整合（歴史的使用未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-25w02a",
+      "researchSection": "v4.08 §15.140 / T T03-6"
+    },
+    {
+      "id": "edge_r408_43",
+      "source": "daylight_sensor",
+      "target": "comparator",
+      "label": "検知対象と信号出力の区別（共通設計者未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.08 §15.140 / T X04"
     }
   ]
 }
