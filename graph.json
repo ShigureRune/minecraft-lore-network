@@ -1,6 +1,6 @@
 {
-  "version": "1.86",
-  "loreVersion": "4.15",
+  "version": "1.87",
+  "loreVersion": "4.16",
   "nodes": [
     {
       "id": "soul",
@@ -391,7 +391,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " v4.16：22w14a公式MC-249764/249800は照明と扉の動作意図を支持。建設者の意図や全都市の制御網は未確定。"
     },
     {
       "id": "corruption",
@@ -4902,6 +4902,32 @@
       ],
       "origin": "",
       "originNote": "銅電球はパルス間で点灯状態を保持。世界内の設計意図・自我の保持とは別。"
+    },
+    {
+      "id": "ancient_city_sensor_door",
+      "label": "古代都市の振動式扉",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "22w14a公式MC-249800で飲食による扉作動の修正を確認。分類8の意味は版依存。原NBT・実機未確認。"
+    },
+    {
+      "id": "ancient_city_sensor_lamp",
+      "label": "古代都市の振動式照明",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "22w14a公式MC-249764で照明用センサー欠落修正。Wiki構成表bottom_1はランプ/センサー各4、bottom_2は各3。個別配線未検証。"
     }
   ],
   "edges": [
@@ -11220,6 +11246,51 @@
       "hypothesis": true,
       "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/39966147272589-Minecraft-Java-Edition-1-21-9-The-Copper-Age",
       "researchSection": "v4.14 §15.146 / 分割合同査読"
+    },
+    {
+      "id": "edge_r416_1",
+      "source": "ancient_main",
+      "target": "ancient_city_sensor_door",
+      "label": "中央建築の地下扉（公式修正履歴）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/5346567775885-Minecraft-Java-Edition-Snapshot-22w14a",
+      "researchSection": "v4.16 §15.148"
+    },
+    {
+      "id": "edge_r416_2",
+      "source": "sculk_sensor_main",
+      "target": "ancient_city_sensor_door",
+      "label": "特定の振動を入力とする扉（型・版依存）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/5346567775885-Minecraft-Java-Edition-Snapshot-22w14a",
+      "researchSection": "v4.16 §15.148"
+    },
+    {
+      "id": "edge_r416_3",
+      "source": "ancient_main",
+      "target": "ancient_city_sensor_lamp",
+      "label": "中央部の照明（公式修正履歴）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/5346567775885-Minecraft-Java-Edition-Snapshot-22w14a",
+      "researchSection": "v4.16 §15.148"
+    },
+    {
+      "id": "edge_r416_4",
+      "source": "sculk_sensor_main",
+      "target": "ancient_city_sensor_lamp",
+      "label": "照明用センサーの存在（公式MC-249764）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/5346567775885-Minecraft-Java-Edition-Snapshot-22w14a",
+      "researchSection": "v4.16 §15.148"
+    },
+    {
+      "id": "edge_r416_5",
+      "source": "sculk_sensor_main",
+      "target": "comparator",
+      "label": "振動分類を信号として読み出す仕様（初期公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ko-kr/article/minecraft-snapshot-20w49a",
+      "researchSection": "v4.16 §15.148"
     }
   ]
 }
