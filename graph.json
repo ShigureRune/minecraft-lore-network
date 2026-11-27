@@ -1,6 +1,6 @@
 {
-  "version": "1.29",
-  "loreVersion": "3.45",
+  "version": "1.30",
+  "loreVersion": "3.46",
   "nodes": [
     {
       "id": "soul",
@@ -3474,6 +3474,19 @@
       ],
       "origin": "",
       "originNote": "2022年公式Luminous Nightで謎の模様。旧WikiにUVPaint・モブ/チェスト系内部名。原資産未確認。"
+    },
+    {
+      "id": "gale_sanctum",
+      "label": "Gale Sanctum（風力神殿）",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "既存§15.1の再参照：風をResonance Crystalに導きSquall Golemを起動するとのSwitchニュースWiki転載。原ニュース・実機未確認。"
     }
   ],
   "edges": [
@@ -7420,6 +7433,24 @@
       "hypothesis": false,
       "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
       "researchSection": "v3.45 §15.77"
+    },
+    {
+      "id": "edge_r346_1",
+      "source": "tower_d",
+      "target": "hunt",
+      "label": "複数地域の試練・装備報酬／空間技術比較（既存MD再接続）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons:Ancient_Hunt",
+      "researchSection": "v3.46 §15.78"
+    },
+    {
+      "id": "edge_r346_2",
+      "source": "gale_sanctum",
+      "target": "trial_breeze",
+      "label": "風による設備・環境操作の比較／共通技術未証明",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons:Gale_Sanctum",
+      "researchSection": "v3.46 §15.78"
     }
   ]
 }
