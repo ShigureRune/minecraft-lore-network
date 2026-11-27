@@ -1,6 +1,6 @@
 {
-  "version": "1.16",
-  "loreVersion": "3.31",
+  "version": "1.17",
+  "loreVersion": "3.32",
   "nodes": [
     {
       "id": "soul",
@@ -3108,6 +3108,19 @@
       ],
       "origin": "",
       "originNote": "公式告知の大型クモ状生物。名称はWiki・二次報道。Imagoは昆虫学で成虫。遺骸との同定・生活環は未確認。"
+    },
+    {
+      "id": "ichor_liquid",
+      "label": "イコル（液体）",
+      "color": "#007c83",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "既存MD照合：プレイヤーの魂を減らす液体（Wiki）、シフトの生命を支える（非公式クエスト転載）。作用機構不明。"
     }
   ],
   "edges": [
@@ -6362,6 +6375,60 @@
       "hypothesis": true,
       "sourceUrl": "https://theminecraftwiki.com/wiki/the-sift-dungeons-ii/",
       "researchSection": "v3.31 §15.63"
+    },
+    {
+      "id": "edge_r332_0",
+      "source": "ichor_liquid",
+      "target": "soul",
+      "label": "プレイヤーの魂を減らす（既存Wiki記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Ichor",
+      "researchSection": "v3.32 §15.64"
+    },
+    {
+      "id": "edge_r332_1",
+      "source": "ichor_liquid",
+      "target": "sift",
+      "label": "生命を支える（クエスト転載記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Ichor",
+      "researchSection": "v3.32 §15.64"
+    },
+    {
+      "id": "edge_r332_2",
+      "source": "ichor_liquid",
+      "target": "ichor_crust",
+      "label": "液体と固結層の作用比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/quests/a-dip-in-ichor-springs",
+      "researchSection": "v3.32 §15.64"
+    },
+    {
+      "id": "edge_r332_3",
+      "source": "humbler_carapace",
+      "target": "ichor_crust",
+      "label": "回復・再充電の機能比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeons.tools/2/dlc",
+      "researchSection": "v3.32 §15.64"
+    },
+    {
+      "id": "edge_r332_4",
+      "source": "humbler_carapace",
+      "target": "nacre_material",
+      "label": "甲殻と真珠層名称の材質比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeons.tools/2/dlc",
+      "researchSection": "v3.32 §15.64"
+    },
+    {
+      "id": "edge_r332_5",
+      "source": "moss",
+      "target": "ichor_crust",
+      "label": "泉の水とゴーレム再充電の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Legends:Journal",
+      "researchSection": "v3.32 §15.64"
     }
   ]
 }
