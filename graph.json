@@ -1,6 +1,6 @@
 {
-  "version": "1.38",
-  "loreVersion": "3.54",
+  "version": "1.39",
+  "loreVersion": "3.55",
   "nodes": [
     {
       "id": "soul",
@@ -3656,6 +3656,32 @@
       ],
       "origin": "",
       "originNote": "2026-09-15のARGで中央から格子を移動して4語を解くとWiki検索収録本文に記録。原図4枚・Discord原投稿未取得。中央Nの再利用は仮説で、ゲーム内能力を示す証拠ではない。"
+    },
+    {
+      "id": "arg_begone_slate",
+      "label": "ARG文字探索暗号（BEGONE）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2026-09-16の文字探索で単語の配置からIllageraltを読むとのWiki解読記録。Do/Faは音階との比較候補に過ぎず原画像は未取得。ランチャー8記号だけで全語の直接変換は不可。"
+    },
+    {
+      "id": "arg_offthescales",
+      "label": "ARG OFFTHESCALES",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "7月の解答・後続のVigenère鍵・9月15日の中央起点暗号解答として同じ語句が報告される。音階との掛詞の意図は未確認。"
     }
   ],
   "edges": [
@@ -7944,6 +7970,51 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Day_2",
       "researchSection": "v3.54 §15.86"
+    },
+    {
+      "id": "edge_r355_1",
+      "source": "arg_begone_slate",
+      "target": "illageralt",
+      "label": "文字探索の配置からルーンを読む（Wiki記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Day_3",
+      "researchSection": "v3.55 §15.87"
+    },
+    {
+      "id": "edge_r355_2",
+      "source": "arg_begone_slate",
+      "target": "launcher_arg",
+      "label": "E/Nの記号は共通、B/G/O不足で全語直接変換不可",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Day_3",
+      "researchSection": "v3.55 §15.87"
+    },
+    {
+      "id": "edge_r355_3",
+      "source": "arg_begone_slate",
+      "target": "arg_tap_music",
+      "label": "Do/Faと音楽暗号の比較候補（意図未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Day_3",
+      "researchSection": "v3.55 §15.87"
+    },
+    {
+      "id": "edge_r355_4",
+      "source": "arg_offthescales",
+      "target": "arg_harmonizer_tap",
+      "label": "9月15日の第4解答として語句が再登場（Wiki記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Day_2",
+      "researchSection": "v3.55 §15.87"
+    },
+    {
+      "id": "edge_r355_5",
+      "source": "arg_offthescales",
+      "target": "illageralt",
+      "label": "7月の解答導出に開発者名札のルーンを使用（Wiki記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG#Discord_staff_profiles",
+      "researchSection": "v3.55 §15.87"
     }
   ]
 }
