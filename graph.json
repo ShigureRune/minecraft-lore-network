@@ -1,6 +1,6 @@
 {
-  "version": "1.87",
-  "loreVersion": "4.16",
+  "version": "1.88",
+  "loreVersion": "4.17",
   "nodes": [
     {
       "id": "soul",
@@ -4591,7 +4591,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。 Java 1.21公式でも光量15/12/8/4・点灯状態保持・読出し15を確認。23w45aで試練の間専用酸化processor追加。Bedrock Preview 1.20.60.23で酸化各段階をワックス付きに修正。生成時点灯・酸化状態は使用歴や建造年代の証明ではない。原JSON/NBT・配線未確認。"
     },
     {
       "id": "crafter",
@@ -11291,6 +11291,24 @@
       "hypothesis": false,
       "sourceUrl": "https://www.minecraft.net/ko-kr/article/minecraft-snapshot-20w49a",
       "researchSection": "v4.16 §15.148"
+    },
+    {
+      "id": "edge_r417_1",
+      "source": "trial_chamber",
+      "target": "copper_bulb",
+      "label": "自然生成の照明・ワックス付き異なる酸化段階（23w45a生成処理・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/21146865750157-Minecraft-Java-Edition-Snapshot-23w45a",
+      "researchSection": "v4.17 §15.149"
+    },
+    {
+      "id": "edge_r417_2",
+      "source": "copper_bulb",
+      "target": "ancient_city_sensor_lamp",
+      "label": "常時信号不要の状態保持型照明と振動検知型照明の比較（継承未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.17 §15.149"
     }
   ]
 }
