@@ -1,6 +1,6 @@
 {
-  "version": "1.90",
-  "loreVersion": "4.19",
+  "version": "1.91",
+  "loreVersion": "4.20",
   "nodes": [
     {
       "id": "soul",
@@ -391,7 +391,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": " v4.16：22w14a公式MC-249764/249800は照明と扉の動作意図を支持。建設者の意図や全都市の制御網は未確定。"
+      "originNote": " v4.16：22w14a公式MC-249764/249800は照明と扉の動作意図を支持。建設者の意図や全都市の制御網は未確定。 v4.20：22w13a抽出65パス→22w14a以降の確認6版58パス（7未使用ファイル除去）。中央3・中央壁11・通常壁17の全31型に灰色羊毛（Wiki構成表）。原NBT・26.3・Bedrock未確認。"
     },
     {
       "id": "corruption",
@@ -5012,6 +5012,110 @@
       ],
       "origin": "",
       "originNote": "公式2025-06-05：個人別・全次元で利用可能。Wiki検索抜粋：プレイヤーデータEnderItems、27枠。物理的保存先・魂との関係不明。"
+    },
+    {
+      "id": "ancient_city_center",
+      "label": "古代都市の中央建築3型",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Wiki構成表：各型は強化深層岩56・ソウルサンド57・灰色カーペット221。回路部品数は異なる。"
+    },
+    {
+      "id": "ancient_city_walls",
+      "label": "古代都市の壁・回廊",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "中央壁11・通常壁17。全28型に灰色羊毛掲載。原NBTの位置未確認。"
+    },
+    {
+      "id": "ancient_city_camp",
+      "label": "古代都市のキャンプ",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "camp_1/2/3は1.21.3抽出プールで一つのlist_pool_element。青系羊毛を使用。放棄された地上キャンプとは別。"
+    },
+    {
+      "id": "ancient_city_ice_box",
+      "label": "古代都市の氷室",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Wiki構成表：青氷12、氷9、氷塊62、音符ブロック2、感圧板3。専用戦利品。原配線・用途未確認。"
+    },
+    {
+      "id": "ancient_city_sauna",
+      "label": "古代都市のサウナ",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "sauna_1という内部名。Wiki掲載水43・チェスト3。実際の利用者・用途は未確定。"
+    },
+    {
+      "id": "ancient_city_barracks",
+      "label": "古代都市の兵舎",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "barracksという内部名。Wiki掲載スケルトンの頭1・チェスト2・像。軍事組織の存在を証明しない。"
+    },
+    {
+      "id": "ancient_city_small_statue",
+      "label": "古代都市の小像",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "旧small_portal_statueは22w14aで除去された未使用テンプレートの一つ。バグ報告コメントでsmall_statueと同一と指摘、原NBT比較未実施。"
+    },
+    {
+      "id": "ancient_city_degradation",
+      "label": "古代都市の生成時劣化処理",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "1.21.3抽出プールで多くの遺跡がancient_city_generic_degradationを参照。氷室は空processor。自然生成の破損を年代の直接指標としない。"
     }
   ],
   "edges": [
@@ -11501,6 +11605,150 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-java-edition-1-21-5",
       "researchSection": "v4.19 §15.151"
+    },
+    {
+      "id": "edge_r420_1",
+      "source": "ancient_main",
+      "target": "ancient_city_center",
+      "label": "構造テンプレート・生成資料（第三者抽出・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_2",
+      "source": "ancient_main",
+      "target": "ancient_city_walls",
+      "label": "構造テンプレート・生成資料（第三者抽出・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_3",
+      "source": "ancient_main",
+      "target": "ancient_city_camp",
+      "label": "構造テンプレート・生成資料（第三者抽出・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21.3/data/minecraft/worldgen/template_pool/ancient_city/structures.json",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_4",
+      "source": "ancient_main",
+      "target": "ancient_city_ice_box",
+      "label": "構造テンプレート・生成資料（第三者抽出・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_5",
+      "source": "ancient_main",
+      "target": "ancient_city_sauna",
+      "label": "構造テンプレート・生成資料（第三者抽出・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_6",
+      "source": "ancient_main",
+      "target": "ancient_city_barracks",
+      "label": "構造テンプレート・生成資料（第三者抽出・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_7",
+      "source": "ancient_main",
+      "target": "ancient_city_small_statue",
+      "label": "構造テンプレート・生成資料（第三者抽出・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_8",
+      "source": "ancient_main",
+      "target": "ancient_city_degradation",
+      "label": "構造テンプレート・生成資料（第三者抽出・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21.3/data/minecraft/worldgen/template_pool/ancient_city/structures.json",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_9",
+      "source": "ancient_city_center",
+      "target": "wool",
+      "label": "3型すべてに灰色羊毛・灰色カーペット（掲載構成表）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_10",
+      "source": "ancient_city_walls",
+      "target": "wool",
+      "label": "中央壁11・通常壁17すべてに灰色羊毛（掲載構成表）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_11",
+      "source": "ancient_city_center",
+      "target": "soul_sand",
+      "label": "各型57個（掲載構成表）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_12",
+      "source": "ancient_city_center",
+      "target": "seal_gate",
+      "label": "3型の門構成比較、ポータル機能未証明",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_13",
+      "source": "ancient_city_camp",
+      "target": "wool",
+      "label": "青系の羊毛（掲載構成表）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_14",
+      "source": "ancient_city_ice_box",
+      "target": "ancient_city_degradation",
+      "label": "氷室のプールは空processorを指定（1.21.3抽出）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21.3/data/minecraft/worldgen/template_pool/ancient_city/structures.json",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_15",
+      "source": "ancient_city_center",
+      "target": "ancient_city_sensor_door",
+      "label": "中央本体3型の地下回路と扉",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r420_16",
+      "source": "ancient_city_small_statue",
+      "target": "seal_gate",
+      "label": "旧ポータル像名は未使用・重複との報告、門機能の根拠にしない",
+      "hypothesis": true,
+      "sourceUrl": "https://mojira.dev/MC-249769",
+      "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
     }
   ]
 }
