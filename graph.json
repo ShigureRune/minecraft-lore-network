@@ -1,6 +1,6 @@
 {
-  "version": "1.59",
-  "loreVersion": "3.77",
+  "version": "1.60",
+  "loreVersion": "3.79",
   "nodes": [
     {
       "id": "soul",
@@ -3942,6 +3942,19 @@
       ],
       "origin": "",
       "originNote": "既存MDのWiki検索収録とReddit報告を再照合。初代The Arch-IllagerとEvokerのモチーフを複合したとの報告。直接採譜・公式個別発言・ポータル三全音は未確認。MCD2-153は別の通常Evoker戦等の曲割当不具合を報告し、ボスとOSTの対応を無条件に仮定できない。"
+    },
+    {
+      "id": "soul_construct_ost_d2",
+      "label": "Soul Construct（II OST）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "OST Disc 1 #133、3:16（AWA配信ページ、Wiki検索収録）。Monstrous Opusの内部名SoulConstructとの一致、韓国WikiのBGM表記から対応が有力。原音・ゲーム内再生箇所未確認。MCD2-601は第2段階で敗北後の曲再生不具合報告（未確認ステータス）。ファンの主題再利用・分離時の音楽変化報告は未採譜。"
     }
   ],
   "edges": [
@@ -8923,6 +8936,15 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Original_Game_Soundtrack",
       "researchSection": "v3.77 §15.109"
+    },
+    {
+      "id": "edge_r379_1",
+      "source": "soul_construct_ost_d2",
+      "target": "monstrous_opus_d2",
+      "label": "OST第133曲と内部名・BGM表記の対応候補（原音・実機未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://namu.moe/w/%EA%B1%B8%EC%9E%91%20%EA%B4%B4%EC%88%98",
+      "researchSection": "v3.79 §15.111"
     }
   ]
 }
