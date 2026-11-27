@@ -1,6 +1,6 @@
 {
-  "version": "1.17",
-  "loreVersion": "3.32",
+  "version": "1.18",
+  "loreVersion": "3.33",
   "nodes": [
     {
       "id": "soul",
@@ -3121,6 +3121,32 @@
       ],
       "origin": "",
       "originNote": "既存MD照合：プレイヤーの魂を減らす液体（Wiki）、シフトの生命を支える（非公式クエスト転載）。作用機構不明。"
+    },
+    {
+      "id": "blub",
+      "label": "ブラブ（Blub）",
+      "color": "#287449",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "Wiki検索結果：イコルで水浴びする。"
+    },
+    {
+      "id": "sculker",
+      "label": "スカルカー",
+      "color": "#287449",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "Wiki検索結果：イコルの池で水浴び。"
     }
   ],
   "edges": [
@@ -6429,6 +6455,51 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Legends:Journal",
       "researchSection": "v3.32 §15.64"
+    },
+    {
+      "id": "edge_r333_0",
+      "source": "blub",
+      "target": "ichor_liquid",
+      "label": "水浴びする（Wiki検索結果）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Blub",
+      "researchSection": "v3.33 §15.65"
+    },
+    {
+      "id": "edge_r333_1",
+      "source": "sculker",
+      "target": "ichor_liquid",
+      "label": "水浴びする（Wiki検索結果）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Sculker",
+      "researchSection": "v3.33 §15.65"
+    },
+    {
+      "id": "edge_r333_2",
+      "source": "ichor_liquid",
+      "target": "council",
+      "label": "シフトからの汲み出し（クエスト転載本文）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca10",
+      "researchSection": "v3.33 §15.65"
+    },
+    {
+      "id": "edge_r333_3",
+      "source": "ichor_liquid",
+      "target": "soulblock",
+      "label": "泉で再充電（クエスト転載本文）",
+      "hypothesis": false,
+      "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/quests/a-dip-in-ichor-springs",
+      "researchSection": "v3.33 §15.65"
+    },
+    {
+      "id": "edge_r333_4",
+      "source": "humbler_carapace",
+      "target": "gold",
+      "label": "回復増幅と能力増幅の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://dungeons2.minecraft-yutakura.com/en/armor/stalwart-chest-unique/",
+      "researchSection": "v3.33 §15.65"
     }
   ]
 }
