@@ -1,6 +1,6 @@
 {
-  "version": "1.35",
-  "loreVersion": "3.51",
+  "version": "1.36",
+  "loreVersion": "3.52",
   "nodes": [
     {
       "id": "soul",
@@ -3617,6 +3617,19 @@
       ],
       "origin": "",
       "originNote": "2026-09-09 Discord解読のWiki検索抜粋。5×5表を列→行で読むと報告のARCHITECTUREに一致。原音・原投稿は未取得。宣伝上の暗号と作中設定は区別。"
+    },
+    {
+      "id": "arg_illager_music_page",
+      "label": "ARG音楽文書（MUSIC 5-6）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2026-09-09公開とWiki本文。格子の中央にN。本文はjukebox、検索抜粋はnote blockと食い違う。Mojang/Discord由来の935×1157 PNG所在確認、画像本体未取得。5×5タップ表のN=33=CCとの対応は仮説。"
     }
   ],
   "edges": [
@@ -7824,6 +7837,42 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG",
       "researchSection": "v3.51 §15.83"
+    },
+    {
+      "id": "edge_r352_1",
+      "source": "arg_illager_music_page",
+      "target": "arg_tap_music",
+      "label": "同日公開の音声暗号、中央Nと5×5表の比較候補",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG",
+      "researchSection": "v3.52 §15.84"
+    },
+    {
+      "id": "edge_r352_2",
+      "source": "arg_illager_music_page",
+      "target": "illageralt",
+      "label": "MUSIC 5-6・中央NとWikiが翻字（画像未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:ARG",
+      "researchSection": "v3.52 §15.84"
+    },
+    {
+      "id": "edge_r352_3",
+      "source": "arg_illager_music_page",
+      "target": "launcher_arg",
+      "label": "Nの字形・音の対応比較（原画像未取得）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/File:MCD2_ARG_Illager_Document_Music.png",
+      "researchSection": "v3.52 §15.84"
+    },
+    {
+      "id": "edge_r352_4",
+      "source": "arg_illager_music_page",
+      "target": "illager_music_notebook_d2",
+      "label": "宣伝文書と作中手記の比較候補（同一物未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/File:MCD2_ARG_Illager_Document_Music.png",
+      "researchSection": "v3.52 §15.84"
     }
   ]
 }
