@@ -1,6 +1,6 @@
 {
-  "version": "1.11",
-  "loreVersion": "3.26",
+  "version": "1.12",
+  "loreVersion": "3.27",
   "nodes": [
     {
       "id": "soul",
@@ -2846,6 +2846,71 @@
       ],
       "origin": "",
       "originNote": "Jungle Awakensの汚染源。菌類と同一の原理とは未確認。"
+    },
+    {
+      "id": "jungle_zombie",
+      "label": "ジャングルゾンビ（Dungeons）",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2020年公式告知。毒の状態効果はWiki記録。本編への追加は未発表。"
+    },
+    {
+      "id": "poison_quill_vine",
+      "label": "ポイズン クイル ツタ",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "オーブ破片に汚染された植物とされる（Wiki）。"
+    },
+    {
+      "id": "orb_ecosystem",
+      "label": "オーブ破片による生態系汚染",
+      "color": "#b44436",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2020年7月1日公式記事は土地と住民双方への汚染を明記。"
+    },
+    {
+      "id": "wretched_wraith",
+      "label": "Wretched Wraith（Dungeons）",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Creeping Winterのボス。オーブ破片と永続的冬の関係はWiki・公式ニュース転載。"
+    },
+    {
+      "id": "abyssal_monument",
+      "label": "Abyssal Monument（Dungeons）",
+      "color": "#475569",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Hidden Depthsの海底遺構。公式紹介記事はオーブによる汚染を説明。"
     }
   ],
   "edges": [
@@ -5668,6 +5733,123 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons%3ANintendo_Switch_News",
       "researchSection": "v3.26 §15.58"
+    },
+    {
+      "id": "edge_r327_0",
+      "source": "orb",
+      "target": "orb_ecosystem",
+      "label": "破片による土地・住民の汚染（公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/jungle-awakens-dlc-out-today",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_1",
+      "source": "orb_ecosystem",
+      "target": "jungle_abomination",
+      "label": "汚染源・怪物の発生",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3AOvergrown_Temple",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_2",
+      "source": "orb_ecosystem",
+      "target": "poison_quill_vine",
+      "label": "汚染植物（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3APoison-Quill_Vine",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_3",
+      "source": "jungle_zombie",
+      "target": "mossy_skeleton_d",
+      "label": "同DLC・毒効果の共通性",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3APoisoned",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_4",
+      "source": "jungle_zombie",
+      "target": "poison_quill_vine",
+      "label": "毒効果の共通性（起源不明）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3APoisoned",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_5",
+      "source": "jungle_zombie",
+      "target": "orb_ecosystem",
+      "label": "個体変異の原因がオーブか？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/jungle-awakens-dlc-out-today",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_6",
+      "source": "jungle_zombie",
+      "target": "bogged",
+      "label": "環境別アンデッド・作品間比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-1-21-bedrock-changelog",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_7",
+      "source": "jungle_zombie",
+      "target": "frostbite",
+      "label": "将来の本編亜種の比較候補（未発表）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/drop-4-2026-testing",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_8",
+      "source": "orb_ecosystem",
+      "target": "wretched_wraith",
+      "label": "永続的な冬と破片（公式ニュース転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3ANintendo_Switch_News",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_9",
+      "source": "orb_ecosystem",
+      "target": "abyssal_monument",
+      "label": "海底の汚染（公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/it-it/article/abyssal-monument",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_10",
+      "source": "abyssal_monument",
+      "target": "guardian",
+      "label": "エルダーガーディアン・破片（公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/it-it/article/abyssal-monument",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_11",
+      "source": "orb_ecosystem",
+      "target": "fungal_contamination",
+      "label": "異なる汚染現象の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/jungle-awakens-dlc-out-today",
+      "researchSection": "v3.27 §15.59"
+    },
+    {
+      "id": "edge_r327_12",
+      "source": "orb_ecosystem",
+      "target": "corruption",
+      "label": "魂の汚染との比較（同一性不明）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/jungle-awakens-dlc-out-today",
+      "researchSection": "v3.27 §15.59"
     }
   ]
 }
