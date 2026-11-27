@@ -1,6 +1,6 @@
 {
-  "version": "1.79",
-  "loreVersion": "4.08",
+  "version": "1.80",
+  "loreVersion": "4.09",
   "nodes": [
     {
       "id": "soul",
@@ -3054,7 +3054,7 @@
         "S"
       ],
       "origin": "",
-      "originNote": "公式DLC告知：古代の脅威が覚醒。休眠機構は不明。"
+      "originNote": "公式DLC告知：古代の脅威が覚醒。休眠機構は不明。 2026-11-28 JST公式Xでも古代からの長い眠りと覚醒を再確認。"
     },
     {
       "id": "nether_corruption_l",
@@ -4722,6 +4722,71 @@
       ],
       "origin": "",
       "originNote": "夜間合同査読 v4.08 §15.140、T班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+    },
+    {
+      "id": "humbler_burrower",
+      "label": "Humbler Burrower（発売前）",
+      "color": "#287449",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "2026-11-28 JST 公式X本文（発売前）、v4.09 §15.141。地中を移動し、地上では小型ハンブラーを放出し毒を用いる。放出する個体の種・繁殖との関係は未確認。"
+    },
+    {
+      "id": "humbler_grub",
+      "label": "Humbler Grub（発売前）",
+      "color": "#287449",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "2026-11-28 JST 公式X本文（発売前）、v4.09 §15.141。公式紹介では最も遅い種類。距離を取り、地面に有害な液体を残す。Grubという名称のみでは幼虫段階と確定できない。"
+    },
+    {
+      "id": "humbler_mite",
+      "label": "Humbler Mite（発売前）",
+      "color": "#287449",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "2026-11-28 JST 公式X本文（発売前）、v4.09 §15.141。公式紹介では最も速い種類で、倒されても爆発する。名称から現実のダニとの分類学的同一性は導けない。"
+    },
+    {
+      "id": "humbler_nymph",
+      "label": "Humbler Nymph（発売前）",
+      "color": "#287449",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "2026-11-28 JST 公式X本文（発売前）、v4.09 §15.141。素早い近接型。Nymphという名称のみでは若虫段階と確定できない。"
+    },
+    {
+      "id": "humbler_burrows",
+      "label": "ハンブラーの地下の巣穴（発売前）",
+      "color": "#475569",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "2026-11-28 JST 公式X本文（発売前）、v4.09 §15.141。公式告知の探索地域。胞子畑とともに紹介されたが、両地域の地理的接続や繁殖場所としての用途は未確認。"
     }
   ],
   "edges": [
@@ -10716,6 +10781,78 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/en-us/article/the-overworld-minecraft-legends",
       "researchSection": "v4.08 §15.140 / X06 A/N1"
+    },
+    {
+      "id": "edge_r409_1",
+      "source": "humblers",
+      "target": "humbler_burrower",
+      "label": "公式Xで紹介された新種・タイプ（分類学上の種は未確定）",
+      "hypothesis": false,
+      "sourceUrl": "https://x.com/dungeonsgame/status/2126377682208166011",
+      "researchSection": "v4.09 §15.141 / H42"
+    },
+    {
+      "id": "edge_r409_2",
+      "source": "humblers",
+      "target": "humbler_grub",
+      "label": "公式Xで紹介された新種・タイプ（分類学上の種は未確定）",
+      "hypothesis": false,
+      "sourceUrl": "https://x.com/dungeonsgame/status/2126377682208166011",
+      "researchSection": "v4.09 §15.141 / H42"
+    },
+    {
+      "id": "edge_r409_3",
+      "source": "humblers",
+      "target": "humbler_mite",
+      "label": "公式Xで紹介された新種・タイプ（分類学上の種は未確定）",
+      "hypothesis": false,
+      "sourceUrl": "https://x.com/dungeonsgame/status/2126377682208166011",
+      "researchSection": "v4.09 §15.141 / H42"
+    },
+    {
+      "id": "edge_r409_4",
+      "source": "humblers",
+      "target": "humbler_nymph",
+      "label": "公式Xで紹介された新種・タイプ（分類学上の種は未確定）",
+      "hypothesis": false,
+      "sourceUrl": "https://x.com/dungeonsgame/status/2126377682208166011",
+      "researchSection": "v4.09 §15.141 / H42"
+    },
+    {
+      "id": "edge_r409_5",
+      "source": "humblers",
+      "target": "humbler_burrows",
+      "label": "地下の探索地域として公式告知",
+      "hypothesis": false,
+      "sourceUrl": "https://x.com/dungeonsgame/status/2126377682208166011",
+      "researchSection": "v4.09 §15.141 / H42"
+    },
+    {
+      "id": "edge_r409_6",
+      "source": "humbler_grub",
+      "target": "humbler_imago",
+      "label": "幼虫・成虫を表す名称の比較（成長関係未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://x.com/dungeonsgame/status/2126377682208166011",
+      "researchSection": "v4.09 §15.141 / H42"
+    },
+    {
+      "id": "edge_r409_7",
+      "source": "humbler_nymph",
+      "target": "humbler_imago",
+      "label": "若虫・成虫を表す名称の比較（成長関係未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://x.com/dungeonsgame/status/2126377682208166011",
+      "researchSection": "v4.09 §15.141 / H42"
+    },
+    {
+      "id": "edge_r409_8",
+      "source": "humbler_burrower",
+      "target": "humbler_burrows",
+      "label": "地中移動と地下の巣穴の生態的関係候補（生息地・繁殖未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://x.com/dungeonsgame/status/2126377682208166011",
+      "researchSection": "v4.09 §15.141 / H42"
     }
   ]
 }
