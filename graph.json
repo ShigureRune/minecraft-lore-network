@@ -1,6 +1,6 @@
 {
-  "version": "1.22",
-  "loreVersion": "3.37",
+  "version": "1.23",
+  "loreVersion": "3.38",
   "nodes": [
     {
       "id": "soul",
@@ -3214,6 +3214,45 @@
       ],
       "origin": "",
       "originNote": "潮汐・生命維持物質・再充電を比較。閉じた循環や物質収支は未証明。"
+    },
+    {
+      "id": "echo_shard_pot",
+      "label": "残響のかけら入りの壺（II）",
+      "color": "#475569",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "抽出DB：小型・大型actor、3～8個。オープンワールド1個との記述あり、座標・設置者未確認。"
+    },
+    {
+      "id": "decorated_pot",
+      "label": "飾り壺（本編）",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "1.20追加、1.20.3収納、1.21試練の間に戦利品。古代都市には自然生成しない（Wiki）。"
+    },
+    {
+      "id": "mourner_sherd",
+      "label": "嘆く者の壺の欠片",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "冷たい海の海底遺跡から出土。Singerとの同定はファン説、未確認。"
     }
   ],
   "edges": [
@@ -6782,6 +6821,78 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Singer",
       "researchSection": "v3.37 §15.69"
+    },
+    {
+      "id": "edge_r338_0",
+      "source": "echo_shard_pot",
+      "target": "echo_shard_d",
+      "label": "3～8個の戦利品（抽出DB）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeoncollector.co.uk/dungeonsii/?content=loot_sources&page=search&source=Echo+Shard+Pot",
+      "researchSection": "v3.38 §15.70"
+    },
+    {
+      "id": "edge_r338_1",
+      "source": "echo_shard_pot",
+      "target": "overworld",
+      "label": "1個とのDB記載・所在地未確認",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/currencies",
+      "researchSection": "v3.38 §15.70"
+    },
+    {
+      "id": "edge_r338_2",
+      "source": "decorated_pot",
+      "target": "trial_chamber",
+      "label": "戦利品を収納する（公式1.21）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/nb-no/article/minecraft-java-edition-1-21",
+      "researchSection": "v3.38 §15.70"
+    },
+    {
+      "id": "edge_r338_3",
+      "source": "decorated_pot",
+      "target": "ancient_main",
+      "label": "自然生成しない（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Ancient_City",
+      "researchSection": "v3.38 §15.70"
+    },
+    {
+      "id": "edge_r338_4",
+      "source": "echo_shard_pot",
+      "target": "decorated_pot",
+      "label": "作品間の報酬容器比較・同一性未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeoncollector.co.uk/dungeonsii/?content=loot_sources&page=search",
+      "researchSection": "v3.38 §15.70"
+    },
+    {
+      "id": "edge_r338_5",
+      "source": "echo_shard_pot",
+      "target": "relic_relocation",
+      "label": "保管・移動の可能性？設置者不明",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeons.tools/2/currencies",
+      "researchSection": "v3.38 §15.70"
+    },
+    {
+      "id": "edge_r338_6",
+      "source": "mourner_sherd",
+      "target": "searuins",
+      "label": "冷海の遺跡から出土（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Mourner_Pottery_Sherd",
+      "researchSection": "v3.38 §15.70"
+    },
+    {
+      "id": "edge_r338_7",
+      "source": "mourner_sherd",
+      "target": "singer",
+      "label": "図柄の同定説（既存§15.2・海外ファン）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.reddit.com/r/Minecraft/comments/1x5vnfp/my_two_cents_on_opening_the_ancient_city_portal/",
+      "researchSection": "v3.38 §15.70"
     }
   ]
 }
