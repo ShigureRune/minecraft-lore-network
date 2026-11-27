@@ -1,6 +1,6 @@
 {
-  "version": "1.27",
-  "loreVersion": "3.43",
+  "version": "1.28",
+  "loreVersion": "3.44",
   "nodes": [
     {
       "id": "soul",
@@ -3370,6 +3370,58 @@
       ],
       "origin": "",
       "originNote": "公式記事：黒曜石8個とエンダーアイ、個人別の遠隔共有収納。"
+    },
+    {
+      "id": "trial_vault",
+      "label": "通常の宝物庫",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "1.21抽出JSON：Guster旗・Bolt鍛冶型。公式記事の旗入手先には食い違い。"
+    },
+    {
+      "id": "trial_ominous_vault",
+      "label": "不吉な宝物庫",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "1.21抽出JSON：Flow旗・Flow鍛冶型。通常より固有報酬抽選率が高い。"
+    },
+    {
+      "id": "trial_bolt_motif",
+      "label": "Bolt（防具装飾）",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "銅ブロックで鍛冶型を複製。通常宝物庫報酬。"
+    },
+    {
+      "id": "trial_breeze",
+      "label": "ブリーズ",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "試練の間のモブ。ロッドはFlow鍛冶型の複製素材。開発者記事では風による環境操作を先に設計。"
     }
   ],
   "edges": [
@@ -7154,6 +7206,105 @@
       "hypothesis": false,
       "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Chest",
       "researchSection": "v3.43 §15.75"
+    },
+    {
+      "id": "edge_r344_1",
+      "source": "trial_vault",
+      "target": "trial_guster_motif",
+      "label": "通常宝物庫に旗模様（1.21 JSON）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21/data/minecraft/loot_table/chests/trial_chambers/reward_unique.json",
+      "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r344_2",
+      "source": "trial_vault",
+      "target": "trial_bolt_motif",
+      "label": "通常宝物庫に鍛冶型",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21/data/minecraft/loot_table/chests/trial_chambers/reward_unique.json",
+      "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r344_3",
+      "source": "trial_ominous_vault",
+      "target": "trial_flow_motif",
+      "label": "不吉な宝物庫に旗・鍛冶型",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21/data/minecraft/loot_table/chests/trial_chambers/reward_ominous_unique.json",
+      "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r344_4",
+      "source": "trial_breeze",
+      "target": "trial_flow_motif",
+      "label": "ロッドで鍛冶型を複製",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r344_5",
+      "source": "trial_breeze",
+      "target": "trial_chamber",
+      "label": "施設に出現",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r344_6",
+      "source": "trial_chamber",
+      "target": "ancient_main",
+      "label": "開発時の参考建築（世界内の同一文明ではない）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/chamber-secrets-jp",
+      "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r344_7",
+      "source": "trial_chamber",
+      "target": "monument",
+      "label": "開発時の参考建築",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/chamber-secrets-jp",
+      "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r344_8",
+      "source": "trial_chamber",
+      "target": "stronghold",
+      "label": "開発時の参考建築",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/chamber-secrets-jp",
+      "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r344_9",
+      "source": "trial_chamber",
+      "target": "mansion",
+      "label": "洋館を開発時の参考にした",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/chamber-secrets-jp",
+      "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r344_10",
+      "source": "trial_chamber",
+      "target": "trial_vault",
+      "label": "施設内の通常宝物庫",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r344_11",
+      "source": "trial_chamber",
+      "target": "trial_ominous_vault",
+      "label": "施設内の不吉な宝物庫",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v3.44 §15.76"
     }
   ]
 }
