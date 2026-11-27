@@ -1,6 +1,6 @@
 {
-  "version": "1.31",
-  "loreVersion": "3.47",
+  "version": "1.32",
+  "loreVersion": "3.48",
   "nodes": [
     {
       "id": "soul",
@@ -3500,6 +3500,45 @@
       ],
       "origin": "",
       "originNote": "公開プレイ画像に緑の発光壁画・液体状の描写・三段ベッド・衣服。Wiki検索抜粋：Staff OnlyはIllageralt表記。居住者・液体成分は未確認。"
+    },
+    {
+      "id": "library_runes_d2",
+      "label": "三図書館のルーン（II）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Sculkは抽出DB本文。Monstrosityと目覚めさせる意味は同DB検索抜粋のみ。原文字・第三の正確な訳語・順序未確認。"
+    },
+    {
+      "id": "archie_ruins_chant",
+      "label": "アーチーの遺跡の詠唱",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "クエスト終了文の複数の非公式転載による。三図書館で翻訳し読み上げると眠っていた怪物が覚醒。"
+    },
+    {
+      "id": "sculk_monstrosity_d2",
+      "label": "Sculk Monstrosity（II）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "続編のモブ。Illager Intelligenceのクエスト終了文は長期間眠っていた怪物の覚醒を記録。"
     }
   ],
   "edges": [
@@ -7527,6 +7566,60 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Tower_Keeper_(mob)",
       "researchSection": "v3.47 §15.79"
+    },
+    {
+      "id": "edge_r348_1",
+      "source": "library_runes_d2",
+      "target": "archie_ruins_chant",
+      "label": "三図書館で翻訳したルーンを遺跡で読む（クエスト文転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/quests/illager-intelligence",
+      "researchSection": "v3.48 §15.80"
+    },
+    {
+      "id": "edge_r348_2",
+      "source": "archie_ruins_chant",
+      "target": "sculk_monstrosity_d2",
+      "label": "読み上げで休眠していた怪物が覚醒（クエスト文転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/quests/illager-intelligence",
+      "researchSection": "v3.48 §15.80"
+    },
+    {
+      "id": "edge_r348_3",
+      "source": "library_runes_d2",
+      "target": "illageralt",
+      "label": "原字形・同一文字体系は未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeons.tools/2/locations/enchanters-library",
+      "researchSection": "v3.48 §15.80"
+    },
+    {
+      "id": "edge_r348_4",
+      "source": "archie_ruins_chant",
+      "target": "hunt",
+      "label": "対象指定型と覚醒詠唱型の比較／同一原理未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons:Ancient_Offering",
+      "researchSection": "v3.48 §15.80"
+    },
+    {
+      "id": "edge_r348_5",
+      "source": "hunt",
+      "target": "illageralt",
+      "label": "装備のルーンはIllageralt（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons:Ancient_Offering",
+      "researchSection": "v3.48 §15.80"
+    },
+    {
+      "id": "edge_r348_6",
+      "source": "library_runes_d2",
+      "target": "sculk",
+      "label": "Sculkという訳語（抽出DB本文）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/locations/enchanters-library",
+      "researchSection": "v3.48 §15.80"
     }
   ]
 }
