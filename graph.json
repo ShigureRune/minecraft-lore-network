@@ -1,6 +1,6 @@
 {
-  "version": "1.25",
-  "loreVersion": "3.41",
+  "version": "1.26",
+  "loreVersion": "3.42",
   "nodes": [
     {
       "id": "soul",
@@ -3331,6 +3331,45 @@
       ],
       "origin": "",
       "originNote": "24w11aで試練の間に追加。Wikiは斧の図柄と記述。用途・象徴は未確認。"
+    },
+    {
+      "id": "obsidian_chest_d",
+      "label": "黒曜石チェスト（初代）",
+      "color": "#475569",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Diamond Chestの別名。希少報酬容器。黒い胴体と水色装飾。材質の独立検証なし。"
+    },
+    {
+      "id": "obsidian_chest_d2",
+      "label": "黒曜石チェスト（II）",
+      "color": "#475569",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Wiki検索結果・攻略資料：ダンジョンやRift終点の報酬、エンチャント本。実モデル未確認。"
+    },
+    {
+      "id": "ender_chest_m",
+      "label": "エンダーチェスト（本編）",
+      "color": "#475569",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公式記事：黒曜石8個とエンダーアイ、個人別の遠隔共有収納。"
     }
   ],
   "edges": [
@@ -7061,6 +7100,51 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/nb-no/article/minecraft-snapshot-24w11a",
       "researchSection": "v3.41 §15.73"
+    },
+    {
+      "id": "edge_r342_1",
+      "source": "obsidian_chest_d",
+      "target": "obsidian_chest_d2",
+      "label": "同名の希少報酬容器",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Chest",
+      "researchSection": "v3.42 §15.74"
+    },
+    {
+      "id": "edge_r342_2",
+      "source": "ender_chest_m",
+      "target": "obsidian",
+      "label": "黒曜石をレシピに使用",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/sv-se/article/ender-chest",
+      "researchSection": "v3.42 §15.74"
+    },
+    {
+      "id": "edge_r342_3",
+      "source": "obsidian_chest_d",
+      "target": "ender_chest_m",
+      "label": "外観・名称と保管技術の比較（同一性未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons:Chest",
+      "researchSection": "v3.42 §15.74"
+    },
+    {
+      "id": "edge_r342_4",
+      "source": "obsidian_chest_d",
+      "target": "obsidian_pinnacle",
+      "label": "隠しルーン部屋で初回出現（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons:Obsidian_Pinnacle",
+      "researchSection": "v3.42 §15.74"
+    },
+    {
+      "id": "edge_r342_5",
+      "source": "obsidian_chest_d2",
+      "target": "enchant",
+      "label": "エンチャント本を入手（攻略記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.xboxachievements.com/game/minecraft-dungeons-ii/guide/",
+      "researchSection": "v3.42 §15.74"
     }
   ]
 }
