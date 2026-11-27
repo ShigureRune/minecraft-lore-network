@@ -1,6 +1,6 @@
 {
-  "version": "1.60",
-  "loreVersion": "3.79",
+  "version": "1.61",
+  "loreVersion": "3.84",
   "nodes": [
     {
       "id": "soul",
@@ -3955,6 +3955,17 @@
       ],
       "origin": "",
       "originNote": "OST Disc 1 #133、3:16（AWA配信ページ、Wiki検索収録）。Monstrous Opusの内部名SoulConstructとの一致、韓国WikiのBGM表記から対応が有力。原音・ゲーム内再生箇所未確認。MCD2-601は第2段階で敗北後の曲再生不具合報告（未確認ステータス）。ファンの主題再利用・分離時の音楽変化報告は未採譜。"
+    },
+    {
+      "id": "otherside_ost_d2",
+      "label": "Otherside（II OST）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": "Peter Hont、Disc 1 #129、Disc 2 #74 Combat & Crisis版（Deezer両3:31）。SongData.ioの戦闘版推定はF major/165 BPM、本編レコード推定はG major/92 BPM。通常版調性・再生地点・旋律引用・命名意図未確認。"
     }
   ],
   "edges": [
@@ -8945,6 +8956,15 @@
       "hypothesis": true,
       "sourceUrl": "https://namu.moe/w/%EA%B1%B8%EC%9E%91%20%EA%B4%B4%EC%88%98",
       "researchSection": "v3.79 §15.111"
+    },
+    {
+      "id": "edge_r384_1",
+      "source": "otherside",
+      "target": "otherside_ost_d2",
+      "label": "H13 同名曲の比較：本編からの引用・次元を意図した命名は未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Original_Game_Soundtrack",
+      "researchSection": "v3.84 §15.116"
     }
   ]
 }
