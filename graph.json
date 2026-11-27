@@ -1,6 +1,6 @@
 {
-  "version": "1.20",
-  "loreVersion": "3.35",
+  "version": "1.21",
+  "loreVersion": "3.36",
   "nodes": [
     {
       "id": "soul",
@@ -6674,6 +6674,69 @@
       "hypothesis": true,
       "sourceUrl": "https://metabot.gg/en/minecraft-dungeons-2/map/sift",
       "researchSection": "v3.35 §15.67"
+    },
+    {
+      "id": "edge_r336_0",
+      "source": "storm",
+      "target": "overworld",
+      "label": "ストーム発生地域（攻略DB）",
+      "hypothesis": false,
+      "sourceUrl": "https://app.gamepedia.jp/minecraft-dungeons-2/soul-storm/",
+      "researchSection": "v3.36 §15.68"
+    },
+    {
+      "id": "edge_r336_1",
+      "source": "storm",
+      "target": "sift",
+      "label": "ストーム発生地域（攻略DB）",
+      "hypothesis": false,
+      "sourceUrl": "https://app.gamepedia.jp/minecraft-dungeons-2/soul-storm/",
+      "researchSection": "v3.36 §15.68"
+    },
+    {
+      "id": "edge_r336_2",
+      "source": "storm",
+      "target": "corruption",
+      "label": "魂汚染モブが出現（Wiki検索結果・データDB）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/soul-storm",
+      "researchSection": "v3.36 §15.68"
+    },
+    {
+      "id": "edge_r336_3",
+      "source": "storm",
+      "target": "echo_shard_d",
+      "label": "報酬に残響のかけら（データDB）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/soul-storm",
+      "researchSection": "v3.36 §15.68"
+    },
+    {
+      "id": "edge_r336_4",
+      "source": "storm",
+      "target": "sift_tides",
+      "label": "別システム・因果関係未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://metabot.gg/ja_JP/minecraft-dungeons-2/map/sift?m=quest%3ACA09.E15",
+      "researchSection": "v3.36 §15.68"
+    },
+    {
+      "id": "edge_r336_5",
+      "source": "storm",
+      "target": "soul_cycle",
+      "label": "次元横断の魂の移動・供給との比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeons.tools/2/soul-storm",
+      "researchSection": "v3.36 §15.68"
+    },
+    {
+      "id": "edge_r336_6",
+      "source": "ichor_liquid",
+      "target": "storm",
+      "label": "イコル流出の残留影響？（因果未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca10",
+      "researchSection": "v3.36 §15.68"
     }
   ]
 }
