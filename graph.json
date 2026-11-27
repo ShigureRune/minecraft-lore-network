@@ -1,6 +1,6 @@
 {
-  "version": "1.88",
-  "loreVersion": "4.17",
+  "version": "1.89",
+  "loreVersion": "4.18",
   "nodes": [
     {
       "id": "soul",
@@ -4928,6 +4928,45 @@
       ],
       "origin": "",
       "originNote": "22w14a公式MC-249764で照明用センサー欠落修正。Wiki構成表bottom_1はランプ/センサー各4、bottom_2は各3。個別配線未検証。"
+    },
+    {
+      "id": "trial_spawner_normal",
+      "label": "試練のスポナー（通常）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java1.21公式：新規参加者に応じて難易度・報酬増加、視線判定、通常30分の休止。Wiki検索抜粋ではregistered_playersにUUID集合。"
+    },
+    {
+      "id": "vault_reward_history",
+      "label": "宝物庫の利用履歴",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java26.3第三者逆コンパイル掲載：rewarded_playersにUUIDを記録、通常追加処理で最大128件。魂・世界内認証原理は不明。"
+    },
+    {
+      "id": "trial_participant_history",
+      "label": "試練の参加者記録",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java1.21公式の参加者別難易度・報酬、休止中のリセット。Wiki検索抜粋のregistered_players。原コード・NBT実測未確認。"
     }
   ],
   "edges": [
@@ -11309,6 +11348,69 @@
       "hypothesis": true,
       "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
       "researchSection": "v4.17 §15.149"
+    },
+    {
+      "id": "edge_r418_1",
+      "source": "trial_chamber",
+      "target": "trial_spawner_normal",
+      "label": "自然生成（Java1.21公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.18 §15.150"
+    },
+    {
+      "id": "edge_r418_2",
+      "source": "trial_spawner_normal",
+      "target": "trial_participant_history",
+      "label": "新規参加者による難易度増加・休止時リセット（公式・Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.18 §15.150"
+    },
+    {
+      "id": "edge_r418_3",
+      "source": "trial_vault",
+      "target": "vault_reward_history",
+      "label": "報酬取得者のUUID集合・通常上限128（26.3第三者コード）",
+      "hypothesis": false,
+      "sourceUrl": "https://mc-packet-reference.netlify.app/26.x/source/net/minecraft/world/level/block/entity/vault/vaultserverdata/",
+      "researchSection": "v4.18 §15.150"
+    },
+    {
+      "id": "edge_r418_4",
+      "source": "trial_ominous_vault",
+      "target": "vault_reward_history",
+      "label": "宝物庫の不吉な変種・個人別報酬仕様（Java1.21）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.18 §15.150"
+    },
+    {
+      "id": "edge_r418_5",
+      "source": "trial_participant_history",
+      "target": "vault_reward_history",
+      "label": "参加履歴と報酬取得履歴の機能比較、装置間共有は未証明",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Block_entity_format",
+      "researchSection": "v4.18 §15.150"
+    },
+    {
+      "id": "edge_r418_6",
+      "source": "vault_reward_history",
+      "target": "ender_chest_m",
+      "label": "個人別アクセスの比較：局所履歴と個人別収納は別機構",
+      "hypothesis": true,
+      "sourceUrl": "https://mc-packet-reference.netlify.app/26.x/source/net/minecraft/world/level/block/entity/vault/vaultserverdata/",
+      "researchSection": "v4.18 §15.150"
+    },
+    {
+      "id": "edge_r418_7",
+      "source": "vault_reward_history",
+      "target": "signal_state_memory",
+      "label": "個人別の集合記録と単純な点灯状態保持の比較",
+      "hypothesis": true,
+      "sourceUrl": "https://mc-packet-reference.netlify.app/26.x/source/net/minecraft/world/level/block/entity/vault/vaultserverdata/",
+      "researchSection": "v4.18 §15.150"
     }
   ]
 }
