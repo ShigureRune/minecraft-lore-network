@@ -1,6 +1,6 @@
 {
-  "version": "1.28",
-  "loreVersion": "3.44",
+  "version": "1.29",
+  "loreVersion": "3.45",
   "nodes": [
     {
       "id": "soul",
@@ -3422,6 +3422,58 @@
       ],
       "origin": "",
       "originNote": "試練の間のモブ。ロッドはFlow鍛冶型の複製素材。開発者記事では風による環境操作を先に設計。"
+    },
+    {
+      "id": "tower_d",
+      "label": "タワー（Dungeons）",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2021年公式Tower Scour：空間的に不自然な地点が集まる構造。移動・召喚原理、建設者は不明。古代モブThe Towerとは区別。"
+    },
+    {
+      "id": "tower_keeper_d",
+      "label": "Tower Keeper",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "旧Wiki本文：戦闘フロア開始、ボス召喚。Hostsとの同一性はファン説。"
+    },
+    {
+      "id": "tower_merchants_d",
+      "label": "塔の鍛冶職人",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公式：装備の性能・ユニーク化・金箔化。塔の中の一時的な装備と踏破報酬は区別。"
+    },
+    {
+      "id": "tower_uv_murals",
+      "label": "塔の発光壁画",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2022年公式Luminous Nightで謎の模様。旧WikiにUVPaint・モブ/チェスト系内部名。原資産未確認。"
     }
   ],
   "edges": [
@@ -7305,6 +7357,69 @@
       "hypothesis": false,
       "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
       "researchSection": "v3.44 §15.76"
+    },
+    {
+      "id": "edge_r345_1",
+      "source": "tower_keeper_d",
+      "target": "tower_d",
+      "label": "戦闘フロアを開始（旧Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Tower",
+      "researchSection": "v3.45 §15.77"
+    },
+    {
+      "id": "edge_r345_2",
+      "source": "tower_merchants_d",
+      "target": "tower_d",
+      "label": "塔内で装備を強化",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/tower-scour",
+      "researchSection": "v3.45 §15.77"
+    },
+    {
+      "id": "edge_r345_3",
+      "source": "tower_uv_murals",
+      "target": "tower_d",
+      "label": "Luminous Nightの壁画",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/luminous-night-live",
+      "researchSection": "v3.45 §15.77"
+    },
+    {
+      "id": "edge_r345_4",
+      "source": "tower_d",
+      "target": "trial_chamber",
+      "label": "試練・報酬・装備の機能類似／共通起源は未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/tower-scour",
+      "researchSection": "v3.45 §15.77"
+    },
+    {
+      "id": "edge_r345_5",
+      "source": "tower_keeper_d",
+      "target": "hosts",
+      "label": "共通起源・管理者説（ファン説）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.reddit.com/r/MinecraftDungeons/comments/1kbagqy",
+      "researchSection": "v3.45 §15.77"
+    },
+    {
+      "id": "edge_r345_6",
+      "source": "tower_uv_murals",
+      "target": "trial_guster_motif",
+      "label": "モブを題材とする意匠の比較候補",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Tower",
+      "researchSection": "v3.45 §15.77"
+    },
+    {
+      "id": "edge_r345_7",
+      "source": "trial",
+      "target": "trial_ominous_vault",
+      "label": "双方が魂の炎を放つ（1.21）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v3.45 §15.77"
     }
   ]
 }
