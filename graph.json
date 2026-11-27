@@ -1,6 +1,6 @@
 {
-  "version": "1.09",
-  "loreVersion": "3.24",
+  "version": "1.10",
+  "loreVersion": "3.25",
   "nodes": [
     {
       "id": "soul",
@@ -2618,6 +2618,155 @@
       ],
       "origin": "",
       "originNote": "§15.54 内部名の報告と公式装飾品名。石材の成分は未確認。"
+    },
+    {
+      "id": "mycelium",
+      "label": "菌糸（Mycelium）",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公式紹介記事は連続した菌類ネットワークの可能性を説明。"
+    },
+    {
+      "id": "mushroom_fields",
+      "label": "キノコ島・キノコ畑",
+      "color": "#475569",
+      "media": [
+        "M",
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "本編とDungeonsで敵対性が異なる。"
+    },
+    {
+      "id": "mooshroom",
+      "label": "ムーシュルーム",
+      "color": "#287449",
+      "media": [
+        "M",
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "本編では毛刈りで牛に変化。Dungeonsでは敵対的な個体が登場。"
+    },
+    {
+      "id": "nylium",
+      "label": "ナイリウム",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": "菌類の胞子が入り込んだネザーラック。"
+    },
+    {
+      "id": "crimson_fungus",
+      "label": "真紅の菌類・森",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": "巨大菌類とホグリンの関係。"
+    },
+    {
+      "id": "warped_fungus",
+      "label": "歪んだ菌類・森",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": "ホグリンが避け、ストライダーが好む。"
+    },
+    {
+      "id": "shroomlight",
+      "label": "シュルームライト",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": "巨大菌類に含まれる発光ブロック。"
+    },
+    {
+      "id": "bogged",
+      "label": "ボグド",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "キノコと苔に覆われたスケルトン。"
+    },
+    {
+      "id": "mooshroom_monstrosity",
+      "label": "ムーシュルームの怪物",
+      "color": "#287449",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "レッドストーンの怪物の亜種。菌類による制御は未確認。"
+    },
+    {
+      "id": "fungal_sporefields",
+      "label": "キノコの胞子畑（発売前）",
+      "color": "#475569",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "DLC The Humblers Awakenの公式告知。2026-12-01発売予定。"
+    },
+    {
+      "id": "fungal_network",
+      "label": "菌類による基質・宿主利用（仮）",
+      "color": "#87551c",
+      "media": [
+        "M",
+        "D",
+        "D2"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "S"
+      ],
+      "origin": "",
+      "originNote": "異なる基質上の生育・増殖を比較する仮説。スカルクとの同一性は未確認。"
     }
   ],
   "edges": [
@@ -5071,6 +5220,249 @@
       "hypothesis": true,
       "sourceUrl": "https://mcfun.cc/minecraft-dungeons-2/quests/caa1_s02_a/",
       "researchSection": "v3.24 §15.54"
+    },
+    {
+      "id": "edge_r325_0",
+      "source": "mycelium",
+      "target": "mushroom_fields",
+      "label": "菌糸が地表を覆う",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/around-block-mushroom-fields",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_1",
+      "source": "mushroom_fields",
+      "target": "mooshroom",
+      "label": "本編で自然生息",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/mooshroom",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_2",
+      "source": "mycelium",
+      "target": "nylium",
+      "label": "菌類が基質に入り込む比較",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/block-month--nylium",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_3",
+      "source": "nylium",
+      "target": "crimson_fungus",
+      "label": "真紅の胞子・生育基質",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/block-month--nylium",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_4",
+      "source": "nylium",
+      "target": "warped_fungus",
+      "label": "歪んだ胞子・生育基質",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/block-month--nylium",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_5",
+      "source": "crimson_fungus",
+      "target": "piglin",
+      "label": "ホグリンの食物",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w07a",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_6",
+      "source": "warped_fungus",
+      "target": "piglin",
+      "label": "ホグリンが回避",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w07a",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_7",
+      "source": "warped_fungus",
+      "target": "strider",
+      "label": "好む食物",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/pt-pt/article/mob-menagerie--strider",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_8",
+      "source": "warped_fungus",
+      "target": "enderman",
+      "label": "森に多数生息",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/the-bedrock-nether-update-beta-here-",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_9",
+      "source": "crimson_fungus",
+      "target": "shroomlight",
+      "label": "巨大菌類に発生",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/the-bedrock-nether-update-beta-here-",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_10",
+      "source": "warped_fungus",
+      "target": "shroomlight",
+      "label": "巨大菌類に発生",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/the-bedrock-nether-update-beta-here-",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_11",
+      "source": "bogged",
+      "target": "trial_chamber",
+      "label": "生息・出現",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/tr-tr/article/tricky-trials-update-official-release-date",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_12",
+      "source": "mooshroom",
+      "target": "bogged",
+      "label": "宿主に生える菌類の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-preview-1-20-70-24",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_13",
+      "source": "mooshroom_monstrosity",
+      "target": "redstone_monstrosity",
+      "label": "キノコに覆われた亜種",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons%3AMooshroom_Monstrosity",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_14",
+      "source": "mushroom_fields",
+      "target": "mooshroom_monstrosity",
+      "label": "Dungeonsの島のボス",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3A%3F%3F%3F",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_15",
+      "source": "mushroom_fields",
+      "target": "runes",
+      "label": "初代の島への解放条件",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons%3A%3F%3F%3F",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_16",
+      "source": "nether_wart",
+      "target": "soul_sand",
+      "label": "生育基質",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/pt-pt/article/block-week-soul-sand",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_17",
+      "source": "nether_wart",
+      "target": "nether_ruins",
+      "label": "要塞・砦に生成",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Nether_Wart",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_18",
+      "source": "nether_wart",
+      "target": "redstone_potions",
+      "label": "醸造の基礎と効果延長の比較",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Brewing",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_19",
+      "source": "fungal_sporefields",
+      "target": "sift",
+      "label": "シフトのDLC地域（告知）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/the-humblers-awaken-jp",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_20",
+      "source": "fungal_sporefields",
+      "target": "humblers",
+      "label": "DLCの舞台（告知）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/the-humblers-awaken-jp",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_21",
+      "source": "fungal_sporefields",
+      "target": "nylium",
+      "label": "景観・菌類の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/the-humblers-awaken-jp",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_22",
+      "source": "fungal_network",
+      "target": "mycelium",
+      "label": "連続する菌類ネットワーク？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ko-kr/article/block-week-mycelium",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_23",
+      "source": "fungal_network",
+      "target": "mooshroom",
+      "label": "動物への共生・寄生？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/mooshroom",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_24",
+      "source": "fungal_network",
+      "target": "mooshroom_monstrosity",
+      "label": "人工物への定着？",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons%3AMooshroom_Monstrosity",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_25",
+      "source": "fungal_network",
+      "target": "sculk",
+      "label": "基質の置換・増殖の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/6613754674829-Minecraft-The-Wild-Update-1-19-0-Bedrock",
+      "researchSection": "v3.25 §15.57"
+    },
+    {
+      "id": "edge_r325_26",
+      "source": "nether_wart",
+      "target": "sculk_catalyst",
+      "label": "魂関連の基質と成長の比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/pt-pt/article/block-week-soul-sand",
+      "researchSection": "v3.25 §15.57"
     }
   ]
 }
