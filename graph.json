@@ -1,6 +1,6 @@
 {
-  "version": "1.43",
-  "loreVersion": "3.59",
+  "version": "1.44",
+  "loreVersion": "3.60",
   "nodes": [
     {
       "id": "soul",
@@ -3746,7 +3746,7 @@
         "S"
       ],
       "origin": "",
-      "originNote": "Lost Harmonies完了ジャーナルの公開転載では歌の贈り物の後にTunersの信頼を得て音楽の門を開けられる。音高や認証原理は未確認。"
+      "originNote": "Lost Harmonies完了ジャーナルの公開転載では歌の贈り物の後にTunersの信頼を得て音楽の門を開けられる。音高や認証原理は未確認。 非公式DB本文でSW.Mob.MusicalGolem、BP_SingingBean、SingingBeanを確認。サイズ違いも掲載。ゴーレムの製造者・材質・動力・音高は未確認。"
     },
     {
       "id": "gift_of_song_d2",
@@ -3760,6 +3760,19 @@
       ],
       "origin": "",
       "originNote": "Lost Harmoniesの完了ジャーナル公開転載。シフトの友の証、Tunerの信頼と探索範囲の拡大。魔力による認証か社会的な信頼かは未確定。"
+    },
+    {
+      "id": "key_golem_d2",
+      "label": "Key Golem（II）",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "非公式DB本文にSW.Mob.KeyGolemGold/Silver、BP_KeyGolem_Gold/Silver。Tunerと運搬・開錠機能が類似。起源・動力の共通性は未確認。"
     }
   ],
   "edges": [
@@ -8309,6 +8322,42 @@
       "hypothesis": true,
       "sourceUrl": "https://mcfun.cc/minecraft-dungeons-2/quests/ca08/",
       "researchSection": "v3.59 §15.91"
+    },
+    {
+      "id": "edge_r360_1",
+      "source": "tuner_d2",
+      "target": "sculker",
+      "label": "入浴時にそばに置くとのクエスト説明、理由未確認",
+      "hypothesis": false,
+      "sourceUrl": "https://gamer-guides.com/minecraft-dungeons-2/wrath-of-the-sculkers/",
+      "researchSection": "v3.60 §15.92"
+    },
+    {
+      "id": "edge_r360_2",
+      "source": "tuner_d2",
+      "target": "illagers",
+      "label": "移動阻止のため捕獲とのゲームデータ転載",
+      "hypothesis": false,
+      "sourceUrl": "https://mcfun.cc/minecraft-dungeons-2/database/definitions/source-of-the-soul-crisis-35a0793a64/data/",
+      "researchSection": "v3.60 §15.92"
+    },
+    {
+      "id": "edge_r360_3",
+      "source": "tuner_d2",
+      "target": "key_golem_d2",
+      "label": "運搬して門を開く機能の比較／別ID、起源未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeoncollector.co.uk/dungeonsii/?content=mobs&menu=1&page=search",
+      "researchSection": "v3.60 §15.92"
+    },
+    {
+      "id": "edge_r360_4",
+      "source": "tuner_d2",
+      "target": "singer",
+      "label": "MusicalGolemとCaretakerGolemの内部ID比較／同一製造者・動力未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeoncollector.co.uk/dungeonsii/?content=mobs&menu=1&page=search",
+      "researchSection": "v3.60 §15.92"
     }
   ]
 }
