@@ -1,6 +1,6 @@
 {
-  "version": "1.56",
-  "loreVersion": "3.74",
+  "version": "1.57",
+  "loreVersion": "3.75",
   "nodes": [
     {
       "id": "soul",
@@ -3902,7 +3902,20 @@
         "S"
       ],
       "origin": "",
-      "originNote": "公式2026-10-16音楽記事：130曲目は両次元の音楽的関係を循環和声で表す。ARG報告音高集合の中の完全減七集合はC♯/E/G/B♭のみ。A/E♭の共通導音減七の理論例はG♯/B/D/Fで別集合。原音採譜・調・実際の和音・世界内機構は未確認。"
+      "originNote": "公式2026-10-16音楽記事：130曲目は両次元の音楽的関係を循環和声で表す。ARG報告音高集合の中の完全減七集合はC♯/E/G/B♭のみ。A/E♭の共通導音減七の理論例はG♯/B/D/Fで別集合。原音採譜・調・実際の和音・世界内機構は未確認。 v3.75：既存報告の中央D/A♭はE♭/GまたはC♯/Aへ各半音で解決可能。両調の属七B♭7/E7に共通する第三・第七音の異名同音関係。理論例であり実際の採譜ではない。"
+    },
+    {
+      "id": "witch_ost_d2",
+      "label": "Witch（II サウンドトラック）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公式英語記事2026-10-05：Peter Hontは初代Raid Captainの滑稽さと続編ポータル旋律の雰囲気を取り入れる意図を説明。実際の引用箇所、調性、世界内の因果関係は未確認。配信41曲目。"
     }
   ],
   "edges": [
@@ -8839,6 +8852,15 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-dungeons-ii-music-jp",
       "researchSection": "v3.74 §15.106"
+    },
+    {
+      "id": "edge_r375_1",
+      "source": "witch_ost_d2",
+      "target": "note_machine_d2",
+      "label": "公式作曲家の制作意図：ポータル旋律の雰囲気をWitchに取り入れる（具体的な引用箇所未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-dungeons-ii-music",
+      "researchSection": "v3.75 §15.107"
     }
   ]
 }
