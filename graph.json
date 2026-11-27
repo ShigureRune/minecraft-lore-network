@@ -1,6 +1,6 @@
 {
-  "version": "1.71",
-  "loreVersion": "3.97",
+  "version": "1.72",
+  "loreVersion": "3.98",
   "nodes": [
     {
       "id": "soul",
@@ -3512,7 +3512,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "Sculkは抽出DB本文。Monstrosityと目覚めさせる意味は同DB検索抜粋のみ。原文字・第三の正確な訳語・順序未確認。 v3.49: 遺跡の発光柱の公開ゲーム画像を確認。図書館の辞書・全字形・訳語対応は未確認。 v3.97: 司書が占拠中の図書館塔でイリジャーの会話を聞く。三資料の著者・年代・取得経路未確認。"
+      "originNote": "Sculkは抽出DB本文。Monstrosityと目覚めさせる意味は同DB検索抜粋のみ。原文字・第三の正確な訳語・順序未確認。 v3.49: 遺跡の発光柱の公開ゲーム画像を確認。図書館の辞書・全字形・訳語対応は未確認。 v3.97: 司書が占拠中の図書館塔でイリジャーの会話を聞く。三資料の著者・年代・取得経路未確認。 v3.98: AppMediaとプレイヤー報告では三図書館は同一の塔の屋上の別室。地域的分散ではなく同施設内の分担。"
     },
     {
       "id": "archie_ruins_chant",
@@ -4085,6 +4085,19 @@
       ],
       "origin": "",
       "originNote": "製図家の地図の行き先候補（1.21.5の取引改訂）。26.3のキャンプ秘密チェストの7候補には含まれない。"
+    },
+    {
+      "id": "illager_dropped_paper_d2",
+      "label": "遺跡に落ちた紙（II）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "クエスト進行と攻略資料で存在確認。紙の本文・作者・指示内容は未確認。"
     }
   ],
   "edges": [
@@ -9445,10 +9458,28 @@
       "id": "edge_r397_3",
       "source": "library_runes_d2",
       "target": "explorer_map",
-      "label": "H61 三資料の解読と地域別地図の分散情報比較（共通起源・交換は未証明）",
+      "label": "H61 同一塔の三資料と地域別地図の情報分担比較（地理的分散の同一性・共通起源・交換は未証明）",
       "hypothesis": true,
       "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_dea1_s12_a",
-      "researchSection": "v3.97 §15.129／§15.128"
+      "researchSection": "v3.97 §15.129／§15.128／v3.98 §15.130"
+    },
+    {
+      "id": "edge_r398_1",
+      "source": "archie_rune_pillars",
+      "target": "illager_dropped_paper_d2",
+      "label": "最初のルーン調査後に紙を調べる（クエスト目標・攻略）",
+      "hypothesis": false,
+      "sourceUrl": "https://appmedia.jp/minecraft-dungeons2/80450389",
+      "researchSection": "v3.98 §15.130"
+    },
+    {
+      "id": "edge_r398_2",
+      "source": "illager_dropped_paper_d2",
+      "target": "library_runes_d2",
+      "label": "紙の調査後に三図書館へ進む（紙の文面は未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://appmedia.jp/minecraft-dungeons2/80450389",
+      "researchSection": "v3.98 §15.130"
     }
   ]
 }
