@@ -1,6 +1,6 @@
 {
-  "version": "1.41",
-  "loreVersion": "3.57",
+  "version": "1.42",
+  "loreVersion": "3.58",
   "nodes": [
     {
       "id": "soul",
@@ -3734,6 +3734,32 @@
       ],
       "origin": "",
       "originNote": "Wiki検索収録本文：大型Sprout、咆哮と衝撃波・仲間の出現、強化ビームは別記述。魂汚染個体も存在するとの記録。ビームが音波か、魂・イコルが動力かは未確認。"
+    },
+    {
+      "id": "tuner_d2",
+      "label": "Tuner（音楽の門）",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "Lost Harmonies完了ジャーナルの公開転載では歌の贈り物の後にTunersの信頼を得て音楽の門を開けられる。音高や認証原理は未確認。"
+    },
+    {
+      "id": "gift_of_song_d2",
+      "label": "Singerの歌の贈り物",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "Lost Harmoniesの完了ジャーナル公開転載。シフトの友の証、Tunerの信頼と探索範囲の拡大。魔力による認証か社会的な信頼かは未確定。"
     }
   ],
   "edges": [
@@ -8184,6 +8210,69 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Sprout",
       "researchSection": "v3.57 §15.89"
+    },
+    {
+      "id": "edge_r358_1",
+      "source": "gift_of_song_d2",
+      "target": "singer",
+      "label": "Lost Harmonies完了時に授与（ジャーナル転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://wikily.gg/minecraft-dungeons-2/quests/lost-harmonies",
+      "researchSection": "v3.58 §15.90"
+    },
+    {
+      "id": "edge_r358_2",
+      "source": "gift_of_song_d2",
+      "target": "tuner_d2",
+      "label": "贈り物の後にTunerの信頼を得る（ジャーナル転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://wikily.gg/minecraft-dungeons-2/quests/lost-harmonies",
+      "researchSection": "v3.58 §15.90"
+    },
+    {
+      "id": "edge_r358_3",
+      "source": "singer",
+      "target": "soulblock",
+      "label": "遠くの歌の沈黙とSoul Block盗難（クエスト記録）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca08",
+      "researchSection": "v3.58 §15.90"
+    },
+    {
+      "id": "edge_r358_4",
+      "source": "sifter_species_d2",
+      "target": "illagers",
+      "label": "旗撤去で沈静化を試みる（クエスト記録）、成功未確認",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_mea1_s05_a",
+      "researchSection": "v3.58 §15.90"
+    },
+    {
+      "id": "edge_r358_5",
+      "source": "sprout_d2",
+      "target": "corruption",
+      "label": "通常型とSoul Corrupted型が別分類（非公式DB）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/enemies",
+      "researchSection": "v3.58 §15.90"
+    },
+    {
+      "id": "edge_r358_6",
+      "source": "harmonizer_d2",
+      "target": "corruption",
+      "label": "通常型とSoul Corrupted型が別分類（非公式DB）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/enemies",
+      "researchSection": "v3.58 §15.90"
+    },
+    {
+      "id": "edge_r358_7",
+      "source": "gift_of_song_d2",
+      "target": "soulblock",
+      "label": "歌の認証・情報伝達と魂動力の比較、同一原理未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://wikily.gg/minecraft-dungeons-2/quests/lost-harmonies",
+      "researchSection": "v3.58 §15.90"
     }
   ]
 }
