@@ -1,6 +1,6 @@
 {
-  "version": "1.48",
-  "loreVersion": "3.64",
+  "version": "1.49",
+  "loreVersion": "3.65",
   "nodes": [
     {
       "id": "soul",
@@ -2411,7 +2411,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": "公開16×16テクスチャと同梱のユーザー画像を目視確認。顔状の彫刻、非発光（Wiki転載）。公式26.4 snapshot 7は装飾ブロックとして紹介、Bedrock Preview 26.70.24は名称を明記。Singerの同定・素材産地・機能は未確定。"
     },
     {
       "id": "soul_sync",
@@ -8593,6 +8593,15 @@
       "hypothesis": true,
       "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-5-wading-rainy-plains-walkthrough/",
       "researchSection": "v3.64 §15.96"
+    },
+    {
+      "id": "edge_r365_1",
+      "source": "sculk_chiseled",
+      "target": "ichor_core_d2",
+      "label": "顔状の非発光装飾と発光コアの比較（同一素材・符号未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://mineuniverse.net/wiki/chiseled-soulshale",
+      "researchSection": "v3.65 §15.97"
     }
   ]
 }
