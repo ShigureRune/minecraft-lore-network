@@ -1,6 +1,6 @@
 {
-  "version": "1.30",
-  "loreVersion": "3.46",
+  "version": "1.31",
+  "loreVersion": "3.47",
   "nodes": [
     {
       "id": "soul",
@@ -3487,6 +3487,19 @@
       ],
       "origin": "",
       "originNote": "既存§15.1の再参照：風をResonance Crystalに導きSquall Golemを起動するとのSwitchニュースWiki転載。原ニュース・実機未確認。"
+    },
+    {
+      "id": "tower_secret",
+      "label": "塔の職員専用部屋",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公開プレイ画像に緑の発光壁画・液体状の描写・三段ベッド・衣服。Wiki検索抜粋：Staff OnlyはIllageralt表記。居住者・液体成分は未確認。"
     }
   ],
   "edges": [
@@ -7451,6 +7464,69 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons:Gale_Sanctum",
       "researchSection": "v3.46 §15.78"
+    },
+    {
+      "id": "edge_r347_1",
+      "source": "tower_secret",
+      "target": "tower_d",
+      "label": "キャンプの塔に付属する秘密部屋",
+      "hypothesis": false,
+      "sourceUrl": "https://jbjbgame.com/post-17895/",
+      "researchSection": "v3.47 §15.79"
+    },
+    {
+      "id": "edge_r347_2",
+      "source": "tower_secret",
+      "target": "tower_uv_murals",
+      "label": "緑の発光壁画が存在",
+      "hypothesis": false,
+      "sourceUrl": "https://jbjbgame.com/post-17895/",
+      "researchSection": "v3.47 §15.79"
+    },
+    {
+      "id": "edge_r347_3",
+      "source": "tower_secret",
+      "target": "illageralt",
+      "label": "Staff Only表記（Wiki検索抜粋）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons:Illageralt",
+      "researchSection": "v3.47 §15.79"
+    },
+    {
+      "id": "edge_r347_4",
+      "source": "tower_secret",
+      "target": "tower_keeper_d",
+      "label": "衣服・三段ベッドから居住空間の可能性",
+      "hypothesis": true,
+      "sourceUrl": "https://jbjbgame.com/post-17895/",
+      "researchSection": "v3.47 §15.79"
+    },
+    {
+      "id": "edge_r347_5",
+      "source": "tower_uv_murals",
+      "target": "redstone_monstrosity",
+      "label": "秘密部屋の図柄の同定（Wiki、別説あり）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons:Luminous_Night",
+      "researchSection": "v3.47 §15.79"
+    },
+    {
+      "id": "edge_r347_6",
+      "source": "tower_d",
+      "target": "broken_citadel",
+      "label": "題材とする階層が追加（実際の次元接続は未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/de-de/article/dungeons--new-tower-rotations",
+      "researchSection": "v3.47 §15.79"
+    },
+    {
+      "id": "edge_r347_7",
+      "source": "tower_keeper_d",
+      "target": "tower_d",
+      "label": "階層変更の描写との報告（予告映像未視聴）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Tower_Keeper_(mob)",
+      "researchSection": "v3.47 §15.79"
     }
   ]
 }
