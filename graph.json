@@ -1,6 +1,6 @@
 {
-  "version": "1.73",
-  "loreVersion": "4.01",
+  "version": "1.74",
+  "loreVersion": "4.02",
   "nodes": [
     {
       "id": "soul",
@@ -4111,6 +4111,19 @@
       ],
       "origin": "",
       "originNote": "旧Wiki本文では英雄の接近で起動し、発光・MOB出現・突風・門連動。Windの翻字は同Wikiギャラリー記述。碑文の魔法的因果・建設者・原画像未確認。Colossal Rampartの旧防衛施設は後世イリジャーが占拠したとゲーム内説明転載。柱の設置時期は不明。"
+    },
+    {
+      "id": "wind_scroll_d",
+      "label": "風の巻物（D）",
+      "color": "#947453",
+      "media": [
+        "D"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Wiki同一画像Arch_Wind.pngにWind／!Windの異なる翻字。小画像では記号を独立判読不能。ギャラリーはアーチーと毛の長い牛の顔の描画、旧WikiトークはWindswept Peaksの秘密部屋と報告。作者・用途未確認。"
     }
   ],
   "edges": [
@@ -9529,6 +9542,24 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Story/Colossal_Rampart",
       "researchSection": "v4.01 §15.133／H28・H61"
+    },
+    {
+      "id": "edge_r402_1",
+      "source": "wind_scroll_d",
+      "target": "wind_rune_pillar_d",
+      "label": "Windの共通翻字（巻物の感嘆符・同一機能は未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Illageralt",
+      "researchSection": "v4.02 §15.134"
+    },
+    {
+      "id": "edge_r402_2",
+      "source": "wind_scroll_d",
+      "target": "arch_illager",
+      "label": "顔を描いた巻物とされる（Wiki画像説明、作者不明）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Dungeons:Arch-Illager/Gallery",
+      "researchSection": "v4.02 §15.134"
     }
   ]
 }
