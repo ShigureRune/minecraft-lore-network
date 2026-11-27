@@ -1,6 +1,6 @@
 {
-  "version": "1.91",
-  "loreVersion": "4.20",
+  "version": "1.92",
+  "loreVersion": "4.21",
   "nodes": [
     {
       "id": "soul",
@@ -5063,7 +5063,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "Wiki構成表：青氷12、氷9、氷塊62、音符ブロック2、感圧板3。専用戦利品。原配線・用途未確認。"
+      "originNote": "Wiki構成表：青氷12、氷9、氷塊62、音符ブロック2、感圧板3。専用戦利品。原配線・用途未確認。 22w14a MC-249761で鉄のトラップドア初期開放を修正。Wikiは青系カーペットから灰色への変更を記録。1.21.3抽出プールでweight1・空processor。氷室の用途・正確な配線は未確定。"
     },
     {
       "id": "ancient_city_sauna",
@@ -5116,6 +5116,45 @@
       ],
       "origin": "",
       "originNote": "1.21.3抽出プールで多くの遺跡がancient_city_generic_degradationを参照。氷室は空processor。自然生成の破損を年代の直接指標としない。"
+    },
+    {
+      "id": "ancient_city_ice_box_supplies",
+      "label": "氷室の専用物資",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "公式22w13aで専用戦利品。Java26.2抽出・Bedrock公式例：4～10抽選、雪玉4・氷塊2・食料3種各1の重み。食料保存用途は推論。"
+    },
+    {
+      "id": "ancient_city_ice_box_stew",
+      "label": "氷室のシチューと視覚効果",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java26.2抽出は暗視7～10秒・盲目5～7秒の候補。Bedrock公式例も暗視と盲目。暗闇効果とは別。意図・原料は未証明。"
+    },
+    {
+      "id": "ancient_city_ice_box_plate",
+      "label": "氷室の感圧板式発音設備",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Wiki構成表：石の感圧板3・音符ブロック2。入口で発音するとの記述。原NBT・音高・各板の接続・警報目的未確認。"
     }
   ],
   "edges": [
@@ -11749,6 +11788,60 @@
       "hypothesis": true,
       "sourceUrl": "https://mojira.dev/MC-249769",
       "researchSection": "v4.20 §15.152 / 全テンプレート台帳"
+    },
+    {
+      "id": "edge_r421_1",
+      "source": "ancient_city_ice_box",
+      "target": "ancient_city_ice_box_supplies",
+      "label": "専用戦利品テーブル（22w13a公式・26.2抽出）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/5203304085517-Minecraft-Java-Edition-Snapshot-22w13a",
+      "researchSection": "v4.21 §15.153"
+    },
+    {
+      "id": "edge_r421_2",
+      "source": "ancient_city_ice_box_supplies",
+      "target": "ancient_city_ice_box_stew",
+      "label": "専用シチューの候補効果は暗視・盲目",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/26.2/data/minecraft/loot_table/chests/ancient_city_ice_box.json",
+      "researchSection": "v4.21 §15.153"
+    },
+    {
+      "id": "edge_r421_3",
+      "source": "ancient_city_ice_box",
+      "target": "ancient_city_ice_box_plate",
+      "label": "入口に石の感圧板3・音符ブロック2（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.21 §15.153"
+    },
+    {
+      "id": "edge_r421_4",
+      "source": "ancient_city_ice_box_plate",
+      "target": "note",
+      "label": "感圧板入力で音符ブロックが発音（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.21 §15.153"
+    },
+    {
+      "id": "edge_r421_5",
+      "source": "ancient_city_ice_box_plate",
+      "target": "vibration_event",
+      "label": "発音設備と振動選別技術の比較（警報目的未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.21 §15.153"
+    },
+    {
+      "id": "edge_r421_6",
+      "source": "ancient_city_ice_box_plate",
+      "target": "allay",
+      "label": "音符ブロックを利用する物流技術との比較（氷室にアレイの証拠なし）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/meet-allay",
+      "researchSection": "v4.21 §15.153"
     }
   ]
 }
