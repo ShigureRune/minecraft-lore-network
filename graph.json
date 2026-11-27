@@ -1,6 +1,6 @@
 {
-  "version": "1.69",
-  "loreVersion": "3.94",
+  "version": "1.70",
+  "loreVersion": "3.95",
   "nodes": [
     {
       "id": "soul",
@@ -1755,7 +1755,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " 入手元を区別：製図家は村5タイプ・沼地の小屋・ジャングルのピラミッド・海底神殿・試練の間・洋館。キャンプは別のキャンプ8タイプと遺跡7種。共通3種は洋館・試練の間・ジャングルのピラミッド。既存H11の行先線はキャンプの出土地図であり製図家の全取引ではない。"
     },
     {
       "id": "trial_chamber",
@@ -4072,6 +4072,19 @@
       ],
       "origin": "",
       "originNote": "放棄されたキャンプに残る地図・生活用品・探索物資から想定する利用者。建造者・地図作成者・所有者が同じか、村人・イリジャー・別の探索者か、年代・存続は未確認。既存の古代探検派（仮）とは別項目。H02/H11/H61の三知識継承系統モデル。"
+    },
+    {
+      "id": "swamp_hut_main",
+      "label": "沼地の小屋（本編）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "製図家の地図の行き先候補（1.21.5の取引改訂）。26.3のキャンプ秘密チェストの7候補には含まれない。"
     }
   ],
   "edges": [
@@ -5528,50 +5541,64 @@
       "id": "edge_explorer_map_ancient_main",
       "source": "explorer_map",
       "target": "ancient_main",
-      "label": "H11 行き先候補",
-      "hypothesis": false
+      "label": "H11 キャンプ出土地図：行き先候補",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+      "researchSection": "v3.95 §15.127／別冊v3.19 §12.44"
     },
     {
       "id": "edge_explorer_map_trial_chamber",
       "source": "explorer_map",
       "target": "trial_chamber",
-      "label": "H11 行き先候補",
-      "hypothesis": false
+      "label": "H11 キャンプ出土地図：行き先候補",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+      "researchSection": "v3.95 §15.127／別冊v3.19 §12.44"
     },
     {
       "id": "edge_explorer_map_mineshaft",
       "source": "explorer_map",
       "target": "mineshaft",
-      "label": "H11 行き先候補",
-      "hypothesis": false
+      "label": "H11 キャンプ出土地図：行き先候補",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+      "researchSection": "v3.95 §15.127／別冊v3.19 §12.44"
     },
     {
       "id": "edge_explorer_map_desert_pyramid",
       "source": "explorer_map",
       "target": "desert_pyramid",
-      "label": "H11 行き先候補",
-      "hypothesis": false
+      "label": "H11 キャンプ出土地図：行き先候補",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+      "researchSection": "v3.95 §15.127／別冊v3.19 §12.44"
     },
     {
       "id": "edge_explorer_map_jungle_pyramid",
       "source": "explorer_map",
       "target": "jungle_pyramid",
-      "label": "H11 行き先候補",
-      "hypothesis": false
+      "label": "H11 キャンプ出土地図：行き先候補",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+      "researchSection": "v3.95 §15.127／別冊v3.19 §12.44"
     },
     {
       "id": "edge_explorer_map_searuins",
       "source": "explorer_map",
       "target": "searuins",
-      "label": "H11 暖かい海底遺跡",
-      "hypothesis": false
+      "label": "H11 キャンプ出土地図：暖かい海底遺跡",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+      "researchSection": "v3.95 §15.127／別冊v3.19 §12.44"
     },
     {
       "id": "edge_explorer_map_mansion",
       "source": "explorer_map",
       "target": "mansion",
-      "label": "H11 行き先候補",
-      "hypothesis": false
+      "label": "H11 キャンプ出土地図：行き先候補",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+      "researchSection": "v3.95 §15.127／別冊v3.19 §12.44"
     },
     {
       "id": "edge_explorers_explorer_map",
@@ -9319,10 +9346,10 @@
       "id": "edge_r394_2",
       "source": "villagers",
       "target": "explorer_map",
-      "label": "製図家による洋館・海底神殿への地図取引（別冊§12.26）",
+      "label": "製図家の地図取引（行先は個別の村人→構造物線を参照）",
       "hypothesis": false,
       "sourceUrl": "https://www.minecraft.net/en-us/article/taking-inventory--explorer-map",
-      "researchSection": "v3.94 §15.126／H02・H11・H61・別冊v3.18 §12.26・12.44"
+      "researchSection": "v3.94 §15.126／H02・H11・H61・別冊v3.18 §12.26・12.44；v3.95 §15.127"
     },
     {
       "id": "edge_r394_3",
@@ -9341,6 +9368,60 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
       "researchSection": "v3.94 §15.126／H02・H11・H61・別冊v3.18 §12.26・12.44"
+    },
+    {
+      "id": "edge_r395_1",
+      "source": "villagers",
+      "target": "mansion",
+      "label": "製図家の地図取引：森の洋館（1.21.5で達人）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-25w07a",
+      "researchSection": "v3.95 §15.127／別冊v3.19（1.21.5・26.3）"
+    },
+    {
+      "id": "edge_r395_2",
+      "source": "villagers",
+      "target": "trial_chamber",
+      "label": "製図家の地図取引：試練の間",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-25w07a",
+      "researchSection": "v3.95 §15.127／別冊v3.19（1.21.5・26.3）"
+    },
+    {
+      "id": "edge_r395_3",
+      "source": "villagers",
+      "target": "jungle_pyramid",
+      "label": "製図家の地図取引：ジャングルのピラミッド（1.21.5、村タイプ依存）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-25w07a",
+      "researchSection": "v3.95 §15.127／別冊v3.19（1.21.5・26.3）"
+    },
+    {
+      "id": "edge_r395_4",
+      "source": "villagers",
+      "target": "monument",
+      "label": "製図家の地図取引：海底神殿",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-25w07a",
+      "researchSection": "v3.95 §15.127／別冊v3.19（1.21.5・26.3）"
+    },
+    {
+      "id": "edge_r395_5",
+      "source": "villagers",
+      "target": "village",
+      "label": "製図家の地図取引：5村タイプ（1.21.5、取引元タイプ依存）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-25w07a",
+      "researchSection": "v3.95 §15.127／別冊v3.19（1.21.5・26.3）"
+    },
+    {
+      "id": "edge_r395_6",
+      "source": "villagers",
+      "target": "swamp_hut_main",
+      "label": "製図家の地図取引：沼地の小屋（1.21.5、村タイプ依存）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-25w07a",
+      "researchSection": "v3.95 §15.127／別冊v3.19（1.21.5・26.3）"
     }
   ]
 }
