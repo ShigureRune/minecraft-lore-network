@@ -1,6 +1,6 @@
 {
-  "version": "1.14",
-  "loreVersion": "3.29",
+  "version": "1.15",
+  "loreVersion": "3.30",
   "nodes": [
     {
       "id": "soul",
@@ -3069,6 +3069,32 @@
       ],
       "origin": "",
       "originNote": "公式発売記事：ポータルとネザーラックの拡大。"
+    },
+    {
+      "id": "humbler_husk",
+      "label": "ハンブラーの殻（Humbler Husk）",
+      "color": "#287449",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "非公式ゲームデータ索引の日本語名。殻と骨の材質同一性は未確認。"
+    },
+    {
+      "id": "humbler_carapace",
+      "label": "ハンブラー由来の甲殻素材",
+      "color": "#87551c",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "装備説明の非公式転載に甲殻・回復特性の記述。原資産未確認。"
     }
   ],
   "edges": [
@@ -6251,6 +6277,51 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-legends-here",
       "researchSection": "v3.29 §15.61"
+    },
+    {
+      "id": "edge_r330_0",
+      "source": "humbler_huskland",
+      "target": "humbler_husk",
+      "label": "内部に入れる遺骸（非公式ゲームデータ索引）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/locations/humbler-husk",
+      "researchSection": "v3.30 §15.62"
+    },
+    {
+      "id": "edge_r330_1",
+      "source": "humbler_husk",
+      "target": "humbler_carapace",
+      "label": "殻を利用する素材（装備説明転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/dlc",
+      "researchSection": "v3.30 §15.62"
+    },
+    {
+      "id": "edge_r330_2",
+      "source": "humbler_husk",
+      "target": "nether_fossil",
+      "label": "弧状構造の比較・骨と殻の差（同定不可）",
+      "hypothesis": true,
+      "sourceUrl": "https://theminecraftwiki.com/wiki/nether-fossil/structure/",
+      "researchSection": "v3.30 §15.62"
+    },
+    {
+      "id": "edge_r330_3",
+      "source": "humblers",
+      "target": "humbler_husk",
+      "label": "現生の姿と遺骸の比較候補",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/the-humblers-awaken",
+      "researchSection": "v3.30 §15.62"
+    },
+    {
+      "id": "edge_r330_4",
+      "source": "humbler_carapace",
+      "target": "material_processing",
+      "label": "遺骸由来素材の機能・加工比較？",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeons.tools/2/dlc",
+      "researchSection": "v3.30 §15.62"
     }
   ]
 }
