@@ -1,6 +1,6 @@
 {
-  "version": "1.80",
-  "loreVersion": "4.09",
+  "version": "1.81",
+  "loreVersion": "4.10",
   "nodes": [
     {
       "id": "soul",
@@ -4787,6 +4787,17 @@
       ],
       "origin": "",
       "originNote": "2026-11-28 JST 公式X本文（発売前）、v4.09 §15.141。公式告知の探索地域。胞子畑とともに紹介されたが、両地域の地理的接続や繁殖場所としての用途は未確認。"
+    },
+    {
+      "id": "warding_chimes_d2",
+      "label": "魔除けのチャイム（II）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": "非公式ゲームDB転載：ハンブラーの殻で作られた楽器、音楽による防護効果、魂消費。実音・原資産・機構・製作者は未確認。"
     }
   ],
   "edges": [
@@ -10853,6 +10864,33 @@
       "hypothesis": true,
       "sourceUrl": "https://x.com/dungeonsgame/status/2126377682208166011",
       "researchSection": "v4.09 §15.141 / H42"
+    },
+    {
+      "id": "edge_r410_1",
+      "source": "humbler_carapace",
+      "target": "warding_chimes_d2",
+      "label": "ハンブラーの殻を使う楽器（装備説明転載）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/artifacts/warding-chimes",
+      "researchSection": "v4.10 §15.142"
+    },
+    {
+      "id": "edge_r410_2",
+      "source": "warding_chimes_d2",
+      "target": "soul",
+      "label": "魂を消費するアーティファクト（ゲームDB）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/artifacts/warding-chimes",
+      "researchSection": "v4.10 §15.142"
+    },
+    {
+      "id": "edge_r410_3",
+      "source": "warding_chimes_d2",
+      "target": "echo_ocarina_d2",
+      "label": "殻・音楽・防護の機能比較、同じ生物種や機構は未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://www.dungeons.tools/2/artifacts/warding-chimes",
+      "researchSection": "v4.10 §15.142"
     }
   ]
 }
