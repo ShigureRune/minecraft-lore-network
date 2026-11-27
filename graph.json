@@ -1,6 +1,6 @@
 {
-  "version": "1.44",
-  "loreVersion": "3.60",
+  "version": "1.45",
+  "loreVersion": "3.61",
   "nodes": [
     {
       "id": "soul",
@@ -3773,6 +3773,30 @@
       ],
       "origin": "",
       "originNote": "非公式DB本文にSW.Mob.KeyGolemGold/Silver、BP_KeyGolem_Gold/Silver。Tunerと運搬・開錠機能が類似。起源・動力の共通性は未確認。"
+    },
+    {
+      "id": "echo_ocarina_d2",
+      "label": "Echo Ocarina（殻の楽器）",
+      "color": "#947453",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [],
+      "origin": "",
+      "originNote": "非公式ゲームDB本文：殻をくり抜いた楽器。魂を40消費し防護効果を発動。CarapaceOcarinaという資産識別子。殻の生物種、実音、物理的作用は未確認。"
+    },
+    {
+      "id": "ichor_core_d2",
+      "label": "Ichor Core（門の動力）",
+      "color": "#477b62",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "Wrath of the SculkersのクエストDB・攻略本文：コアを設置するとLullaby Hillsへの門が起動。別段階のTunerによる音楽の門と区別。液体イコルとの生成・変換関係は未確認。"
     }
   ],
   "edges": [
@@ -8358,6 +8382,60 @@
       "hypothesis": true,
       "sourceUrl": "https://www.dungeoncollector.co.uk/dungeonsii/?content=mobs&menu=1&page=search",
       "researchSection": "v3.60 §15.92"
+    },
+    {
+      "id": "edge_r361_1",
+      "source": "echo_ocarina_d2",
+      "target": "soul",
+      "label": "魂を消費して音楽に関連する効果を発動（ゲームDB）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/gear_artifacts/artifact_carapace_ocarina",
+      "researchSection": "v3.61 §15.93"
+    },
+    {
+      "id": "edge_r361_2",
+      "source": "echo_ocarina_d2",
+      "target": "tuner_d2",
+      "label": "音響作用の比較候補、同一原理未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/gear_artifacts/artifact_carapace_ocarina",
+      "researchSection": "v3.61 §15.93"
+    },
+    {
+      "id": "edge_r361_3",
+      "source": "ichor_core_d2",
+      "target": "tuner_d2",
+      "label": "同一クエストの別の門の起動方式（攻略本文）",
+      "hypothesis": false,
+      "sourceUrl": "https://gamer-guides.com/minecraft-dungeons-2/wrath-of-the-sculkers/",
+      "researchSection": "v3.61 §15.93"
+    },
+    {
+      "id": "edge_r361_4",
+      "source": "ichor_core_d2",
+      "target": "ichor_liquid",
+      "label": "資源名と動力の比較、生成・物質同一性未確認",
+      "hypothesis": true,
+      "sourceUrl": "https://gamer-guides.com/minecraft-dungeons-2/wrath-of-the-sculkers/",
+      "researchSection": "v3.61 §15.93"
+    },
+    {
+      "id": "edge_r361_5",
+      "source": "ichor_core_d2",
+      "target": "soulblock",
+      "label": "資源による装置起動・再充電の比較",
+      "hypothesis": true,
+      "sourceUrl": "https://gamer-guides.com/minecraft-dungeons-2/wrath-of-the-sculkers/",
+      "researchSection": "v3.61 §15.93"
+    },
+    {
+      "id": "edge_r361_6",
+      "source": "tuner_d2",
+      "target": "ichor_liquid",
+      "label": "入浴時の同伴が吸収・回復を助ける可能性（直接根拠なし）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca09",
+      "researchSection": "v3.61 §15.93"
     }
   ]
 }
