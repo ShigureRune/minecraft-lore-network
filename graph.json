@@ -1,6 +1,6 @@
 {
-  "version": "1.51",
-  "loreVersion": "3.67",
+  "version": "1.52",
+  "loreVersion": "3.68",
   "nodes": [
     {
       "id": "soul",
@@ -3863,6 +3863,19 @@
       ],
       "origin": "",
       "originNote": "公開レンダーをEcho Golemと比較。肩・胴・脚に青緑色の角形渦巻き模様。Wiki検索収録は肩にEcho Golemの顔があると説明するが、今回の角度から顔の完全一致・素材転用は未確認。評議会がシフトのイコル由来の魂を利用したとのWiki記述とクエスト記録。"
+    },
+    {
+      "id": "opus_deconstructed_d2",
+      "label": "Opus分離形態（巨大Soul Block）",
+      "color": "#7945a5",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "非公式抽出DB本文のArmored/Deconstructed分類とWiki検索収録記述を照合。分離時に巨大な魂立方体が露出する。分離時の原画像・原モデル未取得。終幕静止画の回収ブロックは青緑色半透明状。縮小・同一個体・記憶保持は未確認。"
     }
   ],
   "edges": [
@@ -8691,6 +8704,51 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Echo_Golem",
       "researchSection": "v3.67 §15.99"
+    },
+    {
+      "id": "edge_r368_1",
+      "source": "opus_deconstructed_d2",
+      "target": "monstrous_opus_d2",
+      "label": "外装を分離・再結合する別形態（DB本文）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.dungeons.tools/2/enemies/monstrous-opus",
+      "researchSection": "v3.68 §15.100"
+    },
+    {
+      "id": "edge_r368_2",
+      "source": "opus_deconstructed_d2",
+      "target": "soulblock",
+      "label": "分離形態で巨大な魂立方体が露出（Wiki検索記述）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Monstrous_Opus",
+      "researchSection": "v3.68 §15.100"
+    },
+    {
+      "id": "edge_r368_3",
+      "source": "soulblock",
+      "target": "orb",
+      "label": "初代のオーブによる起動と続編の魂動力の機能的代替（材質同一性なし）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Soul_Block",
+      "researchSection": "v3.68 §15.100"
+    },
+    {
+      "id": "edge_r368_4",
+      "source": "monstrous_opus_d2",
+      "target": "supreme_evoker",
+      "label": "Evoker由来の魂・ブロックを吸収とのWiki記述（映像未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Supreme_Evoker",
+      "researchSection": "v3.68 §15.100"
+    },
+    {
+      "id": "edge_r368_5",
+      "source": "soulblock",
+      "target": "note_machine_d2",
+      "label": "終幕のポータル破壊に両ブロックが関与との攻略記録（詳細機構不明）",
+      "hypothesis": false,
+      "sourceUrl": "https://questduo.com/minecraft-dungeons-ii/part-10-the-final-souldown-walkthrough/",
+      "researchSection": "v3.68 §15.100"
     }
   ]
 }
