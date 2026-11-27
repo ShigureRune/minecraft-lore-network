@@ -1,6 +1,6 @@
 {
-  "version": "1.92",
-  "loreVersion": "4.21",
+  "version": "1.93",
+  "loreVersion": "4.22",
   "nodes": [
     {
       "id": "soul",
@@ -5076,7 +5076,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "sauna_1という内部名。Wiki掲載水43・チェスト3。実際の利用者・用途は未確定。"
+      "originNote": "sauna_1という内部名。Wiki掲載水43・チェスト3。実際の利用者・用途は未確定。 v4.22：構成表で水43・水没階段17・白色ろうそく31位置/62本・通常戦利品チェスト3。明確な熱源・羊毛・カーペットは掲載なし。温浴機構・用途・使用者未証明。1.21.3/1.21.11-rc3/26.1.2/26.2-pre-1抽出プールで重み4・通常劣化処理。"
     },
     {
       "id": "ancient_city_barracks",
@@ -5115,7 +5115,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "1.21.3抽出プールで多くの遺跡がancient_city_generic_degradationを参照。氷室は空processor。自然生成の破損を年代の直接指標としない。"
+      "originNote": "1.21.3抽出プールで多くの遺跡がancient_city_generic_degradationを参照。氷室は空processor。自然生成の破損を年代の直接指標としない。 v4.22：26.1.2抽出JSONは対象タグのblock_rot integrity 0.95、残存レンガ/タイルのひび割れ変換0.3、魂ランタン→空気0.05。対象タグに灰色羊毛も含む。個別の実生成率・世界内年代とは別。"
     },
     {
       "id": "ancient_city_ice_box_supplies",
@@ -11842,6 +11842,42 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/ja-jp/article/meet-allay",
       "researchSection": "v4.21 §15.153"
+    },
+    {
+      "id": "edge_r422_1",
+      "source": "ancient_city_sauna",
+      "target": "ancient_city_degradation",
+      "label": "通常劣化processor・rigid・重み4（1.21.3ほか抽出）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/26.1.2/data/minecraft/worldgen/template_pool/ancient_city/structures.json",
+      "researchSection": "v4.22 §15.154"
+    },
+    {
+      "id": "edge_r422_2",
+      "source": "ancient_city_sauna",
+      "target": "chest_main",
+      "label": "通常古代都市戦利品のチェスト3（構成表）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.22 §15.154"
+    },
+    {
+      "id": "edge_r422_3",
+      "source": "ancient_city_sauna",
+      "target": "ancient_city_ice_box",
+      "label": "水槽・通常物資と氷雪・専用食料物資の生活施設比較（温度管理・居住用途は未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.22 §15.154"
+    },
+    {
+      "id": "edge_r422_4",
+      "source": "ancient_city_degradation",
+      "target": "wool",
+      "label": "灰色羊毛はblock_rot対象タグに含まれる（26.1.2抽出）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/26.1.2/data/minecraft/tags/block/ancient_city_replaceable.json",
+      "researchSection": "v4.22 §15.154"
     }
   ]
 }
