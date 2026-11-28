@@ -1,6 +1,6 @@
 {
-  "version": "1.98",
-  "loreVersion": "4.28",
+  "version": "1.99",
+  "loreVersion": "4.29",
   "nodes": [
     {
       "id": "soul",
@@ -5218,6 +5218,15 @@
       "dimensions": [],
       "origin": "",
       "originNote": "ユーザー発案。発電原理は未指定。低温側を用いる熱電発電・冷却設備はAIの比較候補で、発電設備・熱源・配線・出力未確認。食料貯蔵説を維持。v4.27 §15.159。 v4.28：ユーザーの意図はシフトから採取したイコル等を氷室で冷却する説。冷却の必要性・古代都市への輸送・設備は未証明。温度差発電はAIの別案。"
+    },
+    {
+      "id": "ancient_city_echo_golem_hypothesis",
+      "label": "古代都市繁栄期のエコーゴーレム存在説（仮）",
+      "color": "#475569",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": "ユーザー発案。模様入りソウルシェールからシフトとの過去の交流を推測。Dungeons IIの後代の往来と古代都市繁栄期の居住・活動を区別。材質・年代・直接遺物未証明。v4.29 §15.161。"
     }
   ],
   "edges": [
@@ -12121,6 +12130,42 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca10",
       "researchSection": "v4.28 §15.160 / ユーザー発案・既存輸送記録との比較"
+    },
+    {
+      "id": "edge_r429_1",
+      "source": "ancient_city_echo_golem_hypothesis",
+      "target": "ancient_main",
+      "label": "繁栄期にエコーゴーレムが活動した可能性",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Soul_Block",
+      "researchSection": "v4.29 §15.161"
+    },
+    {
+      "id": "edge_r429_2",
+      "source": "ancient_city_echo_golem_hypothesis",
+      "target": "sculk_chiseled",
+      "label": "シフト由来文化との接点候補・材質同一未証明",
+      "hypothesis": true,
+      "sourceUrl": "https://mineuniverse.net/wiki/chiseled-soulshale",
+      "researchSection": "v4.29 §15.161"
+    },
+    {
+      "id": "edge_r429_3",
+      "source": "ancient_city_echo_golem_hypothesis",
+      "target": "singer",
+      "label": "後代のポータル往来を古代へ外挿する仮説",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:High_Council",
+      "researchSection": "v4.29 §15.161"
+    },
+    {
+      "id": "edge_r429_4",
+      "source": "ancient_city_echo_golem_hypothesis",
+      "target": "ancient_city_ice_power_hypothesis",
+      "label": "輸入イコルによる動力補給の比較候補",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_caa1_s02_a",
+      "researchSection": "v4.29 §15.161"
     }
   ]
 }
