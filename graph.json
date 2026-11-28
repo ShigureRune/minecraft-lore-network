@@ -1,6 +1,6 @@
 {
-  "version": "2.15",
-  "loreVersion": "4.78",
+  "version": "2.16",
+  "loreVersion": "4.79",
   "nodes": [
     {
       "id": "soul",
@@ -183,7 +183,7 @@
         "S"
       ],
       "origin": "S",
-      "originNote": "W: §3.2、H03（Dungeons IIのWiki記述。本編への適用未確定）"
+      "originNote": "W: §3.2、H03（Dungeons IIのWiki記述。本編への適用未確定） / 26.3原JAR：通常スカルクへの置換でチャージ1消費、破壊報酬1 XP。損失・派生生成あり、完全回収は未保証。"
     },
     {
       "id": "singer",
@@ -1254,7 +1254,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": "26.3原JAR：死亡イベントのXP報酬をチャージに変換、既存XPオーブ吸収ではない。1カーソル1000、最大32。通常スカルク1個につき1消費、派生生成の公称コスト10（残量未満でも確率生成可）。魂の同一性は未証明。"
     },
     {
       "id": "otherside",
@@ -13368,6 +13368,54 @@
       "hypothesis": false,
       "sourceUrl": "https://learn.microsoft.com/zh-cn/minecraft/creator/reference/source/vanillabehaviorpack_snippets/entities/phantom?view=minecraft-bedrock-stable",
       "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
+    },
+    {
+      "id": "edge_r479_01",
+      "source": "sculk",
+      "target": "xp",
+      "label": "破壊で1 XP（26.3原JAR、シルクタッチ除外）",
+      "hypothesis": false,
+      "researchSection": "v4.79 §15.211 / 26.3原JAR静的解析"
+    },
+    {
+      "id": "edge_r479_02",
+      "source": "sculk_sensor_main",
+      "target": "xp",
+      "label": "破壊で5 XP（26.3原JAR）",
+      "hypothesis": false,
+      "researchSection": "v4.79 §15.211 / 26.3原JAR静的解析"
+    },
+    {
+      "id": "edge_r479_03",
+      "source": "shrieker",
+      "target": "xp",
+      "label": "破壊で5 XP（26.3原JAR）",
+      "hypothesis": false,
+      "researchSection": "v4.79 §15.211 / 26.3原JAR静的解析"
+    },
+    {
+      "id": "edge_r479_04",
+      "source": "sculk_catalyst",
+      "target": "xp",
+      "label": "カタリスト自体の破壊で5 XP（増殖回収とは別）",
+      "hypothesis": false,
+      "researchSection": "v4.79 §15.211 / 26.3原JAR静的解析"
+    },
+    {
+      "id": "edge_r479_05",
+      "source": "sculk_catalyst",
+      "target": "sculk_sensor_main",
+      "label": "チャージによる派生生成（26.3、条件・乱数あり）",
+      "hypothesis": false,
+      "researchSection": "v4.79 §15.211 / 26.3原JAR静的解析"
+    },
+    {
+      "id": "edge_r479_06",
+      "source": "sculk_catalyst",
+      "target": "shrieker",
+      "label": "チャージによる派生生成（26.3、自然生成と区別）",
+      "hypothesis": false,
+      "researchSection": "v4.79 §15.211 / 26.3原JAR静的解析"
     }
   ]
 }
