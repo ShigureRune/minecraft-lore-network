@@ -1,6 +1,6 @@
 {
-  "version": "2.17",
-  "loreVersion": "4.80",
+  "version": "2.18",
+  "loreVersion": "4.81",
   "nodes": [
     {
       "id": "soul",
@@ -4058,7 +4058,7 @@
         "E"
       ],
       "origin": "",
-      "originNote": "本編の移動アイテム、エンダーアイの材料。洋館偽ポータル部屋に固定2個、16w39aからとのWiki履歴。入手経路・イリジャーによる使用は未確認。"
+      "originNote": "本編の移動アイテム、エンダーアイの材料。洋館偽ポータル部屋に固定2個、16w39aからとのWiki履歴。入手経路・イリジャーによる使用は未確認。 / 転移時の精神・身体負荷説は暫定。26.3原JARは転移後の固定ダメージを示すが世界内原因を明示しない。"
     },
     {
       "id": "camp_former_users",
@@ -5777,6 +5777,33 @@
       ],
       "origin": "",
       "originNote": "19〜20時合同査読・公式記録で再確認。世界内起源は未証明。"
+    },
+    {
+      "id": "ender_pearl_damage_main",
+      "label": "エンダーパール固有ダメージ（本編）",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "E"
+      ],
+      "origin": "",
+      "originNote": "Java 26.3原JAR：転移成功・落下距離リセット後に固定5 HP。is_fallタグ、bypasses_armor。精神的原因・通常着地衝撃は未証明。"
+    },
+    {
+      "id": "chorus_fruit_main",
+      "label": "コーラスフルーツ（本編）",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": "Java 26.3原JAR：消費時にランダム転移、最大16試行、固有の固定ダメージ処理なし。中間次元経由の有無は未確認。"
     }
   ],
   "edges": [
@@ -13500,6 +13527,30 @@
       "hypothesis": false,
       "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
       "researchSection": "v4.80 §15.212 / 19〜20時枠合同査読"
+    },
+    {
+      "id": "edge_r481_01",
+      "source": "ender_pearl_main",
+      "target": "ender_pearl_damage_main",
+      "label": "転移成功後の固定5 HP（Java 26.3原JAR）",
+      "hypothesis": false,
+      "researchSection": "v4.81 §15.213 / 26.3原JAR静的解析"
+    },
+    {
+      "id": "edge_r481_02",
+      "source": "ender_pearl_main",
+      "target": "endermite",
+      "label": "使用時5%の出現判定（条件付き、Java 26.3原JAR）",
+      "hypothesis": false,
+      "researchSection": "v4.81 §15.213 / 26.3原JAR静的解析"
+    },
+    {
+      "id": "edge_r481_03",
+      "source": "chorus_fruit_main",
+      "target": "ender_pearl_main",
+      "label": "転移処理の比較：果実には固定5 HP処理なし（Java 26.3）",
+      "hypothesis": false,
+      "researchSection": "v4.81 §15.213 / 26.3原JAR静的解析"
     }
   ]
 }
