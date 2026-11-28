@@ -1,6 +1,6 @@
 {
-  "version": "1.94",
-  "loreVersion": "4.23",
+  "version": "1.95",
+  "loreVersion": "4.25",
   "nodes": [
     {
       "id": "soul",
@@ -5200,6 +5200,15 @@
       ],
       "origin": "",
       "originNote": "Java 1.20で16種、1.21で18種。元型から複製可能。出土先・取得方法・制作主体を区別。既存本編§15.3の補完。"
+    },
+    {
+      "id": "warden_appeasement_hypothesis",
+      "label": "ウォーデン災害対策・鎮静信仰説（仮）",
+      "color": "#475569",
+      "media": [],
+      "dimensions": [],
+      "origin": "",
+      "originNote": "ユーザー発案：度重なる襲撃への羊毛による振動対策と、像・祭壇による鎮静祈願を一体とみる。襲撃頻度、祭祀の実在、強化深層岩の採用理由は未証明。v4.25 §15.157。"
     }
   ],
   "edges": [
@@ -11995,6 +12004,69 @@
       "hypothesis": false,
       "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
       "researchSection": "v4.23 §15.155 / 既存知識のグラフ補完"
+    },
+    {
+      "id": "edge_r425_1",
+      "source": "warden_appeasement_hypothesis",
+      "target": "warden",
+      "label": "反復襲撃への恐怖が信仰を生んだ可能性",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.25 §15.157 / ユーザー仮説・既存資料との比較"
+    },
+    {
+      "id": "edge_r425_2",
+      "source": "warden_appeasement_hypothesis",
+      "target": "wool",
+      "label": "羊毛は実用的防災対策だった可能性",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.25 §15.157 / ユーザー仮説・既存資料との比較"
+    },
+    {
+      "id": "edge_r425_3",
+      "source": "warden_appeasement_hypothesis",
+      "target": "ancient_city_center",
+      "label": "中央像・強化深層岩は鎮静祈願の象徴だった可能性",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.25 §15.157 / ユーザー仮説・既存資料との比較"
+    },
+    {
+      "id": "edge_r425_4",
+      "source": "warden_appeasement_hypothesis",
+      "target": "ancient_city_small_statue",
+      "label": "小像を日常的な鎮静祈願と解釈する可能性",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.25 §15.157 / ユーザー仮説・既存資料との比較"
+    },
+    {
+      "id": "edge_r425_5",
+      "source": "warden_appeasement_hypothesis",
+      "target": "ancient_city_barracks",
+      "label": "兵舎の祭壇状構造と比較",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.25 §15.157 / ユーザー仮説・既存資料との比較"
+    },
+    {
+      "id": "edge_r425_6",
+      "source": "warden_appeasement_hypothesis",
+      "target": "seal_gate",
+      "label": "隔離・封鎖説との競合または併存",
+      "hypothesis": true,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ancient_City/Structure",
+      "researchSection": "v4.25 §15.157 / ユーザー仮説・既存資料との比較"
+    },
+    {
+      "id": "edge_r425_7",
+      "source": "warden_appeasement_hypothesis",
+      "target": "singer",
+      "label": "別作品の歌による鎮静の記録との比較（直接証拠ではない）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Singer",
+      "researchSection": "v4.25 §15.157 / ユーザー仮説・既存資料との比較"
     }
   ]
 }
