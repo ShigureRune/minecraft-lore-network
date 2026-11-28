@@ -1,6 +1,6 @@
 {
-  "version": "2.10",
-  "loreVersion": "4.42",
+  "version": "2.11",
+  "loreVersion": "4.52",
   "nodes": [
     {
       "id": "soul",
@@ -638,7 +638,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " Java 26.3提供JARの構造NBT：2x2_a1に大釜4・鉄ドア上下8ブロック（4枚）・レバー4、1x2_b1/b2にも各大釜1。アレイ専用設備とは断定不可。"
     },
     {
       "id": "village",
@@ -794,7 +794,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": " 公式記事2021/2024：アイは要塞を指し、12フレーム装着で起動。Bedrockにはポータル室を欠く要塞もある（2021記事）。実際の誘導先・現行版は未検証。装着フレームの比較器出力15/0は起動エネルギーと同一とは限らない。"
+      "originNote": " 公式記事2021/2024：アイは要塞を指し、12フレーム装着で起動。Bedrockにはポータル室を欠く要塞もある（2021記事）。実際の誘導先・現行版は未検証。装着フレームの比較器出力15/0は起動エネルギーと同一とは限らない。 Java 26.3提供JAR：EndPortalFrameBlockの信号15/0はHAS_EYEのみ、通常起動パターンはHAS_EYEとFACINGの両方を参照。装着信号は転送面の存在を保証しない（推論）。実機・Bedrock未検証。"
     },
     {
       "id": "endcity",
@@ -874,7 +874,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": " 旅路の遺跡に限る：Java 1.21.1の抽出データでは塔最上部用処理が通常出土品を割り当て、置換上限2。Bedrock公式開発資料の道路用処理例も通常枠・上限2。出土場所から製作地や交易を直接推定しない。廃坑にこの規則を適用しない。 Java 1.21.11-rc3の住宅用処理では通常上限6・希少上限3、集会所・大部屋・一部屋各5の15パーツが同じ処理を参照。 Java 1.20 mcmeta抽出3ファイル再照合：住宅・道路に砂利→土0.2、粗い土0.1、泥レンガ→固めた泥0.1の先行規則。塔頂にはなし。通常上限は住宅6、道路・塔頂2、希少上限は住宅3。値は最終比率ではない。廃坑は対象外。"
+      "originNote": " 旅路の遺跡に限る：Java 1.21.1の抽出データでは塔最上部用処理が通常出土品を割り当て、置換上限2。Bedrock公式開発資料の道路用処理例も通常枠・上限2。出土場所から製作地や交易を直接推定しない。廃坑にこの規則を適用しない。 Java 1.21.11-rc3の住宅用処理では通常上限6・希少上限3、集会所・大部屋・一部屋各5の15パーツが同じ処理を参照。 Java 1.20 mcmeta抽出3ファイル再照合：住宅・道路に砂利→土0.2、粗い土0.1、泥レンガ→固めた泥0.1の先行規則。塔頂にはなし。通常上限は住宅6、道路・塔頂2、希少上限は住宅3。値は最終比率ではない。廃坑は対象外。 Java 26.3提供JARのテンプレートプール：住宅15（3分類各5）、道路7、塔頂5の計27エントリー、各weight 1。1.20報告と対応一致。生成頻度の均等性・古代住民の用途を証明しない。"
     },
     {
       "id": "searuins",
@@ -1348,7 +1348,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " Java 26.3提供JAR：InfestedBlockの対応建材判定を潜伏AIが参照。虫食い効果による生成処理と試練のスポナー設定も確認。虫食い建材だけで建築年代・意図は判定不能。"
     },
     {
       "id": "end_ring",
@@ -1694,7 +1694,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " Java 26.3提供JARの構造NBT：feature_cage_with_allaysにアレイ2体、feature_cage1に鉄ゴーレム1体、feature_cage2はエンティティなし。旧cage2表記を訂正。捕獲経緯・目的は不明。"
     },
     {
       "id": "ocean_civil",
@@ -4344,7 +4344,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+      "originNote": "夜間合同査読 v4.08 §15.140、G班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。 Java 26.3提供JAR：applySupportingEffectsは再生時間100tick追加（上限2400tick）、採掘速度低下解除。繁殖食タグは熱帯魚入りバケツ、敵対タグにガーディアン系・ドラウンド。進化・魂による再生は未証明。"
     },
     {
       "id": "turtle",
@@ -10553,10 +10553,10 @@
       "id": "edge_r389_3",
       "source": "outpost",
       "target": "golem_main",
-      "label": "feature_cage2に鉄ゴーレム（捕獲経緯・目的不明）",
+      "label": "feature_cage1に鉄ゴーレム1体（26.3 NBT、捕獲経緯不明）",
       "hypothesis": false,
       "sourceUrl": "https://minecraft.wiki/w/Pillager_Outpost",
-      "researchSection": "v3.89 §15.121"
+      "researchSection": "v4.52 §15.184／Java 26.3提供JAR"
     },
     {
       "id": "edge_r389_4",
@@ -12789,6 +12789,38 @@
       "hypothesis": false,
       "sourceUrl": "https://www.minecraft.net/de-de/article/block-week--end-portal-frame",
       "researchSection": "v4.40 §15.172"
+    },
+    {
+      "id": "edge_r452_1",
+      "source": "axolotl",
+      "target": "guardian",
+      "label": "敵対対象タグ（26.3 JAR）",
+      "hypothesis": false,
+      "researchSection": "v4.52 §15.184／Java 26.3提供JAR"
+    },
+    {
+      "id": "edge_r452_2",
+      "source": "trial_spawner_normal",
+      "target": "silverfish",
+      "label": "通常試練スポナーの生成対象（26.3 JSON）",
+      "hypothesis": false,
+      "researchSection": "v4.52 §15.184／Java 26.3提供JAR"
+    },
+    {
+      "id": "edge_r452_3",
+      "source": "outpost",
+      "target": "allay",
+      "label": "feature_cage_with_allaysに2体（26.3 NBT）",
+      "hypothesis": false,
+      "researchSection": "v4.52 §15.184／Java 26.3提供JAR"
+    },
+    {
+      "id": "edge_r452_4",
+      "source": "mansion",
+      "target": "cauldron",
+      "label": "3種類の牢獄に大釜（26.3 NBT）",
+      "hypothesis": false,
+      "researchSection": "v4.52 §15.184／Java 26.3提供JAR"
     }
   ]
 }
