@@ -1,6 +1,6 @@
 {
-  "version": "2.18",
-  "loreVersion": "4.81",
+  "version": "2.19",
+  "loreVersion": "4.85",
   "nodes": [
     {
       "id": "soul",
@@ -5128,7 +5128,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "公式22w13aで専用戦利品。Java26.2抽出・Bedrock公式例：4～10抽選、雪玉4・氷塊2・食料3種各1の重み。食料保存用途は推論。"
+      "originNote": "公式22w13aで専用戦利品。Java26.2抽出・Bedrock公式例：4～10抽選、雪玉4・氷塊2・食料3種各1の重み。食料保存用途は推論。 Bedrock公式例の重み・独立抽選・4～10回整数一様という仮定で食料と雪玉の共存確率89.06%。実機測定でなく、同じテーブル由来の複数チェストは独立した歴史証拠ではない。v4.85 §15.217。"
     },
     {
       "id": "ancient_city_ice_box_stew",
@@ -5804,6 +5804,34 @@
       ],
       "origin": "",
       "originNote": "Java 26.3原JAR：消費時にランダム転移、最大16試行、固有の固定ダメージ処理なし。中間次元経由の有無は未確認。"
+    },
+    {
+      "id": "chiseled_bookshelf",
+      "label": "模様入り本棚",
+      "color": "#a87b48",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java 1.20公式：最大6冊、最後に挿入・取り出ししたスロット番号を比較器へ出力。ホッパー対応。古代文明の記憶装置としての実利用は未証明。"
+    },
+    {
+      "id": "piglin_environment_attribute",
+      "label": "ピグリンのゾンビ化環境属性",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N",
+        "O",
+        "E"
+      ],
+      "origin": "",
+      "originNote": "Java 1.21.11公式：piglins_zombifyは個体位置で評価し既定true。26.3原JAR監査ではネザーでfalse。個体免疫と時間条件は別。局所的な安全地帯が自然生成する証拠なし。"
     }
   ],
   "edges": [
@@ -13551,6 +13579,51 @@
       "label": "転移処理の比較：果実には固定5 HP処理なし（Java 26.3）",
       "hypothesis": false,
       "researchSection": "v4.81 §15.213 / 26.3原JAR静的解析"
+    },
+    {
+      "id": "edge_r485_1",
+      "source": "chiseled_bookshelf",
+      "target": "comparator",
+      "label": "最後の操作スロット番号を読み出す（Java 1.20）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.85 §15.217"
+    },
+    {
+      "id": "edge_r485_2",
+      "source": "hopper",
+      "target": "chiseled_bookshelf",
+      "label": "ホッパー対応（Java 1.20）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.85 §15.217"
+    },
+    {
+      "id": "edge_r485_3",
+      "source": "piglin_environment_attribute",
+      "target": "piglin",
+      "label": "個体位置でゾンビ化条件を評価（Java 1.21.11）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-11",
+      "researchSection": "v4.83 §15.215 / v4.85 §15.217"
+    },
+    {
+      "id": "edge_r485_4",
+      "source": "nether",
+      "target": "piglin_environment_attribute",
+      "label": "ネザーでは変換属性false（26.3原JAR監査）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-11",
+      "researchSection": "v4.83 §15.215"
+    },
+    {
+      "id": "edge_r485_5",
+      "source": "nether_wart",
+      "target": "piglin",
+      "label": "Legends公式読み物：胞子がピグリンの呼吸に必要（本家と区別）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/craft-your-own-legend/piglin",
+      "researchSection": "v4.84 §15.216"
     }
   ]
 }
