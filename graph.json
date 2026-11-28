@@ -1,6 +1,6 @@
 {
-  "version": "2.11",
-  "loreVersion": "4.52",
+  "version": "2.12",
+  "loreVersion": "4.67",
   "nodes": [
     {
       "id": "soul",
@@ -5452,6 +5452,19 @@
       ],
       "origin": "",
       "originNote": "v4.35 §15.167：Wiki記載では金ブロック→空気30%、黒曜石→泣く黒曜石Java15%/Bedrock20%。地形でチェストが欠落する場合あり（Java）。原コード・実機未確認。破損から年代・略奪を直接推定しない。 v4.39 §15.171：Java抽出JSON全7環境を1.21.1/26.3比較。通常地表・山岳地表・ネザーのair_pocket_probabilityが0.5→0（26.2→26.3-snapshot-1で確認）。苔むし度・ツタ・ブラックストーン化・構造セットは同一。実機の空洞率・変更理由・Java処理差は未確定。 訂正 v4.41：26.2→26.3-snapshot-1ではジャングル地表も空洞確率0.5→0。通常地表・山岳地表・ジャングル・ネザーの4設定。Java1.21.1第三者逆コンパイル資料では周辺ネザーラック処理は構造の水平寸法・中心からの距離・地形高さに依存、地下方向の柱も別処理。26.3の実装本文・公式jar・実機は未確認。 v4.42：26.3第三者逆コンパイル本文で、ネザーの空洞有効時の候補Y32–100、無効時50%で27–29・50%で29–100、四隅のうち3つが高さ条件を満たすまで下降する処理を確認。設定0では空洞抽選の乱数消費なし。26.2本文未取得のため版間高度差は条件付き計算のみ。周辺配置と主要置換定数も26.3で再確認。地下方向の個別配置にも置換保護判定あり。公式jar・実機未照合。"
+    },
+    {
+      "id": "sheep_main",
+      "label": "ヒツジ（毛色・羊毛供給）",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "25w07aの青系自然毛色は25w08aで撤回。26.3/26.4-s10では灰色5%が全気候共通。古代都市の供給元は未確定。"
     }
   ],
   "edges": [
@@ -12821,6 +12834,24 @@
       "label": "3種類の牢獄に大釜（26.3 NBT）",
       "hypothesis": false,
       "researchSection": "v4.52 §15.184／Java 26.3提供JAR"
+    },
+    {
+      "id": "edge_r467_1",
+      "source": "sheep_main",
+      "target": "wool",
+      "label": "毛刈りによる羊毛供給／染色可能",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Sheep",
+      "researchSection": "v4.67 §15.199"
+    },
+    {
+      "id": "edge_r467_2",
+      "source": "sheep_main",
+      "target": "ancient_city_camp",
+      "label": "青系羊毛と25w07aの寒冷地毛色の比較（短期仕様・産地未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w08a",
+      "researchSection": "v4.67 §15.199"
     }
   ]
 }
