@@ -1,6 +1,6 @@
 {
-  "version": "2.02",
-  "loreVersion": "4.32",
+  "version": "2.03",
+  "loreVersion": "4.33",
   "nodes": [
     {
       "id": "soul",
@@ -5383,6 +5383,33 @@
       ],
       "origin": "",
       "originNote": "v4.32 §15.164：Alternative Fuelはかまどの燃料として利用する実績。Wikiは手動投入条件を記載。"
+    },
+    {
+      "id": "ghast_main",
+      "label": "ガスト（本編）",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "N"
+      ],
+      "origin": "",
+      "originNote": "v4.33 §15.165：2024年公式記事は起源不明、ネザー長期滞在による熱耐性を説明。現世原産・通常種から乾燥種への変化は未証明。"
+    },
+    {
+      "id": "uneasy_alliance_main",
+      "label": "不安な同盟（Java進捗）",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N"
+      ],
+      "origin": "",
+      "originNote": "Java 1.12-pre1の進捗。説明文の帰還表現と実際の達成条件（プレイヤーが現世でガストの討伐判定を得る）を区別。原JSON未取得。v4.33 §15.165。"
     }
   ],
   "edges": [
@@ -12484,6 +12511,60 @@
       "hypothesis": false,
       "sourceUrl": "https://minecraft.wiki/w/Achievement",
       "researchSection": "v4.32 §15.164"
+    },
+    {
+      "id": "edge_r433_1",
+      "source": "ghast_main",
+      "target": "nether",
+      "label": "長期滞在による熱耐性（2024年公式紹介）",
+      "sourceUrl": "https://www.minecraft.net/en-us/article/ghast",
+      "hypothesis": false,
+      "researchSection": "v4.33 §15.165 / H43補足"
+    },
+    {
+      "id": "edge_r433_2",
+      "source": "uneasy_alliance_main",
+      "target": "ghast_main",
+      "label": "対象モブ（Java進捗、Wiki）",
+      "sourceUrl": "https://minecraft.wiki/w/Advancement",
+      "hypothesis": false,
+      "researchSection": "v4.33 §15.165 / H43補足"
+    },
+    {
+      "id": "edge_r433_3",
+      "source": "uneasy_alliance_main",
+      "target": "overworld",
+      "label": "説明文は帰還を示唆、原産地は未証明",
+      "sourceUrl": "https://minecraft.wiki/w/Java_Edition_1.12-pre1",
+      "hypothesis": false,
+      "researchSection": "v4.33 §15.165 / H43補足"
+    },
+    {
+      "id": "edge_r433_4",
+      "source": "ghast_main",
+      "target": "overworld",
+      "label": "H43補足：現世原産の可能性（未証明）",
+      "sourceUrl": "https://minecraft.wiki/w/Java_Edition_1.12-pre1",
+      "hypothesis": true,
+      "researchSection": "v4.33 §15.165 / H43補足"
+    },
+    {
+      "id": "edge_r433_5",
+      "source": "ghast_main",
+      "target": "happy_ghast",
+      "label": "公式記事で近縁の比較、直接変化は未証明",
+      "sourceUrl": "https://www.minecraft.net/en-us/article/happy-ghast",
+      "hypothesis": false,
+      "researchSection": "v4.33 §15.165 / H43補足"
+    },
+    {
+      "id": "edge_r433_6",
+      "source": "happy_ghast",
+      "target": "overworld",
+      "label": "現世での繁栄と水分環境への適応（公式紹介）",
+      "sourceUrl": "https://www.minecraft.net/en-us/updates/introducing-chase-the-skies-drop",
+      "hypothesis": false,
+      "researchSection": "v4.33 §15.165 / H43補足"
     }
   ]
 }
