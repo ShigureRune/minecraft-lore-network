@@ -1,6 +1,6 @@
 {
-  "version": "2.00",
-  "loreVersion": "4.30",
+  "version": "2.01",
+  "loreVersion": "4.31",
   "nodes": [
     {
       "id": "soul",
@@ -4888,7 +4888,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "電球の光量とゴーレムの稼働に異なる影響。銅設備全般の機能停止ではない。"
+      "originNote": "電球の光量とゴーレムの稼働に異なる影響。銅設備全般の機能停止ではない。 v4.31：斧・落雷・ワックスで状態は変化または固定される。古代の養蜂設備は未証明。"
     },
     {
       "id": "signal_state_memory",
@@ -5240,6 +5240,97 @@
       ],
       "origin": "",
       "originNote": "Humbler Husklandの小地域でゴーレムが集まり歌う（Wiki検索・攻略資料）。A Dip in Ichor Springsではイコル固結層を2地点で採取、再充電後にここへ帰還。専用充電台座・建造者は未確認。v4.30 §15.162。"
+    },
+    {
+      "id": "turtle_egg_main",
+      "label": "カメの卵",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.31 §15.163：Java 18w19bのMC-125915修正記録。Bedrock 1.20.30で破壊・ひび割れの振動を確認。"
+    },
+    {
+      "id": "zombie_main",
+      "label": "ゾンビ（本編）",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.31 §15.163：Java 18w19bで卵破壊行動の修正記録。動機・魂への反応は未証明。"
+    },
+    {
+      "id": "drowned_main",
+      "label": "ドラウンド",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.31 §15.163：2023年公式Turtle記事で子ガメへの敵対を確認。"
+    },
+    {
+      "id": "baby_turtle_main",
+      "label": "子ガメ",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.31 §15.163：ドラウンド・野良ネコ・キツネに襲われる（公式記事）。"
+    },
+    {
+      "id": "honeycomb_main",
+      "label": "ハニカム",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.31 §15.163：Java 21w11aのワックス加工仕様、2023年Weathered Copper公式記事。古代養蜂は未証明。"
+    },
+    {
+      "id": "dispenser_main",
+      "label": "ディスペンサー",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.31 §15.163：Java 21w11aでハニカムによる銅のワックス加工を記録。"
+    },
+    {
+      "id": "archaeological_sediment",
+      "label": "考古学の砂・砂利",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.31 §15.163：Java/Bedrock 1.20の考古学。砂も砂利も陸上・水中の遺跡に分布し、堆積物だけでは水没歴を判定できない。"
     }
   ],
   "edges": [
@@ -12215,6 +12306,87 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_caa1_s02_a",
       "researchSection": "v4.30 §15.162"
+    },
+    {
+      "id": "edge_r431_1",
+      "source": "turtle",
+      "target": "turtle_egg_main",
+      "label": "出生地の砂浜に戻り産卵（公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/turtle",
+      "researchSection": "v4.31 §15.163"
+    },
+    {
+      "id": "edge_r431_2",
+      "source": "turtle_egg_main",
+      "target": "baby_turtle_main",
+      "label": "孵化して子ガメになる（公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/turtle",
+      "researchSection": "v4.31 §15.163"
+    },
+    {
+      "id": "edge_r431_3",
+      "source": "zombie_main",
+      "target": "turtle_egg_main",
+      "label": "卵破壊行動の修正記録（Java 18w19b）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-18w19a",
+      "researchSection": "v4.31 §15.163"
+    },
+    {
+      "id": "edge_r431_4",
+      "source": "drowned_main",
+      "target": "baby_turtle_main",
+      "label": "子ガメを襲う（公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/turtle",
+      "researchSection": "v4.31 §15.163"
+    },
+    {
+      "id": "edge_r431_5",
+      "source": "turtle_egg_main",
+      "target": "vibration_event",
+      "label": "破壊・ひび割れで振動（Bedrock 1.20.30）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/19545277817357-Minecraft-1-20-30-Bedrock",
+      "researchSection": "v4.31 §15.163"
+    },
+    {
+      "id": "edge_r431_6",
+      "source": "honeycomb_main",
+      "target": "copper_oxidation",
+      "label": "ワックスで酸化状態を固定（公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/360058629831-Minecraft-Java-Edition-Snapshot-21w11a",
+      "researchSection": "v4.31 §15.163"
+    },
+    {
+      "id": "edge_r431_7",
+      "source": "dispenser_main",
+      "target": "honeycomb_main",
+      "label": "ハニカムによる銅のワックス加工（21w11a）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/360058629831-Minecraft-Java-Edition-Snapshot-21w11a",
+      "researchSection": "v4.31 §15.163"
+    },
+    {
+      "id": "edge_r431_8",
+      "source": "archaeological_sediment",
+      "target": "trail",
+      "label": "旅路の遺跡は怪しげな砂利（廃坑は対象外）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16421714461453-Minecraft-Trails-Tales-1-20-0-Bedrock",
+      "researchSection": "v4.31 §15.163"
+    },
+    {
+      "id": "edge_r431_9",
+      "source": "archaeological_sediment",
+      "target": "desert_pyramid",
+      "label": "砂漠のピラミッドは怪しげな砂（Bedrock 1.20）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16421714461453-Minecraft-Trails-Tales-1-20-0-Bedrock",
+      "researchSection": "v4.31 §15.163"
     }
   ]
 }
