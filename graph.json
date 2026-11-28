@@ -1,6 +1,6 @@
 {
-  "version": "2.12",
-  "loreVersion": "4.67",
+  "version": "2.13",
+  "loreVersion": "4.68",
   "nodes": [
     {
       "id": "soul",
@@ -5464,7 +5464,46 @@
         "O"
       ],
       "origin": "",
-      "originNote": "25w07aの青系自然毛色は25w08aで撤回。26.3/26.4-s10では灰色5%が全気候共通。古代都市の供給元は未確定。"
+      "originNote": "25w07aの青系自然毛色は25w08aで撤回。26.3/26.4-s10では灰色5%が全気候共通。古代都市の供給元は未確定。 25w07a原JARで寒冷灰0%、空色5%・青5%・青緑3%確認。"
+    },
+    {
+      "id": "mountain_biome_tag_main",
+      "label": "山岳バイオーム（is_mountain）",
+      "color": "#527f65",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "25w07a/26.3の6種。草地・サクラの林は温帯で羊あり、他4種は寒冷タグだが羊なし。林はこのタグ外。"
+    },
+    {
+      "id": "windswept_cold_main",
+      "label": "吹きさらしの丘・森・砂利の丘",
+      "color": "#527f65",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "25w07a/26.3で寒冷動物タグ・羊スポーン重み12。is_mountainタグ外。25w07aのみ青系毛色合計13%。"
+    },
+    {
+      "id": "deep_dark_biome_main",
+      "label": "ディープダーク（バイオーム）",
+      "color": "#007c83",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "25w07a/26.3で古代都市生成タグ唯一の要素。寒冷動物タグだが自然羊スポーンなし。低侵食の山地下に多い（Wiki）。"
     }
   ],
   "edges": [
@@ -12852,6 +12891,51 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w08a",
       "researchSection": "v4.67 §15.199"
+    },
+    {
+      "id": "edge_r468_1",
+      "source": "mountain_biome_tag_main",
+      "target": "sheep_main",
+      "label": "山岳6種中2種に温帯羊登録、4種は羊なし",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Mountain",
+      "researchSection": "v4.68 §15.200 / 25w07a・26.3原JAR"
+    },
+    {
+      "id": "edge_r468_2",
+      "source": "windswept_cold_main",
+      "target": "sheep_main",
+      "label": "寒冷タグ・羊登録あり、25w07a青系13%（原JAR）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/minecraft-snapshot-25w07a",
+      "researchSection": "v4.68 §15.200 / 25w07a・26.3原JAR"
+    },
+    {
+      "id": "edge_r468_3",
+      "source": "deep_dark_biome_main",
+      "target": "ancient_main",
+      "label": "古代都市生成タグ唯一のバイオーム（原JAR）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Ancient_City",
+      "researchSection": "v4.68 §15.200 / 25w07a・26.3原JAR"
+    },
+    {
+      "id": "edge_r468_4",
+      "source": "deep_dark_biome_main",
+      "target": "sheep_main",
+      "label": "寒冷タグだが自然羊スポーン登録なし（原JAR）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Deep_Dark",
+      "researchSection": "v4.68 §15.200 / 25w07a・26.3原JAR"
+    },
+    {
+      "id": "edge_r468_5",
+      "source": "mountain_biome_tag_main",
+      "target": "deep_dark_biome_main",
+      "label": "低侵食の山地下に生成しやすい（必須条件ではない）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Deep_Dark",
+      "researchSection": "v4.68 §15.200 / 25w07a・26.3原JAR"
     }
   ]
 }
