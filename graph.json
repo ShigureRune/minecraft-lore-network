@@ -1,6 +1,6 @@
 {
-  "version": "2.06",
-  "loreVersion": "4.36",
+  "version": "2.07",
+  "loreVersion": "4.39",
   "nodes": [
     {
       "id": "soul",
@@ -5451,7 +5451,7 @@
         "N"
       ],
       "origin": "",
-      "originNote": "v4.35 §15.167：Wiki記載では金ブロック→空気30%、黒曜石→泣く黒曜石Java15%/Bedrock20%。地形でチェストが欠落する場合あり（Java）。原コード・実機未確認。破損から年代・略奪を直接推定しない。"
+      "originNote": "v4.35 §15.167：Wiki記載では金ブロック→空気30%、黒曜石→泣く黒曜石Java15%/Bedrock20%。地形でチェストが欠落する場合あり（Java）。原コード・実機未確認。破損から年代・略奪を直接推定しない。 v4.39 §15.171：Java抽出JSON全7環境を1.21.1/26.3比較。通常地表・山岳地表・ネザーのair_pocket_probabilityが0.5→0（26.2→26.3-snapshot-1で確認）。苔むし度・ツタ・ブラックストーン化・構造セットは同一。実機の空洞率・変更理由・Java処理差は未確定。"
     }
   ],
   "edges": [
@@ -12742,6 +12742,15 @@
       "hypothesis": false,
       "sourceUrl": "https://github.com/InventivetalentDev/minecraft-assets/tree/1.21.1/data/minecraft/structure/ruined_portal",
       "researchSection": "v4.36 §15.168"
+    },
+    {
+      "id": "edge_r439_1",
+      "source": "ruined_portal_generation",
+      "target": "nether",
+      "label": "ネザー側のブラックストーン化設定・空洞確率0.5→0（26.3-snapshot-1）",
+      "hypothesis": false,
+      "sourceUrl": "https://github.com/InventivetalentDev/minecraft-assets/blob/26.3-snapshot-1/data/minecraft/worldgen/structure/ruined_portal_nether.json",
+      "researchSection": "v4.39 §15.171"
     }
   ]
 }
