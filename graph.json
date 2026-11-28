@@ -1,6 +1,6 @@
 {
-  "version": "1.95",
-  "loreVersion": "4.25",
+  "version": "1.96",
+  "loreVersion": "4.26",
   "nodes": [
     {
       "id": "soul",
@@ -5115,7 +5115,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "1.21.3抽出プールで多くの遺跡がancient_city_generic_degradationを参照。氷室は空processor。自然生成の破損を年代の直接指標としない。 v4.22：26.1.2抽出JSONは対象タグのblock_rot integrity 0.95、残存レンガ/タイルのひび割れ変換0.3、魂ランタン→空気0.05。対象タグに灰色羊毛も含む。個別の実生成率・世界内年代とは別。"
+      "originNote": "1.21.3抽出プールで多くの遺跡がancient_city_generic_degradationを参照。氷室は空processor。自然生成の破損を年代の直接指標としない。 v4.22：26.1.2抽出JSONは対象タグのblock_rot integrity 0.95、残存レンガ/タイルのひび割れ変換0.3、魂ランタン→空気0.05。対象タグに灰色羊毛も含む。個別の実生成率・世界内年代とは別。 v4.26：26.2の中央3型は専用start_degradationを参照。ひび割れ0.3、魂ランタン消失0.05、block_rotなし。"
     },
     {
       "id": "ancient_city_ice_box_supplies",
@@ -12067,6 +12067,15 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:Singer",
       "researchSection": "v4.25 §15.157 / ユーザー仮説・既存資料との比較"
+    },
+    {
+      "id": "edge_r426_1",
+      "source": "ancient_city_center",
+      "target": "ancient_city_degradation",
+      "label": "中央3型は専用劣化処理、block_rotなし（26.2抽出）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/26.2/data/minecraft/worldgen/processor_list/ancient_city_start_degradation.json",
+      "researchSection": "v4.26 §15.158"
     }
   ]
 }
