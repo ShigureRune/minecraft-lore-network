@@ -1,6 +1,6 @@
 {
-  "version": "2.01",
-  "loreVersion": "4.31",
+  "version": "2.02",
+  "loreVersion": "4.32",
   "nodes": [
     {
       "id": "soul",
@@ -4604,7 +4604,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+      "originNote": "夜間合同査読 v4.08 §15.140、N1班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。 v4.32：Java/Bedrock 1.21のCrafters Crafting Craftersで同型装置の製造を確認。原料・外部入力は必要で自律自己複製とは別。"
     },
     {
       "id": "hopper",
@@ -5331,6 +5331,58 @@
       ],
       "origin": "",
       "originNote": "v4.31 §15.163：Java/Bedrock 1.20の考古学。砂も砂利も陸上・水中の遺跡に分布し、堆積物だけでは水没歴を判定できない。"
+    },
+    {
+      "id": "chest_minecart_main",
+      "label": "チェスト付きトロッコ",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.32 §15.164：Java Alpha v1.0.14追加、13w02a廃坑の固定チェストから置換（既存別冊）。Bedrock Freight Stationはホッパー経由で収納に搬出。"
+    },
+    {
+      "id": "furnace_main",
+      "label": "かまど",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.32 §15.164：Bedrock Smelt Everything! は3チェスト・3ホッパーの接続を判定。実績達成は古代の使用実績と別。"
+    },
+    {
+      "id": "charcoal_main",
+      "label": "木炭",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.32 §15.164：Renewable Energyでは木炭を燃料に原木から木炭を作る。資源の投入が必要。"
+    },
+    {
+      "id": "dried_kelp_block_main",
+      "label": "乾燥昆布ブロック",
+      "color": "#568455",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "v4.32 §15.164：Alternative Fuelはかまどの燃料として利用する実績。Wikiは手動投入条件を記載。"
     }
   ],
   "edges": [
@@ -12387,6 +12439,51 @@
       "hypothesis": false,
       "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16421714461453-Minecraft-Trails-Tales-1-20-0-Bedrock",
       "researchSection": "v4.31 §15.163"
+    },
+    {
+      "id": "edge_r432_1",
+      "source": "mineshaft",
+      "target": "chest_minecart_main",
+      "label": "Java 13w02aで固定チェストから置換（既存別冊）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Java_Edition_13w02a",
+      "researchSection": "v4.32 §15.164"
+    },
+    {
+      "id": "edge_r432_2",
+      "source": "chest_minecart_main",
+      "target": "hopper",
+      "label": "Freight Station：貨物を収納へ搬出（Bedrock）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Achievement",
+      "researchSection": "v4.32 §15.164"
+    },
+    {
+      "id": "edge_r432_3",
+      "source": "hopper",
+      "target": "furnace_main",
+      "label": "Smelt Everything!：3チェスト・3ホッパー接続（Bedrock）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Achievement",
+      "researchSection": "v4.32 §15.164"
+    },
+    {
+      "id": "edge_r432_4",
+      "source": "charcoal_main",
+      "target": "furnace_main",
+      "label": "Renewable Energy：原木の製錬に木炭を利用（Bedrock）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Achievement",
+      "researchSection": "v4.32 §15.164"
+    },
+    {
+      "id": "edge_r432_5",
+      "source": "dried_kelp_block_main",
+      "target": "furnace_main",
+      "label": "Alternative Fuel：燃料として使用（Bedrock）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Achievement",
+      "researchSection": "v4.32 §15.164"
     }
   ]
 }
