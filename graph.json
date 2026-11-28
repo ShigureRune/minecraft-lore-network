@@ -1,6 +1,6 @@
 {
-  "version": "1.93",
-  "loreVersion": "4.22",
+  "version": "1.94",
+  "loreVersion": "4.23",
   "nodes": [
     {
       "id": "soul",
@@ -5155,6 +5155,51 @@
       ],
       "origin": "",
       "originNote": "Wiki構成表：石の感圧板3・音符ブロック2。入口で発音するとの記述。原NBT・音高・各板の接続・警報目的未確認。"
+    },
+    {
+      "id": "trial_key_main",
+      "label": "試練の鍵",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": "Java 1.21公式：通常宝物庫を開ける鍵。鍵の所持と本人の試練突破は同義でない。"
+    },
+    {
+      "id": "ominous_trial_key_main",
+      "label": "不吉な試練の鍵",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": "Java 1.21公式：不吉な宝物庫に対応。"
+    },
+    {
+      "id": "armor_trim_templates",
+      "label": "防具装飾用鍛冶型",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N",
+        "E"
+      ],
+      "origin": "",
+      "originNote": "Java 1.20で16種、1.21で18種。元型から複製可能。出土先・取得方法・制作主体を区別。既存本編§15.3の補完。"
     }
   ],
   "edges": [
@@ -11878,6 +11923,78 @@
       "hypothesis": false,
       "sourceUrl": "https://mcasset.cloud/26.1.2/data/minecraft/tags/block/ancient_city_replaceable.json",
       "researchSection": "v4.22 §15.154"
+    },
+    {
+      "id": "edge_r423_1",
+      "source": "trial_key_main",
+      "target": "trial_vault",
+      "label": "通常宝物庫に対応する解錠アイテム",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.23 §15.155 / 既存知識のグラフ補完"
+    },
+    {
+      "id": "edge_r423_2",
+      "source": "ominous_trial_key_main",
+      "target": "trial_ominous_vault",
+      "label": "不吉な宝物庫に対応する解錠アイテム",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.23 §15.155 / 既存知識のグラフ補完"
+    },
+    {
+      "id": "edge_r423_3",
+      "source": "trail",
+      "target": "armor_trim_templates",
+      "label": "旅路の遺跡の発掘：Wayfinder/Raiser/Shaper/Host（廃坑は対象外）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.23 §15.155 / 既存知識のグラフ補完"
+    },
+    {
+      "id": "edge_r423_4",
+      "source": "ancient_main",
+      "target": "armor_trim_templates",
+      "label": "Ward/Silenceのチェスト戦利品",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.23 §15.155 / 既存知識のグラフ補完"
+    },
+    {
+      "id": "edge_r423_5",
+      "source": "desert_pyramid",
+      "target": "armor_trim_templates",
+      "label": "Duneのチェスト戦利品（陶片の発掘とは別）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.23 §15.155 / 既存知識のグラフ補完"
+    },
+    {
+      "id": "edge_r423_6",
+      "source": "monument",
+      "target": "armor_trim_templates",
+      "label": "Tideはエルダーガーディアン由来（チェストではない）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.23 §15.155 / 既存知識のグラフ補完"
+    },
+    {
+      "id": "edge_r423_7",
+      "source": "armor_trim_templates",
+      "target": "trial_bolt_motif",
+      "label": "Boltは1.21で追加",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.23 §15.155 / 既存知識のグラフ補完"
+    },
+    {
+      "id": "edge_r423_8",
+      "source": "armor_trim_templates",
+      "target": "trial_flow_motif",
+      "label": "Flowは1.21で追加",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+      "researchSection": "v4.23 §15.155 / 既存知識のグラフ補完"
     }
   ]
 }
