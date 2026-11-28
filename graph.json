@@ -1,6 +1,6 @@
 {
-  "version": "2.14",
-  "loreVersion": "4.77",
+  "version": "2.15",
+  "loreVersion": "4.78",
   "nodes": [
     {
       "id": "soul",
@@ -991,7 +991,7 @@
         "N"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": "2020公式開発者証言：落雷・ポータル通過による生成は不採用案。現行仕様の証拠ではない。"
     },
     {
       "id": "end_crystal",
@@ -5330,7 +5330,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "v4.31 §15.163：Java/Bedrock 1.20の考古学。砂も砂利も陸上・水中の遺跡に分布し、堆積物だけでは水没歴を判定できない。 / 第3班B3-ARC-11：Java APIとBedrock保存項目5種を比較、同一レイヤー・世界内技術を意味しない。Bedrock対象版未確定。"
+      "originNote": "v4.31 §15.163：Java/Bedrock 1.20の考古学。砂も砂利も陸上・水中の遺跡に分布し、堆積物だけでは水没歴を判定できない。 / 第3班B3-ARC-11：Java APIとBedrock保存項目5種を比較、同一レイヤー・世界内技術を意味しない。Bedrock対象版未確定。 / B3-ARC-09/10：中断による発掘進捗後退と遺物保存は区別。Yarn API宣言では別フィールドだが再抽選時期は未確認。"
     },
     {
       "id": "chest_minecart_main",
@@ -5634,6 +5634,110 @@
       ],
       "origin": "",
       "originNote": "2023年公式記事：沈没船・海底遺跡で発見。"
+    },
+    {
+      "id": "turtle_scute_main",
+      "label": "カメのウロコ",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "15〜17時枠合同査読。ゲーム仕様と世界内起源を区別。"
+    },
+    {
+      "id": "turtle_shell_main",
+      "label": "カメの甲羅",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "15〜17時枠合同査読。ゲーム仕様と世界内起源を区別。"
+    },
+    {
+      "id": "turtle_master_main",
+      "label": "亀使いのポーション",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "15〜17時枠合同査読。ゲーム仕様と世界内起源を区別。"
+    },
+    {
+      "id": "open_eyeblossom_main",
+      "label": "開いたヒトミソウ",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "15〜17時枠合同査読。ゲーム仕様と世界内起源を区別。"
+    },
+    {
+      "id": "closed_eyeblossom_main",
+      "label": "閉じたヒトミソウ",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "15〜17時枠合同査読。ゲーム仕様と世界内起源を区別。"
+    },
+    {
+      "id": "cat_main",
+      "label": "ネコ",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "15〜17時枠合同査読。ゲーム仕様と世界内起源を区別。"
+    },
+    {
+      "id": "ocelot_main",
+      "label": "ヤマネコ",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "15〜17時枠合同査読。ゲーム仕様と世界内起源を区別。"
+    },
+    {
+      "id": "phantom_main",
+      "label": "ファントム",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "15〜17時枠合同査読。ゲーム仕様と世界内起源を区別。 / 公開Bedrock定義でundead分類。距離設定・優先順位は恐怖や共通起源の尺度ではない。"
     }
   ],
   "edges": [
@@ -13174,6 +13278,96 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/en-us/article/shulker",
       "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r478_01",
+      "source": "baby_turtle_main",
+      "target": "turtle_scute_main",
+      "label": "成長時に供給（2018公式記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/fi-fi/article/taking-inventory-turtle-shell",
+      "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
+    },
+    {
+      "id": "edge_r478_02",
+      "source": "turtle_scute_main",
+      "target": "turtle_shell_main",
+      "label": "装備の材料（2018公式記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/fi-fi/article/taking-inventory-turtle-shell",
+      "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
+    },
+    {
+      "id": "edge_r478_03",
+      "source": "turtle_shell_main",
+      "target": "turtle_master_main",
+      "label": "醸造素材（2018公式記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/fi-fi/article/taking-inventory-turtle-shell",
+      "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
+    },
+    {
+      "id": "edge_r478_04",
+      "source": "open_eyeblossom_main",
+      "target": "bee",
+      "label": "接触で毒（Java 1.21.4）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/32385811139085-Minecraft-Java-Edition-1-21-4-The-Garden-Awakens",
+      "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
+    },
+    {
+      "id": "edge_r478_05",
+      "source": "closed_eyeblossom_main",
+      "target": "bee",
+      "label": "相互作用なし（Java 1.21.4）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/32385811139085-Minecraft-Java-Edition-1-21-4-The-Garden-Awakens",
+      "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
+    },
+    {
+      "id": "edge_r478_06",
+      "source": "open_eyeblossom_main",
+      "target": "closed_eyeblossom_main",
+      "label": "昼夜による開閉（Java 1.21.4）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/32385811139085-Minecraft-Java-Edition-1-21-4-The-Garden-Awakens",
+      "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
+    },
+    {
+      "id": "edge_r478_07",
+      "source": "creeper",
+      "target": "cat_main",
+      "label": "忌避対象、距離設定6（Bedrock公開定義）",
+      "hypothesis": false,
+      "sourceUrl": "https://learn.microsoft.com/es-mx/minecraft/creator/reference/source/vanillabehaviorpack_snippets/entities/creeper?view=minecraft-bedrock-stable",
+      "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
+    },
+    {
+      "id": "edge_r478_08",
+      "source": "creeper",
+      "target": "ocelot_main",
+      "label": "忌避対象、距離設定6（Bedrock公開定義）",
+      "hypothesis": false,
+      "sourceUrl": "https://learn.microsoft.com/es-mx/minecraft/creator/reference/source/vanillabehaviorpack_snippets/entities/creeper?view=minecraft-bedrock-stable",
+      "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
+    },
+    {
+      "id": "edge_r478_09",
+      "source": "phantom_main",
+      "target": "cat_main",
+      "label": "忌避対象、距離設定16・視認無視（Bedrock公開定義）",
+      "hypothesis": false,
+      "sourceUrl": "https://learn.microsoft.com/zh-cn/minecraft/creator/reference/source/vanillabehaviorpack_snippets/entities/phantom?view=minecraft-bedrock-stable",
+      "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
+    },
+    {
+      "id": "edge_r478_10",
+      "source": "phantom_main",
+      "target": "ocelot_main",
+      "label": "忌避対象、距離設定16・視認無視（Bedrock公開定義）",
+      "hypothesis": false,
+      "sourceUrl": "https://learn.microsoft.com/zh-cn/minecraft/creator/reference/source/vanillabehaviorpack_snippets/entities/phantom?view=minecraft-bedrock-stable",
+      "researchSection": "v4.78 §15.210 / 15〜17時枠合同査読"
     }
   ]
 }
