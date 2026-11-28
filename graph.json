@@ -1,6 +1,6 @@
 {
-  "version": "2.16",
-  "loreVersion": "4.79",
+  "version": "2.17",
+  "loreVersion": "4.80",
   "nodes": [
     {
       "id": "soul",
@@ -1019,7 +1019,7 @@
         "E"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": "卵の孵化とクリスタルによる再召喚を区別。元個体の同一性未確認。"
     },
     {
       "id": "anchor",
@@ -1071,7 +1071,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": " Java1.20公式：振動分類フィルタ、検出距離16ブロック、動作10tick＋休止10tick。元音の音高識別ではない。"
+      "originNote": " Java1.20公式：振動分類フィルタ、検出距離16ブロック、動作10tick＋休止10tick。元音の音高識別ではない。 / Java 1.20公式：自然生成なし、活性10tick＋冷却10tick。周波数分類のみでは同一分類の現象を区別できない。"
     },
     {
       "id": "allay",
@@ -4836,7 +4836,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "2022-02-17実験版公式記事で検知とレッドストーン出力。調律型とは区別。"
+      "originNote": "2022-02-17実験版公式記事で検知とレッドストーン出力。調律型とは区別。 / Java 1.20公式：活性30tick＋冷却10tick、伝播時間別。"
     },
     {
       "id": "lightning_event",
@@ -5330,7 +5330,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "v4.31 §15.163：Java/Bedrock 1.20の考古学。砂も砂利も陸上・水中の遺跡に分布し、堆積物だけでは水没歴を判定できない。 / 第3班B3-ARC-11：Java APIとBedrock保存項目5種を比較、同一レイヤー・世界内技術を意味しない。Bedrock対象版未確定。 / B3-ARC-09/10：中断による発掘進捗後退と遺物保存は区別。Yarn API宣言では別フィールドだが再抽選時期は未確認。"
+      "originNote": "v4.31 §15.163：Java/Bedrock 1.20の考古学。砂も砂利も陸上・水中の遺跡に分布し、堆積物だけでは水没歴を判定できない。 / 第3班B3-ARC-11：Java APIとBedrock保存項目5種を比較、同一レイヤー・世界内技術を意味しない。Bedrock対象版未確定。 / B3-ARC-09/10：中断による発掘進捗後退と遺物保存は区別。Yarn API宣言では別フィールドだが再抽選時期は未確認。 / B3-ARC-12：抽選情報消去の二次資料、対象版・再抽選挙動未確定。"
     },
     {
       "id": "chest_minecart_main",
@@ -5738,6 +5738,45 @@
       ],
       "origin": "",
       "originNote": "15〜17時枠合同査読。ゲーム仕様と世界内起源を区別。 / 公開Bedrock定義でundead分類。距離設定・優先順位は恐怖や共通起源の尺度ではない。"
+    },
+    {
+      "id": "shulker_bullet_main",
+      "label": "シュルカーの弾",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": "19〜20時合同査読・公式記録で再確認。世界内起源は未証明。"
+    },
+    {
+      "id": "dragon_egg_main",
+      "label": "ドラゴンの卵",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "E"
+      ],
+      "origin": "",
+      "originNote": "19〜20時合同査読・公式記録で再確認。世界内起源は未証明。"
+    },
+    {
+      "id": "vibration_class_11_main",
+      "label": "振動分類11（状態変化）",
+      "color": "#1859a0",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "19〜20時合同査読・公式記録で再確認。世界内起源は未証明。"
     }
   ],
   "edges": [
@@ -13416,6 +13455,51 @@
       "label": "チャージによる派生生成（26.3、自然生成と区別）",
       "hypothesis": false,
       "researchSection": "v4.79 §15.211 / 26.3原JAR静的解析"
+    },
+    {
+      "id": "edge_r480_01",
+      "source": "shulker_bullet_main",
+      "target": "shulker",
+      "label": "条件付き新個体生成（Java 1.17）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/4402626897165-Minecraft-Caves-Cliffs-Part-1-1-17-Java",
+      "researchSection": "v4.80 §15.212 / 19〜20時枠合同査読"
+    },
+    {
+      "id": "edge_r480_02",
+      "source": "dragon",
+      "target": "dragon_egg_main",
+      "label": "討伐報酬（通常Java1個・Bedrock2個、2025公式記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/ja-jp/article/dragon-egg",
+      "researchSection": "v4.80 §15.212 / 19〜20時枠合同査読"
+    },
+    {
+      "id": "edge_r480_03",
+      "source": "dried_ghast",
+      "target": "vibration_class_11_main",
+      "label": "ブロック状態変化で振動分類11（Java 1.21.6）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/de-de/article/minecraft-java-edition-1-21-6",
+      "researchSection": "v4.80 §15.212 / 19〜20時枠合同査読"
+    },
+    {
+      "id": "edge_r480_04",
+      "source": "vibration_class_11_main",
+      "target": "vibration_event",
+      "label": "状態変化を共通分類（11Hzではない）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.80 §15.212 / 19〜20時枠合同査読"
+    },
+    {
+      "id": "edge_r480_05",
+      "source": "calibrated_sensor",
+      "target": "vibration_class_11_main",
+      "label": "入力信号で選択受信可能、発生源一意識別不可",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales",
+      "researchSection": "v4.80 §15.212 / 19〜20時枠合同査読"
     }
   ]
 }
