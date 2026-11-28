@@ -1,6 +1,6 @@
 {
-  "version": "2.03",
-  "loreVersion": "4.33",
+  "version": "2.04",
+  "loreVersion": "4.34",
   "nodes": [
     {
       "id": "soul",
@@ -5410,6 +5410,20 @@
       ],
       "origin": "",
       "originNote": "Java 1.12-pre1の進捗。説明文の帰還表現と実際の達成条件（プレイヤーが現世でガストの討伐判定を得る）を区別。原JSON未取得。v4.33 §15.165。"
+    },
+    {
+      "id": "ruined_portal_loot",
+      "label": "荒廃ポータルの戦利品",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N"
+      ],
+      "origin": "",
+      "originNote": "v4.34 §15.166：Java 1.21.5抽出JSON。通常25種・4～8回・重み総計398。別枠ロードストーン2/3で1～2個。補給拠点・ピグリンとの関係は仮説。"
     }
   ],
   "edges": [
@@ -12565,6 +12579,60 @@
       "sourceUrl": "https://www.minecraft.net/en-us/updates/introducing-chase-the-skies-drop",
       "hypothesis": false,
       "researchSection": "v4.33 §15.165 / H43補足"
+    },
+    {
+      "id": "edge_r434_1",
+      "source": "ruined",
+      "target": "ruined_portal_loot",
+      "label": "専用チェストの戦利品（Java 1.21.5抽出）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21.5/data/minecraft/loot_table/chests/ruined_portal.json",
+      "researchSection": "v4.34 §15.166"
+    },
+    {
+      "id": "edge_r434_2",
+      "source": "ruined_portal_loot",
+      "target": "gold",
+      "label": "金関連品・装飾品の偏り（抽選枠）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21.5/data/minecraft/loot_table/chests/ruined_portal.json",
+      "researchSection": "v4.34 §15.166"
+    },
+    {
+      "id": "edge_r434_3",
+      "source": "ruined_portal_loot",
+      "target": "obsidian",
+      "label": "黒曜石の収録（ラピスは対象外）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21.5/data/minecraft/loot_table/chests/ruined_portal.json",
+      "researchSection": "v4.34 §15.166"
+    },
+    {
+      "id": "edge_r434_4",
+      "source": "ruined_portal_loot",
+      "target": "clock_main",
+      "label": "時計が戦利品に含まれる",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21.5/data/minecraft/loot_table/chests/ruined_portal.json",
+      "researchSection": "v4.34 §15.166"
+    },
+    {
+      "id": "edge_r434_5",
+      "source": "ruined_portal_loot",
+      "target": "enchanted_apple",
+      "label": "希少戦利品（約1.5%）",
+      "hypothesis": false,
+      "sourceUrl": "https://mcasset.cloud/1.21.5/data/minecraft/loot_table/chests/ruined_portal.json",
+      "researchSection": "v4.34 §15.166"
+    },
+    {
+      "id": "edge_r434_6",
+      "source": "ruined_portal_loot",
+      "target": "piglin",
+      "label": "金製品と交易・通行装備の比較候補（建設者未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://mcasset.cloud/1.21.5/data/minecraft/loot_table/chests/ruined_portal.json",
+      "researchSection": "v4.34 §15.166"
     }
   ]
 }
