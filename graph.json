@@ -1,6 +1,6 @@
 {
-  "version": "1.99",
-  "loreVersion": "4.29",
+  "version": "2.00",
+  "loreVersion": "4.30",
   "nodes": [
     {
       "id": "soul",
@@ -5227,6 +5227,19 @@
       "dimensions": [],
       "origin": "",
       "originNote": "ユーザー発案。模様入りソウルシェールからシフトとの過去の交流を推測。Dungeons IIの後代の往来と古代都市繁栄期の居住・活動を区別。材質・年代・直接遺物未証明。v4.29 §15.161。"
+    },
+    {
+      "id": "echo_den_d2",
+      "label": "The Echo Den（エコーゴーレム集合拠点）",
+      "color": "#287449",
+      "media": [
+        "D2"
+      ],
+      "dimensions": [
+        "S"
+      ],
+      "origin": "",
+      "originNote": "Humbler Husklandの小地域でゴーレムが集まり歌う（Wiki検索・攻略資料）。A Dip in Ichor Springsではイコル固結層を2地点で採取、再充電後にここへ帰還。専用充電台座・建造者は未確認。v4.30 §15.162。"
     }
   ],
   "edges": [
@@ -12166,6 +12179,42 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_caa1_s02_a",
       "researchSection": "v4.29 §15.161"
+    },
+    {
+      "id": "edge_r430_1",
+      "source": "echo_den_d2",
+      "target": "humbler_huskland",
+      "label": "小地域（Wiki検索収録）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraft.wiki/w/Dungeons_II:The_Echo_Den",
+      "researchSection": "v4.30 §15.162"
+    },
+    {
+      "id": "edge_r430_2",
+      "source": "echo_den_d2",
+      "target": "singer",
+      "label": "エコーゴーレムの集合・歌唱拠点（Wiki・攻略）",
+      "hypothesis": false,
+      "sourceUrl": "https://gamer-guides.com/minecraft-dungeons-2/wrath-of-the-sculkers/",
+      "researchSection": "v4.30 §15.162"
+    },
+    {
+      "id": "edge_r430_3",
+      "source": "echo_den_d2",
+      "target": "ichor_ponds",
+      "label": "固結層採取・再充電後にEcho Denへ戻る（クエスト本文）",
+      "hypothesis": false,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_caa1_s02_a",
+      "researchSection": "v4.30 §15.162"
+    },
+    {
+      "id": "edge_r430_4",
+      "source": "echo_den_d2",
+      "target": "ancient_city_echo_golem_hypothesis",
+      "label": "古代都市の集合拠点との比較候補（同用途未証明）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_caa1_s02_a",
+      "researchSection": "v4.30 §15.162"
     }
   ]
 }
