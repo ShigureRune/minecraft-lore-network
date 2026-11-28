@@ -1,6 +1,6 @@
 {
-  "version": "2.07",
-  "loreVersion": "4.39",
+  "version": "2.08",
+  "loreVersion": "4.40",
   "nodes": [
     {
       "id": "soul",
@@ -794,7 +794,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": " 公式記事2021/2024：アイは要塞を指し、12フレーム装着で起動。Bedrockにはポータル室を欠く要塞もある（2021記事）。実際の誘導先・現行版は未検証。装着フレームの比較器出力15/0は起動エネルギーと同一とは限らない。"
     },
     {
       "id": "endcity",
@@ -874,7 +874,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": " 旅路の遺跡に限る：Java 1.21.1の抽出データでは塔最上部用処理が通常出土品を割り当て、置換上限2。Bedrock公式開発資料の道路用処理例も通常枠・上限2。出土場所から製作地や交易を直接推定しない。廃坑にこの規則を適用しない。 Java 1.21.11-rc3の住宅用処理では通常上限6・希少上限3、集会所・大部屋・一部屋各5の15パーツが同じ処理を参照。"
+      "originNote": " 旅路の遺跡に限る：Java 1.21.1の抽出データでは塔最上部用処理が通常出土品を割り当て、置換上限2。Bedrock公式開発資料の道路用処理例も通常枠・上限2。出土場所から製作地や交易を直接推定しない。廃坑にこの規則を適用しない。 Java 1.21.11-rc3の住宅用処理では通常上限6・希少上限3、集会所・大部屋・一部屋各5の15パーツが同じ処理を参照。 Java 1.20 mcmeta抽出3ファイル再照合：住宅・道路に砂利→土0.2、粗い土0.1、泥レンガ→固めた泥0.1の先行規則。塔頂にはなし。通常上限は住宅6、道路・塔頂2、希少上限は住宅3。値は最終比率ではない。廃坑は対象外。"
     },
     {
       "id": "searuins",
@@ -3239,7 +3239,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "1.20追加、1.20.3収納、1.21試練の間に戦利品。古代都市には自然生成しない（Wiki）。"
+      "originNote": "1.20追加、1.20.3収納、1.21試練の間に戦利品。古代都市には自然生成しない（Wiki）。 Java 1.20.3公式：1スタック収納、ホッパー等の搬送、比較器による数量読取、プレイヤー操作で振動分類11。数量・物資・操作イベントは別機能。古代の在庫監視用途は未証明。"
     },
     {
       "id": "mourner_sherd",
@@ -7489,8 +7489,10 @@
       "id": "edge_ender_eye_stronghold",
       "source": "ender_eye",
       "target": "stronghold",
-      "label": "H34 ポータル利用",
-      "hypothesis": false
+      "label": "要塞を探知（ポータル起動と別）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/tr-tr/article/stronghold",
+      "researchSection": "v4.40 §15.172"
     },
     {
       "id": "edge_ender_eye_end_crystal",
@@ -12751,6 +12753,42 @@
       "hypothesis": false,
       "sourceUrl": "https://github.com/InventivetalentDev/minecraft-assets/blob/26.3-snapshot-1/data/minecraft/worldgen/structure/ruined_portal_nether.json",
       "researchSection": "v4.39 §15.171"
+    },
+    {
+      "id": "edge_r440_1",
+      "source": "decorated_pot",
+      "target": "comparator",
+      "label": "内容量を読み取る（Java 1.20.3）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-3",
+      "researchSection": "v4.40 §15.172"
+    },
+    {
+      "id": "edge_r440_2",
+      "source": "hopper",
+      "target": "decorated_pot",
+      "label": "物資の搬入・搬出（Java 1.20.3）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-3",
+      "researchSection": "v4.40 §15.172"
+    },
+    {
+      "id": "edge_r440_3",
+      "source": "decorated_pot",
+      "target": "vibration_event",
+      "label": "プレイヤー操作で分類11（Java 1.20.3）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-3",
+      "researchSection": "v4.40 §15.172"
+    },
+    {
+      "id": "edge_r440_4",
+      "source": "stronghold",
+      "target": "comparator",
+      "label": "ポータル室の装着フレーム出力15/0（公式）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/de-de/article/block-week--end-portal-frame",
+      "researchSection": "v4.40 §15.172"
     }
   ]
 }
