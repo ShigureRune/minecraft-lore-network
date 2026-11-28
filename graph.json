@@ -1,6 +1,6 @@
 {
-  "version": "2.13",
-  "loreVersion": "4.68",
+  "version": "2.14",
+  "loreVersion": "4.77",
   "nodes": [
     {
       "id": "soul",
@@ -1389,7 +1389,7 @@
         "E"
       ],
       "origin": "",
-      "originNote": ""
+      "originNote": "H54補足：公式記事筆者が海洋軟体動物との類縁を推測。2017年ゴーレム原案は開発史のみ。"
     },
     {
       "id": "shulker_box",
@@ -4396,7 +4396,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。 / 第4班B4-HYDRO-11：液体の保持と供給は別条件（二次資料、実機未検証）。"
     },
     {
       "id": "powder_snow",
@@ -4448,7 +4448,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。"
+      "originNote": "夜間合同査読 v4.08 §15.140、M班最終MD。報告時の版・出典確認範囲に限定。世界内年代・同一文明・実機未確認。 / 第4班B4-HYDRO-11（二次資料）：滴下粒子だけでは液体源・ネザー水自給を立証しない。供給条件は要JAR照合。"
     },
     {
       "id": "basalt",
@@ -5330,7 +5330,7 @@
         "O"
       ],
       "origin": "",
-      "originNote": "v4.31 §15.163：Java/Bedrock 1.20の考古学。砂も砂利も陸上・水中の遺跡に分布し、堆積物だけでは水没歴を判定できない。"
+      "originNote": "v4.31 §15.163：Java/Bedrock 1.20の考古学。砂も砂利も陸上・水中の遺跡に分布し、堆積物だけでは水没歴を判定できない。 / 第3班B3-ARC-11：Java APIとBedrock保存項目5種を比較、同一レイヤー・世界内技術を意味しない。Bedrock対象版未確定。"
     },
     {
       "id": "chest_minecart_main",
@@ -5504,6 +5504,136 @@
       ],
       "origin": "",
       "originNote": "25w07a/26.3で古代都市生成タグ唯一の要素。寒冷動物タグだが自然羊スポーンなし。低侵食の山地下に多い（Wiki）。"
+    },
+    {
+      "id": "zombie_horse_main",
+      "label": "ゾンビ馬",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java 1.21.11：赤色キノコで回復、日光の影響。Bedrock 1.21.130：繁殖不可。"
+    },
+    {
+      "id": "camel_husk_main",
+      "label": "ラクダハスク",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java 1.21.11：ウサギの足で回復、日光で燃えず、繁殖不可。"
+    },
+    {
+      "id": "zombie_nautilus_main",
+      "label": "ゾンビオウムガイ",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java 1.21.11／Bedrock 1.21.130：騎乗可能、繁殖不可。酸素消費停止は酸素回復とは異なる。"
+    },
+    {
+      "id": "nautilus_main",
+      "label": "オウムガイ（生物）",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java 1.21.11：殻の供給源、騎乗時の呼吸支援。"
+    },
+    {
+      "id": "squid_main",
+      "label": "イカ",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2025年公式記事筆者のシュルカー類縁推測。確定設定ではない。"
+    },
+    {
+      "id": "glow_squid_main",
+      "label": "ヒカリイカ",
+      "color": "#287449",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2025年公式記事筆者のシュルカー類縁推測。確定設定ではない。"
+    },
+    {
+      "id": "red_mushroom_main",
+      "label": "赤色のキノコ",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java 1.21.11：ゾンビ馬の回復素材。"
+    },
+    {
+      "id": "rabbit_foot_main",
+      "label": "ウサギの足",
+      "color": "#947453",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "Java 1.21.11：ラクダハスクの回復素材。"
+    },
+    {
+      "id": "buried_treasure_main",
+      "label": "埋もれた宝",
+      "color": "#007c83",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2023年公式記事：海洋の心の入手先。現行版全経路未照合。"
+    },
+    {
+      "id": "buried_treasure_map_main",
+      "label": "宝の地図",
+      "color": "#87551c",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O"
+      ],
+      "origin": "",
+      "originNote": "2023年公式記事：沈没船・海底遺跡で発見。"
     }
   ],
   "edges": [
@@ -12936,6 +13066,114 @@
       "hypothesis": false,
       "sourceUrl": "https://minecraft.wiki/w/Deep_Dark",
       "researchSection": "v4.68 §15.200 / 25w07a・26.3原JAR"
+    },
+    {
+      "id": "edge_r477_01",
+      "source": "red_mushroom_main",
+      "target": "zombie_horse_main",
+      "label": "回復素材（Java 1.21.11）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-11",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_02",
+      "source": "rabbit_foot_main",
+      "target": "camel_husk_main",
+      "label": "回復素材（Java 1.21.11）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-11",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_03",
+      "source": "nautilus_main",
+      "target": "zombie_nautilus_main",
+      "label": "類似した騎乗機能・繁殖可否の差（変異過程未確認）",
+      "hypothesis": false,
+      "sourceUrl": "https://feedback.minecraft.net/hc/en-us/articles/41446685014669-Minecraft-Bedrock-Edition-1-21-130-Mounts-of-Mayhem",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_04",
+      "source": "nautilus_main",
+      "target": "nautilus_shell",
+      "label": "殻の供給源（Java 1.21.11）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-11",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_05",
+      "source": "buried_treasure_main",
+      "target": "sea_heart",
+      "label": "入手先（2023年公式記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/heart-sea",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_06",
+      "source": "wandering_trader",
+      "target": "nautilus_shell",
+      "label": "取引（2023年公式記事、技術継承未証明）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/heart-sea",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_07",
+      "source": "shipwreck",
+      "target": "buried_treasure_map_main",
+      "label": "地図の入手先（2023年記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/heart-sea",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_08",
+      "source": "searuins",
+      "target": "buried_treasure_map_main",
+      "label": "地図の入手先（2023年記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/heart-sea",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_09",
+      "source": "buried_treasure_map_main",
+      "target": "buried_treasure_main",
+      "label": "位置情報（2023年記事）",
+      "hypothesis": false,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/heart-sea",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_10",
+      "source": "shulker",
+      "target": "nautilus_main",
+      "label": "類縁？（2025年公式記事筆者の推測、未確定）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/shulker",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_11",
+      "source": "shulker",
+      "target": "squid_main",
+      "label": "類縁？（2025年公式記事筆者の推測、未確定）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/shulker",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
+    },
+    {
+      "id": "edge_r477_12",
+      "source": "shulker",
+      "target": "glow_squid_main",
+      "label": "類縁？（2025年公式記事筆者の推測、未確定）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/shulker",
+      "researchSection": "v4.77 §15.209 / 18時枠合同査読"
     }
   ]
 }
