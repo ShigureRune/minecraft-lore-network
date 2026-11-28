@@ -1,6 +1,6 @@
 {
-  "version": "1.97",
-  "loreVersion": "4.27",
+  "version": "1.98",
+  "loreVersion": "4.28",
   "nodes": [
     {
       "id": "soul",
@@ -5217,7 +5217,7 @@
       "media": [],
       "dimensions": [],
       "origin": "",
-      "originNote": "ユーザー発案。発電原理は未指定。低温側を用いる熱電発電・冷却設備はAIの比較候補で、発電設備・熱源・配線・出力未確認。食料貯蔵説を維持。v4.27 §15.159。"
+      "originNote": "ユーザー発案。発電原理は未指定。低温側を用いる熱電発電・冷却設備はAIの比較候補で、発電設備・熱源・配線・出力未確認。食料貯蔵説を維持。v4.27 §15.159。 v4.28：ユーザーの意図はシフトから採取したイコル等を氷室で冷却する説。冷却の必要性・古代都市への輸送・設備は未証明。温度差発電はAIの別案。"
     }
   ],
   "edges": [
@@ -12112,6 +12112,15 @@
       "hypothesis": true,
       "sourceUrl": "https://minecraft.wiki/w/Ancient_City",
       "researchSection": "v4.27 §15.159"
+    },
+    {
+      "id": "edge_r428_1",
+      "source": "ancient_city_ice_power_hypothesis",
+      "target": "ichor_liquid",
+      "label": "シフトから取り出したイコル等を氷室で冷却（仮説）",
+      "hypothesis": true,
+      "sourceUrl": "https://minecraftdungeons2.th.gl/db/quest_log/quest_ca10",
+      "researchSection": "v4.28 §15.160 / ユーザー発案・既存輸送記録との比較"
     }
   ]
 }
