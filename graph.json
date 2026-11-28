@@ -1,6 +1,6 @@
 {
-  "version": "2.04",
-  "loreVersion": "4.34",
+  "version": "2.05",
+  "loreVersion": "4.35",
   "nodes": [
     {
       "id": "soul",
@@ -5424,6 +5424,34 @@
       ],
       "origin": "",
       "originNote": "v4.34 §15.166：Java 1.21.5抽出JSON。通常25種・4～8回・重み総計398。別枠ロードストーン2/3で1～2個。補給拠点・ピグリンとの関係は仮説。"
+    },
+    {
+      "id": "ruined_portal_variants",
+      "label": "荒廃ポータルの13構造型",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N"
+      ],
+      "origin": "",
+      "originNote": "v4.35 §15.167：Wiki構成表で通常10・巨大3型、全型チェスト1、金0～6。通常3は金0、巨大3は金6。原NBT座標・各型の現行実測は未確認。"
+    },
+    {
+      "id": "ruined_portal_generation",
+      "label": "荒廃ポータルの生成時置換",
+      "color": "#7945a5",
+      "media": [
+        "M"
+      ],
+      "dimensions": [
+        "O",
+        "N"
+      ],
+      "origin": "",
+      "originNote": "v4.35 §15.167：Wiki記載では金ブロック→空気30%、黒曜石→泣く黒曜石Java15%/Bedrock20%。地形でチェストが欠落する場合あり（Java）。原コード・実機未確認。破損から年代・略奪を直接推定しない。"
     }
   ],
   "edges": [
@@ -12633,6 +12661,69 @@
       "hypothesis": true,
       "sourceUrl": "https://mcasset.cloud/1.21.5/data/minecraft/loot_table/chests/ruined_portal.json",
       "researchSection": "v4.34 §15.166"
+    },
+    {
+      "id": "edge_r435_1",
+      "source": "ruined",
+      "target": "ruined_portal_variants",
+      "label": "通常10・巨大3の構造型（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ruined_Portal",
+      "researchSection": "v4.35 §15.167"
+    },
+    {
+      "id": "edge_r435_2",
+      "source": "ruined_portal_variants",
+      "target": "chest_main",
+      "label": "全13型に1個（掲載構成表・生成後欠落あり）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ruined_Portal",
+      "researchSection": "v4.35 §15.167"
+    },
+    {
+      "id": "edge_r435_3",
+      "source": "ruined_portal_variants",
+      "target": "gold",
+      "label": "金ブロック0～6個（通常3型は0）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ruined_Portal",
+      "researchSection": "v4.35 §15.167"
+    },
+    {
+      "id": "edge_r435_4",
+      "source": "ruined_portal_variants",
+      "target": "ruined_portal_generation",
+      "label": "生成時の置換前の構成と実生成を区別",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ruined_Portal",
+      "researchSection": "v4.35 §15.167"
+    },
+    {
+      "id": "edge_r435_5",
+      "source": "ruined_portal_generation",
+      "target": "gold",
+      "label": "金ブロックが空気へ置換される確率30%（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ruined_Portal",
+      "researchSection": "v4.35 §15.167"
+    },
+    {
+      "id": "edge_r435_6",
+      "source": "ruined_portal_generation",
+      "target": "crying_obsidian",
+      "label": "黒曜石からの置換：Java15%・Bedrock20%（Wiki）",
+      "hypothesis": false,
+      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ruined_Portal",
+      "researchSection": "v4.35 §15.167"
+    },
+    {
+      "id": "edge_r435_7",
+      "source": "ruined_portal_variants",
+      "target": "ghast_main",
+      "label": "巨大型の通過寸法・儀礼用途の可能性（公式記事、実際の通過未確認）",
+      "hypothesis": true,
+      "sourceUrl": "https://www.minecraft.net/en-us/article/ruined-portal",
+      "researchSection": "v4.35 §15.167"
     }
   ]
 }
