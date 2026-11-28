@@ -5,7 +5,7 @@
 @media(max-width:1000px){.workspace{grid-template-columns:225px minmax(0,1fr)}.inspector{position:absolute;right:0;top:0;bottom:0;width:min(310px,86vw);display:none;z-index:5;box-shadow:-5px 0 22px #1b302322}.inspector.open{display:block}.mobile{display:inline-block}.version{display:none}}
 @media(max-width:650px){header{padding:8px 10px;min-height:55px;gap:7px}h1{font-size:14px}header a{font-size:10px;white-space:normal;max-width:52px;line-height:1.3}.refresh-page{padding:7px 9px;font-size:12px}header>div:nth-child(2){min-width:0}.workspace{display:block}.stage{height:100%}.panel.catalogPanel{position:absolute;left:0;top:0;bottom:0;width:min(300px,88vw);z-index:6;display:none;box-shadow:5px 0 22px #1b302322}.panel.catalogPanel.open{display:block}.toolbar{top:7px;left:7px;right:7px;gap:4px}.toolbar button,.toolbar .count{font-size:11px;padding:7px;min-height:36px}.help{display:none}.zoom{bottom:10px;left:9px}}
 .legend-dialog{width:min(390px,calc(100vw - 32px));max-height:82dvh;overflow:auto;border:1px solid var(--border);border-radius:12px;padding:16px;color:#22332e;background:#fff}.legend-dialog::backdrop{background:#172f2966}.legend-dialog .legend-entry{display:flex;align-items:center;gap:10px;padding:6px 0;font-size:13px}.legend-entry .dim-symbol{font-size:22px;line-height:24px;width:26px;text-align:center;font-weight:700;flex-shrink:0}.legend-entry img{width:25px;height:25px;object-fit:contain;flex-shrink:0}.legend-dialog .legend i{width:45px;flex-shrink:0}.legend-dialog h3{margin-top:13px}img.dimension-icon[data-dimension="O"]{filter:brightness(1.7442) contrast(0.860)}img.dimension-icon[data-dimension="N"]{filter:brightness(2.3125) contrast(0.800)}img.dimension-icon[data-dimension="E"]{filter:brightness(1.1368) contrast(0.950)}img.dimension-icon[data-dimension="S"]{filter:brightness(2.1084) contrast(0.830)}.edge-raster{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;display:block}.edge-raster{transform-origin:0 0}.edge-raster[hidden]{display:none}.dense .edge:not(.active){display:none}.dense.show-labels .edge:not(.culled){display:inline}.dense .edge.culled{display:none!important}</style></head><body>
-<header><div class="logo">ML</div><div><h1>Minecraft Lore Network</h1><small>考察キャンバス · v0.7.135</small></div><span class="version">GRAPH v2.19 / LORE v4.85</span><button id="refreshPage" class="refresh-page" type="button" aria-label="最新版を読み込み直す" title="キャッシュ回避・配置の初期化">↻ 更新</button><a href="legacy.html">従来の全体図 ↗</a></header>
+<header><div class="logo">ML</div><div><h1>Minecraft Lore Network</h1><small>考察キャンバス · v0.7.136</small></div><span class="version">GRAPH v2.19 / LORE v4.85</span><button id="refreshPage" class="refresh-page" type="button" aria-label="最新版を読み込み直す" title="キャッシュ回避・配置の初期化">↻ 更新</button><a href="legacy.html">従来の全体図 ↗</a></header>
 <div class="workspace">
 <aside class="panel catalogPanel" id="catalogPanel"><div class="row space"><h2>項目を追加</h2><button class="mobile" id="closeCatalog" aria-label="閉じる">×</button></div><input id="search" type="search" placeholder="項目・仮説番号を検索" aria-label="項目検索"><label for="cat">考察分野</label><select id="cat"><option value="">すべて</option></select><label for="media">作品・媒体</label><select id="media"><option value="">すべて</option><option value="?">不明・仮説</option></select><label for="dim">次元</label><select id="dim"><option value="">すべて</option><option value="?">不明</option></select><div class="muted" id="resultsCount"></div><div id="catalog" class="catalog"></div></aside>
 <main class="stage" id="stage"><canvas class="edge-raster" id="edgeRaster" hidden aria-hidden="true"></canvas><canvas class="edge-raster" id="dragRaster" hidden aria-hidden="true"></canvas><canvas class="edge-raster" id="nodeRaster" hidden aria-hidden="true"></canvas><svg id="canvas" role="application" aria-label="考察相関図キャンバス" xmlns="http://www.w3.org/2000/svg"><defs id="dimensionDefs"><filter id="dimension-bright-O" x="0%" y="0%" width="100%" height="100%" color-interpolation-filters="sRGB"><feComponentTransfer><feFuncR type="linear" slope="1.5" intercept="0.07"/><feFuncG type="linear" slope="1.5" intercept="0.07"/><feFuncB type="linear" slope="1.5" intercept="0.07"/><feFuncA type="identity"/></feComponentTransfer></filter><filter id="dimension-bright-N" x="0%" y="0%" width="100%" height="100%" color-interpolation-filters="sRGB"><feComponentTransfer><feFuncR type="linear" slope="1.85" intercept="0.1"/><feFuncG type="linear" slope="1.85" intercept="0.1"/><feFuncB type="linear" slope="1.85" intercept="0.1"/><feFuncA type="identity"/></feComponentTransfer></filter><filter id="dimension-bright-E" x="0%" y="0%" width="100%" height="100%" color-interpolation-filters="sRGB"><feComponentTransfer><feFuncR type="linear" slope="1.08" intercept="0.025"/><feFuncG type="linear" slope="1.08" intercept="0.025"/><feFuncB type="linear" slope="1.08" intercept="0.025"/><feFuncA type="identity"/></feComponentTransfer></filter><filter id="dimension-bright-S" x="0%" y="0%" width="100%" height="100%" color-interpolation-filters="sRGB"><feComponentTransfer><feFuncR type="linear" slope="1.75" intercept="0.085"/><feFuncG type="linear" slope="1.75" intercept="0.085"/><feFuncB type="linear" slope="1.75" intercept="0.085"/><feFuncA type="identity"/></feComponentTransfer></filter></defs><defs id="edgeDefs"></defs><rect id="backdrop" width="100%" height="100%" fill="transparent"/><g id="world"><g id="edges"></g><g id="nodes"></g></g></svg>
@@ -90,7 +90,7 @@ function updateViewport(){
   if(!dense||labels||selected||selectedEdge)for(const item of edgeEls.values()){if(!item.bounds)continue;if(!dense||labels||selectedEdge===item.e.id||selected&&(item.e.source===selected||item.e.target===selected))setCulled(item.g,!intersects(...item.bounds))}
 }
 function paintLayer(canvas,context,w,h,items,exclude,pad){
-  const dpr=Math.min(window.devicePixelRatio||1,1.5),pw=Math.round((w+2*pad)*dpr),ph=Math.round((h+2*pad)*dpr);
+  const dpr=Math.min(window.devicePixelRatio||1,camera.k<.16?1:1.5),pw=Math.round((w+2*pad)*dpr),ph=Math.round((h+2*pad)*dpr);
   if(canvas.width!==pw||canvas.height!==ph){canvas.width=pw;canvas.height=ph}
   canvas.style.inset='auto';canvas.style.left=-pad+'px';canvas.style.top=-pad+'px';canvas.style.width=w+2*pad+'px';canvas.style.height=h+2*pad+'px';canvas.style.transform='none';
   context.setTransform(1,0,0,1,0,0);context.clearRect(0,0,pw,ph);
@@ -111,14 +111,14 @@ function paintLayer(canvas,context,w,h,items,exclude,pad){
   context.globalAlpha=1;
 }
 function updateRaster(w,h){
-  const s=rasterState,pad=160,exclude=moveMode==='node'?dragId:null;
+  const s=rasterState,pad=240,exclude=moveMode==='node'?dragId:null;
   if(!rasterDirty&&s&&s.w===w&&s.h===h&&s.exclude===exclude){
     if(moveMode==='node'&&s.x===camera.x&&s.y===camera.y&&s.k===camera.k){
       dragRaster.hidden=false;paintLayer(dragRaster,dragCtx,w,h,dragItems,null,0);return;
     }
     if(moveMode==='camera'){
       const k=camera.k/s.k,dx=camera.x-s.x*k+pad*(1-k),dy=camera.y-s.y*k+pad*(1-k);
-      if(k>=.8&&k<=1.35&&dx-pad<=0&&dy-pad<=0&&dx-pad+(w+2*pad)*k>=w&&dy-pad+(h+2*pad)*k>=h){
+      if(k>=.7&&k<=1.55&&dx-pad<=0&&dy-pad<=0&&dx-pad+(w+2*pad)*k>=w&&dy-pad+(h+2*pad)*k>=h){
         raster.style.transform='translate('+dx+'px,'+dy+'px) scale('+k+')';return;
       }
     }
@@ -129,13 +129,22 @@ function updateRaster(w,h){
   dragRaster.hidden=!exclude;
   if(exclude)paintLayer(dragRaster,dragCtx,w,h,dragItems,null,0);
 }
+const dimensionTone={O:[1.5,.07,.25],N:[1.85,.1,.38],E:[1.08,.025,.06],S:[1.75,.085,.34]};const brightDimensions=new Map();let iconRefreshTimer=0;
+function refreshIconSprites(){clearTimeout(iconRefreshTimer);iconRefreshTimer=setTimeout(()=>{sprites.clear();spritePixels=0;nodeDirty=true;setCamera()},90)}
+function brightDimension(k,item){
+ if(!item?.ready)return null;if(brightDimensions.has(k))return brightDimensions.get(k);
+ const cv=document.createElement('canvas');cv.width=cv.height=68;const c=cv.getContext('2d',{willReadFrequently:true});c.imageSmoothingEnabled=false;const iw=item.im.naturalWidth,ih=item.im.naturalHeight,ratio=68/Math.max(iw,ih);c.drawImage(item.im,(68-iw*ratio)/2,(68-ih*ratio)/2,iw*ratio,ih*ratio);const [slope,offset,fallback]=dimensionTone[k]||[1,0,0];
+ try{const data=c.getImageData(0,0,68,68),d=data.data;for(let i=0;i<d.length;i+=4){if(!d[i+3])continue;for(let j=0;j<3;j++)d[i+j]=Math.min(255,d[i+j]*slope+255*offset)}c.putImageData(data,0,0)}
+ catch(e){c.globalCompositeOperation='source-atop';c.fillStyle='rgba(255,255,255,'+fallback+')';c.fillRect(0,0,68,68);c.globalCompositeOperation='source-over'}
+ brightDimensions.set(k,cv);return cv
+}
 function cachedIcon(url){
   if(!url)return null;if(iconCache.has(url))return iconCache.get(url);
   const im=new Image();const item={im,ready:false};iconCache.set(url,item);
-  im.onload=()=>{item.ready=true;sprites.clear();spritePixels=0;nodeDirty=true;setCamera()};im.onerror=()=>{item.ready=false};im.src=url;return item;
+  im.onload=()=>{item.ready=true;refreshIconSprites()};im.onerror=()=>{if(im.crossOrigin){im.removeAttribute('crossorigin');im.src=url}else item.ready=false};if(Object.values(dimensionIcons).includes(url))im.crossOrigin='anonymous';im.src=url;return item;
 }
 function roundBox(c,x,y,w,h,r){c.beginPath();c.moveTo(x+r,y);c.lineTo(x+w-r,y);c.quadraticCurveTo(x+w,y,x+w,y+r);c.lineTo(x+w,y+h-r);c.quadraticCurveTo(x+w,y+h,x+w-r,y+h);c.lineTo(x+r,y+h);c.quadraticCurveTo(x,y+h,x,y+h-r);c.lineTo(x,y+r);c.quadraticCurveTo(x,y,x+r,y);c.closePath()}
-function spriteScale(k,dpr){return [2,3,4,6,9].find(s=>s>=k*dpr)||9}
+function spriteScale(k,dpr){return [.75,1,1.5,2,3,4,6].find(s=>s>=k*dpr)||6}
 function nodeSprite(id,active,scale=2){
   const key=id+':'+Number(active)+':'+scale;if(sprites.has(key)){const hit=sprites.get(key);sprites.delete(key);sprites.set(key,hit);return hit}
   const n=byId.get(id),z=size(id),cv=document.createElement('canvas');cv.width=Math.ceil((z.w+4)*scale);cv.height=Math.ceil((z.h+4)*scale);
@@ -145,7 +154,7 @@ function nodeSprite(id,active,scale=2){
   let tx=-z.w/2+12,ty=n.media.length?-5:5;c.textBaseline='alphabetic';
   for(let i=0;i<n.dimensions.length;i++){
     const k=n.dimensions[i],x=tx+i*20,item=cachedIcon(dimensionIcons[k]);
-    if(item?.ready){c.save();if('filter' in c)c.filter=({O:'brightness(1.5)',N:'brightness(1.85)',E:'brightness(1.08)',S:'brightness(1.75)'})[k]||'none';c.drawImage(item.im,x,ty-15,17,17);c.restore()}
+    if(item?.ready){c.imageSmoothingEnabled=false;c.drawImage(brightDimension(k,item),x,ty-15,17,17);c.imageSmoothingEnabled=true}
     else{c.font='650 13px system-ui,sans-serif';c.fillStyle=dims[k]?.[1]||'#777';c.fillText(dims[k]?.[2]||'·',x+2,ty)}
   }
   c.font='650 15px system-ui,-apple-system,sans-serif';c.fillStyle=n.color;c.fillText(n.label,tx+n.dimensions.length*20,ty);
@@ -153,10 +162,10 @@ function nodeSprite(id,active,scale=2){
   const pixels=cv.width*cv.height,budget=6000000;while(sprites.size&&spritePixels+pixels>budget){const oldest=sprites.keys().next().value,stale=sprites.get(oldest);spritePixels-=stale.width*stale.height;sprites.delete(oldest)}if(pixels<=budget){sprites.set(key,cv);spritePixels+=pixels}return cv;
 }
 function paintNodes(w,h){
-  const old=nodeState,pad=96,dpr=Math.min(devicePixelRatio||1,camera.k>=.65?3:1.5,Math.sqrt(5500000/((w+2*pad)*(h+2*pad))));const scale=spriteScale(camera.k,dpr);
-  if(!nodeDirty&&old&&old.w===w&&old.h===h&&old.dpr===dpr&&moveMode==='camera'){
+  const old=nodeState,pad=160,dpr=Math.min(devicePixelRatio||1,camera.k>=.65?2:camera.k<.16?1:1.5,Math.sqrt(4200000/((w+2*pad)*(h+2*pad))));const scale=spriteScale(camera.k,dpr),overview=camera.k<.16;
+  if(!nodeDirty&&old&&old.w===w&&old.h===h&&moveMode==='camera'){
     const k=camera.k/old.k,dx=camera.x-old.x*k+pad*(1-k),dy=camera.y-old.y*k+pad*(1-k);
-    if(k>=.8&&k<=1.35&&dx-pad<=0&&dy-pad<=0&&dx-pad+(w+2*pad)*k>=w&&dy-pad+(h+2*pad)*k>=h){nodeRaster.style.transform='translate('+dx+'px,'+dy+'px) scale('+k+')';return}
+    if(k>=.7&&k<=1.55&&dx-pad<=0&&dy-pad<=0&&dx-pad+(w+2*pad)*k>=w&&dy-pad+(h+2*pad)*k>=h){nodeRaster.style.transform='translate('+dx+'px,'+dy+'px) scale('+k+')';return}
   }
   if(!nodeDirty&&old&&old.w===w&&old.h===h&&old.dpr===dpr&&old.x===camera.x&&old.y===camera.y&&old.k===camera.k){nodeRaster.style.transform='none';return}
   const pw=Math.round((w+2*pad)*dpr),ph=Math.round((h+2*pad)*dpr);
@@ -164,7 +173,7 @@ function paintNodes(w,h){
   nodeRaster.style.inset='auto';nodeRaster.style.left=-pad+'px';nodeRaster.style.top=-pad+'px';nodeRaster.style.width=w+2*pad+'px';nodeRaster.style.height=h+2*pad+'px';nodeRaster.style.transform='none';
   nodeCtx.setTransform(1,0,0,1,0,0);nodeCtx.clearRect(0,0,pw,ph);nodeCtx.setTransform(dpr*camera.k,0,0,dpr*camera.k,dpr*(camera.x+pad),dpr*(camera.y+pad));
   const L=(-camera.x-pad)/camera.k,T=(-camera.y-pad)/camera.k,R=(w+pad-camera.x)/camera.k,B=(h+pad-camera.y)/camera.k;
-  for(const [id,p] of placed){const z=size(id);if(p.x+z.w/2<L||p.x-z.w/2>R||p.y+z.h/2<T||p.y-z.h/2>B)continue;const sp=nodeSprite(id,id===selected,scale);nodeCtx.drawImage(sp,p.x-(z.w+4)/2,p.y-(z.h+4)/2,z.w+4,z.h+4)}
+  for(const [id,p] of placed){const z=size(id);if(p.x+z.w/2<L||p.x-z.w/2>R||p.y+z.h/2<T||p.y-z.h/2>B)continue;if(overview&&id!==selected){const n=byId.get(id);nodeCtx.fillStyle='#fff';nodeCtx.fillRect(p.x-z.w/2,p.y-z.h/2,z.w,z.h);nodeCtx.fillStyle=n.color;nodeCtx.fillRect(p.x-z.w/2,p.y-z.h/2,Math.max(10,1/camera.k),z.h);nodeCtx.fillRect(p.x-z.w/2+20,p.y-2,z.w-36,4)}else{const sp=nodeSprite(id,id===selected,scale);nodeCtx.drawImage(sp,p.x-(z.w+4)/2,p.y-(z.h+4)/2,z.w+4,z.h+4)}}
   nodeState={w,h,x:camera.x,y:camera.y,k:camera.k,dpr};nodeDirty=false;
 }
 function pickNode(clientX,clientY){const p=point(clientX,clientY);let found=null;for(const [id,q] of placed){const z=size(id);if(Math.abs(p.x-q.x)<=z.w/2&&Math.abs(p.y-q.y)<=z.h/2)found=id}return found}
@@ -181,12 +190,12 @@ function fit(){let r=svg.getBoundingClientRect();if(!placed.size){camera={x:r.wi
 function ensureVisible(id){let p=placed.get(id),r=svg.getBoundingClientRect();if(!p)return;let x=p.x*camera.k+camera.x,y=p.y*camera.k+camera.y,z=size(id);if(x-z.w*camera.k/2<15||x+z.w*camera.k/2>r.width-15||y<70||y>r.height-30){camera.x=r.width/2-p.x*camera.k;camera.y=r.height/2-p.y*camera.k;setCamera()}}
 function showAll(){
   selected=selectedEdge=null;$('showFact').checked=true;$('showHyp').checked=true;$('catalogPanel').classList.remove('open');$('inspector').classList.remove('open');
-  if(placed.size===DATA.nodes.length){applyFullLayout();return}
+  if(placed.size===DATA.nodes.length){render();fit();save();return}
   applyFullLayout();
 }
 function applyFullLayout(){placed.clear();for(const n of DATA.nodes){const [x,y]=FULL_LAYOUT[n.id];placed.set(n.id,{x:x*LAYOUT_SPACING,y:y*LAYOUT_SPACING})}render();fit();save()}
 function arrange(){if(placed.size===DATA.nodes.length){applyFullLayout();return}let ids=[...placed.keys()],e=currentEdges(),ps=ids.map(id=>({...placed.get(id)})),ix=new Map(ids.map((id,i)=>[id,i]));if(!ids.length)return;for(let iter=0;iter<(ids.length>80?45:ids.length>40?90:180);iter++){let fx=ids.map(()=>0),fy=ids.map(()=>0);for(let i=0;i<ids.length;i++)for(let j=i+1;j<ids.length;j++){let a=ps[i],b=ps[j],dx=b.x-a.x,dy=b.y-a.y;if(Math.abs(dx)+Math.abs(dy)<.001){dx=1;dy=1}let l=Math.hypot(dx,dy),f=30000/(l*l+300);let zx=size(ids[i]),zy=size(ids[j]);let ox=(zx.w+zy.w)/2+80-Math.abs(dx),oy=134-Math.abs(dy);if(ox>0&&oy>0){if(ox<oy){let f=(Math.sign(dx)||1)*ox*.25;fx[i]-=f;fx[j]+=f}else{let f=(Math.sign(dy)||1)*oy*.3;fy[i]-=f;fy[j]+=f}}fx[i]-=dx/l*f;fy[i]-=dy/l*f;fx[j]+=dx/l*f;fy[j]+=dy/l*f}for(let a of e){let i=ix.get(a.source),j=ix.get(a.target),dx=ps[j].x-ps[i].x,dy=ps[j].y-ps[i].y,l=Math.hypot(dx,dy)||1,target=Math.max(205,(size(ids[i]).w+size(ids[j]).w)/2+115),f=(l-target)*.055*(a.hypothesis?1:1.3);fx[i]+=dx/l*f;fy[i]+=dy/l*f;fx[j]-=dx/l*f;fy[j]-=dy/l*f}for(let i=0;i<ids.length;i++){ps[i].x+=Math.max(-14,Math.min(14,fx[i]));ps[i].y+=Math.max(-14,Math.min(14,fy[i]))}}placed.clear();for(let i=0;i<ids.length;i++){let id=ids[i],p=ps[i],q=p;if(overlaps(id,p)){outer:for(let r=30;r<1800;r+=30)for(let a=0;a<24;a++){q={x:p.x+Math.cos(a*Math.PI/12)*r,y:p.y+Math.sin(a*Math.PI/12)*r};if(!overlaps(id,q))break outer}}placed.set(id,q)}render();fit();save()}
-let pointers=new Map(),drag=null,pinch=null,geometryFrame=0,dirtyNodes=new Set(),wheelEnd=0;function queueGeometry(id){dirtyNodes.add(id);if(geometryFrame)return;geometryFrame=requestAnimationFrame(()=>{geometryFrame=0;for(const id of dirtyNodes)if(placed.has(id))geometry(id);if(dirtyNodes.size)nodeDirty=true;dirtyNodes.clear();if(moveMode!=='node')rasterDirty=true;setCamera()})}function beginMove(){if(!dense&&!rasterNodes)return;const id=dragCtx&&drag?.id&&!pinch?drag.id:null,mode=id?'node':'camera';if(moveMode===mode&&dragId===id)return;moveMode=mode;dragId=id;dragItems=id?adj.get(id).map(e=>edgeEls.get(e.id)).filter(Boolean):[];rasterDirty=true;dragRaster.hidden=!id}function endMove(){nodeDirty=true;if(moveMode){moveMode=null;dragId=null;dragItems=[];rasterDirty=true;dragRaster.hidden=true}setCamera()}
+let pointers=new Map(),drag=null,pinch=null,geometryFrame=0,dirtyNodes=new Set(),wheelEnd=0;function queueGeometry(id){dirtyNodes.add(id);if(geometryFrame)return;geometryFrame=requestAnimationFrame(()=>{geometryFrame=0;for(const id of dirtyNodes)if(placed.has(id))geometry(id);if(dirtyNodes.size)nodeDirty=true;dirtyNodes.clear();if(moveMode!=='node')rasterDirty=true;setCamera()})}function beginMove(){if(!dense&&!rasterNodes)return;const id=dragCtx&&drag?.id&&!pinch?drag.id:null,mode=id?'node':'camera';if(moveMode===mode&&dragId===id)return;const wasNode=moveMode==='node';moveMode=mode;dragId=id;dragItems=id?adj.get(id).map(e=>edgeEls.get(e.id)).filter(Boolean):[];if(id||wasNode)rasterDirty=true;dragRaster.hidden=!id}function endMove(){nodeDirty=true;if(moveMode){moveMode=null;dragId=null;dragItems=[];rasterDirty=true;dragRaster.hidden=true}setCamera()}
 function zoomAt(f,x,y){let r=svg.getBoundingClientRect(),p=point(x,y),k=Math.max(.02,Math.min(3,camera.k*f));camera={x:x-r.left-p.x*k,y:y-r.top-p.y*k,k};setCamera()}
 svg.addEventListener('pointerdown',e=>{if(e.button!==0&&e.pointerType==='mouse')return;let n=e.target.closest('[data-id]'),ed=e.target.closest('[data-edge]');const pickedNode=rasterNodes?pickNode(e.clientX,e.clientY):null;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});svg.setPointerCapture(e.pointerId);if(pointers.size===2){if(moveMode==='node')endMove();let [a,b]=pointers.values();pinch={distance:Math.hypot(a.x-b.x,a.y-b.y),x:(a.x+b.x)/2,y:(a.y+b.y)/2};drag=null;return}drag={id:pickedNode||n?.dataset.id||null,edge:ed?.dataset.edge||null,x:e.clientX,y:e.clientY,startX:e.clientX,startY:e.clientY,moved:false};if(drag.id){let p=placed.get(drag.id);drag.p={...p}}});
 svg.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===2&&pinch){beginMove();let [a,b]=pointers.values(),distance=Math.hypot(a.x-b.x,a.y-b.y),x=(a.x+b.x)/2,y=(a.y+b.y)/2;if(pinch.distance>0)zoomAt(distance/pinch.distance,pinch.x,pinch.y);camera.x+=x-pinch.x;camera.y+=y-pinch.y;setCamera();pinch={distance,x,y};return}if(!drag)return;let dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.hypot(e.clientX-drag.startX,e.clientY-drag.startY)>4)drag.moved=true;if(drag.moved){beginMove();if(drag.id){let p=placed.get(drag.id);p.x+=dx/camera.k;p.y+=dy/camera.k;queueGeometry(drag.id)}else{camera.x+=dx;camera.y+=dy;setCamera()}}drag.x=e.clientX;drag.y=e.clientY});
