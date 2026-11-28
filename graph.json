@@ -1,6 +1,6 @@
 {
-  "version": "2.05",
-  "loreVersion": "4.35",
+  "version": "2.06",
+  "loreVersion": "4.36",
   "nodes": [
     {
       "id": "soul",
@@ -5437,7 +5437,7 @@
         "N"
       ],
       "origin": "",
-      "originNote": "v4.35 §15.167：Wiki構成表で通常10・巨大3型、全型チェスト1、金0～6。通常3は金0、巨大3は金6。原NBT座標・各型の現行実測は未確認。"
+      "originNote": "v4.35 §15.167：Wiki構成表で通常10・巨大3型、全型チェスト1、金0～6。通常3は金0、巨大3は金6。原NBT座標・各型の現行実測は未確認。 v4.36 §15.168：Java1.21.1抽出NBT13/13（DataVersion3955、gzip CRC検査済み）。通常9黒曜石12、通常7石レンガハーフ3。全型チェスト1・同一LootTable。最寄り黒曜石までマンハッタン1～6、11型は3以下。金28個、巨大1・2型は同一上部座標の金2個。実生成・儀礼用途未証明。"
     },
     {
       "id": "ruined_portal_generation",
@@ -12675,19 +12675,19 @@
       "id": "edge_r435_2",
       "source": "ruined_portal_variants",
       "target": "chest_main",
-      "label": "全13型に1個（掲載構成表・生成後欠落あり）",
+      "label": "全13型にチェスト1、黒曜石まで1～6（1.21.1 NBT）",
       "hypothesis": false,
-      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ruined_Portal",
-      "researchSection": "v4.35 §15.167"
+      "sourceUrl": "https://github.com/InventivetalentDev/minecraft-assets/tree/1.21.1/data/minecraft/structure/ruined_portal",
+      "researchSection": "v4.36 §15.168"
     },
     {
       "id": "edge_r435_3",
       "source": "ruined_portal_variants",
       "target": "gold",
-      "label": "金ブロック0～6個（通常3型は0）",
+      "label": "全13型に計28個・通常3型は0（1.21.1 NBT）",
       "hypothesis": false,
-      "sourceUrl": "https://wiki.ronlab.site/content/minecraftwiki_en_all_maxi_2025-11/Ruined_Portal",
-      "researchSection": "v4.35 §15.167"
+      "sourceUrl": "https://github.com/InventivetalentDev/minecraft-assets/tree/1.21.1/data/minecraft/structure/ruined_portal",
+      "researchSection": "v4.36 §15.168"
     },
     {
       "id": "edge_r435_4",
@@ -12724,6 +12724,24 @@
       "hypothesis": true,
       "sourceUrl": "https://www.minecraft.net/en-us/article/ruined-portal",
       "researchSection": "v4.35 §15.167"
+    },
+    {
+      "id": "edge_r436_1",
+      "source": "ruined_portal_variants",
+      "target": "ruined_portal_loot",
+      "label": "全13型のチェストが同一LootTableを参照",
+      "hypothesis": false,
+      "sourceUrl": "https://github.com/InventivetalentDev/minecraft-assets/tree/1.21.1/data/minecraft/structure/ruined_portal",
+      "researchSection": "v4.36 §15.168"
+    },
+    {
+      "id": "edge_r436_2",
+      "source": "ruined_portal_variants",
+      "target": "obsidian",
+      "label": "黒曜石11～31個・チェスト距離1～6（ラピスは対象外）",
+      "hypothesis": false,
+      "sourceUrl": "https://github.com/InventivetalentDev/minecraft-assets/tree/1.21.1/data/minecraft/structure/ruined_portal",
+      "researchSection": "v4.36 §15.168"
     }
   ]
 }
